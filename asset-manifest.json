@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.dd26ff79.css",
+    "main.css": "/resume/static/css/main.cea1c789.css",
     "main.js": "/resume/static/js/main.34fe4a82.js",
     "static/media/sangomar-cmms-data.png": "/resume/static/media/sangomar-cmms-data.c6431d8c8322b464f7dc.png",
     "index.html": "/resume/index.html",
-    "main.dd26ff79.css.map": "/resume/static/css/main.dd26ff79.css.map",
+    "main.cea1c789.css.map": "/resume/static/css/main.cea1c789.css.map",
     "main.34fe4a82.js.map": "/resume/static/js/main.34fe4a82.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd26ff79.css",
+    "static/css/main.cea1c789.css",
     "static/js/main.34fe4a82.js"
   ]
 }
