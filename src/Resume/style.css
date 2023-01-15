@@ -1,0 +1,169 @@
+body {
+  font-family: Calibri, sans-serif;
+  background-color: rgb(197, 201, 216);
+}
+
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
+
+@print {
+  @page :footer {
+    display: none
+  }
+
+  @page :header {
+      display: none
+  }
+}
+
+.pagecontainer {
+  width: 21cm;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12mm;
+  padding: 12mm;
+  border-radius: 2mm;
+}
+
+@media print {
+  .pagecontainer {
+     padding: 0mm;
+     margin-top: 0;
+  }
+}
+
+
+.bulletspan {
+  display: inline-block;
+  width: 4mm;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.leaf {
+  cursor: auto;
+  font-weight: 500;
+}
+
+.hangingIndent {
+  text-indent: -4mm;
+  padding-left: 4mm;
+}
+
+p {
+  text-indent: 0mm;
+  padding-left: 0mm;
+}
+
+.collapsed {
+  height: 0;
+  display: block;
+  overflow: hidden;
+}
+
+.visible {
+  height: auto;
+  display: block;
+}
+
+ul {
+  padding-left: 6mm;
+  margin-top: 0mm;
+  margin-bottom: 0mm;
+}
+
+h1 {
+  text-align:center;
+  color: rgb(21,52,91);
+  font-weight:normal;
+  font-size:  24pt;
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+}
+
+h2 {
+  color: rgb(21,52,91);
+  font-weight:bold;
+  font-size:  14pt;
+  border-bottom: 2px solid rgb(21, 52, 91);
+
+  margin-top: 4mm;
+  margin-bottom: 1mm;
+}
+
+h3 {
+  color: rgb(21,52,91);
+  font-weight:bold;
+  font-size:  12pt;
+  border-bottom: 1px solid rgb(21, 52, 91);
+
+  margin-top: 4mm;
+  margin-bottom: 1mm;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+.imgtiny {
+  width: 4cm;
+  cursor: pointer;
+
+}
+
+
+.imgmodal {
+  display: visible;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 95%;
+  max-height: 95%;
+  width: auto;
+  height: auto;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.imgmodal-hidden {
+  display: none;
+}
+
+
+@media only screen and (max-width: 750px) {
+
+  body {
+    font-size: 14pt;
+  }
+  
+  h2 {
+    font-size: 18pt;
+  }
+  
+  h3 {
+    font-size: 16pt;
+  }
+
+  .pagecontainer {
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 12mm;
+    padding: 1mm;
+    border-radius: 2mm;
+  }
+
+}

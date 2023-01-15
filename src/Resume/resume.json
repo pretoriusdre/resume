@@ -1,0 +1,3095 @@
+{
+    "data": {
+      "title": "André Pretorius"
+    },
+    "meta": {
+      "element": "h1",
+      "attributes": {
+  
+      },
+      "collapsed": false,
+      "hidden": false,
+      "always_show": true
+    },
+    "children": [
+      {
+        "data": {
+          "title": "Contact Details"
+        },
+        "meta": {
+          "element": "h2",
+          "attributes": {
+  
+          },
+          "collapsed": true,
+          "hidden": false
+        },
+        "children": [
+          {
+            "data": {
+              "title": "Location"
+            },
+            "meta": {
+              "element": "span",
+              "attributes": {
+  
+              },
+              "collapsed": true,
+              "hidden": false
+            },
+            "children": [
+              {
+                "data": {
+                  "title": "Singapore. Address available upon request"
+                },
+                "meta": {
+                  "element": "span",
+                  "attributes": {
+  
+                  },
+                  "collapsed": false,
+                  "hidden": false
+                },
+                "children": [
+  
+                ]
+              }
+            ]
+          },
+          {
+            "data": {
+              "title": "Email"
+            },
+            "meta": {
+              "element": "span",
+              "attributes": {
+  
+              },
+              "collapsed": true,
+              "hidden": false
+            },
+            "children": [
+              {
+                "data": {
+                  "title": "pretorius.dre+source=resume@gmail.com"
+                },
+                "meta": {
+                  "element": "a",
+                  "attributes": {
+                    "href": "mailto:pretorius.dre+source=resume@gmail.com"
+                  },
+                  "collapsed": true,
+                  "hidden": false
+                },
+                "children": [
+  
+                ]
+              }
+            ]
+          },
+          {
+            "data": {
+              "title": "LinkedIn"
+            },
+            "meta": {
+              "element": "span",
+              "attributes": {
+  
+              },
+              "collapsed": true,
+              "hidden": false
+            },
+            "children": [
+              {
+                "data": {
+                  "title": "https://www.linkedin.com/in/pretoriusdre/",
+                  "target": "_blank"
+                },
+                "meta": {
+                  "element": "a",
+                  "attributes": {
+                    "href": "https://www.linkedin.com/in/pretoriusdre/",
+                    "target": "_blank"
+                  },
+                  "collapsed": false,
+                  "hidden": false
+                },
+                "children": [
+  
+                ]
+              }
+            ]
+          },
+          {
+            "data": {
+              "title": "Github"
+            },
+            "meta": {
+              "element": "span",
+              "attributes": {
+  
+              },
+              "collapsed": true,
+              "hidden": false
+            },
+            "children": [
+              {
+                "data": {
+                  "title": "https://github.com/pretoriusdre"
+                },
+                "meta": {
+                  "element": "a",
+                  "attributes": {
+                    "href": "https://github.com/pretoriusdre",
+                    "target": "_blank"
+                  },
+                  "collapsed": false,
+                  "hidden": false
+                },
+                "children": [
+  
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "title": "Education"
+        },
+        "meta": {
+          "element": "h2",
+          "attributes": {
+  
+          },
+          "collapsed": false,
+          "hidden": false
+        },
+        "children": [
+          {
+            "data": {
+              "title": "University of Western Australia, 2012-2008"
+            },
+            "meta": {
+              "element": "span",
+              "attributes": {
+  
+              },
+              "collapsed": false,
+              "hidden": false
+            },
+            "children": [
+              {
+                "data": {
+                  "title": "Bachelor of Mechanical Engineering with first-class honours."
+                },
+                "meta": {
+                  "element": "span",
+                  "attributes": {
+  
+                  },
+                  "collapsed": false,
+                  "hidden": false
+                },
+                "children": [
+  
+                ]
+              },
+              {
+                "data": {
+                  "title": "Bachelor of Science (Physics, Pure Mathematics)"
+                },
+                "meta": {
+                  "element": "span",
+                  "attributes": {
+  
+                  },
+                  "collapsed": false,
+                  "hidden": false
+                },
+                "children": [
+                  {
+                    "data": {
+                      "title": "The Phillip-Roberts Memorial Scholarship"
+                    },
+                    "meta": {
+                      "element": "span",
+                      "attributes": {
+  
+                      },
+                      "collapsed": false,
+                      "hidden": false
+                    },
+                    "children": [
+  
+                    ]
+                  },
+                  {
+                    "data": {
+                      "title": "The Physics Achievement Prize (Level 3)"
+                    },
+                    "meta": {
+                      "element": "span",
+                      "attributes": {
+  
+                      },
+                      "collapsed": false,
+                      "hidden": false
+                    },
+                    "children": [
+  
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "title": "Career Statement"
+        },
+        "meta": {
+          "element": "h2",
+          "attributes": {
+  
+          },
+          "collapsed": false,
+          "hidden": false
+        },
+        "children": [
+          {
+            "data": {
+              "title": "I am a Chartered professional engineer with fifteen years of experience in the oil and gas industry. Five of these years were in a brownfields consultancy, working exclusively on Woodside assets such as the Karratha Gas Plant, Goodwyn A and North Rankin offshore platforms.  In this role I developed a deep technical understanding of mechanical engineering fundamentals; with a particular focus on static-equipment and integrity."
+            },
+            "meta": {
+              "element": "p",
+              "attributes": {
+  
+              },
+              "collapsed": false,
+              "hidden": false,
+              "always_show": true
+            },
+            "children": [
+  
+            ]
+          },
+          {
+            "data": {
+              "title": "Following my time in engineering consultancy, I spent six years in an operational role, primarily for the MODEC Venture 11 FPSO. This gave me a broad exposure to most operation and maintenance activities for oil rig systems. Part of this role was the preparation and execution of a major shutdown construction activity at a Singapore shipyard. After decommissioning the facility in 2018, I moved on to preparation of tenders, regional support, and Operations Readiness and Assurance work for the Barossa, Dorado, and Sangomar FPSOs. During this time I also worked in New Zealand and Brazil."
+            },
+            "meta": {
+              "element": "p",
+              "attributes": {
+  
+              },
+              "collapsed": false,
+              "hidden": false,
+              "always_show": true
+            },
+            "children": [
+  
+            ]
+          },
+          {
+            "data": {
+              "title": "I moved to Singapore in 2021 as the maintenance engineer for Sangomar FPSO. In this role, I developed maintenance philosophies, strategies, and Computersied Maintenance Management System data. This role gave me a new-found sense of direction in my career. Having previously experienced the pain of bad data, I began to fully understood the importance of data governance at the data source. Whilst I was already experienced in software development by this point, I turned my focus to the development of software to manage data."
+            },
+            "meta": {
+              "element": "p",
+              "attributes": {
+  
+              },
+              "collapsed": false,
+              "hidden": false,
+              "always_show": true
+            },
+            "children": [
+  
+            ]
+          },
+          {
+            "data": {
+              "title": "I build my first web-app in 2006 as an undergraduate engineer working at Ansac Engineering. This was a basic app which prepared Bill of Materials. I've maintained this interest, and since then I have focussed my attention on Python, Javascript, and SQL. I use programming techniques as a fundamental part of my engineering workflow, and have built four sophisticated web-apps related to the management of engineering data"
+            },
+            "meta": {
+              "element": "p",
+              "attributes": {
+  
+              },
+              "collapsed": false,
+              "hidden": false,
+              "always_show": true
+            },
+            "children": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "title": "Work History"
+        },
+        "meta": {
+          "element": "h2",
+          "attributes": {
+  
+          },
+          "collapsed": false,
+          "hidden": true
+        },
+        "children": [
+          {
+            "data": {
+              "title": "MODEC Management Services, Singapore, July 2021 - present"
+            },
+            "meta": {
+              "element": "span",
+              "attributes": {
+  
+              },
+              "collapsed": true,
+              "hidden": false
+            },
+            "children": [
+
+            ]
+          },
+          {
+            "data": {
+              "title": "MODEC Serviços de Petróleo do Brasil, Rio de Janeiro, April 2018 - June 2018"
+            },
+            "meta": {
+              "element": "span",
+              "attributes": {
+  
+              },
+              "collapsed": true,
+              "hidden": false
+            },
+            "children": [
+                {
+                    "data": {
+                      "title": "Secondment, Maintenance Engineer, Sangomar FPSO (tender phase)"
+                    },
+                    "meta": {
+                      "element": "span",
+                      "attributes": {
+          
+                      },
+                      "collapsed": false,
+                      "hidden": false
+                    },
+                    "children": [
+          
+                    ]
+                  }
+            ]
+          },
+          {
+            "data": {
+              "title": "MODEC Management Services, Perth, April 2003 - July 2021"
+            },
+            "meta": {
+              "element": "span",
+              "attributes": {
+  
+              },
+              "collapsed": true,
+              "hidden": false
+            },
+            "children": [
+                {
+                    "data": {
+                      "title": "Senior Mechanical Engineer, Regional Support"
+                    },
+                    "meta": {
+                      "element": "span",
+                      "attributes": {
+          
+                      },
+                      "collapsed": false,
+                      "hidden": false
+                    },
+                    "children": [
+          
+                    ]
+                  },
+                  {
+                    "data": {
+                      "title": "Facilities Engineer, MV11 FPSO"
+                    },
+                    "meta": {
+                      "element": "span",
+                      "attributes": {
+          
+                      },
+                      "collapsed": false,
+                      "hidden": false
+                    },
+                    "children": [
+          
+                    ]
+                  }
+            ]
+          },
+          {
+            "data": {
+              "title": "Transfield Worley, December 2007 - May 2013"
+            },
+            "meta": {
+              "element": "span",
+              "attributes": {
+  
+              },
+              "collapsed": true,
+              "hidden": false
+            },
+            "children": [
+                {
+                    "data": {
+                      "title": "Mechanical Engineer"
+                    },
+                    "meta": {
+                      "element": "span",
+                      "attributes": {
+          
+                      },
+                      "collapsed": false,
+                      "hidden": false
+                    },
+                    "children": [
+          
+                    ]
+                  },
+                  {
+                    "data": {
+                      "title": "Undergraduate Engineer"
+                    },
+                    "meta": {
+                      "element": "span",
+                      "attributes": {
+          
+                      },
+                      "collapsed": false,
+                      "hidden": false
+                    },
+                    "children": [
+          
+                    ]
+                  }
+            ]
+          },
+          {
+            "data": {
+              "title": "SWG Operations, November 2006 - March 2007"
+            },
+            "meta": {
+              "element": "span",
+              "attributes": {
+  
+              },
+              "collapsed": true,
+              "hidden": false
+            },
+            "children": [
+                {
+                    "data": {
+                      "title": "Trade assistant, steel fabrication workshop"
+                    },
+                    "meta": {
+                      "element": "span",
+                      "attributes": {
+          
+                      },
+                      "collapsed": false,
+                      "hidden": false
+                    },
+                    "children": [
+          
+                    ]
+                  },
+                  {
+                    "data": {
+                      "title": "Undergraduate engineer"
+                    },
+                    "meta": {
+                      "element": "span",
+                      "attributes": {
+          
+                      },
+                      "collapsed": false,
+                      "hidden": false
+                    },
+                    "children": [
+          
+                    ]
+                  }
+            ]
+          },
+          {
+            "data": {
+              "title": "ANSAC Engineering, November 2005 to March 2006"
+            },
+            "meta": {
+              "element": "span",
+              "attributes": {
+  
+              },
+              "collapsed": true,
+              "hidden": true
+            },
+            "children": [
+              {
+                "data": {
+                  "title": "Development of Bill-of-Materials Software"
+                },
+                "meta": {
+                  "element": "span",
+                  "attributes": {
+  
+                  },
+                  "collapsed": true,
+                  "hidden": true
+                },
+                "children": [
+                  {
+                    "data": {
+                      "title": "Backend development in SQL Server and VBScript (yes, this is now an outdated tech stack)"
+                    },
+                    "meta": {
+                      "element": "span",
+                      "attributes": {
+  
+                      },
+                      "collapsed": false,
+                      "hidden": false
+                    },
+                    "children": [
+  
+                    ]
+                  },
+                  {
+                    "data": {
+                      "title": "Frontend development in Javascript and HTML"
+                    },
+                    "meta": {
+                      "element": "span",
+                      "attributes": {
+  
+                      },
+                      "collapsed": false,
+                      "hidden": false
+                    },
+                    "children": [
+  
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "data": {
+          "title": "Work Experience"
+        },
+        "meta": {
+          "element": "h2",
+          "attributes": {
+
+          },
+          "collapsed": false,
+          "hidden": false,
+          "always_show": false
+        },
+        "children": [
+            {
+                "data": {
+                  "title": "MODEC Management Services, Singapore, July 2021 - present"
+                },
+                "meta": {
+                  "element": "h3",
+                  "attributes": {
+      
+                  },
+                  "collapsed": false,
+                  "hidden": false
+                },
+                "children": [
+                    {
+                        "data": {
+                          "title": "Focal point for maintenance plans"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+              
+                          },
+                          "collapsed": false,
+                          "hidden": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                  "title": "Wrote the maintenance philosophy"
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                      
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false
+                                },
+                                "children": [
+                      
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Wrote the condition monitoring guide"
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                      
+                                  },
+                                  "collapsed": true,
+                                  "hidden": false
+                                },
+                                "children": [
+                                  {
+                                    "data": {
+                                      "title": "Co-ordinated the preparation of the vibration database"
+                                    },
+                                    "meta": {
+                                      "element": "span",
+                                      "attributes": {
+                          
+                                      },
+                                      "collapsed": false,
+                                      "hidden": false
+                                    },
+                                    "children": [
+                          
+                                    ]
+                                },
+                                {
+                                  "data": {
+                                    "title": "Co-ordinated the preparation of the lube-oil database"
+                                  },
+                                  "meta": {
+                                    "element": "span",
+                                    "attributes": {
+                        
+                                    },
+                                    "collapsed": false,
+                                    "hidden": false
+                                  },
+                                  "children": [
+                        
+                                  ]
+                              }
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Developed sophisticated digital tools for the management of CMMS data"
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                      
+                                  },
+                                  "collapsed": true,
+                                  "hidden": false
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                          "title": "See the 'Skills' > 'Software Engineering' > 'Sangomar CMMS Data' section for further information on this topic"
+                                        },
+                                        "meta": {
+                                          "element": "span",
+                                          "attributes": {
+                              
+                                          },
+                                          "collapsed": false,
+                                          "hidden": false
+                                        },
+                                        "children": [
+                              
+                                        ]
+                                    },
+                                    {
+                                      "data": {
+                                        "title": "Screenshot from Sangomar CMMS Data Web App"
+                                      },
+                                      "meta": {
+                                        "element": "img",
+                                        "attributes": {
+                                          "src":"sangomarCmmsData"                        
+                                        },
+                                        "collapsed": true,
+                                        "hidden": false
+                                      },
+                                      "children": [
+                            
+                                      ]
+                                  }
+                                ]
+                            }
+                        ]
+              
+                        
+                    },
+ 
+                    {
+                        "data": {
+                          "title": "Procured operational spare parts"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+              
+                          },
+                          "collapsed": false,
+                          "hidden": false
+                        },
+                        "children": [
+              
+                        ]
+                    }
+                ]
+              },
+            {
+                "data": {
+                  "title": "MODEC Management Services, Perth, May 2013 – June 2021"
+                },
+                "meta": {
+                  "element": "h3",
+                  "attributes": {
+        
+                  },
+                  "collapsed": false,
+                  "hidden": false,
+                  "always_show": false
+                },
+                "children": [
+                    {
+                        "data": {
+                          "title": "Managed engineering changes for the MV11 FPSO:"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": true,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                  "title": "Visited the FPSO periodically and as required."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Submitted business cases, considering lifecycle costing and quantitative risk / cost changes."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Prepared detailed scopes of work, estimates, schedules and workpacks."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+        
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Planned, resourced and executed major maintenance campaigns such as process pump/motor condition monitoring, replacement and refurbishment."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": true,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                          {
+                            "data": {
+                              "title": "Bearing vibration spectrum measurements"
+                            },
+                            "meta": {
+                              "element": "img",
+                              "attributes": {
+                                "src":"bearingSpectrum"
+                              },
+                              "collapsed": true,
+                              "hidden": false,
+                              "always_show": false
+                            },
+                            "children": [
+                    
+                            ]
+                        }
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Reduced chemical exposure and increased integrity by implementing a boiler chemical injection regime, with a new continuous dosing system, revised product suite and KPI trending dashboard."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": true,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                          {
+                            "data": {
+                              "title": "Boiler chemical dosing skid"
+                            },
+                            "meta": {
+                              "element": "img",
+                              "attributes": {
+                                "src":"boilerChemicals"
+                              },
+                              "collapsed": true,
+                              "hidden": false,
+                              "always_show": false
+                            },
+                            "children": [
+                    
+                            ]
+                        }
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Conducted system mechanical completion and commissioning."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Identified the effects of new process conditions and reservoir chemistry on equipment, including the effects of a new fuel oil on diesel engines."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Investigated process incidents by review and assessment of historian data, sequence of events logs, operator interviews, field checks, and design data."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Conducted process optimisation studies to improve throughput in the first stage separator."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": true,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                          {
+                            "data": {
+                              "title": "Updated separator weir setpoint"
+                            },
+                            "meta": {
+                              "element": "img",
+                              "attributes": {
+                                "src": "separatorWeir"
+                              },
+                              "collapsed": true,
+                              "hidden": false,
+                              "always_show": false
+                            },
+                            "children": [
+                    
+                            ]
+                        }
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Developed data processing tools using Python"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Established a drafting workshare arrangement and an as-building campaign to rectify numerous deficiencies on electrical and process diagrams."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Implemented defined-life and permanent repairs to pressure equipment, with hot and cold work."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Structural repairs and upgrades to improve personnel safety, e.g. platforms, ladders and handrail."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Maintenance management using AMOS. Developed new reports for completion, backlog and deferrals."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": true,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                          {
+                            "data": {
+                              "title": "Backlog waterfall chart"
+                            },
+                            "meta": {
+                              "element": "img",
+                              "attributes": {
+                                "src":"maintenanceBacklog"
+                              },
+                              "collapsed": true,
+                              "hidden": false,
+                              "always_show": false
+                            },
+                            "children": [
+
+                            ]
+                        }
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Developed dashboards to show trends in items such as maintenance completion or fuel reserves, and to illustrate the various factors which influence this month-to-month."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Coordinated repairs and maintenance to navigation systems, communications equipment, instrumentation and electrical systems."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Completed an upgrade to the flare gas metering system."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": true,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                          {
+                            "data": {
+                              "title": "Flare gas metering system to FGM160"
+                            },
+                            "meta": {
+                              "element": "img",
+                              "attributes": {
+                                "src": "fgm160"
+                              },
+                              "collapsed": true,
+                              "hidden": false,
+                              "always_show": false
+                            },
+                            "children": [
+                    
+                            ]
+                        }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                  "title": "MODEC Management Services, New Plymouth, May 2019 – June 2019"
+                },
+                "meta": {
+                  "element": "h3",
+                  "attributes": {
+        
+                  },
+                  "collapsed": false,
+                  "hidden": false,
+                  "always_show": false
+                },
+                "children": [
+                    {
+                        "data": {
+                          "title": "Secondment to MMS New Zealand. Preparation of shutdown workpacks for major steelwork and piping repair scopes"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Training and handover to the new maintenance engineer."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                  "title": "MODEC Serviços de Petróleo do Brasil, Rio de Janeiro, April 2018 – June 2018"
+                },
+                "meta": {
+                  "element": "h3",
+                  "attributes": {
+        
+                  },
+                  "collapsed": false,
+                  "hidden": false,
+                  "always_show": false
+                },
+                "children": [
+                    {
+                        "data": {
+                          "title": "Secondment to the Brazil office. Provided operations input for the successful Woodside Senegal FPSO tender."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                  "title": "MMS, Singapore, January 2015 – April 2015"
+                },
+                "meta": {
+                  "element": "h3",
+                  "attributes": {
+        
+                  },
+                  "collapsed": false,
+                  "hidden": false,
+                  "always_show": false
+                },
+                "children": [
+                    {
+                        "data": {
+                          "title": "Prepared many workpacks for a dry docking of the MV11 FPSO at Sembcorp shipyard."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Directed and supervised work execution in the shipyard over nine weeks:"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                  "title": "Replacement and modification of pressure vessel internals in degasser and separator."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": true,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                                  {
+                                    "data": {
+                                      "title": "Replacement of degasser internals"
+                                    },
+                                    "meta": {
+                                      "element": "img",
+                                      "attributes": {
+                                        "src" : "degasserVessel"
+                                      },
+                                      "collapsed": true,
+                                      "hidden": false,
+                                      "always_show": false
+                                    },
+                                    "children": [
+                            
+                                    ]
+                                }
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Inspection and repair of pressure vessels, valves and structure."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Major overhaul and repairs to crude fuel oil treatment packages."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": true,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                                  {
+                                    "data": {
+                                      "title": "Reboiler bakeout"
+                                    },
+                                    "meta": {
+                                      "element": "img",
+                                      "attributes": {
+                                        "src":"reboiler"
+                                      },
+                                      "collapsed": true,
+                                      "hidden": false,
+                                      "always_show": false
+                                    },
+                                    "children": [
+                            
+                                    ]
+                                },
+                                {
+                                  "data": {
+                                    "title": "Workscope encompassed pressure equipment, electrical equipment, and instrumentation"
+                                  },
+                                  "meta": {
+                                    "element": "span",
+                                    "attributes": {
+                                    },
+                                    "collapsed": true,
+                                    "hidden": false,
+                                    "always_show": false
+                                  },
+                                  "children": [
+                          
+                                  ]
+                              }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Monitored quality on a variety of outsourced workscopes and implemented corrective actions."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Worked within a completions management system. Identified and closed punchlist items."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Acted as signatory for workpack and system acceptance, at FAT and during completion."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Upgraded satellite internet system, delivering a 100% bandwidth increase at 90% lifecycle cost."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": true,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                          {
+                            "data": {
+                              "title": "VSAT updated to C-band"
+                            },
+                            "meta": {
+                              "element": "img",
+                              "attributes": {
+                                "src": "radome"
+                              },
+                              "collapsed": true,
+                              "hidden": false,
+                              "always_show": false
+                            },
+                            "children": [
+                    
+                            ]
+                        }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                  "title": "Transfield Worley, Perth, December 2007 – May 2013"
+                },
+                "meta": {
+                  "element": "h3",
+                  "attributes": {
+        
+                  },
+                  "collapsed": false,
+                  "hidden": false,
+                  "always_show": false
+                },
+                "children": [
+                    {
+                        "data": {
+                          "title": "Assisted commissioning and validation activities offshore for the GWA desander project:"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                  "title": "Liaised between a third-party validator, personnel on-site and office based staff."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Reviewed and as-built installation workpacks. Witnessed pressure tests."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Function tested fire and gas detectors and the deluge system."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Greater Western Flank:"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                  "title": "Wrote a procedure for the installation of a new riser and J-tube onto the platform."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Coordinated design deliverables for subsea components eg strakes, centralisers, valves."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Oversaw the development of Procedure Qualification Testing regimes for field joint coatings."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Designed a new piping class to tie very high pressure wells into an existing offshore platform whilst maintaining piggability."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Prepared scopes of work for non-destructive testing and liaised with inspectors."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Saved $440,000 by challenging RESDV actuator replacement with a detailed technical assessment."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Used pipe stress analysis (Caesar II) to assess piping systems against code and project requirements."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": true,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                                  {
+                                    "data": {
+                                      "title": "Pipe Stress Analysis using Caesar II"
+                                    },
+                                    "meta": {
+                                      "element": "img",
+                                      "attributes": {
+                                        "src":"caesar"
+                                      },
+                                      "collapsed": true,
+                                      "hidden": false,
+                                      "always_show": false
+                                    },
+                                    "children": [
+                            
+                                    ]
+                                }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Secondment to Karratha Gas Plant major maintenance:"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                  "title": "Used engineering judgement to prioritise and reclassify SAP maintenance workorders."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Integrity engineering review to assess and action reported defects from piping inspection."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Karratha Gas Plant pressure vessel fatigue life extension:"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                  "title": "Applied cycle-counting algorithms to historical process information, in order to shortlist AS1210:1H vessels for detailed fatigue analysis."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Performed detailed fatigue analysis using finite element analysis (ANSYS)."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Karratha Gas Plant flow-induced vibration measurement:"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                  "title": "Planned and implemented piping vibration measurements across the plant, including targeted measurements for a high-rate trial, with multiple teams across several LNG trains."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Mentoring and Development activities:"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                            {
+                                "data": {
+                                  "title": "Developed a workshop that teaches effective technical writing skills. Presented this several times to groups of engineers across the company."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Was the accreditation director of the WorleyParsons Graduate Development Organisation, assisting graduates to become Chartered Professional engineers as I had previously."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+                        ]
+                    },
+
+                    {
+                        "data": {
+                          "title": "Activities across many projects:"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                  "title": "Prepared datasheets, evaluated bids for, and requisitioned many items including: Valves, vessels, heat exchangers, special piping items, pumps and packaged equipment."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Assessed the fitness for service for damaged piping, vessels and other pressure equipment."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": true,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                                  {
+                                    "data": {
+                                      "title": "Detailed Finite Element Analysis (FEA) of damaged pressure equipment"
+                                    },
+                                    "meta": {
+                                      "element": "img",
+                                      "attributes": {
+                                        "src" : "equivalentStress"
+                                      },
+                                      "collapsed": true,
+                                      "hidden": false,
+                                      "always_show": false
+                                    },
+                                    "children": [
+                            
+                                    ]
+                                }
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Designed repairs to corroded or vibrating piping, including a DN1200 size clamp (by FEA)."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": true,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                                  {
+                                    "data": {
+                                      "title": "Clamp design"
+                                    },
+                                    "meta": {
+                                      "element": "img",
+                                      "attributes": {
+                                        "src":"vibrationClamp"
+                                      },
+                                      "collapsed": true,
+                                      "hidden": false,
+                                      "always_show": false
+                                    },
+                                    "children": [
+                            
+                                    ]
+                                },
+                                  {
+                                    "data": {
+                                      "title": "Clamp installation"
+                                    },
+                                    "meta": {
+                                      "element": "img",
+                                      "attributes": {
+                                        "src":"vibrationClampInstalled"
+                                      },
+                                      "collapsed": true,
+                                      "hidden": false,
+                                      "always_show": false
+                                    },
+                                    "children": [
+                            
+                                    ]
+                                }
+                                ]
+                            },
+                            {
+                                "data": {
+                                  "title": "Performed technical investigations for diverse and technically challenging problems."
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+                        ]
+                    }
+
+                ]
+            },
+            {
+                "data": {
+                  "title": "SWG Operations, Bunbury, November 2006 – March 2007"
+                },
+                "meta": {
+                  "element": "h3",
+                  "attributes": {
+        
+                  },
+                  "collapsed": true,
+                  "hidden": false,
+                  "always_show": false
+                },
+                "children": [
+                    {
+                        "data": {
+                          "title": "Worked as a trade assistant in a structural steel fabrication workshop."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    },
+                    {
+                        "data": {
+                          "title": "Performed lifting and sea fastening calculations for KGP LNG Berth V expansion project."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                  "title": "ANSAC Engineering, Bunbury, November 2005 – March 2006"
+                },
+                "meta": {
+                  "element": "h3",
+                  "attributes": {
+        
+                  },
+                  "collapsed": true,
+                  "hidden": false,
+                  "always_show": false
+                },
+                "children": [
+                    {
+                        "data": {
+                          "title": "Designed and built a Bill-of-Materials software as a web app."
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+                
+                          },
+                          "collapsed": false,
+                          "hidden": false,
+                          "always_show": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                  "title": "The software was written in Javascript, VBScript, and SQL"
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                        
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false,
+                                  "always_show": false
+                                },
+                                "children": [
+                        
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+          "title": "Skills"
+        },
+        "meta": {
+          "element": "h2",
+          "attributes": {
+
+          },
+          "collapsed": false,
+          "hidden": false,
+          "always_show": false
+        },
+        "children": [
+            {
+                "data": {
+                    "title": "Mechanical Engineering Design"
+                },
+                "meta": {
+                    "element": "span",
+                    "attributes": {},
+                    "collapsed": false,
+                    "hidden": false
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "title": "Project Management"
+                },
+                "meta": {
+                    "element": "span",
+                    "attributes": {},
+                    "collapsed": false,
+                    "hidden": false
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "title": "Operations Management"
+                },
+                "meta": {
+                    "element": "span",
+                    "attributes": {},
+                    "collapsed": false,
+                    "hidden": false
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "title": "Software Engineering"
+                },
+                "meta": {
+                    "element": "span",
+                    "attributes": {},
+                    "collapsed": true,
+                    "hidden": false
+                },
+                "children": [
+                    {
+                        "data": {
+                            "title": "Sangomar CMMS Data"
+                        },
+                        "meta": {
+                            "element": "span",
+                            "attributes": {},
+                            "collapsed": true,
+                            "hidden": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "title": "Creation of an ETL (Extract, Transform, Load) pipeline to ingest Computerised Maintenance Management System (CMMS) data."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Construction of a data model for the CMMS data."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Creation of a full-stack web app to display CMMS data during development [Python, Django]"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Creation of PowerBi dashboards to interactively explore / filter the dataset during development."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Creation of Python scripts to validate the data and identify QAQC errors [Python, Pandas]"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Programmatic extraction of other datasets from unstructured documents and cross-referencing against the CMMS data model."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Programmatic population of SAP loadsheets (IL01, IA05, etc) into the templates provided by the SAP consultant"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Languages and frameworks used: Python, Django, SQL, PowerBI, DAX"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Demo / source code available only to MODEC personnel"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "title": "Maintenance instruction database"
+                        },
+                        "meta": {
+                            "element": "span",
+                            "attributes": {},
+                            "collapsed": true,
+                            "hidden": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "title": "Extracted the contents of 850 MS Word documents into a single database containing all of their content."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Coordinated bulk editing and quality improvements to the master data utilising a crew of ~ 15 maintenance and operations personnel"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Created Python scripts to render MS Word documents from the contents of the master database."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Integration of maintenance instruction data into the master CMMS data model, giving full traceability from individual functional locations to discrete maintenance steps, full-text search functionality, and other benefits."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Languages and frameworks used: Python, SQL"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Demo / source code available only to MODEC personnel"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "title": "CMMS builder."
+                        },
+                        "meta": {
+                            "element": "span",
+                            "attributes": {},
+                            "collapsed": true,
+                            "hidden": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "title": "Creation of a full stack web app to build functional location hierarchies."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Implementation of materialised path algorithms in order to efficiently traverse deep hierarchies with > 100,000 nodes."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Design and implementation of algorithms to selectively export and import branches from the tree to formatted Ms Excel tree representations, including utilisation of GUIDs to ensure that imported updates do not accidentally overwrite other data."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Development of a REST API to serve data from the backend to the frontend."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Design and implementation of a frontend single-page app (React) to display and edit tree data. The app responsively manages large tree structures by implementing lazy loading and pre-loading to N+2 node depth."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Development of a data model for process safety management, encompassing Major Accident Events, Performance Standards, Performance Criteria, Assurance Tasks, and Safety Critical Elements. Integration of this into the data model allows for full traceability from the Operational Assurance Tasks to the remainder of the CMMS data model."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "The app is under ongoing development, demo / source code available upon request"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Languages used: Python, Django, Django Rest Framework, Javascript, React, CSS, HTML"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "title": "SPIR manager"
+                        },
+                        "meta": {
+                            "element": "span",
+                            "attributes": {},
+                            "collapsed": true,
+                            "hidden": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "title": "Creation of a full stack web app to manage spare parts master data during an engineering project."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Development of a new SPIR template with significantly improved master data governance. This template was rolled out onto MODEC's Uaru project (ExxonMobil)"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Development of algorithms to extract SPIR data into a parts database."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Automatic identification of change between subsequent data revisions, allowing for incremental processing of change, and reutilisation of the same data for insurance, commissioning and operating spares as the project evolves."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Allows for linking of the data to the CMMS data model, allowing for automatic generation of functional location Bill of Materials"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "This is a private repo and still under development (~70% complete), it has not been implemented yet. Demo available upon request"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Languages used: Python, Django"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "title": "Investment Portfolio Management System"
+                        },
+                        "meta": {
+                            "element": "span",
+                            "attributes": {},
+                            "collapsed": true,
+                            "hidden": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "title": "Cost base tracking on share parcel purchases."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Share price historical data retrieval via API and historisation into a local SQL database"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Development of a financial data-model within an Interactive PowerBI report. Use of DAX language to query and aggregate data across normalised relational tables."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": true,
+                                    "hidden": false
+                                },
+                                "children": [
+                                  {
+                                    "data": {
+                                        "title": "A financial model in PowerBI"
+                                    },
+                                    "meta": {
+                                        "element": "img",
+                                        "attributes": {
+                                          "src":"financeDashboard"
+                                        },
+                                        "collapsed": true,
+                                        "hidden": false
+                                    },
+                                    "children": [
+                                      
+                                    ]
+                                }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "title": "Historical portfolio time-series reconstruction"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Cashflow management, investment allocation metrics"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Monte-Carlo simulation applied to a financial model, inclusive of taxation functions, and other complex phenomena."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": true,
+                                    "hidden": false
+                                },
+                                "children": [
+                                  {
+                                    "data": {
+                                        "title": "Monte Carlo Simulations within a financial model"
+                                    },
+                                    "meta": {
+                                        "element": "img",
+                                        "attributes": {
+                                          "src" : "financialModel"
+                                        },
+                                        "collapsed": true,
+                                        "hidden": false
+                                    },
+                                    "children": []
+                                }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "title": "Languages and frameworks used: Python, PowerBI, DAX"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                              "data": {
+                                  "title": "This is a personal project, but included here to demonstrate experience with data management. The repo is private."
+                              },
+                              "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                                  },
+                                  "collapsed": true,
+                                  "hidden": false
+                              },
+                              "children": []
+                          }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "title": "SimilarPanda"
+                        },
+                        "meta": {
+                            "element": "span",
+                            "attributes": {},
+                            "collapsed": true,
+                            "hidden": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "title": "This is a tool to compare two data tables, such as two revisions of spreadsheet. This tool was written in Python and Pandas, and can clearly identify:"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "title": "New rows (ie, new records)"
+                                        },
+                                        "meta": {
+                                            "element": "span",
+                                            "attributes": {},
+                                            "collapsed": false,
+                                            "hidden": false
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "title": "Deleted rows"
+                                        },
+                                        "meta": {
+                                            "element": "span",
+                                            "attributes": {},
+                                            "collapsed": false,
+                                            "hidden": false
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "title": "Changed rows, including the before and after values of each cell."
+                                        },
+                                        "meta": {
+                                            "element": "span",
+                                            "attributes": {},
+                                            "collapsed": false,
+                                            "hidden": false
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "title": "New columns"
+                                        },
+                                        "meta": {
+                                            "element": "span",
+                                            "attributes": {},
+                                            "collapsed": false,
+                                            "hidden": false
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "title": "Deleted columns"
+                                        },
+                                        "meta": {
+                                            "element": "span",
+                                            "attributes": {},
+                                            "collapsed": false,
+                                            "hidden": false
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "title": "https://github.com/pretoriusdre/similarpanda"
+                                },
+                                "meta": {
+                                    "element": "a",
+                                    "attributes": {"href" : "https://github.com/pretoriusdre/similarpanda"},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Languages used: Python"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "title": "Loadsheet"
+                        },
+                        "meta": {
+                            "element": "span",
+                            "attributes": {},
+                            "collapsed": true,
+                            "hidden": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "title": "Designed, developed and deployed a cloud-based web app to validate Excel Spreasheets from engineering suppliers, and extract the data."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Generation of validation reports based on pre-defined schemas, eg checking string lengths, character encoding, column names, min/max values, catalogue of allowable values."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "The app allows vendors to rectify mistakes prior to official submission to an engineering project."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Extracted data is (optionally) encrypted using asymmetric encryption, and made available via a REST API."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Languages and frameworks used: Python, Django, Javascript, HTML, CSS"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "https://www.loadsheet.io"
+                                },
+                                "meta": {
+                                    "element": "a",
+                                    "attributes": {
+                                        "href" : "https://www.loadsheet.io",
+                                        "target" : "_blank"
+                                    },
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "title": "This resume"
+                        },
+                        "meta": {
+                            "element": "span",
+                            "attributes": {},
+                            "collapsed": true,
+                            "hidden": false
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "title": "I designed and built this interactive resume. The rendering engine is written in Javascript / React, whilst the content is stored in a JSON hierarchy. Styling is achieved by using CSS."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "The resume is designed to allow for opportunity to expand on certain ideas, and incorporate rich content, whilst still being able to be printed to a conventional A4 pdf."
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "title": "Languages and frameworks used: Javascript, React"
+                                },
+                                "meta": {
+                                    "element": "span",
+                                    "attributes": {},
+                                    "collapsed": false,
+                                    "hidden": false
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                      "data": {
+                          "title": "Other projects"
+                      },
+                      "meta": {
+                          "element": "span",
+                          "attributes": {},
+                          "collapsed": true,
+                          "hidden": false
+                      },
+                      "children": [
+                        {
+                          "data": {
+                              "title": "Approximately ~40 other small projects which were developed rapidly and not checked into version control."
+                          },
+                          "meta": {
+                              "element": "span",
+                              "attributes": {},
+                              "collapsed": false,
+                              "hidden": false
+                          },
+                          "children": [
+                            {
+                              "data": {
+                                  "title": "Primary language-of-choice: Python."
+                              },
+                              "meta": {
+                                  "element": "span",
+                                  "attributes": {},
+                                  "collapsed": false,
+                                  "hidden": false
+                              },
+                              "children": []
+                          },
+                          {
+                            "data": {
+                                "title": "Primary focus: Data"
+                            },
+                            "meta": {
+                                "element": "span",
+                                "attributes": {},
+                                "collapsed": false,
+                                "hidden": false
+                            },
+                            "children": []
+                        }
+                          ]
+                      }
+                        
+
+                      ]
+                  }
+                    
+                ]
+            }
+        ]
+    },
+    {
+        "data": {
+          "title": "References"
+        },
+        "meta": {
+          "element": "h2",
+          "attributes": {
+
+          },
+          "collapsed": true,
+          "hidden": false,
+          "always_show": false
+        },
+        "children": [
+            {
+                "data": {
+                  "title": "References are available upon request."
+                },
+                "meta": {
+                  "element": "span",
+                  "attributes": {
+        
+                  },
+                  "collapsed": false,
+                  "hidden": false,
+                  "always_show": false
+                },
+                "children": [
+        
+                ]
+            }
+        ]
+    }
+    ]
+  }
