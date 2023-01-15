@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.8170af1a.css",
+    "main.css": "/resume/static/css/main.6cd2a8b6.css",
     "main.js": "/resume/static/js/main.46c73075.js",
     "static/media/fgm160.jpg": "/resume/static/media/fgm160.10e0dd6f7294496f0c10.jpg",
     "static/media/degasserVessel.jpg": "/resume/static/media/degasserVessel.a529fe55801d48f39346.jpg",
@@ -20,11 +20,11 @@
     "static/media/separatorWeir.gif": "/resume/static/media/separatorWeir.ac8b2c2c273c526bde76.gif",
     "static/media/vibrationClamp.png": "/resume/static/media/vibrationClamp.0f5ff3e31871fbdcb978.png",
     "index.html": "/resume/index.html",
-    "main.8170af1a.css.map": "/resume/static/css/main.8170af1a.css.map",
+    "main.6cd2a8b6.css.map": "/resume/static/css/main.6cd2a8b6.css.map",
     "main.46c73075.js.map": "/resume/static/js/main.46c73075.js.map"
   },
   "entrypoints": [
-    "static/css/main.8170af1a.css",
+    "static/css/main.6cd2a8b6.css",
     "static/js/main.46c73075.js"
   ]
 }
