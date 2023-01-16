@@ -166,4 +166,17 @@ code {
     border-radius: 2mm;
   }
 
+  ul {
+    padding-left: 3mm;
+  }
+
+  .hangingIndent {
+    text-indent: -3mm;
+    padding-left: 3mm;
+  }
+
+  .bulletspan {
+    width: 3mm;
+
+  }
 }

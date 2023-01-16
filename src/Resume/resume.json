@@ -2863,7 +2863,9 @@
                                     "collapsed": false,
                                     "hidden": false
                                 },
-                                "children": []
+                                "children": [
+
+                                ]
                             },
                             {
                                 "data": {
@@ -2872,10 +2874,26 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "hidden": false
                                 },
-                                "children": []
+                                "children": [
+
+                                  {
+                                    "data": {
+                                        "title": "SimilarPanda example"
+                                    },
+                                    "meta": {
+                                        "element": "img",
+                                        "attributes": {
+                                          "src" : "similarPanda"
+                                        },
+                                        "collapsed": true,
+                                        "hidden": false
+                                    },
+                                    "children": []
+                                }
+                                ]
                             }
                         ]
                     },
