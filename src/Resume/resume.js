@@ -20,6 +20,7 @@ import vibrationClamp from './media/vibrationClamp.png';
 import vibrationClampInstalled from './media/vibrationClampInstalled.jpg';
 import financialModel from './media/financialModel.jpg';
 import financeDashboard from './media/financeDashboard.png';
+import cmmsBuilder from './media/cmmsBuilder.jpg';
 
 const images = {
     sangomarCmmsData,
@@ -38,7 +39,8 @@ const images = {
     vibrationClamp,
     vibrationClampInstalled,
     financialModel,
-    financeDashboard
+    financeDashboard,
+    cmmsBuilder
   };
 
 

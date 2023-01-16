@@ -2472,10 +2472,25 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "hidden": false
                                 },
-                                "children": []
+                                "children": [
+                                  {
+                                    "data": {
+                                        "title": "Tree builder module from web app"
+                                    },
+                                    "meta": {
+                                        "element": "img",
+                                        "attributes": {
+                                          "src": "cmmsBuilder"
+                                        },
+                                        "collapsed": true,
+                                        "hidden": false
+                                    },
+                                    "children": []
+                                }
+                                ]
                             },
                             {
                                 "data": {
