@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume/static/css/main.0ccc9221.css",
-    "main.js": "/resume/static/js/main.a5476fea.js",
+    "main.js": "/resume/static/js/main.549711d9.js",
     "static/media/fgm160.jpg": "/resume/static/media/fgm160.10e0dd6f7294496f0c10.jpg",
     "static/media/degasserVessel.jpg": "/resume/static/media/degasserVessel.a529fe55801d48f39346.jpg",
     "static/media/radome.jpg": "/resume/static/media/radome.c0adeaf9d8385131b6d2.jpg",
@@ -11,6 +11,7 @@
     "static/media/boilerChemicals.jpg": "/resume/static/media/boilerChemicals.45e6795b4749051341fe.jpg",
     "static/media/caesar.jpeg": "/resume/static/media/caesar.ed2bcd92314c66af4801.jpeg",
     "static/media/cmmsBuilder.jpg": "/resume/static/media/cmmsBuilder.6c7681a230cf3382f456.jpg",
+    "static/media/cmmsDashboard.jpg": "/resume/static/media/cmmsDashboard.a24185fee3000cff9c7c.jpg",
     "static/media/financeDashboard.png": "/resume/static/media/financeDashboard.d860e54fbd880aa2013c.png",
     "static/media/financialModel.jpg": "/resume/static/media/financialModel.affb48c96c43964853c3.jpg",
     "static/media/similarPanda.png": "/resume/static/media/similarPanda.df90b6e2c610de3a5624.png",
@@ -23,10 +24,10 @@
     "static/media/vibrationClamp.png": "/resume/static/media/vibrationClamp.0f5ff3e31871fbdcb978.png",
     "index.html": "/resume/index.html",
     "main.0ccc9221.css.map": "/resume/static/css/main.0ccc9221.css.map",
-    "main.a5476fea.js.map": "/resume/static/js/main.a5476fea.js.map"
+    "main.549711d9.js.map": "/resume/static/js/main.549711d9.js.map"
   },
   "entrypoints": [
     "static/css/main.0ccc9221.css",
-    "static/js/main.a5476fea.js"
+    "static/js/main.549711d9.js"
   ]
 }
