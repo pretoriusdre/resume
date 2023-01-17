@@ -2254,10 +2254,26 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "hidden": false
                                 },
-                                "children": []
+                                "children": [
+                                  
+                                  {
+                                    "data": {
+                                        "title": "CMMS dashboard - Asset hierarchy summary page"
+                                    },
+                                    "meta": {
+                                        "element": "img",
+                                        "attributes": {
+                                          "src": "cmmsDashboard"
+                                        },
+                                        "collapsed": true,
+                                        "hidden": false
+                                    },
+                                    "children": []
+                                }
+                                ]
                             },
                             {
                                 "data": {
