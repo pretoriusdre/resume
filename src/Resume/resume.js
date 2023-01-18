@@ -23,6 +23,8 @@ import financeDashboard from './media/financeDashboard.png';
 import cmmsBuilder from './media/cmmsBuilder.jpg';
 import similarPanda from './media/similarPanda.png';
 import cmmsDashboard from './media/cmmsDashboard.jpg';
+import cmmsGraph from './media/cmmsGraph.png';
+
 
 const images = {
     sangomarCmmsData,
@@ -44,7 +46,8 @@ const images = {
     financeDashboard,
     cmmsBuilder,
     similarPanda,
-    cmmsDashboard
+    cmmsDashboard,
+    cmmsGraph
   };
 
 

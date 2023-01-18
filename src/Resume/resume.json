@@ -2225,15 +2225,44 @@
                             },
                             {
                                 "data": {
-                                    "title": "Construction of a data model for the CMMS data."
+                                    "title": "Construction of a relational data model for the CMMS data."
                                 },
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "hidden": false
                                 },
-                                "children": []
+                                "children": [
+                                  {
+                                    "data": {
+                                        "title": "Transposition of the data model into graph format allowing for interactive, visual exploration of complex maintenance data"
+                                    },
+                                    "meta": {
+                                        "element": "span",
+                                        "attributes": {},
+                                        "collapsed": true,
+                                        "hidden": false
+                                    },
+                                    "children": [
+                                      {
+                                        "data": {
+                                            "title": "CMMS data represented by an interactive graph (demo available)"
+                                        },
+                                        "meta": {
+                                            "element": "img",
+                                            "attributes": {
+                                              "src":"cmmsGraph"
+                                            },
+                                            "collapsed": true,
+                                            "hidden": false
+                                        },
+                                        "children": [
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
                             },
                             {
                                 "data": {
@@ -2721,7 +2750,7 @@
                             },
                             {
                                 "data": {
-                                    "title": "Cashflow management, investment allocation metrics"
+                                    "title": "Cashflow management, calculated investment allocation metrics"
                                 },
                                 "meta": {
                                     "element": "span",
@@ -2733,7 +2762,7 @@
                             },
                             {
                                 "data": {
-                                    "title": "Monte-Carlo simulation applied to a financial model, inclusive of taxation functions, and other complex phenomena."
+                                    "title": "Monte-Carlo simulation applied to a stochastic, non-linear financial model"
                                 },
                                 "meta": {
                                     "element": "span",
