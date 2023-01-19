@@ -169,7 +169,7 @@
         "children": [
           {
             "data": {
-              "title": "University of Western Australia, 2012-2008"
+              "title": "University of Western Australia, 2003-2008"
             },
             "meta": {
               "element": "span",
@@ -296,24 +296,7 @@
           },
           {
             "data": {
-              "title": "I moved to Singapore in 2021 as the maintenance engineer for Sangomar FPSO. In this role, I developed maintenance philosophies, strategies, and Computersied Maintenance Management System data. This role gave me a new-found sense of direction in my career. Having previously experienced the pain of bad data, I began to fully understood the importance of data governance at the data source. Whilst I was already experienced in software development by this point, I turned my focus to the development of software to manage data."
-            },
-            "meta": {
-              "element": "p",
-              "attributes": {
-  
-              },
-              "collapsed": false,
-              "hidden": false,
-              "always_show": true
-            },
-            "children": [
-  
-            ]
-          },
-          {
-            "data": {
-              "title": "I build my first web-app in 2006 as an undergraduate engineer working at Ansac Engineering. This was a basic app which prepared Bill of Materials. I've maintained this interest, and since then I have focussed my attention on Python, Javascript, and SQL. I use programming techniques as a fundamental part of my engineering workflow, and have built four sophisticated web-apps related to the management of engineering data"
+              "title": "I moved to Singapore in 2021 as the maintenance engineer for Sangomar FPSO. In this role, I developed maintenance philosophies, strategies, and Computersied Maintenance Management System (CMMS) data. In this role I experienced the pain of bad data steming from a lack of data governance at the data source. I was already experienced in software development by this point, so I started to think about how software can be used to improve engineering processes. I have since built several software applications related to the management of engineering data"
             },
             "meta": {
               "element": "p",
