@@ -933,6 +933,90 @@
                         ]
                     },
                     {
+                      "data": {
+                        "title": "Conducted a variety of process optimisation studies and investigations:"
+                      },
+                      "meta": {
+                        "element": "span",
+                        "attributes": {
+              
+                        },
+                        "collapsed": true,
+                        "hidden": false,
+                        "always_show": false
+                      },
+                      "children": [
+                        {
+                          "data": {
+                            "title": "Identified the effects of new process conditions and reservoir chemistry on equipment, including the effects of a new fuel oil on diesel engines."
+                          },
+                          "meta": {
+                            "element": "span",
+                            "attributes": {
+                  
+                            },
+                            "collapsed": false,
+                            "hidden": false,
+                            "always_show": false
+                          },
+                          "children": [
+                  
+                          ]
+                      },
+                      {
+                          "data": {
+                            "title": "Investigated process incidents by review and assessment of historian data, sequence of events logs, operator interviews, field checks, and design data."
+                          },
+                          "meta": {
+                            "element": "span",
+                            "attributes": {
+                  
+                            },
+                            "collapsed": false,
+                            "hidden": false,
+                            "always_show": false
+                          },
+                          "children": [
+                  
+                          ]
+                      },
+                      {
+                          "data": {
+                            "title": "Improved the throughput in the first stage separator."
+                          },
+                          "meta": {
+                            "element": "span",
+                            "attributes": {
+                  
+                            },
+                            "collapsed": true,
+                            "hidden": false,
+                            "always_show": false
+                          },
+                          "children": [
+                            {
+                              "data": {
+                                "title": "Updated separator weir setpoint"
+                              },
+                              "meta": {
+                                "element": "img",
+                                "attributes": {
+                                  "src": "separatorWeir"
+                                },
+                                "collapsed": true,
+                                "hidden": false,
+                                "always_show": false
+                              },
+                              "children": [
+                      
+                              ]
+                          }
+                          ]
+                      }
+                      ]
+                  },
+                  
+                    {
                         "data": {
                           "title": "Conducted system mechanical completion and commissioning."
                         },
@@ -949,73 +1033,7 @@
                 
                         ]
                     },
-                    {
-                        "data": {
-                          "title": "Identified the effects of new process conditions and reservoir chemistry on equipment, including the effects of a new fuel oil on diesel engines."
-                        },
-                        "meta": {
-                          "element": "span",
-                          "attributes": {
-                
-                          },
-                          "collapsed": false,
-                          "hidden": false,
-                          "always_show": false
-                        },
-                        "children": [
-                
-                        ]
-                    },
-                    {
-                        "data": {
-                          "title": "Investigated process incidents by review and assessment of historian data, sequence of events logs, operator interviews, field checks, and design data."
-                        },
-                        "meta": {
-                          "element": "span",
-                          "attributes": {
-                
-                          },
-                          "collapsed": false,
-                          "hidden": false,
-                          "always_show": false
-                        },
-                        "children": [
-                
-                        ]
-                    },
-                    {
-                        "data": {
-                          "title": "Conducted process optimisation studies to improve throughput in the first stage separator."
-                        },
-                        "meta": {
-                          "element": "span",
-                          "attributes": {
-                
-                          },
-                          "collapsed": true,
-                          "hidden": false,
-                          "always_show": false
-                        },
-                        "children": [
-                          {
-                            "data": {
-                              "title": "Updated separator weir setpoint"
-                            },
-                            "meta": {
-                              "element": "img",
-                              "attributes": {
-                                "src": "separatorWeir"
-                              },
-                              "collapsed": true,
-                              "hidden": false,
-                              "always_show": false
-                            },
-                            "children": [
-                    
-                            ]
-                        }
-                        ]
-                    },
+
                     {
                         "data": {
                           "title": "Developed data processing tools using Python"
@@ -1517,14 +1535,14 @@
                 "children": [
                     {
                         "data": {
-                          "title": "Assisted commissioning and validation activities offshore for the GWA desander project:"
+                          "title": "Assisted offshore commissioning and validation activities for the GWA desander project:"
                         },
                         "meta": {
                           "element": "span",
                           "attributes": {
                 
                           },
-                          "collapsed": false,
+                          "collapsed": true,
                           "hidden": false,
                           "always_show": false
                         },
