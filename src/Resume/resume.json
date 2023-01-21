@@ -14,6 +14,39 @@
     "children": [
       {
         "data": {
+          "title": "This interactive resume is best viewed online: "
+        },
+        "meta": {
+          "element": "span",
+          "attributes": {
+            "className":"subtitleLink"
+          },
+          "collapsed": false,
+          "hidden": false,
+          "always_show": true
+        },
+        "children": [
+        ]
+      },
+      {
+        "data": {
+          "title": "https://pretoriusdre.github.io/resume"
+        },
+        "meta": {
+          "element": "a",
+          "attributes": {
+            "href" : "https://pretoriusdre.github.io/resume",
+            "className":"subtitleLink"
+          },
+          "collapsed": false,
+          "hidden": false,
+          "always_show": true
+        },
+        "children": [
+        ]
+      },
+      {
+        "data": {
           "title": "Contact Details"
         },
         "meta": {

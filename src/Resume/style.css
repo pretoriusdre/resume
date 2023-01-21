@@ -143,6 +143,22 @@ code {
 }
 
 
+@media only screen {
+  .subtitleLink {
+    display: none;
+  }
+}
+
+@media print {
+  .subtitleLink {
+    display: inline-block;
+    font-size: 10pt;
+    font-style: italic;
+    white-space: nowrap;
+
+  }
+
+}
 @media only screen and (max-width: 750px) {
 
   body {
@@ -156,6 +172,7 @@ code {
   h3 {
     font-size: 12pt;
   }
+
 
   .pagecontainer {
     width: 100%;
