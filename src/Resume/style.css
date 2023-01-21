@@ -1,6 +1,7 @@
 body {
   font-family: Calibri, sans-serif;
   background-color: rgb(197, 201, 216);
+  font-size: 11pt;
 }
 
 @page {
@@ -81,7 +82,7 @@ h1 {
   text-align:center;
   color: rgb(21,52,91);
   font-weight:normal;
-  font-size:  24pt;
+  font-size:  22pt;
   margin-top: 0cm;
   margin-bottom: 0cm;
 }
@@ -89,7 +90,7 @@ h1 {
 h2 {
   color: rgb(21,52,91);
   font-weight:bold;
-  font-size:  14pt;
+  font-size:  13pt;
   border-bottom: 2px solid rgb(21, 52, 91);
 
   margin-top: 4mm;
@@ -99,7 +100,7 @@ h2 {
 h3 {
   color: rgb(21,52,91);
   font-weight:bold;
-  font-size:  12pt;
+  font-size:  11pt;
   border-bottom: 1px solid rgb(21, 52, 91);
 
   margin-top: 4mm;
@@ -145,15 +146,15 @@ code {
 @media only screen and (max-width: 750px) {
 
   body {
-    font-size: 14pt;
+    font-size: 12pt;
   }
   
   h2 {
-    font-size: 18pt;
+    font-size: 16pt;
   }
   
   h3 {
-    font-size: 16pt;
+    font-size: 12pt;
   }
 
   .pagecontainer {
@@ -161,9 +162,10 @@ code {
     background-color: white;
     display: block;
     margin: 0 auto;
-    margin-top: 12mm;
-    padding: 1mm;
+    margin-top: 3mm;
+    padding: 0mm;
     border-radius: 2mm;
+
   }
 
   ul {
