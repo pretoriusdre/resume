@@ -2375,6 +2375,18 @@
                                 "children": []
                             },
                             {
+                              "data": {
+                                  "title": "Data validation via a connection to MODEC's SAP relational data warehouse."
+                              },
+                              "meta": {
+                                  "element": "span",
+                                  "attributes": {},
+                                  "collapsed": false,
+                                  "hidden": false
+                              },
+                              "children": []
+                          },
+                            {
                                 "data": {
                                     "title": "Languages and frameworks used: Python, Django, SQL, PowerBI, DAX"
                                 },
