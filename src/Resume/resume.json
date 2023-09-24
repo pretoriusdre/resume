@@ -3106,10 +3106,41 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "collapsed": true,
                                     "hidden": false
                                 },
-                                "children": []
+                                "children": [
+                                  {
+                                    "data": {
+                                        "title": "Test video please don't click it..."
+                                    },
+                                    "meta": {
+                                        "element": "span",
+                                        "attributes": {},
+                                        "collapsed": false,
+                                        "hidden": false
+                                    },
+                                    "children": []
+                                },
+                                  
+                                  {
+                                    "data": {
+                                      "title": "Test"
+                                    },
+                                    "meta": {
+                                      "element": "iframe",
+                                      "attributes": {
+                                        "src":"https://www.youtube.com/embed/dQw4w9WgXcQ?loop=1"
+                                      },
+                                      "collapsed": true,
+                                      "hidden": false,
+                                      "always_show": false
+                                    },
+                                    "children": [
+                                    ]
+                                }
+
+                                ]
                             },
                             {
                                 "data": {
@@ -3215,5 +3246,6 @@
             }
         ]
     }
+
     ]
   }

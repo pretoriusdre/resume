@@ -87,6 +87,8 @@ function Node(props) {
 
     const isImageTag = props?.data?.meta?.element === 'img'
 
+    const isIFrame = props?.data?.meta?.element === 'iframe'
+
     const element_arbitrary = React.createElement(
         props?.data?.meta?.element || 'span',
         props?.data?.meta?.attributes,
@@ -108,8 +110,13 @@ function Node(props) {
         <img src={getImageByKey(props?.data?.meta?.attributes?.src)} className={modalClass} onClick={toggleCollapse} title={title} alt={title}/>
     </div>)
 
+const element_iframe = (
+    <div>
+        <iframe src={props?.data?.meta?.attributes?.src} width="640px" height="385px" allowfullscreen allow="autoplay"/>
+    </div>)
 
-    const element = (isImageTag ? element_img : element_arbitrary);
+
+    const element = (isImageTag ? element_img : (isIFrame ? element_iframe : element_arbitrary));
 
     const childItems = (props?.data?.children || []).map(
         (child) => {
