@@ -112,7 +112,7 @@ function Node(props) {
 
 const element_iframe = (
     <div>
-        <iframe src={props?.data?.meta?.attributes?.src} width="640px" height="385px" allowfullscreen allow="autoplay"/>
+        <iframe src={props?.data?.meta?.attributes?.src} width="640px" height="385px" allowFullScreen allow="autoplay"/>
     </div>)
 
 
