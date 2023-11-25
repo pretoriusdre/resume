@@ -78,6 +78,7 @@ ul {
   margin-bottom: 0mm;
 }
 
+
 h1 {
   text-align:center;
   color: rgb(21,52,91);
@@ -108,6 +109,16 @@ h3 {
 }
 
 
+
+.jobTitle {
+  display: inline-block;
+  font-size: 9pt;
+  white-space: nowrap;
+  text-align: center;
+  width: 100%;
+  text-indent: 0mm;
+  padding-left: 0mm;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

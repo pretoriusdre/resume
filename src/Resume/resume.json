@@ -14,6 +14,22 @@
     "children": [
       {
         "data": {
+          "title": "Mechanical Engineer | Data Architect"
+        },
+        "meta": {
+          "element": "span",
+          "attributes": {
+            "className":"jobTitle"
+          },
+          "collapsed": false,
+          "hidden": false,
+          "always_show": true
+        },
+        "children": [
+        ]
+      },
+      {
+        "data": {
           "title": "This interactive resume is best viewed online: "
         },
         "meta": {
