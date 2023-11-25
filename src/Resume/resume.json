@@ -343,6 +343,23 @@
             "children": [
   
             ]
+          },
+          {
+            "data": {
+              "title": "I currently work as a data architect within MODEC's Digital and Analytics department."
+            },
+            "meta": {
+              "element": "p",
+              "attributes": {
+  
+              },
+              "collapsed": false,
+              "hidden": false,
+              "always_show": true
+            },
+            "children": [
+  
+            ]
           }
         ]
       },
@@ -361,7 +378,7 @@
         "children": [
           {
             "data": {
-              "title": "MODEC Management Services, Singapore, July 2021 - present"
+              "title": "MODEC Management Services, Singapore, July 2021 - September 2023"
             },
             "meta": {
               "element": "span",
@@ -626,8 +643,174 @@
         },
         "children": [
             {
+              "data": {
+                "title": "MODEC Offshore Production Systems, Singapore, October 2023 - present"
+              },
+              "meta": {
+                "element": "h3",
+                "attributes": {
+    
+                },
+                "collapsed": false,
+                "hidden": false
+              },
+              "children": [
+                {
+                  "data": {
+                    "title": "Data management for the company data warehouse"
+                  },
+                  "meta": {
+                    "element": "span",
+                    "attributes": {
+        
+                    },
+                    "collapsed": false,
+                    "hidden": false
+                  },
+                  "children": [
+                      {
+                          "data": {
+                            "title": "Development of data management tools using python and SQL"
+                          },
+                          "meta": {
+                            "element": "span",
+                            "attributes": {
+                
+                            },
+                            "collapsed": true,
+                            "hidden": false
+                          },
+                          "children": [
+                              {
+                                "data": {
+                                  "title": "Working within established CI/CD processes in Azure Devops"
+                                },
+                                "meta": {
+                                  "element": "span",
+                                  "attributes": {
+                      
+                                  },
+                                  "collapsed": false,
+                                  "hidden": false
+                                },
+                                "children": [
+                                ]
+                            },
+                            {
+                              "data": {
+                                "title": "Web scraping to retrieve metadata from technical reference materal"
+                              },
+                              "meta": {
+                                "element": "span",
+                                "attributes": {
+                    
+                                },
+                                "collapsed": false,
+                                "hidden": false
+                              },
+                              "children": [
+                              ]
+                          },
+                          {
+                            "data": {
+                              "title": "Development of database scanning tools"
+                            },
+                            "meta": {
+                              "element": "span",
+                              "attributes": {
+                  
+                              },
+                              "collapsed": false,
+                              "hidden": false
+                            },
+                            "children": [
+                            ]
+                        }
+                          ]
+                      },
+                      {
+                          "data": {
+                            "title": "Data governance"
+                          },
+                          "meta": {
+                            "element": "span",
+                            "attributes": {
+                
+                            },
+                            "collapsed": true,
+                            "hidden": false
+                          },
+                          "children": [
+                            {
+                              "data": {
+                                "title": "Data cataloguing and classification"
+                              },
+                              "meta": {
+                                "element": "span",
+                                "attributes": {
+                    
+                                },
+                                "collapsed": false,
+                                "hidden": false
+                              },
+                              "children": [
+                              ]
+                          },
+                          {
+                            "data": {
+                              "title": "Design of a framework to control user access"
+                            },
+                            "meta": {
+                              "element": "span",
+                              "attributes": {
+                  
+                              },
+                              "collapsed": false,
+                              "hidden": false
+                            },
+                            "children": [
+                            ]
+                        }
+                          ]
+                      },
+                      {
+                        "data": {
+                          "title": "Data analysis and reporting"
+                        },
+                        "meta": {
+                          "element": "span",
+                          "attributes": {
+              
+                          },
+                          "collapsed": true,
+                          "hidden": false
+                        },
+                        "children": [
+                          {
+                            "data": {
+                              "title": "Development of maintenanace backlog reports and maintenance structure visualisation"
+                            },
+                            "meta": {
+                              "element": "span",
+                              "attributes": {
+                  
+                              },
+                              "collapsed": true,
+                              "hidden": false
+                            },
+                            "children": [
+                            ]
+                        }
+                        ]
+                    }
+                  ]
+              }
+                
+              ]
+            },
+            {
                 "data": {
-                  "title": "MODEC Management Services, Singapore, July 2021 - present"
+                  "title": "MODEC Management Services, Singapore, July 2021 - September 2023"
                 },
                 "meta": {
                   "element": "h3",
