@@ -774,7 +774,7 @@
                           },
                           {
                             "data": {
-                              "title": "Design of a framework to control user access"
+                              "title": "Design and implementation of a user access framework; inclunging frontend workflow system, permissions data model, and persmissions orchestrator"
                             },
                             "meta": {
                               "element": "span",
