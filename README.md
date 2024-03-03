@@ -9,4 +9,4 @@ https://pretoriusdre.github.io/resume
 
 Deployment:
 
-gh-pages -d build
+npm run deploy
