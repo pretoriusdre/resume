@@ -1,5 +1,5 @@
 
-import React, {useState }  from 'react';
+import React, {useState , useContext}  from 'react';
 import {useDrag } from 'react-dnd';
 
 import ResumeContext from "./ResumeContext";
@@ -8,6 +8,9 @@ import Separator from './Separator';
 
 
 import resume_images from './data/resume_images.json';
+
+
+
 
 const images = {};
 const loadImages = async () => {
@@ -30,6 +33,8 @@ function getImageByKey(key: string) {
 
 function ResumeNode(props) {
 
+    const { isEditing, setIsEditing } = useContext(ResumeContext);
+    
     const [collapsed, setCollapsed] = useState(props.data?.meta?.collapsed || false);
     const hasChildren = ((props.data?.children?.length > 0));
     const NodeIcon = (hasChildren ? (collapsed ? '+' : '-') : '>');
@@ -115,7 +120,7 @@ function ResumeNode(props) {
                     ref={(resume_node) => drag(resume_node)}
                     className={`draggable ${isDragging ? 'dragging' : ''}`}  >
                     {element}
-                    <Separator/>
+                    {isEditing ? <Separator/> : ""}
                     <div className={collapsed ? 'collapsed' : 'visible'}>
                         {indentedChildren}
                     </div>

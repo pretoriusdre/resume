@@ -32,7 +32,7 @@
     .navbar nav ul li a {
         color: rgb(0, 0, 0);
         text-decoration: none;
-        padding-left: 2 em;
+        padding-left: 10 em;
         padding-right: 0.5em;
         display: inline-block;
     }
