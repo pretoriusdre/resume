@@ -5,9 +5,10 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 
 import './style.css';
 
+import ResumeContext from "./ResumeContext";
 import Navbar from './Navbar';
 import ResumeNode from './ResumeNode';
-import resume from './resume.json';
+import resume from './data/resume_content.json';
 
 
 function Resume(props) {
@@ -16,16 +17,19 @@ function Resume(props) {
         document.title = 'Résumé';
     }, []);
 
+
+    const [isEditing, setIsEditing] = useState(true);
     const [data, setData] = useState(resume);
 
     return(
-        <DndProvider backend={HTML5Backend}>
-            <Navbar/>
-            <div className='pagecontainer'>
-            <ResumeNode data={data} depth={1}/>
-            </div>
-        </DndProvider>
-
+        <ResumeContext.Provider value={{ isEditing, setIsEditing }}>
+            <DndProvider backend={HTML5Backend}>
+                <Navbar/>
+                <div className='pagecontainer'>
+                <ResumeNode data={data} depth={1}/>
+                </div>
+            </DndProvider>
+        </ResumeContext.Provider>
     );
 }
 

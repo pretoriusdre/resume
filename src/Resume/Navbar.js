@@ -2,6 +2,7 @@ import React, { useEffect, useState }  from 'react';
 
 import './Navbar.css';
 
+import ResumeContext from "./ResumeContext";
 
 
 const Navbar = () => {

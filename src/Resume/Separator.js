@@ -2,6 +2,7 @@
 import {useDrop } from 'react-dnd';
 import DragAndDropItems from './DragAndDropItems'
 
+import ResumeContext from "./ResumeContext";
 const Separator = () => {
 
     const [{ isOver }, drop] = useDrop(() => ({

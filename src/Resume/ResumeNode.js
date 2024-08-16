@@ -2,11 +2,12 @@
 import React, {useState }  from 'react';
 import {useDrag } from 'react-dnd';
 
+import ResumeContext from "./ResumeContext";
 import DragAndDropItems from './DragAndDropItems'
 import Separator from './Separator';
 
 
-import resume_images from './resume_images.json';
+import resume_images from './data/resume_images.json';
 
 const images = {};
 const loadImages = async () => {
@@ -30,11 +31,9 @@ function getImageByKey(key: string) {
 function ResumeNode(props) {
 
     const [collapsed, setCollapsed] = useState(props.data?.meta?.collapsed || false);
-
     const hasChildren = ((props.data?.children?.length > 0));
     const NodeIcon = (hasChildren ? (collapsed ? '+' : '-') : '>');
     const bulletClass = "bulletspan" + (hasChildren ? "" : " leaf");
-
     const id = 'test'
 
     const [{ isDragging }, drag] = useDrag(() => ({
@@ -75,9 +74,6 @@ function ResumeNode(props) {
     );  
 
     const modalClass = "imgmodal" + (collapsed ? "-hidden" : "")
-
-
-
     const title = props?.data?.data?.title
         
     const element_img = (
@@ -90,7 +86,6 @@ function ResumeNode(props) {
     <div>
         <iframe src={props?.data?.meta?.attributes?.src} width="640px" height="385px" allowFullScreen allow="autoplay"/>
     </div>)
-
 
     const element = (isImageTag ? element_img : (isIFrame ? element_iframe : element_arbitrary));
 
@@ -107,6 +102,7 @@ function ResumeNode(props) {
         </ul> :
         childItems
     )
+    
     const hidden = props.data?.meta?.hidden || false;
     if (hidden) {
         return <React.Fragment/>
@@ -117,14 +113,9 @@ function ResumeNode(props) {
             <div className='hangingIndent'>
                 <div 
                     ref={(resume_node) => drag(resume_node)}
-                    className={`draggable ${isDragging ? 'dragging' : ''}`}
-                >
+                    className={`draggable ${isDragging ? 'dragging' : ''}`}  >
                     {element}
-                    
                     <Separator/>
-
-
-
                     <div className={collapsed ? 'collapsed' : 'visible'}>
                         {indentedChildren}
                     </div>
