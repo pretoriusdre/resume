@@ -1,0 +1,49 @@
+@media only screen {
+    body, html {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+    
+    .navbar {
+        /*background-color: #121642;*/
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+        transition: transform 0.3s ease-in-out;
+        opacity: 0.8;
+
+    }
+    
+    .navbar nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: right;
+    }
+    
+    .navbar nav ul li {
+        display: inline;
+    }
+    
+    .navbar nav ul li a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding-left: 2 em;
+        padding-right: 0.5em;
+        display: inline-block;
+    }
+    
+    .hidden {
+        transform: translateY(-100%);
+    }
+}
+
+@media print {
+    .navbar {
+        display: none;
+    }
+}
