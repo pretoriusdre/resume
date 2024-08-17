@@ -16,16 +16,43 @@ const EditingPane = () => {
   }
 
 
+  const handleSubmit = () => {
+
+  };
+
+
+  const handleChange = () => {
+
+  };
+
+
+  function removeChildrenAttribute(node) {
+    // Destructure the node and exclude the `children` property
+    if (node === null || node === undefined) {
+      return null;
+    }
+    const { children, ...nodeWithoutChildren } = node;
+    return nodeWithoutChildren;
+  };
+
+  const dataWithoutChildren = removeChildrenAttribute(activeNode);
 
   return (
-    <div className={`editing-pane ${isEditing ? 'open' : ''}`}>
-        <div className='editing-pane-content'>
-        <pre>
-        {activeNode}
-        </pre>
-        </div>
-    </div>
+        <div>
+          <h2>Editing feature: Work in progress</h2>
+          <form onSubmit={handleSubmit}>
+          <span>id: </span><span>{dataWithoutChildren?.id}</span>
+          <textarea
+          value={JSON.stringify(dataWithoutChildren, null, 4)}
+          onChange={handleChange}
+          className="textarea-custom"
+        />
 
+          <button type="submit">Submit</button>
+        </form>
+
+        
+        </div>
 
 
   );

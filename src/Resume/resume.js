@@ -3,11 +3,17 @@ import { DndProvider} from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 
 
-import './style.css';
+//import './style.css';
+
+import './Resume.css';
+
 
 import ResumeContext from "./ResumeContext";
 import Navbar from './Navbar';
 import EditingPane from './EditingPane';
+
+import Page from './Page';
+
 import ResumeNode from './ResumeNode';
 import resume from './data/resume_content.json';
 
@@ -30,10 +36,16 @@ function Resume(props) {
         }}>
             <DndProvider backend={HTML5Backend}>
                 <Navbar/>
-                <EditingPane/>
-                <div className='pagecontainer'>
-                <ResumeNode data={data} depth={1}/>
+
+                <div className="container">
+                    <div className={isEditing ? 'column column-sidepanel' :'column column-collapsed' }>
+                        <EditingPane/>
+                    </div>
+                    <div className="column column-main">
+                        <Page data={data}/>
+                    </div>
                 </div>
+                
             </DndProvider>
         </ResumeContext.Provider>
     );

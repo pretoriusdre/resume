@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+  }
+  
+  .column {
+    padding: 10px;
+  }
+  
+  .column-sidepanel{
+    flex: 0 0 auto; /* This disables the flex-grow and flex-shrink behavior */
+    width: 40%; /* Set a fixed width, or use a fixed pixel width if needed */
+    max-width: 40%; /* Ensure that the width does not exceed 40% */
+    overflow-wrap: break-word;
+
+  }
+  
+  .column-collapsed{
+    display: none;
+  }
+
+
+  .column-main {
+    flex: 1;
+  }
+
+
+

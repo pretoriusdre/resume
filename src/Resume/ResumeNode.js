@@ -11,6 +11,7 @@ import getImageByKey from './getImageByKey';
 
 //import { v4 as uuidv4 } from 'uuid';
 
+import './ResumeNode.css'
 
 function ResumeNode(props) {
 
@@ -23,7 +24,11 @@ function ResumeNode(props) {
     const NodeIcon = (hasChildren ? (collapsed ? '+' : '-') : '>');
     const bulletClass = "bulletspan" + (hasChildren ? "" : " leaf");
 
-    const id = props.data.id
+    const id = props.data.id;
+
+    const isActive = () => {
+        return id === activeNode?.id;
+      };
 
     const [{ isDragging }, drag] = useDrag(() => ({
         type: DragAndDropItems.RESUME_NODE,
@@ -98,8 +103,10 @@ function ResumeNode(props) {
     };
 
     const handleSetActiveNode = () => {
-        setActiveNode( JSON.stringify(props?.data, null, 4));
+        setActiveNode(props?.data);
     };
+
+
 
     return (
         <div>
@@ -108,7 +115,10 @@ function ResumeNode(props) {
                     ref={isEditing ? handleDrag : null}
                     className={`${isEditing ? 'draggable' : ''} ${isDragging ? 'dragging' : ''}`}  
                 >
-                    <div onClick={handleSetActiveNode}>
+                    <div 
+                        onClick={handleSetActiveNode}
+                        className={isEditing & (id === activeNode?.id) ? 'element-active' : 'element'}
+                        >
                         {element}
                     </div>
                     {isEditing ? <Separator/> : ""}
