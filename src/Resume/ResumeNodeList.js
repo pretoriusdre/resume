@@ -6,7 +6,6 @@ import ResumeContext from "./ResumeContext";
 import DragAndDropItems from './DragAndDropItems'
 import Separator from './Separator';
 
-
 import getImageByKey from './getImageByKey';
 
 //import { v4 as uuidv4 } from 'uuid';
@@ -29,7 +28,6 @@ function ResumeNode({ data, depth }) {
 
     const { isEditing, setIsEditing } = useContext(ResumeContext);
     const { activeNode, setActiveNode } = useContext(ResumeContext);
-
 
     const [collapsed, setCollapsed] = useState(data?.meta?.collapsed || false);
     const hasChildren = ((data?.children?.length > 0));
@@ -61,8 +59,6 @@ function ResumeNode({ data, depth }) {
         }
     }
     
-
-
     const titleElement = (
         data?.meta?.always_show ?
         <span>{title}</span> : 
@@ -80,7 +76,6 @@ function ResumeNode({ data, depth }) {
 
     const modalClass = "imgmodal" + (collapsed ? "-hidden" : "")
 
-        
     const element_img = (
         <div>
             <img src={getImageByKey(data?.meta?.attributes?.src)} className="imgtiny" onClick={toggleCollapse} title={title} alt={title}/>
@@ -95,7 +90,6 @@ function ResumeNode({ data, depth }) {
     );
 
     const element = (isImageTag ? element_img : (isIFrame ? element_iframe : element_arbitrary));
-
 
     const indentedChildren = (
         depth > 2 ?
@@ -113,7 +107,6 @@ function ResumeNode({ data, depth }) {
     const handleSetActiveNode = () => {
         setActiveNode(data);
     };
-
 
     return (
         <div>
@@ -137,6 +130,5 @@ function ResumeNode({ data, depth }) {
         </div>
     );
 }
-
 
 export default ResumeNodeList

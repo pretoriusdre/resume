@@ -2,9 +2,7 @@ import React, { useEffect, useState }  from 'react';
 import { DndProvider} from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 
-
-//import './style.css';
-
+=
 import './Resume.css';
 
 
@@ -14,7 +12,6 @@ import EditingPane from './EditingPane';
 
 import Page from './Page';
 
-import ResumeNodeList from './ResumeNodeList';
 import resume from './data/resume_content.json';
 
 

@@ -2,15 +2,11 @@
 import {useDrop } from 'react-dnd';
 import DragAndDropItems from './DragAndDropItems'
 
-
-import ResumeContext from "./ResumeContext";
-
+//import ResumeContext from "./ResumeContext";
 
 import './Separator.css';
 
-
 const Separator = () => {
-
     const [{ isOver }, drop] = useDrop(() => ({
         accept: DragAndDropItems.RESUME_NODE,
         drop: (item) => handleDrop(item),

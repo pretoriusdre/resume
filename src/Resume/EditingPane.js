@@ -43,18 +43,13 @@ const EditingPane = () => {
           <form onSubmit={handleSubmit}>
           <span>id: </span><span>{dataWithoutChildren?.id}</span>
           <textarea
-          value={JSON.stringify(dataWithoutChildren, null, 4)}
-          onChange={handleChange}
-          className="textarea-custom"
-        />
-
+            value={JSON.stringify(dataWithoutChildren, null, 4)}
+            onChange={handleChange}
+            className="textarea-custom"
+          />
           <button type="submit">Submit</button>
         </form>
-
-        
         </div>
-
-
   );
 };
 
