@@ -1,8 +1,6 @@
 {
     "id": "3f57f9c8-7243-4517-a77d-9c6ee45d37ce",
-    "data": {
-        "title": "Andr\u00e9 Pretorius"
-    },
+    "value": "Andr\u00e9 Pretorius",
     "meta": {
         "element": "h1",
         "attributes": {},
@@ -13,9 +11,7 @@
     "children": [
         {
             "id": "afcdc548-a9bc-4447-9de5-1319fce065b7",
-            "data": {
-                "title": "Senior Mechanical Engineer | DataOps Specialist"
-            },
+            "value": "Senior Mechanical Engineer | DataOps Specialist",
             "meta": {
                 "element": "span",
                 "attributes": {
@@ -29,9 +25,7 @@
         },
         {
             "id": "77308c68-33c6-4b93-ac32-b0a145a7eaa5",
-            "data": {
-                "title": "This interactive resume is best viewed online: "
-            },
+            "value": "This interactive resume is best viewed online: ",
             "meta": {
                 "element": "span",
                 "attributes": {
@@ -45,9 +39,7 @@
         },
         {
             "id": "6cb22037-d3b1-4372-9433-459a3c392d88",
-            "data": {
-                "title": "https://pretoriusdre.github.io/resume"
-            },
+            "value": "https://pretoriusdre.github.io/resume",
             "meta": {
                 "element": "a",
                 "attributes": {
@@ -62,9 +54,7 @@
         },
         {
             "id": "feda25e4-beb3-4ef3-8bcb-489533e48600",
-            "data": {
-                "title": "Contact Details"
-            },
+            "value": "Contact Details",
             "meta": {
                 "element": "h2",
                 "attributes": {},
@@ -74,9 +64,7 @@
             "children": [
                 {
                     "id": "3e970dba-5367-4f8c-8f1d-88f396957c4a",
-                    "data": {
-                        "title": "Location"
-                    },
+                    "value": "Location",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -86,9 +74,7 @@
                     "children": [
                         {
                             "id": "64d4beef-b280-4d0f-97a7-4c074ccf4c49",
-                            "data": {
-                                "title": "Singapore. Address available upon request"
-                            },
+                            "value": "Singapore. Address available upon request",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -101,9 +87,7 @@
                 },
                 {
                     "id": "1f01bb45-8aaf-4fe8-9d67-d83aecead9b0",
-                    "data": {
-                        "title": "Email"
-                    },
+                    "value": "Email",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -113,9 +97,7 @@
                     "children": [
                         {
                             "id": "f8bf7ae8-66ae-4578-9337-530fa9a66581",
-                            "data": {
-                                "title": "pretorius.dre+source=resume@gmail.com"
-                            },
+                            "value": "pretorius.dre+source=resume@gmail.com",
                             "meta": {
                                 "element": "a",
                                 "attributes": {
@@ -130,9 +112,7 @@
                 },
                 {
                     "id": "f152bbff-2f97-4039-b204-5bd2e15c15d8",
-                    "data": {
-                        "title": "LinkedIn"
-                    },
+                    "value": "LinkedIn",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -142,10 +122,7 @@
                     "children": [
                         {
                             "id": "65ad183e-0fba-469f-9d11-dfee6c7a9eb3",
-                            "data": {
-                                "title": "https://www.linkedin.com/in/pretoriusdre/",
-                                "target": "_blank"
-                            },
+                            "value": "https://www.linkedin.com/in/pretoriusdre/",
                             "meta": {
                                 "element": "a",
                                 "attributes": {
@@ -161,9 +138,7 @@
                 },
                 {
                     "id": "7ed553ef-295d-4d5b-a5d8-081ade8ba6db",
-                    "data": {
-                        "title": "Github"
-                    },
+                    "value": "Github",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -173,9 +148,7 @@
                     "children": [
                         {
                             "id": "86bb58cc-5d30-42f7-a003-1b3301a2d308",
-                            "data": {
-                                "title": "https://github.com/pretoriusdre"
-                            },
+                            "value": "https://github.com/pretoriusdre",
                             "meta": {
                                 "element": "a",
                                 "attributes": {
@@ -193,9 +166,7 @@
         },
         {
             "id": "371b2a81-8c21-42ba-9e81-0af15cc01f81",
-            "data": {
-                "title": "Education"
-            },
+            "value": "Education",
             "meta": {
                 "element": "h2",
                 "attributes": {},
@@ -205,9 +176,7 @@
             "children": [
                 {
                     "id": "c9c251cf-c0b0-4a6e-970f-61662d17a183",
-                    "data": {
-                        "title": "University of Western Australia, 2003-2008"
-                    },
+                    "value": "University of Western Australia, 2003-2008",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -217,9 +186,7 @@
                     "children": [
                         {
                             "id": "4d317cd6-04b9-4fe4-be9b-2f7c8ca59242",
-                            "data": {
-                                "title": "Bachelor of Mechanical Engineering with first-class honours."
-                            },
+                            "value": "Bachelor of Mechanical Engineering with first-class honours.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -230,9 +197,7 @@
                         },
                         {
                             "id": "42719c08-7660-427d-b9f4-ac30c08881d1",
-                            "data": {
-                                "title": "Bachelor of Science (Physics, Pure Mathematics)"
-                            },
+                            "value": "Bachelor of Science (Physics, Pure Mathematics)",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -242,9 +207,7 @@
                             "children": [
                                 {
                                     "id": "50291748-5ce6-4869-993c-ced5c3a0bb06",
-                                    "data": {
-                                        "title": "The Phillip-Roberts Memorial Scholarship"
-                                    },
+                                    "value": "The Phillip-Roberts Memorial Scholarship",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -255,9 +218,7 @@
                                 },
                                 {
                                     "id": "c6060f7b-0979-4466-a41b-5e92112dbdb6",
-                                    "data": {
-                                        "title": "The Physics Achievement Prize (Level 3)"
-                                    },
+                                    "value": "The Physics Achievement Prize (Level 3)",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -274,9 +235,7 @@
         },
         {
             "id": "7da87c3d-20b1-4cea-9424-c380cdeada55",
-            "data": {
-                "title": "Career Statement"
-            },
+            "value": "Career Statement",
             "meta": {
                 "element": "h2",
                 "attributes": {},
@@ -286,9 +245,7 @@
             "children": [
                 {
                     "id": "27f2cd2f-c92b-456d-9b18-3228de6eea61",
-                    "data": {
-                        "title": "I am a Chartered professional engineer with fifteen years of experience in the oil and gas industry. Five of these years were in a brownfields consultancy, conducting engineering design for Woodside assets such as the Karratha Gas Plant, Goodwyn A and North Rankin offshore platforms.  In this role I developed a deep technical understanding of mechanical engineering fundamentals; with a particular focus on static-equipment and integrity."
-                    },
+                    "value": "I am a Chartered professional engineer with fifteen years of experience in the oil and gas industry. Five of these years were in a brownfields consultancy, conducting engineering design for Woodside assets such as the Karratha Gas Plant, Goodwyn A and North Rankin offshore platforms.  In this role I developed a deep technical understanding of mechanical engineering fundamentals; with a particular focus on static-equipment and integrity.",
                     "meta": {
                         "element": "p",
                         "attributes": {},
@@ -300,9 +257,7 @@
                 },
                 {
                     "id": "8dcd4bdf-e8f2-447c-9627-d436ff0dace0",
-                    "data": {
-                        "title": "Following my time in engineering consultancy, I spent six years in an operational role, primarily for the MODEC Venture 11 FPSO. This gave me a broad exposure to most operation and maintenance activities for oil rig systems. Part of this role was the preparation and execution of a major shutdown construction activity at a Singapore shipyard. After decommissioning the facility in 2018, I moved on to preparation of tenders, regional support, and Operations Readiness and Assurance work for the Barossa, Dorado, and Sangomar FPSOs. During this time I also worked in New Zealand and Brazil."
-                    },
+                    "value": "Following my time in engineering consultancy, I spent six years in an operational role, primarily for the MODEC Venture 11 FPSO. This gave me a broad exposure to most operation and maintenance activities for oil rig systems. Part of this role was the preparation and execution of a major shutdown construction activity at a Singapore shipyard. After decommissioning the facility in 2018, I moved on to preparation of tenders, regional support, and Operations Readiness and Assurance work for the Barossa, Dorado, and Sangomar FPSOs. During this time I also worked in New Zealand and Brazil.",
                     "meta": {
                         "element": "p",
                         "attributes": {},
@@ -314,9 +269,7 @@
                 },
                 {
                     "id": "efa1cc73-f452-4b72-89fd-6ba2986da8ad",
-                    "data": {
-                        "title": "I moved to Singapore in 2021 as the maintenance engineer for Sangomar FPSO. In this role, I developed maintenance philosophies, strategies, and Computerised Maintenance Management System (CMMS) data. Here I experienced the pain of bad data stemming from a lack of data governance at the data source. I was already experienced in software development by this point, so I started to think about how software can be used to improve engineering processes. I have since built several software applications related to the management of engineering data"
-                    },
+                    "value": "I moved to Singapore in 2021 as the maintenance engineer for Sangomar FPSO. In this role, I developed maintenance philosophies, strategies, and Computerised Maintenance Management System (CMMS) data. Here I experienced the pain of bad data stemming from a lack of data governance at the data source. I was already experienced in software development by this point, so I started to think about how software can be used to improve engineering processes. I have since built several software applications related to the management of engineering data",
                     "meta": {
                         "element": "p",
                         "attributes": {},
@@ -328,9 +281,7 @@
                 },
                 {
                     "id": "731f8b1f-e94e-4328-94e0-e5275b8458a3",
-                    "data": {
-                        "title": "I currently work as a DataOps Engineer (DataOps Specialist) within MODEC's Digital and Analytics department."
-                    },
+                    "value": "I currently work as a DataOps Engineer (DataOps Specialist) within MODEC's Digital and Analytics department.",
                     "meta": {
                         "element": "p",
                         "attributes": {},
@@ -344,9 +295,7 @@
         },
         {
             "id": "32b5a15c-59ec-4180-a286-a9a373471805",
-            "data": {
-                "title": "Work History"
-            },
+            "value": "Work History",
             "meta": {
                 "element": "h2",
                 "attributes": {},
@@ -356,9 +305,7 @@
             "children": [
                 {
                     "id": "f42044d6-2f32-4483-a2b3-8aa1bf50ca57",
-                    "data": {
-                        "title": "MODEC Management Services, Singapore, July 2021 - September 2023"
-                    },
+                    "value": "MODEC Management Services, Singapore, July 2021 - September 2023",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -369,9 +316,7 @@
                 },
                 {
                     "id": "a3e9683e-5762-4752-a1be-06d2b40587ec",
-                    "data": {
-                        "title": "MODEC Servi\u00e7os de Petr\u00f3leo do Brasil, Rio de Janeiro, April 2018 - June 2018"
-                    },
+                    "value": "MODEC Servi\u00e7os de Petr\u00f3leo do Brasil, Rio de Janeiro, April 2018 - June 2018",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -381,9 +326,7 @@
                     "children": [
                         {
                             "id": "0ff4d8fd-d03d-4d88-a006-cf8b095ee1ad",
-                            "data": {
-                                "title": "Secondment, Maintenance Engineer, Sangomar FPSO (tender phase)"
-                            },
+                            "value": "Secondment, Maintenance Engineer, Sangomar FPSO (tender phase)",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -396,9 +339,7 @@
                 },
                 {
                     "id": "67445251-8e66-4e8c-9756-1da1b9f6cf2d",
-                    "data": {
-                        "title": "MODEC Management Services, Perth, April 2003 - July 2021"
-                    },
+                    "value": "MODEC Management Services, Perth, April 2003 - July 2021",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -408,9 +349,7 @@
                     "children": [
                         {
                             "id": "1c032f9e-fe81-49e0-8fde-ebde04fbba98",
-                            "data": {
-                                "title": "Senior Mechanical Engineer, Regional Support"
-                            },
+                            "value": "Senior Mechanical Engineer, Regional Support",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -421,9 +360,7 @@
                         },
                         {
                             "id": "9c2dd5ea-0408-4a87-a182-f6141164e343",
-                            "data": {
-                                "title": "Facilities Engineer, MV11 FPSO"
-                            },
+                            "value": "Facilities Engineer, MV11 FPSO",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -436,9 +373,7 @@
                 },
                 {
                     "id": "5e082e42-7ddb-446f-818f-5c690830bdb7",
-                    "data": {
-                        "title": "Transfield Worley, December 2007 - May 2013"
-                    },
+                    "value": "Transfield Worley, December 2007 - May 2013",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -448,9 +383,7 @@
                     "children": [
                         {
                             "id": "ba225964-1b5b-4275-9ba1-aafbf16ce33b",
-                            "data": {
-                                "title": "Mechanical Engineer"
-                            },
+                            "value": "Mechanical Engineer",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -461,9 +394,7 @@
                         },
                         {
                             "id": "6a412f67-425f-4028-a707-2f84931579a2",
-                            "data": {
-                                "title": "Undergraduate Engineer"
-                            },
+                            "value": "Undergraduate Engineer",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -476,9 +407,7 @@
                 },
                 {
                     "id": "0e2de098-1cf4-4690-bed3-79646c236068",
-                    "data": {
-                        "title": "SWG Operations, November 2006 - March 2007"
-                    },
+                    "value": "SWG Operations, November 2006 - March 2007",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -488,9 +417,7 @@
                     "children": [
                         {
                             "id": "5a6c0931-3501-40d2-ac98-5e1a6d3a9543",
-                            "data": {
-                                "title": "Trade assistant, steel fabrication workshop"
-                            },
+                            "value": "Trade assistant, steel fabrication workshop",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -501,9 +428,7 @@
                         },
                         {
                             "id": "b8f430b4-f6a1-4ca6-8546-e2f0d7137747",
-                            "data": {
-                                "title": "Undergraduate engineer"
-                            },
+                            "value": "Undergraduate engineer",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -516,9 +441,7 @@
                 },
                 {
                     "id": "1af4f4d9-ba43-4384-b0a9-bc65cfb83d24",
-                    "data": {
-                        "title": "ANSAC Engineering, November 2005 to March 2006"
-                    },
+                    "value": "ANSAC Engineering, November 2005 to March 2006",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -528,9 +451,7 @@
                     "children": [
                         {
                             "id": "10185bea-39ea-49e7-aceb-c44ed4c8583d",
-                            "data": {
-                                "title": "Development of Bill-of-Materials Software"
-                            },
+                            "value": "Development of Bill-of-Materials Software",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -540,9 +461,7 @@
                             "children": [
                                 {
                                     "id": "effe1607-caa1-4f6b-b446-03c183a3ff0c",
-                                    "data": {
-                                        "title": "Backend development in SQL Server and VBScript (yes, this is now an outdated tech stack)"
-                                    },
+                                    "value": "Backend development in SQL Server and VBScript (yes, this is now an outdated tech stack)",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -553,9 +472,7 @@
                                 },
                                 {
                                     "id": "78547d74-e5a0-414d-b9fb-64e7ece11883",
-                                    "data": {
-                                        "title": "Frontend development in Javascript and HTML"
-                                    },
+                                    "value": "Frontend development in Javascript and HTML",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -572,9 +489,7 @@
         },
         {
             "id": "dd1a68fe-6b19-4630-b09f-55f92f64a13c",
-            "data": {
-                "title": "Work Experience"
-            },
+            "value": "Work Experience",
             "meta": {
                 "element": "h2",
                 "attributes": {},
@@ -585,9 +500,7 @@
             "children": [
                 {
                     "id": "912b9473-b851-4407-9c7c-64965b49f865",
-                    "data": {
-                        "title": "MODEC Offshore Production Systems, Singapore, October 2023 - present"
-                    },
+                    "value": "MODEC Offshore Production Systems, Singapore, October 2023 - present",
                     "meta": {
                         "element": "h3",
                         "attributes": {},
@@ -597,9 +510,7 @@
                     "children": [
                         {
                             "id": "4d2decf9-50bf-4f2a-a746-d095125dd15c",
-                            "data": {
-                                "title": "Data management for the company data warehouse"
-                            },
+                            "value": "Data management for the company data warehouse",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -609,9 +520,7 @@
                             "children": [
                                 {
                                     "id": "2fed10a9-00d0-40b8-8afb-aec7fdf4b1fd",
-                                    "data": {
-                                        "title": "Development of data management tools using python and SQL"
-                                    },
+                                    "value": "Development of data management tools using python and SQL",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -621,9 +530,7 @@
                                     "children": [
                                         {
                                             "id": "8dcac987-ef97-49c4-83ff-fc46e8a52418",
-                                            "data": {
-                                                "title": "Working within established CI/CD processes in Azure Devops"
-                                            },
+                                            "value": "Working within established CI/CD processes in Azure Devops",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -634,9 +541,7 @@
                                         },
                                         {
                                             "id": "a82a0b89-7172-4331-b80c-0a5c1328d15f",
-                                            "data": {
-                                                "title": "Web scraping to retrieve metadata from technical reference materal"
-                                            },
+                                            "value": "Web scraping to retrieve metadata from technical reference materal",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -647,9 +552,7 @@
                                         },
                                         {
                                             "id": "9b6b89c6-a834-4d7d-9c8a-32b91c9b9513",
-                                            "data": {
-                                                "title": "Development of database scanning tools"
-                                            },
+                                            "value": "Development of database scanning tools",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -662,9 +565,7 @@
                                 },
                                 {
                                     "id": "b633120d-02d9-4514-84b8-6c799b86ad2a",
-                                    "data": {
-                                        "title": "Data governance"
-                                    },
+                                    "value": "Data governance",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -674,9 +575,7 @@
                                     "children": [
                                         {
                                             "id": "b178e12c-7423-4fee-a287-1767af4d4819",
-                                            "data": {
-                                                "title": "Data cataloguing and classification"
-                                            },
+                                            "value": "Data cataloguing and classification",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -687,9 +586,7 @@
                                         },
                                         {
                                             "id": "e75b5bdc-b6f2-4338-bc3f-870bd321df33",
-                                            "data": {
-                                                "title": "Design and implementation of a user access framework; inclunging frontend workflow system, permissions data model, and persmissions orchestrator"
-                                            },
+                                            "value": "Design and implementation of a user access framework; inclunging frontend workflow system, permissions data model, and persmissions orchestrator",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -702,9 +599,7 @@
                                 },
                                 {
                                     "id": "764f2c75-1463-4164-9694-d5b42b20b511",
-                                    "data": {
-                                        "title": "Data analysis and reporting"
-                                    },
+                                    "value": "Data analysis and reporting",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -714,9 +609,7 @@
                                     "children": [
                                         {
                                             "id": "b80472af-0d0d-4f23-b78d-1b9995e4fb48",
-                                            "data": {
-                                                "title": "Development of maintenanace backlog reports and maintenance structure visualisation"
-                                            },
+                                            "value": "Development of maintenanace backlog reports and maintenance structure visualisation",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -733,9 +626,7 @@
                 },
                 {
                     "id": "e213cc9e-b2ad-4477-8aac-ba2adc147850",
-                    "data": {
-                        "title": "MODEC Management Services, Singapore, July 2021 - September 2023"
-                    },
+                    "value": "MODEC Management Services, Singapore, July 2021 - September 2023",
                     "meta": {
                         "element": "h3",
                         "attributes": {},
@@ -745,9 +636,7 @@
                     "children": [
                         {
                             "id": "e43d5410-887b-4905-a4a5-6c1b2f3236fe",
-                            "data": {
-                                "title": "Focal point for maintenance plans"
-                            },
+                            "value": "Focal point for maintenance plans",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -757,9 +646,7 @@
                             "children": [
                                 {
                                     "id": "028b88c6-5177-43c6-8d28-116eaa288049",
-                                    "data": {
-                                        "title": "Wrote the maintenance philosophy"
-                                    },
+                                    "value": "Wrote the maintenance philosophy",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -770,9 +657,7 @@
                                 },
                                 {
                                     "id": "74e927c3-23f2-4abb-8215-bc8e9d55e1fe",
-                                    "data": {
-                                        "title": "Wrote the condition monitoring guide"
-                                    },
+                                    "value": "Wrote the condition monitoring guide",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -782,9 +667,7 @@
                                     "children": [
                                         {
                                             "id": "518518b7-5df2-444c-9411-c3242310fa11",
-                                            "data": {
-                                                "title": "Co-ordinated the preparation of the vibration database"
-                                            },
+                                            "value": "Co-ordinated the preparation of the vibration database",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -795,9 +678,7 @@
                                         },
                                         {
                                             "id": "30f042ec-46ec-4ef7-ac5e-71e86dc0bbd1",
-                                            "data": {
-                                                "title": "Co-ordinated the preparation of the lube-oil database"
-                                            },
+                                            "value": "Co-ordinated the preparation of the lube-oil database",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -810,9 +691,7 @@
                                 },
                                 {
                                     "id": "9538f234-ec2f-46f4-b781-c385b90ce4f2",
-                                    "data": {
-                                        "title": "Developed sophisticated digital tools for the management of CMMS data"
-                                    },
+                                    "value": "Developed sophisticated digital tools for the management of CMMS data",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -822,9 +701,7 @@
                                     "children": [
                                         {
                                             "id": "75a0b513-1509-4970-8522-9959c0f7366c",
-                                            "data": {
-                                                "title": "See the 'Skills' > 'Software Engineering' > 'Sangomar CMMS Data' section for further information on this topic"
-                                            },
+                                            "value": "See the 'Skills' > 'Software Engineering' > 'Sangomar CMMS Data' section for further information on this topic",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -835,9 +712,7 @@
                                         },
                                         {
                                             "id": "d0718d59-bdb1-4ee2-8766-16d85c222fb4",
-                                            "data": {
-                                                "title": "Screenshot from Sangomar CMMS Data Web App"
-                                            },
+                                            "value": "Screenshot from Sangomar CMMS Data Web App",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -854,9 +729,7 @@
                         },
                         {
                             "id": "b550429f-aa5f-4398-9674-98e8f125bb7d",
-                            "data": {
-                                "title": "Procured operational spare parts"
-                            },
+                            "value": "Procured operational spare parts",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -869,9 +742,7 @@
                 },
                 {
                     "id": "8689dbbc-73ac-4e04-9f04-b8a670b38a8f",
-                    "data": {
-                        "title": "MODEC Management Services, Perth, May 2013 \u2013 June 2021"
-                    },
+                    "value": "MODEC Management Services, Perth, May 2013 \u2013 June 2021",
                     "meta": {
                         "element": "h3",
                         "attributes": {},
@@ -882,9 +753,7 @@
                     "children": [
                         {
                             "id": "fc96dbc3-c941-43ab-bf44-742e85333b23",
-                            "data": {
-                                "title": "Managed engineering changes for the MV11 FPSO:"
-                            },
+                            "value": "Managed engineering changes for the MV11 FPSO:",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -895,9 +764,7 @@
                             "children": [
                                 {
                                     "id": "cba00246-febc-4b5e-a508-39f4f5db450d",
-                                    "data": {
-                                        "title": "Visited the FPSO periodically and as required."
-                                    },
+                                    "value": "Visited the FPSO periodically and as required.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -909,9 +776,7 @@
                                 },
                                 {
                                     "id": "569aeec6-85f7-405a-a4dc-ba1bb7a557bd",
-                                    "data": {
-                                        "title": "Submitted business cases, considering lifecycle costing and quantitative risk / cost changes."
-                                    },
+                                    "value": "Submitted business cases, considering lifecycle costing and quantitative risk / cost changes.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -923,9 +788,7 @@
                                 },
                                 {
                                     "id": "1a630f26-ed0e-4f25-a0c9-985f4d38241e",
-                                    "data": {
-                                        "title": "Prepared detailed scopes of work, estimates, schedules and workpacks."
-                                    },
+                                    "value": "Prepared detailed scopes of work, estimates, schedules and workpacks.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -939,9 +802,7 @@
                         },
                         {
                             "id": "f0b42b1b-cd05-4429-8917-b37a93f73db9",
-                            "data": {
-                                "title": "Planned, resourced and executed major maintenance campaigns such as process pump/motor condition monitoring, replacement and refurbishment."
-                            },
+                            "value": "Planned, resourced and executed major maintenance campaigns such as process pump/motor condition monitoring, replacement and refurbishment.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -952,9 +813,7 @@
                             "children": [
                                 {
                                     "id": "cea35390-04ca-4dfa-9b49-af836b6744e3",
-                                    "data": {
-                                        "title": "Bearing vibration spectrum measurements"
-                                    },
+                                    "value": "Bearing vibration spectrum measurements",
                                     "meta": {
                                         "element": "img",
                                         "attributes": {
@@ -970,9 +829,7 @@
                         },
                         {
                             "id": "8adfb2be-f0b3-46e6-939b-911cc66b93a6",
-                            "data": {
-                                "title": "Reduced chemical exposure and increased integrity by implementing a boiler chemical injection regime, with a new continuous dosing system, revised product suite and KPI trending dashboard."
-                            },
+                            "value": "Reduced chemical exposure and increased integrity by implementing a boiler chemical injection regime, with a new continuous dosing system, revised product suite and KPI trending dashboard.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -983,9 +840,7 @@
                             "children": [
                                 {
                                     "id": "97d126e8-74d2-48f8-8641-c2e1e2d5f157",
-                                    "data": {
-                                        "title": "Boiler chemical dosing skid"
-                                    },
+                                    "value": "Boiler chemical dosing skid",
                                     "meta": {
                                         "element": "img",
                                         "attributes": {
@@ -1001,9 +856,7 @@
                         },
                         {
                             "id": "e2b4ef8f-083c-45a9-97bc-f9f4ac397576",
-                            "data": {
-                                "title": "Conducted a variety of process optimisation studies and investigations:"
-                            },
+                            "value": "Conducted a variety of process optimisation studies and investigations:",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1014,9 +867,7 @@
                             "children": [
                                 {
                                     "id": "849638b8-1f0e-4c49-a6ad-fcb864c9e0bb",
-                                    "data": {
-                                        "title": "Identified the effects of new process conditions and reservoir chemistry on equipment, including the effects of a new fuel oil on diesel engines."
-                                    },
+                                    "value": "Identified the effects of new process conditions and reservoir chemistry on equipment, including the effects of a new fuel oil on diesel engines.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1028,9 +879,7 @@
                                 },
                                 {
                                     "id": "c9c7d515-d202-4f7a-a3e3-8d67724b1db1",
-                                    "data": {
-                                        "title": "Investigated process incidents by review and assessment of historian data, sequence of events logs, operator interviews, field checks, and design data."
-                                    },
+                                    "value": "Investigated process incidents by review and assessment of historian data, sequence of events logs, operator interviews, field checks, and design data.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1042,9 +891,7 @@
                                 },
                                 {
                                     "id": "b158fca2-dff5-4501-9c51-e607f0fea148",
-                                    "data": {
-                                        "title": "Improved the throughput in the first stage separator."
-                                    },
+                                    "value": "Improved the throughput in the first stage separator.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1055,9 +902,7 @@
                                     "children": [
                                         {
                                             "id": "10ecc524-e557-43ec-b377-d93ae9e8d7e5",
-                                            "data": {
-                                                "title": "Updated separator weir setpoint"
-                                            },
+                                            "value": "Updated separator weir setpoint",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -1075,9 +920,7 @@
                         },
                         {
                             "id": "761dfbad-c0fb-4c62-bb12-7a8417854a56",
-                            "data": {
-                                "title": "Conducted system mechanical completion and commissioning."
-                            },
+                            "value": "Conducted system mechanical completion and commissioning.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1089,9 +932,7 @@
                         },
                         {
                             "id": "a795c6b9-6a21-4037-83d4-7342cbe332dc",
-                            "data": {
-                                "title": "Developed data processing tools using Python"
-                            },
+                            "value": "Developed data processing tools using Python",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1103,9 +944,7 @@
                         },
                         {
                             "id": "0d2284a9-18ff-4a98-95d3-40cbda99d231",
-                            "data": {
-                                "title": "Established a drafting workshare arrangement and an as-building campaign to rectify numerous deficiencies on electrical and process diagrams."
-                            },
+                            "value": "Established a drafting workshare arrangement and an as-building campaign to rectify numerous deficiencies on electrical and process diagrams.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1117,9 +956,7 @@
                         },
                         {
                             "id": "21af19a1-fb39-4b3a-a366-c571f26a9116",
-                            "data": {
-                                "title": "Implemented defined-life and permanent repairs to pressure equipment, with hot and cold work."
-                            },
+                            "value": "Implemented defined-life and permanent repairs to pressure equipment, with hot and cold work.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1131,9 +968,7 @@
                         },
                         {
                             "id": "ca156ed0-bb0e-4605-9d9e-f5a048b25e7d",
-                            "data": {
-                                "title": "Structural repairs and upgrades to improve personnel safety, e.g. platforms, ladders and handrail."
-                            },
+                            "value": "Structural repairs and upgrades to improve personnel safety, e.g. platforms, ladders and handrail.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1145,9 +980,7 @@
                         },
                         {
                             "id": "0e01b5e7-7391-4239-813c-65b9e0c33818",
-                            "data": {
-                                "title": "Maintenance management using AMOS. Developed new reports for completion, backlog and deferrals."
-                            },
+                            "value": "Maintenance management using AMOS. Developed new reports for completion, backlog and deferrals.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1158,9 +991,7 @@
                             "children": [
                                 {
                                     "id": "3e2a036b-9984-4162-bda7-1b9ea8f21bbc",
-                                    "data": {
-                                        "title": "Backlog waterfall chart"
-                                    },
+                                    "value": "Backlog waterfall chart",
                                     "meta": {
                                         "element": "img",
                                         "attributes": {
@@ -1176,9 +1007,7 @@
                         },
                         {
                             "id": "07a26105-44d6-419e-818c-c20d8ed284a0",
-                            "data": {
-                                "title": "Developed dashboards to show trends in items such as maintenance completion or fuel reserves, and to illustrate the various factors which influence this month-to-month."
-                            },
+                            "value": "Developed dashboards to show trends in items such as maintenance completion or fuel reserves, and to illustrate the various factors which influence this month-to-month.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1190,9 +1019,7 @@
                         },
                         {
                             "id": "9f198004-bb95-442d-b007-bef8263c2979",
-                            "data": {
-                                "title": "Coordinated repairs and maintenance to navigation systems, communications equipment, instrumentation and electrical systems."
-                            },
+                            "value": "Coordinated repairs and maintenance to navigation systems, communications equipment, instrumentation and electrical systems.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1204,9 +1031,7 @@
                         },
                         {
                             "id": "3c85f089-aa29-4385-93d6-ca9f52a1099e",
-                            "data": {
-                                "title": "Completed an upgrade to the flare gas metering system."
-                            },
+                            "value": "Completed an upgrade to the flare gas metering system.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1217,9 +1042,7 @@
                             "children": [
                                 {
                                     "id": "a2403d4a-890d-4168-8d70-21ec87e779e3",
-                                    "data": {
-                                        "title": "Flare gas metering system to FGM160"
-                                    },
+                                    "value": "Flare gas metering system to FGM160",
                                     "meta": {
                                         "element": "img",
                                         "attributes": {
@@ -1237,9 +1060,7 @@
                 },
                 {
                     "id": "3b94b996-f0b6-4e83-a556-35b154e921c6",
-                    "data": {
-                        "title": "MODEC Management Services, New Plymouth, May 2019 \u2013 June 2019"
-                    },
+                    "value": "MODEC Management Services, New Plymouth, May 2019 \u2013 June 2019",
                     "meta": {
                         "element": "h3",
                         "attributes": {},
@@ -1250,9 +1071,7 @@
                     "children": [
                         {
                             "id": "eb02e1da-dcb3-4a91-a9b3-5b29ca1dfcac",
-                            "data": {
-                                "title": "Secondment to MMS New Zealand. Preparation of shutdown workpacks for major steelwork and piping repair scopes"
-                            },
+                            "value": "Secondment to MMS New Zealand. Preparation of shutdown workpacks for major steelwork and piping repair scopes",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1264,9 +1083,7 @@
                         },
                         {
                             "id": "fc9b6b4f-ae5b-4aa8-9426-400168c5a5e5",
-                            "data": {
-                                "title": "Training and handover to the new maintenance engineer."
-                            },
+                            "value": "Training and handover to the new maintenance engineer.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1280,9 +1097,7 @@
                 },
                 {
                     "id": "fb6fc1bb-17e6-4ba4-86a5-7837b56a8e70",
-                    "data": {
-                        "title": "MODEC Servi\u00e7os de Petr\u00f3leo do Brasil, Rio de Janeiro, April 2018 \u2013 June 2018"
-                    },
+                    "value": "MODEC Servi\u00e7os de Petr\u00f3leo do Brasil, Rio de Janeiro, April 2018 \u2013 June 2018",
                     "meta": {
                         "element": "h3",
                         "attributes": {},
@@ -1293,9 +1108,7 @@
                     "children": [
                         {
                             "id": "9864e671-7427-4782-9e57-cb79cb0f8dc7",
-                            "data": {
-                                "title": "Secondment to the Brazil office. Provided operations input for the successful Woodside Senegal FPSO tender."
-                            },
+                            "value": "Secondment to the Brazil office. Provided operations input for the successful Woodside Senegal FPSO tender.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1309,9 +1122,7 @@
                 },
                 {
                     "id": "f441fd90-5234-46d0-8a94-f009f620c488",
-                    "data": {
-                        "title": "MMS, Singapore, January 2015 \u2013 April 2015"
-                    },
+                    "value": "MMS, Singapore, January 2015 \u2013 April 2015",
                     "meta": {
                         "element": "h3",
                         "attributes": {},
@@ -1322,9 +1133,7 @@
                     "children": [
                         {
                             "id": "7b0acbbe-0e43-4974-81f6-05da512e438c",
-                            "data": {
-                                "title": "Prepared many workpacks for a dry docking of the MV11 FPSO at Sembcorp shipyard."
-                            },
+                            "value": "Prepared many workpacks for a dry docking of the MV11 FPSO at Sembcorp shipyard.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1336,9 +1145,7 @@
                         },
                         {
                             "id": "86e2a20f-d860-4877-bd72-84d9af44fe26",
-                            "data": {
-                                "title": "Directed and supervised work execution in the shipyard over nine weeks:"
-                            },
+                            "value": "Directed and supervised work execution in the shipyard over nine weeks:",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1349,9 +1156,7 @@
                             "children": [
                                 {
                                     "id": "148bfc51-239c-407e-9f14-41f029874f68",
-                                    "data": {
-                                        "title": "Replacement and modification of pressure vessel internals in degasser and separator."
-                                    },
+                                    "value": "Replacement and modification of pressure vessel internals in degasser and separator.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1362,9 +1167,7 @@
                                     "children": [
                                         {
                                             "id": "a44ed724-e623-4532-be51-f17581f7b824",
-                                            "data": {
-                                                "title": "Replacement of degasser internals"
-                                            },
+                                            "value": "Replacement of degasser internals",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -1380,9 +1183,7 @@
                                 },
                                 {
                                     "id": "5445b6e0-177f-42b6-a54b-498562966983",
-                                    "data": {
-                                        "title": "Inspection and repair of pressure vessels, valves and structure."
-                                    },
+                                    "value": "Inspection and repair of pressure vessels, valves and structure.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1394,9 +1195,7 @@
                                 },
                                 {
                                     "id": "6080dd95-b8e7-4fa3-a8d7-b95bf382a0e4",
-                                    "data": {
-                                        "title": "Major overhaul and repairs to crude fuel oil treatment packages."
-                                    },
+                                    "value": "Major overhaul and repairs to crude fuel oil treatment packages.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1407,9 +1206,7 @@
                                     "children": [
                                         {
                                             "id": "d868148e-e747-4701-8cb5-cab6a7e04e07",
-                                            "data": {
-                                                "title": "Reboiler bakeout"
-                                            },
+                                            "value": "Reboiler bakeout",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -1423,9 +1220,7 @@
                                         },
                                         {
                                             "id": "b077f751-527f-4334-9705-bcbbc737e26d",
-                                            "data": {
-                                                "title": "Workscope encompassed pressure equipment, electrical equipment, and instrumentation"
-                                            },
+                                            "value": "Workscope encompassed pressure equipment, electrical equipment, and instrumentation",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -1441,9 +1236,7 @@
                         },
                         {
                             "id": "eea02fc9-cf10-40d3-8bce-254c2c9b1d9f",
-                            "data": {
-                                "title": "Monitored quality on a variety of outsourced workscopes and implemented corrective actions."
-                            },
+                            "value": "Monitored quality on a variety of outsourced workscopes and implemented corrective actions.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1455,9 +1248,7 @@
                         },
                         {
                             "id": "8574ef60-804c-4ed6-97a5-e4bff3cf62f1",
-                            "data": {
-                                "title": "Worked within a completions management system. Identified and closed punchlist items."
-                            },
+                            "value": "Worked within a completions management system. Identified and closed punchlist items.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1469,9 +1260,7 @@
                         },
                         {
                             "id": "0197cfa3-d95b-4176-962c-56f1da34dd78",
-                            "data": {
-                                "title": "Acted as signatory for workpack and system acceptance, at FAT and during completion."
-                            },
+                            "value": "Acted as signatory for workpack and system acceptance, at FAT and during completion.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1483,9 +1272,7 @@
                         },
                         {
                             "id": "2ec2e448-47cc-49eb-93c8-9e9171dfce9d",
-                            "data": {
-                                "title": "Upgraded satellite internet system, delivering a 100% bandwidth increase at 90% lifecycle cost."
-                            },
+                            "value": "Upgraded satellite internet system, delivering a 100% bandwidth increase at 90% lifecycle cost.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1496,9 +1283,7 @@
                             "children": [
                                 {
                                     "id": "f949b08e-1ef6-41b2-97b3-5a79d005c949",
-                                    "data": {
-                                        "title": "VSAT updated to C-band"
-                                    },
+                                    "value": "VSAT updated to C-band",
                                     "meta": {
                                         "element": "img",
                                         "attributes": {
@@ -1516,9 +1301,7 @@
                 },
                 {
                     "id": "1fbef5d4-c572-41d3-9e77-7a9ad218de00",
-                    "data": {
-                        "title": "Transfield Worley, Perth, December 2007 \u2013 May 2013"
-                    },
+                    "value": "Transfield Worley, Perth, December 2007 \u2013 May 2013",
                     "meta": {
                         "element": "h3",
                         "attributes": {},
@@ -1529,9 +1312,7 @@
                     "children": [
                         {
                             "id": "4a146944-b812-4ccf-9f5f-fece54b603e8",
-                            "data": {
-                                "title": "Assisted offshore commissioning and validation activities for the GWA desander project:"
-                            },
+                            "value": "Assisted offshore commissioning and validation activities for the GWA desander project:",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1542,9 +1323,7 @@
                             "children": [
                                 {
                                     "id": "09c54866-5ae4-4b1f-8396-c4fffb9d4e5d",
-                                    "data": {
-                                        "title": "Liaised between a third-party validator, personnel on-site and office based staff."
-                                    },
+                                    "value": "Liaised between a third-party validator, personnel on-site and office based staff.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1556,9 +1335,7 @@
                                 },
                                 {
                                     "id": "bd78a79d-6dc3-4a52-9e41-484bf3968c9f",
-                                    "data": {
-                                        "title": "Reviewed and as-built installation workpacks. Witnessed pressure tests."
-                                    },
+                                    "value": "Reviewed and as-built installation workpacks. Witnessed pressure tests.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1570,9 +1347,7 @@
                                 },
                                 {
                                     "id": "38d1246e-4ac6-45ea-936a-66b0b5b1295a",
-                                    "data": {
-                                        "title": "Function tested fire and gas detectors and the deluge system."
-                                    },
+                                    "value": "Function tested fire and gas detectors and the deluge system.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1586,9 +1361,7 @@
                         },
                         {
                             "id": "e2932d20-a650-44f5-b0e5-49a4c08028f4",
-                            "data": {
-                                "title": "Greater Western Flank:"
-                            },
+                            "value": "Greater Western Flank:",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1599,9 +1372,7 @@
                             "children": [
                                 {
                                     "id": "c55cd439-780f-4305-aad7-65d2f0aaabf5",
-                                    "data": {
-                                        "title": "Wrote a procedure for the installation of a new riser and J-tube onto the platform."
-                                    },
+                                    "value": "Wrote a procedure for the installation of a new riser and J-tube onto the platform.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1613,9 +1384,7 @@
                                 },
                                 {
                                     "id": "81440ffe-1185-4a84-a794-15019e2b99f3",
-                                    "data": {
-                                        "title": "Coordinated design deliverables for subsea components eg strakes, centralisers, valves."
-                                    },
+                                    "value": "Coordinated design deliverables for subsea components eg strakes, centralisers, valves.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1627,9 +1396,7 @@
                                 },
                                 {
                                     "id": "0eafe493-efc9-4c97-8d9d-e96e4dae0ba2",
-                                    "data": {
-                                        "title": "Oversaw the development of Procedure Qualification Testing regimes for field joint coatings."
-                                    },
+                                    "value": "Oversaw the development of Procedure Qualification Testing regimes for field joint coatings.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1641,9 +1408,7 @@
                                 },
                                 {
                                     "id": "39267588-0ed1-4462-8c42-ba984118b19a",
-                                    "data": {
-                                        "title": "Designed a new piping class to tie very high pressure wells into an existing offshore platform whilst maintaining piggability."
-                                    },
+                                    "value": "Designed a new piping class to tie very high pressure wells into an existing offshore platform whilst maintaining piggability.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1655,9 +1420,7 @@
                                 },
                                 {
                                     "id": "02feadb1-15a0-413b-8612-64c82d7434ed",
-                                    "data": {
-                                        "title": "Prepared scopes of work for non-destructive testing and liaised with inspectors."
-                                    },
+                                    "value": "Prepared scopes of work for non-destructive testing and liaised with inspectors.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1669,9 +1432,7 @@
                                 },
                                 {
                                     "id": "4ba65c41-31f6-4bdc-ba7f-096e8079f68b",
-                                    "data": {
-                                        "title": "Saved $440,000 by challenging RESDV actuator replacement with a detailed technical assessment."
-                                    },
+                                    "value": "Saved $440,000 by challenging RESDV actuator replacement with a detailed technical assessment.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1683,9 +1444,7 @@
                                 },
                                 {
                                     "id": "8bfdeb92-c74f-44c1-8e4e-180f52388a0a",
-                                    "data": {
-                                        "title": "Used pipe stress analysis (Caesar II) to assess piping systems against code and project requirements."
-                                    },
+                                    "value": "Used pipe stress analysis (Caesar II) to assess piping systems against code and project requirements.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1696,9 +1455,7 @@
                                     "children": [
                                         {
                                             "id": "d828ba7c-184c-4885-b6d9-837bc5937255",
-                                            "data": {
-                                                "title": "Pipe Stress Analysis using Caesar II"
-                                            },
+                                            "value": "Pipe Stress Analysis using Caesar II",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -1716,9 +1473,7 @@
                         },
                         {
                             "id": "4f91e533-7530-4135-b60b-008cf320338b",
-                            "data": {
-                                "title": "Secondment to Karratha Gas Plant major maintenance:"
-                            },
+                            "value": "Secondment to Karratha Gas Plant major maintenance:",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1729,9 +1484,7 @@
                             "children": [
                                 {
                                     "id": "130a71ed-40ba-45f4-af13-88c3e41374ce",
-                                    "data": {
-                                        "title": "Used engineering judgement to prioritise and reclassify SAP maintenance workorders."
-                                    },
+                                    "value": "Used engineering judgement to prioritise and reclassify SAP maintenance workorders.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1743,9 +1496,7 @@
                                 },
                                 {
                                     "id": "0b4b0c06-b9aa-4095-a7a0-fcdab549ef1c",
-                                    "data": {
-                                        "title": "Integrity engineering review to assess and action reported defects from piping inspection."
-                                    },
+                                    "value": "Integrity engineering review to assess and action reported defects from piping inspection.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1759,9 +1510,7 @@
                         },
                         {
                             "id": "c5d0af6c-e450-41c1-a929-c1411e760200",
-                            "data": {
-                                "title": "Karratha Gas Plant pressure vessel fatigue life extension:"
-                            },
+                            "value": "Karratha Gas Plant pressure vessel fatigue life extension:",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1772,9 +1521,7 @@
                             "children": [
                                 {
                                     "id": "c5c52ac6-0363-4a62-b9fe-d6f17c4cb9f8",
-                                    "data": {
-                                        "title": "Applied cycle-counting algorithms to historical process information, in order to shortlist AS1210:1H vessels for detailed fatigue analysis."
-                                    },
+                                    "value": "Applied cycle-counting algorithms to historical process information, in order to shortlist AS1210:1H vessels for detailed fatigue analysis.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1786,9 +1533,7 @@
                                 },
                                 {
                                     "id": "29ede781-d151-46bb-9553-04346f972874",
-                                    "data": {
-                                        "title": "Performed detailed fatigue analysis using finite element analysis (ANSYS)."
-                                    },
+                                    "value": "Performed detailed fatigue analysis using finite element analysis (ANSYS).",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1802,9 +1547,7 @@
                         },
                         {
                             "id": "4237eca6-4528-4cf1-b5bf-63d7692a2e37",
-                            "data": {
-                                "title": "Karratha Gas Plant flow-induced vibration measurement:"
-                            },
+                            "value": "Karratha Gas Plant flow-induced vibration measurement:",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1815,9 +1558,7 @@
                             "children": [
                                 {
                                     "id": "0d3fb4a4-868f-4cca-90a9-0cd230ee8974",
-                                    "data": {
-                                        "title": "Planned and implemented piping vibration measurements across the plant, including targeted measurements for a high-rate trial, with multiple teams across several LNG trains."
-                                    },
+                                    "value": "Planned and implemented piping vibration measurements across the plant, including targeted measurements for a high-rate trial, with multiple teams across several LNG trains.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1831,9 +1572,7 @@
                         },
                         {
                             "id": "beb6bd6b-1a4f-4ded-8ec4-4cd26b5ad1d3",
-                            "data": {
-                                "title": "Mentoring and Development activities:"
-                            },
+                            "value": "Mentoring and Development activities:",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1844,9 +1583,7 @@
                             "children": [
                                 {
                                     "id": "a7b3938b-2871-43c0-8f74-9b71d4c32ace",
-                                    "data": {
-                                        "title": "Developed a workshop that teaches effective technical writing skills. Presented this several times to groups of engineers across the company."
-                                    },
+                                    "value": "Developed a workshop that teaches effective technical writing skills. Presented this several times to groups of engineers across the company.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1858,9 +1595,7 @@
                                 },
                                 {
                                     "id": "9f0fa334-1e4d-4c1b-954d-242eef912c4f",
-                                    "data": {
-                                        "title": "Was the accreditation director of the WorleyParsons Graduate Development Organisation, assisting graduates to become Chartered Professional engineers as I had previously."
-                                    },
+                                    "value": "Was the accreditation director of the WorleyParsons Graduate Development Organisation, assisting graduates to become Chartered Professional engineers as I had previously.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1874,9 +1609,7 @@
                         },
                         {
                             "id": "b262120f-7fd6-46ec-9350-7f69930d3963",
-                            "data": {
-                                "title": "Activities across many projects:"
-                            },
+                            "value": "Activities across many projects:",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -1887,9 +1620,7 @@
                             "children": [
                                 {
                                     "id": "d1798888-ae42-420a-b47e-479526a2e1a5",
-                                    "data": {
-                                        "title": "Prepared datasheets, evaluated bids for, and requisitioned many items including: Valves, vessels, heat exchangers, special piping items, pumps and packaged equipment."
-                                    },
+                                    "value": "Prepared datasheets, evaluated bids for, and requisitioned many items including: Valves, vessels, heat exchangers, special piping items, pumps and packaged equipment.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1901,9 +1632,7 @@
                                 },
                                 {
                                     "id": "aaed5f31-68ce-49c8-af35-0fb17c7ea7c5",
-                                    "data": {
-                                        "title": "Assessed the fitness for service for damaged piping, vessels and other pressure equipment."
-                                    },
+                                    "value": "Assessed the fitness for service for damaged piping, vessels and other pressure equipment.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1914,9 +1643,7 @@
                                     "children": [
                                         {
                                             "id": "f79fde32-65da-4a85-972e-16893141c96d",
-                                            "data": {
-                                                "title": "Detailed Finite Element Analysis (FEA) of damaged pressure equipment"
-                                            },
+                                            "value": "Detailed Finite Element Analysis (FEA) of damaged pressure equipment",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -1932,9 +1659,7 @@
                                 },
                                 {
                                     "id": "2629a815-2b6c-42c0-be06-9890207552b3",
-                                    "data": {
-                                        "title": "Designed repairs to corroded or vibrating piping, including a DN1200 size clamp (by FEA)."
-                                    },
+                                    "value": "Designed repairs to corroded or vibrating piping, including a DN1200 size clamp (by FEA).",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1945,9 +1670,7 @@
                                     "children": [
                                         {
                                             "id": "c07f345b-4f4c-455f-ad9b-69eb5c93efe2",
-                                            "data": {
-                                                "title": "Clamp design"
-                                            },
+                                            "value": "Clamp design",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -1961,9 +1684,7 @@
                                         },
                                         {
                                             "id": "d3685d56-08ae-402d-a53c-a931539e1aa1",
-                                            "data": {
-                                                "title": "Clamp installation"
-                                            },
+                                            "value": "Clamp installation",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -1979,9 +1700,7 @@
                                 },
                                 {
                                     "id": "b8b1f463-415a-41e8-89c4-a7976528c414",
-                                    "data": {
-                                        "title": "Performed technical investigations for diverse and technically challenging problems."
-                                    },
+                                    "value": "Performed technical investigations for diverse and technically challenging problems.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -1997,9 +1716,7 @@
                 },
                 {
                     "id": "f0779d55-bb96-4845-8159-aed86f964cbb",
-                    "data": {
-                        "title": "SWG Operations, Bunbury, November 2006 \u2013 March 2007"
-                    },
+                    "value": "SWG Operations, Bunbury, November 2006 \u2013 March 2007",
                     "meta": {
                         "element": "h3",
                         "attributes": {},
@@ -2010,9 +1727,7 @@
                     "children": [
                         {
                             "id": "c911ee61-3ccc-4cfb-bd27-cc61c604129e",
-                            "data": {
-                                "title": "Worked as a trade assistant in a structural steel fabrication workshop."
-                            },
+                            "value": "Worked as a trade assistant in a structural steel fabrication workshop.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -2024,9 +1739,7 @@
                         },
                         {
                             "id": "a1760d60-1bf1-42e8-af9e-685e636459aa",
-                            "data": {
-                                "title": "Performed lifting and sea fastening calculations for KGP LNG Berth V expansion project."
-                            },
+                            "value": "Performed lifting and sea fastening calculations for KGP LNG Berth V expansion project.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -2040,9 +1753,7 @@
                 },
                 {
                     "id": "54c32d8d-237e-4931-9f1b-ab739f166846",
-                    "data": {
-                        "title": "ANSAC Engineering, Bunbury, November 2005 \u2013 March 2006"
-                    },
+                    "value": "ANSAC Engineering, Bunbury, November 2005 \u2013 March 2006",
                     "meta": {
                         "element": "h3",
                         "attributes": {},
@@ -2053,9 +1764,7 @@
                     "children": [
                         {
                             "id": "9d92dd15-9c2d-401b-b8ab-14d71df363f6",
-                            "data": {
-                                "title": "Designed and built a Bill-of-Materials software as a web app."
-                            },
+                            "value": "Designed and built a Bill-of-Materials software as a web app.",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -2066,9 +1775,7 @@
                             "children": [
                                 {
                                     "id": "0fc8f5ec-be30-426c-8b48-47791db5f020",
-                                    "data": {
-                                        "title": "The software was written in Javascript, VBScript, and SQL"
-                                    },
+                                    "value": "The software was written in Javascript, VBScript, and SQL",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2086,9 +1793,7 @@
         },
         {
             "id": "05b041e9-911f-4fb2-b416-c12af46ef4d5",
-            "data": {
-                "title": "Skills"
-            },
+            "value": "Skills",
             "meta": {
                 "element": "h2",
                 "attributes": {},
@@ -2099,9 +1804,7 @@
             "children": [
                 {
                     "id": "f34d5ae4-e8e2-42c9-a109-f185490e7a4c",
-                    "data": {
-                        "title": "Mechanical Engineering Design"
-                    },
+                    "value": "Mechanical Engineering Design",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -2112,9 +1815,7 @@
                 },
                 {
                     "id": "09d7f5e1-ef26-44c9-8f65-3013669d8693",
-                    "data": {
-                        "title": "Project Management"
-                    },
+                    "value": "Project Management",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -2125,9 +1826,7 @@
                 },
                 {
                     "id": "55e0f521-cc41-461b-877e-967ca3cd20eb",
-                    "data": {
-                        "title": "Operations Management"
-                    },
+                    "value": "Operations Management",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -2138,9 +1837,7 @@
                 },
                 {
                     "id": "d36320e3-cc40-4a88-b04c-e203e2ab1021",
-                    "data": {
-                        "title": "Software Engineering"
-                    },
+                    "value": "Software Engineering",
                     "meta": {
                         "element": "span",
                         "attributes": {},
@@ -2150,9 +1847,7 @@
                     "children": [
                         {
                             "id": "f8eab57f-ae73-4892-af92-8b7f92dbe064",
-                            "data": {
-                                "title": "Sangomar CMMS Data"
-                            },
+                            "value": "Sangomar CMMS Data",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -2162,9 +1857,7 @@
                             "children": [
                                 {
                                     "id": "f2ecc83d-8a37-40a7-b155-c79ab20f019c",
-                                    "data": {
-                                        "title": "Creation of an ETL (Extract, Transform, Load) pipeline to ingest Computerised Maintenance Management System (CMMS) data."
-                                    },
+                                    "value": "Creation of an ETL (Extract, Transform, Load) pipeline to ingest Computerised Maintenance Management System (CMMS) data.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2175,9 +1868,7 @@
                                 },
                                 {
                                     "id": "d9f66051-028e-49a6-aa12-ce149ad0fca0",
-                                    "data": {
-                                        "title": "Construction of a relational data model for the CMMS data."
-                                    },
+                                    "value": "Construction of a relational data model for the CMMS data.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2187,9 +1878,7 @@
                                     "children": [
                                         {
                                             "id": "8e1628cd-fa71-44ff-bb0f-079a9dc37ad1",
-                                            "data": {
-                                                "title": "Transposition of the data model into graph format allowing for interactive, visual exploration of complex maintenance data"
-                                            },
+                                            "value": "Transposition of the data model into graph format allowing for interactive, visual exploration of complex maintenance data",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -2199,9 +1888,7 @@
                                             "children": [
                                                 {
                                                     "id": "3d0c746a-195f-4ccf-962e-1086cc603a19",
-                                                    "data": {
-                                                        "title": "CMMS data represented by an interactive graph (demo available)"
-                                                    },
+                                                    "value": "CMMS data represented by an interactive graph (demo available)",
                                                     "meta": {
                                                         "element": "img",
                                                         "attributes": {
@@ -2218,9 +1905,7 @@
                                 },
                                 {
                                     "id": "5c27846f-8443-4008-ade3-63e28a813996",
-                                    "data": {
-                                        "title": "Creation of a full-stack web app to display CMMS data during development [Python, Django]"
-                                    },
+                                    "value": "Creation of a full-stack web app to display CMMS data during development [Python, Django]",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2231,9 +1916,7 @@
                                 },
                                 {
                                     "id": "caf81476-ee11-4ab6-b629-da1cfe320924",
-                                    "data": {
-                                        "title": "Creation of PowerBi dashboards to interactively explore / filter the dataset during development."
-                                    },
+                                    "value": "Creation of PowerBi dashboards to interactively explore / filter the dataset during development.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2243,9 +1926,7 @@
                                     "children": [
                                         {
                                             "id": "193a9c07-2210-4c2f-91e7-ecaf52d3c7e9",
-                                            "data": {
-                                                "title": "CMMS dashboard - Asset hierarchy summary page"
-                                            },
+                                            "value": "CMMS dashboard - Asset hierarchy summary page",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -2260,9 +1941,7 @@
                                 },
                                 {
                                     "id": "e469e089-476b-4b9a-addc-ce169290489e",
-                                    "data": {
-                                        "title": "Creation of Python scripts to validate the data and identify QAQC errors [Python, Pandas]"
-                                    },
+                                    "value": "Creation of Python scripts to validate the data and identify QAQC errors [Python, Pandas]",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2273,9 +1952,7 @@
                                 },
                                 {
                                     "id": "c576513c-06b2-4488-b21a-f972f993468a",
-                                    "data": {
-                                        "title": "Programmatic extraction of other datasets from unstructured documents and cross-referencing against the CMMS data model."
-                                    },
+                                    "value": "Programmatic extraction of other datasets from unstructured documents and cross-referencing against the CMMS data model.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2286,9 +1963,7 @@
                                 },
                                 {
                                     "id": "737f45ba-dc81-4375-9cc8-70539d35aa57",
-                                    "data": {
-                                        "title": "Programmatic population of SAP loadsheets (IL01, IA05, etc) into the templates provided by the SAP consultant"
-                                    },
+                                    "value": "Programmatic population of SAP loadsheets (IL01, IA05, etc) into the templates provided by the SAP consultant",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2299,9 +1974,7 @@
                                 },
                                 {
                                     "id": "3d8e75b1-ff9b-4432-950c-64a1cb01d1b6",
-                                    "data": {
-                                        "title": "Data validation via a connection to MODEC's SAP relational data warehouse."
-                                    },
+                                    "value": "Data validation via a connection to MODEC's SAP relational data warehouse.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2312,9 +1985,7 @@
                                 },
                                 {
                                     "id": "d6594255-26cd-4036-8ebf-d75611ecffcb",
-                                    "data": {
-                                        "title": "Languages and frameworks used: Python, Django, SQL, PowerBI, DAX"
-                                    },
+                                    "value": "Languages and frameworks used: Python, Django, SQL, PowerBI, DAX",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2325,9 +1996,7 @@
                                 },
                                 {
                                     "id": "a1bc08c6-2e6d-497c-9d2c-a93bbc81a7b8",
-                                    "data": {
-                                        "title": "Demo / source code available only to MODEC personnel"
-                                    },
+                                    "value": "Demo / source code available only to MODEC personnel",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2340,9 +2009,7 @@
                         },
                         {
                             "id": "77502dea-6049-4b18-92b5-2b99cdd0ede9",
-                            "data": {
-                                "title": "Maintenance instruction database"
-                            },
+                            "value": "Maintenance instruction database",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -2352,9 +2019,7 @@
                             "children": [
                                 {
                                     "id": "61dc5a3b-1e02-45ad-8111-744b08b71384",
-                                    "data": {
-                                        "title": "Extracted the contents of 850 MS Word documents into a single database containing all of their content."
-                                    },
+                                    "value": "Extracted the contents of 850 MS Word documents into a single database containing all of their content.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2365,9 +2030,7 @@
                                 },
                                 {
                                     "id": "e35f4a8d-50be-4aa2-9fc2-8fdd05a76544",
-                                    "data": {
-                                        "title": "Coordinated bulk editing and quality improvements to the master data utilising a crew of ~ 15 maintenance and operations personnel"
-                                    },
+                                    "value": "Coordinated bulk editing and quality improvements to the master data utilising a crew of ~ 15 maintenance and operations personnel",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2378,9 +2041,7 @@
                                 },
                                 {
                                     "id": "91d6864d-37ae-4ad8-b535-12e8c9de2667",
-                                    "data": {
-                                        "title": "Created Python scripts to render MS Word documents from the contents of the master database."
-                                    },
+                                    "value": "Created Python scripts to render MS Word documents from the contents of the master database.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2391,9 +2052,7 @@
                                 },
                                 {
                                     "id": "3d2e1913-75e5-4536-a843-e4416aabfb21",
-                                    "data": {
-                                        "title": "Integration of maintenance instruction data into the master CMMS data model, giving full traceability from individual functional locations to discrete maintenance steps, full-text search functionality, and other benefits."
-                                    },
+                                    "value": "Integration of maintenance instruction data into the master CMMS data model, giving full traceability from individual functional locations to discrete maintenance steps, full-text search functionality, and other benefits.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2404,9 +2063,7 @@
                                 },
                                 {
                                     "id": "8f864965-41e6-4e8b-ac24-e45930666f94",
-                                    "data": {
-                                        "title": "Languages and frameworks used: Python, SQL"
-                                    },
+                                    "value": "Languages and frameworks used: Python, SQL",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2417,9 +2074,7 @@
                                 },
                                 {
                                     "id": "0f1b30c0-b578-41a5-80d6-1751af95982a",
-                                    "data": {
-                                        "title": "Demo / source code available only to MODEC personnel"
-                                    },
+                                    "value": "Demo / source code available only to MODEC personnel",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2432,9 +2087,7 @@
                         },
                         {
                             "id": "afd5a5d5-0901-408d-b48d-148295ecce27",
-                            "data": {
-                                "title": "CMMS builder"
-                            },
+                            "value": "CMMS builder",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -2444,9 +2097,7 @@
                             "children": [
                                 {
                                     "id": "168fe198-e805-4c72-bd16-2cf54016c105",
-                                    "data": {
-                                        "title": "Creation of a full stack web app to build functional location hierarchies."
-                                    },
+                                    "value": "Creation of a full stack web app to build functional location hierarchies.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2457,9 +2108,7 @@
                                 },
                                 {
                                     "id": "72d38a18-f753-4cf7-97db-25918a48ca9f",
-                                    "data": {
-                                        "title": "Implementation of materialised path algorithms in order to efficiently traverse deep hierarchies with > 100,000 nodes."
-                                    },
+                                    "value": "Implementation of materialised path algorithms in order to efficiently traverse deep hierarchies with > 100,000 nodes.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2470,9 +2119,7 @@
                                 },
                                 {
                                     "id": "2cbe36a9-9fdd-47aa-92a5-b8307dcf3e6a",
-                                    "data": {
-                                        "title": "Design and implementation of algorithms to selectively export and import branches from the tree to formatted Ms Excel tree representations, including utilisation of GUIDs to ensure that imported updates do not accidentally overwrite other data."
-                                    },
+                                    "value": "Design and implementation of algorithms to selectively export and import branches from the tree to formatted Ms Excel tree representations, including utilisation of GUIDs to ensure that imported updates do not accidentally overwrite other data.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2483,9 +2130,7 @@
                                 },
                                 {
                                     "id": "f6c6122c-2fc6-4cb1-8d06-c5ef6903e02b",
-                                    "data": {
-                                        "title": "Development of a REST API to serve data from the backend to the frontend."
-                                    },
+                                    "value": "Development of a REST API to serve data from the backend to the frontend.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2496,9 +2141,7 @@
                                 },
                                 {
                                     "id": "905ec670-62be-4539-b6e9-86a47ca08129",
-                                    "data": {
-                                        "title": "Design and implementation of a frontend single-page app (React) to display and edit tree data. The app responsively manages large tree structures by implementing lazy loading and pre-loading to N+2 node depth."
-                                    },
+                                    "value": "Design and implementation of a frontend single-page app (React) to display and edit tree data. The app responsively manages large tree structures by implementing lazy loading and pre-loading to N+2 node depth.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2508,9 +2151,7 @@
                                     "children": [
                                         {
                                             "id": "7753f8b7-71f5-4440-86e0-1a928934ec8d",
-                                            "data": {
-                                                "title": "Tree builder module from web app"
-                                            },
+                                            "value": "Tree builder module from web app",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -2525,9 +2166,7 @@
                                 },
                                 {
                                     "id": "c26f5918-29ac-4985-96bf-9b7d234a11e2",
-                                    "data": {
-                                        "title": "Development of a data model for process safety management, encompassing Major Accident Events, Performance Standards, Performance Criteria, Assurance Tasks, and Safety Critical Elements. Integration of this into the data model allows for full traceability from the Operational Assurance Tasks to the remainder of the CMMS data model."
-                                    },
+                                    "value": "Development of a data model for process safety management, encompassing Major Accident Events, Performance Standards, Performance Criteria, Assurance Tasks, and Safety Critical Elements. Integration of this into the data model allows for full traceability from the Operational Assurance Tasks to the remainder of the CMMS data model.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2538,9 +2177,7 @@
                                 },
                                 {
                                     "id": "f1598166-3e62-4a1e-95bf-ce4e69ea34de",
-                                    "data": {
-                                        "title": "The app is under ongoing development, demo / source code available upon request"
-                                    },
+                                    "value": "The app is under ongoing development, demo / source code available upon request",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2551,9 +2188,7 @@
                                 },
                                 {
                                     "id": "c0f2f2a9-8333-4841-8dfb-327c29be63b7",
-                                    "data": {
-                                        "title": "Languages used: Python, Django, Django Rest Framework, Javascript, React, CSS, HTML"
-                                    },
+                                    "value": "Languages used: Python, Django, Django Rest Framework, Javascript, React, CSS, HTML",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2566,9 +2201,7 @@
                         },
                         {
                             "id": "5c07bb84-f795-46bd-ae5e-eb656f40f39a",
-                            "data": {
-                                "title": "SPIR manager"
-                            },
+                            "value": "SPIR manager",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -2578,9 +2211,7 @@
                             "children": [
                                 {
                                     "id": "ca823df9-75cf-469e-9269-3f7797c8faee",
-                                    "data": {
-                                        "title": "Creation of a full stack web app to manage spare parts master data during an engineering project."
-                                    },
+                                    "value": "Creation of a full stack web app to manage spare parts master data during an engineering project.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2591,9 +2222,7 @@
                                 },
                                 {
                                     "id": "cd2eab96-a059-4f68-a523-11a61aa38108",
-                                    "data": {
-                                        "title": "Development of a new SPIR template with significantly improved master data governance. This template was rolled out onto MODEC's Uaru project (ExxonMobil)"
-                                    },
+                                    "value": "Development of a new SPIR template with significantly improved master data governance. This template was rolled out onto MODEC's Uaru project (ExxonMobil)",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2604,9 +2233,7 @@
                                 },
                                 {
                                     "id": "95cb1932-de7a-4ed9-9c58-1ea50d5fb8e8",
-                                    "data": {
-                                        "title": "Development of algorithms to extract SPIR data into a parts database."
-                                    },
+                                    "value": "Development of algorithms to extract SPIR data into a parts database.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2617,9 +2244,7 @@
                                 },
                                 {
                                     "id": "4592b857-043d-4fd5-b546-c1defd8fc020",
-                                    "data": {
-                                        "title": "Automatic identification of change between subsequent data revisions, allowing for incremental processing of change, and reutilisation of the same data for insurance, commissioning and operating spares as the project evolves."
-                                    },
+                                    "value": "Automatic identification of change between subsequent data revisions, allowing for incremental processing of change, and reutilisation of the same data for insurance, commissioning and operating spares as the project evolves.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2630,9 +2255,7 @@
                                 },
                                 {
                                     "id": "10cacd48-00c2-4e76-bec3-22d49c63a648",
-                                    "data": {
-                                        "title": "Allows for linking of the data to the CMMS data model, allowing for automatic generation of functional location Bill of Materials"
-                                    },
+                                    "value": "Allows for linking of the data to the CMMS data model, allowing for automatic generation of functional location Bill of Materials",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2643,9 +2266,7 @@
                                 },
                                 {
                                     "id": "7b79ef4a-0b55-4347-af86-1ccffe1171a0",
-                                    "data": {
-                                        "title": "This is a private repo and still under development (~70% complete), it has not been implemented yet. Demo available upon request"
-                                    },
+                                    "value": "This is a private repo and still under development (~70% complete), it has not been implemented yet. Demo available upon request",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2656,9 +2277,7 @@
                                 },
                                 {
                                     "id": "2c93888c-f43a-4a2e-9a51-e67717978559",
-                                    "data": {
-                                        "title": "Languages used: Python, Django"
-                                    },
+                                    "value": "Languages used: Python, Django",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2671,9 +2290,7 @@
                         },
                         {
                             "id": "078217e8-4790-4aed-a994-e348bcd8b459",
-                            "data": {
-                                "title": "Investment portfolio management system"
-                            },
+                            "value": "Investment portfolio management system",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -2683,9 +2300,7 @@
                             "children": [
                                 {
                                     "id": "6e35f59c-7204-4b96-a6c3-3c9443277198",
-                                    "data": {
-                                        "title": "Cost base tracking on share parcel purchases."
-                                    },
+                                    "value": "Cost base tracking on share parcel purchases.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2696,9 +2311,7 @@
                                 },
                                 {
                                     "id": "74f2932e-2fae-4b9a-bb62-96b1a394bb4f",
-                                    "data": {
-                                        "title": "Share price historical data retrieval via API and historisation into a local SQL database"
-                                    },
+                                    "value": "Share price historical data retrieval via API and historisation into a local SQL database",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2709,9 +2322,7 @@
                                 },
                                 {
                                     "id": "c104bc20-cf1d-4a47-80fd-da8db4eb1649",
-                                    "data": {
-                                        "title": "Development of a financial data-model within an Interactive PowerBI report. Use of DAX language to query and aggregate data across normalised relational tables."
-                                    },
+                                    "value": "Development of a financial data-model within an Interactive PowerBI report. Use of DAX language to query and aggregate data across normalised relational tables.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2721,9 +2332,7 @@
                                     "children": [
                                         {
                                             "id": "9ba250bb-39c2-4823-a074-ed7a3535c0ba",
-                                            "data": {
-                                                "title": "A financial model in PowerBI"
-                                            },
+                                            "value": "A financial model in PowerBI",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -2738,9 +2347,7 @@
                                 },
                                 {
                                     "id": "d28ac65c-d48c-45d7-8044-7f5a3b0c6e43",
-                                    "data": {
-                                        "title": "Historical portfolio time-series reconstruction"
-                                    },
+                                    "value": "Historical portfolio time-series reconstruction",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2751,9 +2358,7 @@
                                 },
                                 {
                                     "id": "b41d3694-bd22-4cb7-9bf3-4f53704e297d",
-                                    "data": {
-                                        "title": "Cashflow management, calculated investment allocation metrics"
-                                    },
+                                    "value": "Cashflow management, calculated investment allocation metrics",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2764,9 +2369,7 @@
                                 },
                                 {
                                     "id": "e47afb39-fdd4-4f89-ac69-b519dc9dcccc",
-                                    "data": {
-                                        "title": "Monte-Carlo simulation applied to a stochastic, non-linear financial model"
-                                    },
+                                    "value": "Monte-Carlo simulation applied to a stochastic, non-linear financial model",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2776,9 +2379,7 @@
                                     "children": [
                                         {
                                             "id": "25ef7e7d-3185-454c-9795-f3c97610caf3",
-                                            "data": {
-                                                "title": "Monte Carlo Simulations within a financial model"
-                                            },
+                                            "value": "Monte Carlo Simulations within a financial model",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -2793,9 +2394,7 @@
                                 },
                                 {
                                     "id": "f5071c5a-f627-4d41-87c1-dd6b65f33481",
-                                    "data": {
-                                        "title": "Languages and frameworks used: Python, PowerBI, DAX"
-                                    },
+                                    "value": "Languages and frameworks used: Python, PowerBI, DAX",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2806,9 +2405,7 @@
                                 },
                                 {
                                     "id": "81a3cd31-9e94-47dc-9e7a-161ac7ac629e",
-                                    "data": {
-                                        "title": "This is a personal project, but included here to demonstrate experience with data management. The repo is private."
-                                    },
+                                    "value": "This is a personal project, but included here to demonstrate experience with data management. The repo is private.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2821,9 +2418,7 @@
                         },
                         {
                             "id": "8e8d617a-c3be-40ef-94e7-612c06c423dc",
-                            "data": {
-                                "title": "Similarpanda"
-                            },
+                            "value": "Similarpanda",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -2833,9 +2428,7 @@
                             "children": [
                                 {
                                     "id": "5d388443-c160-47a3-b6b1-f12b9ea2913f",
-                                    "data": {
-                                        "title": "This is a tool to compare two data tables, such as two revisions of spreadsheet. This tool was written in Python and Pandas, and can clearly identify:"
-                                    },
+                                    "value": "This is a tool to compare two data tables, such as two revisions of spreadsheet. This tool was written in Python and Pandas, and can clearly identify:",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2845,9 +2438,7 @@
                                     "children": [
                                         {
                                             "id": "580e17bf-b647-49ca-aef4-a80dfc786984",
-                                            "data": {
-                                                "title": "New rows (ie, new records)"
-                                            },
+                                            "value": "New rows (ie, new records)",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -2858,9 +2449,7 @@
                                         },
                                         {
                                             "id": "7d992afd-096b-4efb-a3dd-97fefd210307",
-                                            "data": {
-                                                "title": "Deleted rows"
-                                            },
+                                            "value": "Deleted rows",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -2871,9 +2460,7 @@
                                         },
                                         {
                                             "id": "810ba936-6ada-4af4-895f-83aac038139d",
-                                            "data": {
-                                                "title": "Changed rows, including the before and after values of each cell."
-                                            },
+                                            "value": "Changed rows, including the before and after values of each cell.",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -2884,9 +2471,7 @@
                                         },
                                         {
                                             "id": "de4e77dc-044b-46ae-92ca-5280786fdea0",
-                                            "data": {
-                                                "title": "New columns"
-                                            },
+                                            "value": "New columns",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -2897,9 +2482,7 @@
                                         },
                                         {
                                             "id": "de6eeb60-7f46-47c0-ac1f-0bad58fe3936",
-                                            "data": {
-                                                "title": "Deleted columns"
-                                            },
+                                            "value": "Deleted columns",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -2912,9 +2495,7 @@
                                 },
                                 {
                                     "id": "9ab6aa29-1612-46b6-af00-bb9697b79093",
-                                    "data": {
-                                        "title": "https://github.com/pretoriusdre/similarpanda"
-                                    },
+                                    "value": "https://github.com/pretoriusdre/similarpanda",
                                     "meta": {
                                         "element": "a",
                                         "attributes": {
@@ -2927,9 +2508,7 @@
                                 },
                                 {
                                     "id": "a9e4c474-bd89-4de6-b9b5-65f9074747f1",
-                                    "data": {
-                                        "title": "Languages used: Python"
-                                    },
+                                    "value": "Languages used: Python",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2939,9 +2518,7 @@
                                     "children": [
                                         {
                                             "id": "9fefad72-c5eb-41a9-be89-4cf59d3bf9f4",
-                                            "data": {
-                                                "title": "SimilarPanda example"
-                                            },
+                                            "value": "SimilarPanda example",
                                             "meta": {
                                                 "element": "img",
                                                 "attributes": {
@@ -2958,9 +2535,7 @@
                         },
                         {
                             "id": "61f80a8e-ae21-4e81-8856-bc6b983d50e5",
-                            "data": {
-                                "title": "Loadsheet"
-                            },
+                            "value": "Loadsheet",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -2970,9 +2545,7 @@
                             "children": [
                                 {
                                     "id": "0169364d-e99d-4df1-af1d-92fe8ac016e1",
-                                    "data": {
-                                        "title": "Designed, developed and deployed a cloud-based web app to validate Excel Spreasheets from engineering suppliers, and extract the data."
-                                    },
+                                    "value": "Designed, developed and deployed a cloud-based web app to validate Excel Spreasheets from engineering suppliers, and extract the data.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2983,9 +2556,7 @@
                                 },
                                 {
                                     "id": "cedd301e-d39d-4224-96e3-22cad47d8c5c",
-                                    "data": {
-                                        "title": "Generation of validation reports based on pre-defined schemas, eg checking string lengths, character encoding, column names, min/max values, catalogue of allowable values."
-                                    },
+                                    "value": "Generation of validation reports based on pre-defined schemas, eg checking string lengths, character encoding, column names, min/max values, catalogue of allowable values.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -2996,9 +2567,7 @@
                                 },
                                 {
                                     "id": "af89c89b-e878-46cb-a5bf-6209ca7a68c7",
-                                    "data": {
-                                        "title": "The app allows vendors to rectify mistakes prior to official submission to an engineering project."
-                                    },
+                                    "value": "The app allows vendors to rectify mistakes prior to official submission to an engineering project.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -3009,9 +2578,7 @@
                                 },
                                 {
                                     "id": "65562802-08b8-4049-ba3b-846c9cf22b63",
-                                    "data": {
-                                        "title": "Extracted data is (optionally) encrypted using asymmetric encryption, and made available via a REST API."
-                                    },
+                                    "value": "Extracted data is (optionally) encrypted using asymmetric encryption, and made available via a REST API.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -3022,9 +2589,7 @@
                                 },
                                 {
                                     "id": "bacc7825-79dc-4ea6-9190-629308ed8b07",
-                                    "data": {
-                                        "title": "Languages and frameworks used: Python, Django, Javascript, HTML, CSS"
-                                    },
+                                    "value": "Languages and frameworks used: Python, Django, Javascript, HTML, CSS",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -3035,9 +2600,7 @@
                                 },
                                 {
                                     "id": "9dacb53a-7704-489d-85af-b4e0eb1d05ee",
-                                    "data": {
-                                        "title": "https://www.loadsheet.io"
-                                    },
+                                    "value": "https://www.loadsheet.io",
                                     "meta": {
                                         "element": "a",
                                         "attributes": {
@@ -3053,9 +2616,7 @@
                         },
                         {
                             "id": "d24de376-3f64-45f1-b1fe-cc124d1ddac5",
-                            "data": {
-                                "title": "This r\u00e9sum\u00e9"
-                            },
+                            "value": "This r\u00e9sum\u00e9",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -3065,9 +2626,7 @@
                             "children": [
                                 {
                                     "id": "9560a760-ceea-4724-9f73-4d0e72747a23",
-                                    "data": {
-                                        "title": "I designed and built this interactive resume. The rendering engine is written in Javascript / React, whilst the content is stored in a JSON hierarchy. Styling is achieved by using CSS."
-                                    },
+                                    "value": "I designed and built this interactive resume. The rendering engine is written in Javascript / React, whilst the content is stored in a JSON hierarchy. Styling is achieved by using CSS.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -3078,9 +2637,7 @@
                                 },
                                 {
                                     "id": "0aafba5b-866f-4aa7-82c3-a56e935642b1",
-                                    "data": {
-                                        "title": "The resume is designed to allow for opportunity to expand on certain ideas, and incorporate rich content, whilst still being able to be printed to a conventional A4 pdf."
-                                    },
+                                    "value": "The resume is designed to allow for opportunity to expand on certain ideas, and incorporate rich content, whilst still being able to be printed to a conventional A4 pdf.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -3090,9 +2647,7 @@
                                     "children": [
                                         {
                                             "id": "04551f1f-967d-4b3d-86cf-3f8bb0d154b4",
-                                            "data": {
-                                                "title": "Test video please don't click it..."
-                                            },
+                                            "value": "Test video please don't click it...",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -3103,9 +2658,7 @@
                                         },
                                         {
                                             "id": "2256275a-7063-4023-a7c3-19f6ad6fd400",
-                                            "data": {
-                                                "title": "Test"
-                                            },
+                                            "value": "Test",
                                             "meta": {
                                                 "element": "iframe",
                                                 "attributes": {
@@ -3121,9 +2674,7 @@
                                 },
                                 {
                                     "id": "68344bfb-43b1-41d3-bb3f-a127440584b2",
-                                    "data": {
-                                        "title": "Languages and frameworks used: Javascript, React"
-                                    },
+                                    "value": "Languages and frameworks used: Javascript, React",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -3136,9 +2687,7 @@
                         },
                         {
                             "id": "b3315302-3537-420c-9098-fefe70f0f61b",
-                            "data": {
-                                "title": "Other projects"
-                            },
+                            "value": "Other projects",
                             "meta": {
                                 "element": "span",
                                 "attributes": {},
@@ -3148,9 +2697,7 @@
                             "children": [
                                 {
                                     "id": "8e05f05e-b10e-4b92-955e-32169c8b8d2d",
-                                    "data": {
-                                        "title": "Approximately ~40 other small projects which were developed rapidly and not checked into version control."
-                                    },
+                                    "value": "Approximately ~40 other small projects which were developed rapidly and not checked into version control.",
                                     "meta": {
                                         "element": "span",
                                         "attributes": {},
@@ -3160,9 +2707,7 @@
                                     "children": [
                                         {
                                             "id": "548b3df4-e640-4476-8535-345d28fea533",
-                                            "data": {
-                                                "title": "Primary language-of-choice: Python."
-                                            },
+                                            "value": "Primary language-of-choice: Python.",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -3173,9 +2718,7 @@
                                         },
                                         {
                                             "id": "0273ae0a-5e1b-4b2d-b96c-712aa9ac597a",
-                                            "data": {
-                                                "title": "Primary focus: Data"
-                                            },
+                                            "value": "Primary focus: Data",
                                             "meta": {
                                                 "element": "span",
                                                 "attributes": {},
@@ -3194,9 +2737,7 @@
         },
         {
             "id": "a6e9c225-c91b-4ff5-8222-17727e65f9f0",
-            "data": {
-                "title": "References"
-            },
+            "value": "References",
             "meta": {
                 "element": "h2",
                 "attributes": {},
@@ -3207,9 +2748,7 @@
             "children": [
                 {
                     "id": "264a7b70-658e-423d-9d43-4ed2e33ad454",
-                    "data": {
-                        "title": "References are available upon request."
-                    },
+                    "value": "References are available upon request.",
                     "meta": {
                         "element": "span",
                         "attributes": {},

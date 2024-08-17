@@ -25,6 +25,7 @@ function ResumeNode(props) {
     const bulletClass = "bulletspan" + (hasChildren ? "" : " leaf");
 
     const id = props.data.id;
+    const title = props.data.value
 
     const isActive = () => {
         return id === activeNode?.id;
@@ -52,8 +53,8 @@ function ResumeNode(props) {
 
     const titleElement = (
         props.data?.meta?.always_show ?
-        <span>{props?.data?.data?.title}</span> : 
-        <span><span className={bulletClass} onClick={hasChildren ? toggleCollapse : null}>{NodeIcon}</span>{props?.data?.data?.title}</span>
+        <span>{title}</span> : 
+        <span><span className={bulletClass} onClick={hasChildren ? toggleCollapse : null}>{NodeIcon}</span>{title}</span>
     )
     
     const isImageTag = props?.data?.meta?.element === 'img'
@@ -66,7 +67,7 @@ function ResumeNode(props) {
     );  
 
     const modalClass = "imgmodal" + (collapsed ? "-hidden" : "")
-    const title = props?.data?.data?.title
+
         
     const element_img = (
         <div>
@@ -85,7 +86,7 @@ function ResumeNode(props) {
 
     const childItems = (props?.data?.children || []).map(
         (child) => {
-            return <ResumeNode data={child} depth={props.depth + 1} key={props?.data?.title}/>
+            return <ResumeNode data={child} depth={props.depth + 1} key={id}/>
         }
     );
 
