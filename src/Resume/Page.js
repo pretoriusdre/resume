@@ -7,7 +7,7 @@ import './Page.css';
 
 import ResumeContext from "./ResumeContext";
 
-import ResumeNode from './ResumeNode';
+import ResumeNodeList from './ResumeNodeList';
 import resume from './data/resume_content.json';
 
 
@@ -21,7 +21,7 @@ function Page(props) {
 
     return(
         <div className='pagecontainer'>
-        <ResumeNode data={props.data} depth={1}/>
+        <ResumeNodeList data={props.data} depth={0}/>
         </div>
     );
 }

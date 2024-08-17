@@ -11,21 +11,33 @@ import getImageByKey from './getImageByKey';
 
 //import { v4 as uuidv4 } from 'uuid';
 
-import './ResumeNode.css'
+import './ResumeNodeList.css'
 
-function ResumeNode(props) {
+
+const ResumeNodeList = ({ data, depth }) => {
+    return (
+      <div>
+        {(data || []).map((child) => (
+          <ResumeNode data={child} depth={depth + 1} key={child.id} />
+        ))}
+        </div>
+    );
+  };
+  
+
+function ResumeNode({ data, depth }) {
 
     const { isEditing, setIsEditing } = useContext(ResumeContext);
     const { activeNode, setActiveNode } = useContext(ResumeContext);
 
 
-    const [collapsed, setCollapsed] = useState(props.data?.meta?.collapsed || false);
-    const hasChildren = ((props.data?.children?.length > 0));
+    const [collapsed, setCollapsed] = useState(data?.meta?.collapsed || false);
+    const hasChildren = ((data?.children?.length > 0));
     const NodeIcon = (hasChildren ? (collapsed ? '+' : '-') : '>');
     const bulletClass = "bulletspan" + (hasChildren ? "" : " leaf");
 
-    const id = props.data.id;
-    const title = props.data.value
+    const id = data.id;
+    const title = data.value
 
     const isActive = () => {
         return id === activeNode?.id;
@@ -52,17 +64,17 @@ function ResumeNode(props) {
 
 
     const titleElement = (
-        props.data?.meta?.always_show ?
+        data?.meta?.always_show ?
         <span>{title}</span> : 
         <span><span className={bulletClass} onClick={hasChildren ? toggleCollapse : null}>{NodeIcon}</span>{title}</span>
     )
     
-    const isImageTag = props?.data?.meta?.element === 'img'
-    const isIFrame = props?.data?.meta?.element === 'iframe'
+    const isImageTag = data?.meta?.element === 'img'
+    const isIFrame = data?.meta?.element === 'iframe'
 
     const element_arbitrary = React.createElement(
-        props?.data?.meta?.element || 'span',
-        props?.data?.meta?.attributes,
+        data?.meta?.element || 'span',
+        data?.meta?.attributes,
         titleElement
     );  
 
@@ -71,42 +83,36 @@ function ResumeNode(props) {
         
     const element_img = (
         <div>
-            <img src={getImageByKey(props?.data?.meta?.attributes?.src)} className="imgtiny" onClick={toggleCollapse} title={title} alt={title}/>
-            <img src={getImageByKey(props?.data?.meta?.attributes?.src)} className={modalClass} onClick={toggleCollapse} title={title} alt={title}/>
+            <img src={getImageByKey(data?.meta?.attributes?.src)} className="imgtiny" onClick={toggleCollapse} title={title} alt={title}/>
+            <img src={getImageByKey(data?.meta?.attributes?.src)} className={modalClass} onClick={toggleCollapse} title={title} alt={title}/>
         </div>
     );
 
     const element_iframe = (
         <div>
-            <iframe src={props?.data?.meta?.attributes?.src} width="640px" height="385px" allowFullScreen allow="autoplay"/>
+            <iframe src={data?.meta?.attributes?.src} width="640px" height="385px" allowFullScreen allow="autoplay"/>
         </div>
     );
 
     const element = (isImageTag ? element_img : (isIFrame ? element_iframe : element_arbitrary));
 
-    const childItems = (props?.data?.children || []).map(
-        (child) => {
-            return <ResumeNode data={child} depth={props.depth + 1} key={id}/>
-        }
-    );
 
     const indentedChildren = (
-        props.depth > 2 ?
+        depth > 2 ?
         <ul>
-            {childItems}
+            <ResumeNodeList data={data.children} depth={depth}/>
         </ul> :
-        childItems
+        <ResumeNodeList data={data.children} depth={depth}/>
     )
     
-    const hidden = props.data?.meta?.hidden || false;
+    const hidden = data?.meta?.hidden || false;
     if (hidden) {
         return <React.Fragment/>
     };
 
     const handleSetActiveNode = () => {
-        setActiveNode(props?.data);
+        setActiveNode(data);
     };
-
 
 
     return (
@@ -133,4 +139,4 @@ function ResumeNode(props) {
 }
 
 
-export default ResumeNode
+export default ResumeNodeList

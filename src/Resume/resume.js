@@ -14,7 +14,7 @@ import EditingPane from './EditingPane';
 
 import Page from './Page';
 
-import ResumeNode from './ResumeNode';
+import ResumeNodeList from './ResumeNodeList';
 import resume from './data/resume_content.json';
 
 
