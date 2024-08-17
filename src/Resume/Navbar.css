@@ -32,8 +32,8 @@
     .navbar nav ul li a {
         color: rgb(0, 0, 0);
         text-decoration: none;
-        padding-left: 10 em;
-        padding-right: 0.5em;
+        padding-left: 2em;
+        padding-right: 2em;
         display: inline-block;
     }
     

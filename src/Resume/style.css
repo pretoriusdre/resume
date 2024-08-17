@@ -28,7 +28,11 @@ body {
   margin-top: 12mm;
   padding: 12mm;
   border-radius: 2mm;
+
+
 }
+
+
 
 @media print {
   .pagecontainer {
@@ -207,8 +211,15 @@ code {
     margin-top: 3mm;
     padding: 0mm;
     border-radius: 2mm;
+    transition: margin-left 0.3s ease; /* Smooth transition for margin adjustment */
 
   }
+
+  .pagecontainer.shifted {
+    margin-left: 50%; /* Shift content right by the width of the sliding pane */
+    background-color: rgb(27, 66, 196);
+  }
+
 
   ul {
     padding-left: 3mm;

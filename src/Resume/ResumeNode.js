@@ -7,39 +7,23 @@ import DragAndDropItems from './DragAndDropItems'
 import Separator from './Separator';
 
 
-import resume_images from './data/resume_images.json';
+import getImageByKey from './getImageByKey';
 
-
-
-
-const images = {};
-const loadImages = async () => {
-    for (const [key, path] of Object.entries(resume_images)) {
-      try {
-        const module = await import(`${path}`);
-        images[key] = module.default;
-      } catch (error) {
-        console.error(`Failed to load image at ${path}:`, error);
-      }
-    }
-  };
-loadImages();
-
-
-function getImageByKey(key: string) {
-    return images[key]
-}
+//import { v4 as uuidv4 } from 'uuid';
 
 
 function ResumeNode(props) {
 
     const { isEditing, setIsEditing } = useContext(ResumeContext);
-    
+    const { activeNode, setActiveNode } = useContext(ResumeContext);
+
+
     const [collapsed, setCollapsed] = useState(props.data?.meta?.collapsed || false);
     const hasChildren = ((props.data?.children?.length > 0));
     const NodeIcon = (hasChildren ? (collapsed ? '+' : '-') : '>');
     const bulletClass = "bulletspan" + (hasChildren ? "" : " leaf");
-    const id = 'test'
+
+    const id = props.data.id
 
     const [{ isDragging }, drag] = useDrag(() => ({
         type: DragAndDropItems.RESUME_NODE,
@@ -49,19 +33,17 @@ function ResumeNode(props) {
         }),
       }));
     
+    const handleDrag = (resume_node) => drag(resume_node);
 
     function toggleCollapse() {
-
         if (collapsed) {
-            setCollapsed(false);
+            setCollapsed(false);    
         } else {
             setCollapsed(true);
         }
     }
     
-    function getImageByKey(key: string) {
-        return images[key]
-    }
+
 
     const titleElement = (
         props.data?.meta?.always_show ?
@@ -82,15 +64,17 @@ function ResumeNode(props) {
     const title = props?.data?.data?.title
         
     const element_img = (
-    <div>
-        <img src={getImageByKey(props?.data?.meta?.attributes?.src)} className="imgtiny" onClick={toggleCollapse} title={title} alt={title}/>
-        <img src={getImageByKey(props?.data?.meta?.attributes?.src)} className={modalClass} onClick={toggleCollapse} title={title} alt={title}/>
-    </div>)
+        <div>
+            <img src={getImageByKey(props?.data?.meta?.attributes?.src)} className="imgtiny" onClick={toggleCollapse} title={title} alt={title}/>
+            <img src={getImageByKey(props?.data?.meta?.attributes?.src)} className={modalClass} onClick={toggleCollapse} title={title} alt={title}/>
+        </div>
+    );
 
     const element_iframe = (
-    <div>
-        <iframe src={props?.data?.meta?.attributes?.src} width="640px" height="385px" allowFullScreen allow="autoplay"/>
-    </div>)
+        <div>
+            <iframe src={props?.data?.meta?.attributes?.src} width="640px" height="385px" allowFullScreen allow="autoplay"/>
+        </div>
+    );
 
     const element = (isImageTag ? element_img : (isIFrame ? element_iframe : element_arbitrary));
 
@@ -111,15 +95,22 @@ function ResumeNode(props) {
     const hidden = props.data?.meta?.hidden || false;
     if (hidden) {
         return <React.Fragment/>
-    }
+    };
+
+    const handleSetActiveNode = () => {
+        setActiveNode( JSON.stringify(props?.data, null, 4));
+    };
 
     return (
         <div>
             <div className='hangingIndent'>
                 <div 
-                    ref={(resume_node) => drag(resume_node)}
-                    className={`draggable ${isDragging ? 'dragging' : ''}`}  >
-                    {element}
+                    ref={isEditing ? handleDrag : null}
+                    className={`${isEditing ? 'draggable' : ''} ${isDragging ? 'dragging' : ''}`}  
+                >
+                    <div onClick={handleSetActiveNode}>
+                        {element}
+                    </div>
                     {isEditing ? <Separator/> : ""}
                     <div className={collapsed ? 'collapsed' : 'visible'}>
                         {indentedChildren}

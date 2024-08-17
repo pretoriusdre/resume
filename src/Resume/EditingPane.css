@@ -1,0 +1,31 @@
+@media print {
+    .editing-pane {
+       display: none;
+       margin-top: 0;
+    }
+  }
+
+
+.editing-pane {
+    position: fixed;
+    top: 0;
+    left: -33%; /* Start hidden to the left */
+    width: 33%;
+    height: 100%;
+    background-color: #f1f1f1; /* Adjust background color as needed */
+    transition: left 0.3s ease; /* Smooth transition for sliding effect */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); /* Optional: add shadow for better visibility */
+    z-index: 1000; /* Ensure it appears above other content */
+  }
+  
+  .editing-pane.open {
+    left: 0; /* Slide in */
+  }
+  
+  .editing-pane-content {
+    padding: 20px;
+    overflow: auto; /* Ensures that content that exceeds the height or width is scrollable */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    max-width: 100%; /* Prevent content from exceeding the width of the editing pane */
+    word-wrap: break-word; /* Force long words to wrap within the container */
+  }
