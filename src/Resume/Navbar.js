@@ -10,6 +10,8 @@ const Navbar = () => {
   const { isEditing, setIsEditing } = useContext(ResumeContext);
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
+  
+  const { data, setData } = useContext(ResumeContext);
 
   const toggleEditing = () => {
     setIsEditing(!isEditing);
@@ -39,10 +41,22 @@ const Navbar = () => {
   }, [scrollPosition]);
 
 
+
+  const handleExport = () => {
+    const jsonString = `data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(data, null, 2))}`;
+    const link = document.createElement('a');
+    link.href = jsonString;
+    link.download = 'resume_data.json';
+    link.click();
+  };
+
+
+
   return (
     <header className={`navbar ${!isVisible ? 'hidden' : ''}`} onMouseEnter={() => setIsVisible(true)}>
       <nav>
         <ul>
+          {isEditing ? <li><a href="#" onClick={handleExport}>Export JSON</a></li> : null}
           <li><a href="#" onClick={toggleEditing}>{isEditing ? "Stop Editing" : "Edit"}</a></li>
           <li><a href="https://github.com/pretoriusdre/resume" target="_blank">Source</a></li>
         </ul>
