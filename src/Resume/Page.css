@@ -28,8 +28,6 @@ body {
   margin-top: 12mm;
   padding: 12mm;
   border-radius: 2mm;
-
-
 }
 
 
@@ -57,43 +55,8 @@ body {
 
 .hangingIndent {
   text-indent: -4mm;
-  padding-left: 4mm;
-  
-}
-
-.draggable {
-  cursor: move;
-  opacity: 1;
-  border: none;
-  transition: opacity 0.2s ease, border 0.2s ease;
-}
-
-.draggable.dragging {
-  opacity: 0.5;
-  border: 1px solid rgb(41, 41, 41);
-  background-color: rgba(255, 0, 0, 0.2);
-}
-
-p {
-  text-indent: 0mm;
-  padding-left: 0mm;
-}
-
-.collapsed {
-  height: 0;
-  display: block;
-  overflow: hidden;
-}
-
-.visible {
-  height: auto;
-  display: block;
-}
-
-ul {
   padding-left: 6mm;
-  margin-top: 0mm;
-  margin-bottom: 0mm;
+  
 }
 
 
@@ -126,6 +89,10 @@ h3 {
   margin-bottom: 1mm;
 }
 
+p {
+  text-indent: 0mm;
+  padding-left: 0mm;
+}
 
 
 .jobTitle {
@@ -143,15 +110,11 @@ code {
     monospace;
 }
 
-
-
-
 .imgtiny {
   width: 4cm;
   cursor: pointer;
 
 }
-
 
 .imgmodal {
   display: visible;
@@ -172,22 +135,6 @@ code {
 }
 
 
-@media only screen {
-  .subtitleLink {
-    display: none;
-  }
-}
-
-@media print {
-  .subtitleLink {
-    display: inline-block;
-    font-size: 10pt;
-    font-style: italic;
-    white-space: nowrap;
-
-  }
-
-}
 @media only screen and (max-width: 750px) {
 
   body {
@@ -212,17 +159,10 @@ code {
     padding: 0mm;
     border-radius: 2mm;
   }
-
-
-  ul {
-    padding-left: 3mm;
-  }
-
   .hangingIndent {
     text-indent: -3mm;
     padding-left: 3mm;
   }
-
   .bulletspan {
     width: 3mm;
 

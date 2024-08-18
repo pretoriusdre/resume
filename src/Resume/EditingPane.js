@@ -39,15 +39,16 @@ const EditingPane = () => {
 
   return (
         <div>
-          <h2>Editing feature: Work in progress</h2>
+          <h2>Editing feature: This won't work unless you are me</h2>
+          Feel free to experiment though.
           <form onSubmit={handleSubmit}>
-          <span>id: </span><span>{dataWithoutChildren?.id}</span>
+
           <textarea
             value={JSON.stringify(dataWithoutChildren, null, 4)}
             onChange={handleChange}
             className="textarea-custom"
           />
-          <button type="submit">Submit</button>
+          <button type="submit">Update</button>
         </form>
         </div>
   );

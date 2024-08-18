@@ -15,15 +15,23 @@ import Page from './Page';
 import resume from './data/resume_content.json';
 
 
-function Resume(props) {
+const Resume = () => {
 
     useEffect(() => {
         document.title = 'Résumé';
     }, []);
 
-    const [activeNode, setActiveNode] = useState(null);
-    const [isEditing, setIsEditing] = useState(false);
+
     const [data, setData] = useState(resume);
+    const [isEditing, setIsEditing] = useState(false);
+    const [activeNode, setActiveNode] = useState(null);
+
+
+    useEffect(() => {
+        if (data && data.length > 0) {
+            setActiveNode(data[0]); // Set the first item as activeNode
+        }
+    }, [data]); // This useEffect depends on the data state
 
 
     return(
@@ -38,7 +46,7 @@ function Resume(props) {
                     <div className={isEditing ? 'column column-sidepanel' :'column column-collapsed' }>
                         <EditingPane/>
                     </div>
-                    <div className="column column-main">
+                    <div className={isEditing ? 'column column-mainwithsidepanel' :'column column-main' }>
                         <Page data={data}/>
                     </div>
                 </div>

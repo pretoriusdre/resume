@@ -13,18 +13,22 @@ import getImageByKey from './getImageByKey';
 import './ResumeNodeList.css'
 
 
-const ResumeNodeList = ({ data, depth }) => {
+const ResumeNodeList = ({ data, depth, materialised_path }) => {
+
     return (
       <div>
         {(data || []).map((child) => (
-          <ResumeNode data={child} depth={depth + 1} key={child.id} />
+          <ResumeNode 
+            data={child} depth={depth + 1}
+            materialised_path={[...materialised_path, child.id]}
+            key={child.id} />
         ))}
         </div>
     );
   };
   
 
-function ResumeNode({ data, depth }) {
+function ResumeNode({ data, depth, materialised_path}) {
 
     const { isEditing, setIsEditing } = useContext(ResumeContext);
     const { activeNode, setActiveNode } = useContext(ResumeContext);
@@ -92,15 +96,14 @@ function ResumeNode({ data, depth }) {
     const element = (isImageTag ? element_img : (isIFrame ? element_iframe : element_arbitrary));
 
     const indentedChildren = (
-        depth > 2 ?
-        <ul>
-            <ResumeNodeList data={data.children} depth={depth}/>
-        </ul> :
-        <ResumeNodeList data={data.children} depth={depth}/>
+        <div className={depth > 0 ? 'hangingIndent' : ''}>
+            {isEditing ? <Separator id={id} position='first_child'/> : ""}
+            <ResumeNodeList data={data.children} materialised_path={materialised_path} depth={depth}/>
+        </div>
     )
     
     const hidden = data?.meta?.hidden || false;
-    if (hidden) {
+    if (hidden & !isEditing) {
         return <React.Fragment/>
     };
 
@@ -110,24 +113,24 @@ function ResumeNode({ data, depth }) {
 
     return (
         <div>
-            <div className='hangingIndent'>
+            <div 
+                ref={isEditing ? handleDrag : null}
+                className={`${isEditing ? 'draggable' : ''} ${isDragging ? 'dragging' : ''}`}  
+            >
                 <div 
-                    ref={isEditing ? handleDrag : null}
-                    className={`${isEditing ? 'draggable' : ''} ${isDragging ? 'dragging' : ''}`}  
+                    onClick={handleSetActiveNode}
+                    className={isEditing & (id === activeNode?.id) ? 'element-active' : 'element'}
                 >
-                    <div 
-                        onClick={handleSetActiveNode}
-                        className={isEditing & (id === activeNode?.id) ? 'element-active' : 'element'}
-                        >
-                        {element}
-                    </div>
-                    {isEditing ? <Separator/> : ""}
-                    <div className={collapsed ? 'collapsed' : 'visible'}>
-                        {indentedChildren}
-                    </div>
+                    {element}
                 </div>
+                
+                <div className={collapsed ? 'collapsed' : 'visible'}>
+                    {indentedChildren}
+                </div>
+                {isEditing ? <Separator id={id} position='last_sibling'/> : ""}
             </div>
         </div>
+            
     );
 }
 

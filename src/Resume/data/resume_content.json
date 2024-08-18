@@ -25,35 +25,6 @@
                 "children": []
             },
             {
-                "id": "77308c68-33c6-4b93-ac32-b0a145a7eaa5",
-                "value": "This interactive resume is best viewed online: ",
-                "meta": {
-                    "element": "span",
-                    "attributes": {
-                        "className": "subtitleLink"
-                    },
-                    "collapsed": false,
-                    "hidden": false,
-                    "always_show": true
-                },
-                "children": []
-            },
-            {
-                "id": "6cb22037-d3b1-4372-9433-459a3c392d88",
-                "value": "https://pretoriusdre.github.io/resume",
-                "meta": {
-                    "element": "a",
-                    "attributes": {
-                        "href": "https://pretoriusdre.github.io/resume",
-                        "className": "subtitleLink"
-                    },
-                    "collapsed": false,
-                    "hidden": false,
-                    "always_show": true
-                },
-                "children": []
-            },
-            {
                 "id": "feda25e4-beb3-4ef3-8bcb-489533e48600",
                 "value": "Contact Details",
                 "meta": {

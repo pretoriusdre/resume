@@ -6,7 +6,7 @@ import DragAndDropItems from './DragAndDropItems'
 
 import './Separator.css';
 
-const Separator = () => {
+const Separator = ({id, position}) => {
     const [{ isOver }, drop] = useDrop(() => ({
         accept: DragAndDropItems.RESUME_NODE,
         drop: (item) => handleDrop(item),
@@ -21,11 +21,13 @@ const Separator = () => {
     };
 
     return (
+
+
         <div 
             ref={(resume_node) => drop(resume_node)}  // Only apply drop, not drag
             className={`separator ${isOver ? 'over' : ''}`}>
-
         </div>
+
     );
 };
 

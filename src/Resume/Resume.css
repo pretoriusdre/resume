@@ -1,17 +1,24 @@
 .container {
     display: flex;
+    transition: margin-left 0.3s ease; /* Animate the margin change of the main content */
+
+
   }
   
   .column {
     padding: 10px;
   }
   
-  .column-sidepanel{
+  .column-sidepanel {
+    position: fixed; /* Fixes the side panel in place */
+
     flex: 0 0 auto; /* This disables the flex-grow and flex-shrink behavior */
     width: 40%; /* Set a fixed width, or use a fixed pixel width if needed */
     max-width: 40%; /* Ensure that the width does not exceed 40% */
     overflow-wrap: break-word;
+    height: 100vh; /* Make sure the side panel takes up the full height */
 
+    transition: width 1s ease; /* Animate the width change of the side panel */
   }
   
   .column-collapsed{
@@ -23,5 +30,10 @@
     flex: 1;
   }
 
+
+  .column-mainwithsidepanel {
+    flex: 1;
+    margin-left: 40%;
+  }
 
 
