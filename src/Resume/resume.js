@@ -5,11 +5,9 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 
 import './Resume.css';
 
-
 import ResumeContext from "./ResumeContext";
 import Navbar from './Navbar';
 import EditingPane from './EditingPane';
-
 import Page from './Page';
 
 import resume from './data/resume_content.json';
