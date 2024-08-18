@@ -66,7 +66,7 @@ function ResumeNode({ data, depth, materialised_path}) {
     const titleElement = (
         data?.meta?.always_show ?
         <span>{title}</span> : 
-        <span><span className={bulletClass} onClick={hasChildren ? toggleCollapse : null}>{NodeIcon}</span>{title} {data.children.length}</span>
+        <span><span className={bulletClass} onClick={hasChildren ? toggleCollapse : null}>{NodeIcon}</span>{title}</span>
     )
     
     const isImageTag = data?.meta?.element === 'img'
