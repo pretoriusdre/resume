@@ -1,9 +1,16 @@
+import { useContext } from 'react';
+
+
 import './Page.css';
 import ResumeNodeList from './ResumeNodeList';
+import ResumeContext from "./ResumeContext";
 
 import PrintableOverlay from './PrintableOverlay';
 
-const Page = ({data}) => {
+const Page = () => {
+    
+    const { data, setData } = useContext(ResumeContext);
+
     return(
         <div className='pagecontainer'>
             <PrintableOverlay/>

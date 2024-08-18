@@ -6,7 +6,7 @@ import DragAndDropItems from './DragAndDropItems'
 
 import './Separator.css';
 
-const Separator = ({id, position}) => {
+const Separator = ({id, materialised_path, relative_position}) => {
     const [{ isOver }, drop] = useDrop(() => ({
         accept: DragAndDropItems.RESUME_NODE,
         drop: (item) => handleDrop(item),
@@ -16,8 +16,13 @@ const Separator = ({id, position}) => {
       }));
 
     const handleDrop = (item) => {
-    //alert(`Dropped item with id: ${item.id} onto item with id: ${id}`);
-    alert(JSON.stringify(item))
+      if (materialised_path.includes(item?.id)) {
+        alert('Cannot move a node to a descendant position.')
+      } else {
+        alert('Move node')
+      };
+  
+
     };
 
     return (
