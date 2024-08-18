@@ -10,8 +10,9 @@ const EditingPane = () => {
     value: '',
     element: 'span',
     attributes: '',
-    collapsed: false,
+    start_collapsed: false,
     hidden: false,
+    always_show : false
   });
 
   useEffect(() => {
@@ -21,13 +22,15 @@ const EditingPane = () => {
         value: activeNode.value || '',
         element: activeNode.meta?.element || 'span',
         attributes: JSON.stringify(activeNode.meta?.attributes || {}, null, 2),
-        collapsed: activeNode.meta?.collapsed || false,
+        start_collapsed: activeNode.meta?.start_collapsed || false,
         hidden: activeNode.meta?.hidden || false,
+        always_show : activeNode.meta?.always_show || false
       });
     }
   }, [activeNode]);
 
   const handleChange = (e) => {
+    e.preventDefault();
     const { name, value, type, checked } = e.target;
     setFormData({
       ...formData,
@@ -55,8 +58,9 @@ const EditingPane = () => {
       meta: {
         element: formData.element,
         attributes: parsedAttributes,
-        collapsed: formData.collapsed,
-        hidden: formData.hidden
+        start_collapsed: formData.start_collapsed,
+        hidden: formData.hidden,
+        always_show : formData.always_show
       }
     });
 
@@ -69,7 +73,8 @@ const EditingPane = () => {
     }
   };
 
-  const handleDelete = () => {
+  const handleDelete = (e) => {
+    e.preventDefault();
     console.log('Deleting node:', formData.id);
     // Implement delete logic here
     // setActiveNode(null);  // Example to remove the active node
@@ -81,8 +86,8 @@ const EditingPane = () => {
 
   return (
     <div>
-      <h2>Editing feature: This won't work unless you are me</h2>
-      Feel free to experiment though.
+      <h2>Edit node</h2>
+      You can make changes locally and export to JSON, but persisting those changes requires edit access to the repository.
       <form onSubmit={handleSubmit}>
         <div>
           <label>ID:</label>
@@ -138,11 +143,11 @@ const EditingPane = () => {
           <label>
             <input
               type="checkbox"
-              name="collapsed"
-              checked={formData.collapsed}
+              name="start_collapsed"
+              checked={formData.start_collapsed}
               onChange={handleChange}
             />
-            Collapsed
+            Start Collapsed?
           </label>
         </div>
         
@@ -154,13 +159,27 @@ const EditingPane = () => {
               checked={formData.hidden}
               onChange={handleChange}
             />
-            Hidden
+            Hidden?
           </label>
         </div>
-        
+
+        <div>
+          <label>
+            <input
+              type="checkbox"
+              name="always_show"
+              checked={formData.always_show}
+              onChange={handleChange}
+            />
+            Always show?
+          </label>
+        </div>
+
         <button type="submit">Update</button>
         <button type="button" onClick={handleDelete}>Delete</button>
       </form>
+
+      {JSON.stringify(data.children)}
     </div>
   );
 };

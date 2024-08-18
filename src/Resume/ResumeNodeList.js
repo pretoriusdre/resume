@@ -33,7 +33,7 @@ function ResumeNode({ data, depth, materialised_path}) {
     const { isEditing, setIsEditing } = useContext(ResumeContext);
     const { activeNode, setActiveNode } = useContext(ResumeContext);
 
-    const [collapsed, setCollapsed] = useState(data?.meta?.collapsed || false);
+    const [collapsed, setCollapsed] = useState(data?.meta?.start_collapsed || false);
     const hasChildren = ((data?.children?.length > 0));
     const NodeIcon = (hasChildren ? (collapsed ? '+' : '-') : '>');
     const bulletClass = "bulletspan" + (hasChildren ? "" : " leaf");
@@ -66,7 +66,7 @@ function ResumeNode({ data, depth, materialised_path}) {
     const titleElement = (
         data?.meta?.always_show ?
         <span>{title}</span> : 
-        <span><span className={bulletClass} onClick={hasChildren ? toggleCollapse : null}>{NodeIcon}</span>{title}</span>
+        <span><span className={bulletClass} onClick={hasChildren ? toggleCollapse : null}>{NodeIcon}</span>{title} {data.children.length}</span>
     )
     
     const isImageTag = data?.meta?.element === 'img'

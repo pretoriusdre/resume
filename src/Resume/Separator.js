@@ -48,7 +48,6 @@ const Separator = ({id, materialised_path, relative_position}) => {
       }
 
       setData(newData);
-      alert('Node moved successfully');
       } else {
         alert('Node not found.');
       }

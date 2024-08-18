@@ -13,13 +13,14 @@ const Navbar = () => {
   
   const { data, setData } = useContext(ResumeContext);
 
-  const toggleEditing = () => {
+  const toggleEditing = (e) => {
+    e.preventDefault();
     setIsEditing(!isEditing);
   }
 
 
   const handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
+    const currentScrollPos = window.scrollY;
 
     if (currentScrollPos > scrollPosition) {
       // Scrolling down
@@ -42,7 +43,8 @@ const Navbar = () => {
 
 
 
-  const handleExport = () => {
+  const handleExport = (e) => {
+    e.preventDefault();
     const jsonString = `data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(data, null, 2))}`;
     const link = document.createElement('a');
     link.href = jsonString;
@@ -56,8 +58,8 @@ const Navbar = () => {
     <header className={`navbar ${!isVisible ? 'hidden' : ''}`} onMouseEnter={() => setIsVisible(true)}>
       <nav>
         <ul>
-          {isEditing ? <li><a href="#" onClick={handleExport}>Export JSON</a></li> : null}
-          <li><a href="#" onClick={toggleEditing}>{isEditing ? "Stop Editing" : "Edit"}</a></li>
+          {isEditing ? <li><a href="" onClick={handleExport}>Export JSON</a></li> : null}
+          <li><a href="" onClick={toggleEditing}>{isEditing ? "Stop Editing" : "Edit"}</a></li>
           <li><a href="https://github.com/pretoriusdre/resume" target="_blank">Source</a></li>
         </ul>
       </nav>

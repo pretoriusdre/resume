@@ -5,7 +5,7 @@
         "meta": {
             "element": "h1",
             "attributes": {},
-            "collapsed": false,
+            "start_collapsed": false,
             "hidden": false,
             "always_show": true
         },
@@ -18,7 +18,7 @@
                     "attributes": {
                         "className": "jobTitle"
                     },
-                    "collapsed": false,
+                    "start_collapsed": false,
                     "hidden": false,
                     "always_show": true
                 },
@@ -30,7 +30,7 @@
                 "meta": {
                     "element": "h2",
                     "attributes": {},
-                    "collapsed": true,
+                    "start_collapsed": true,
                     "hidden": false
                 },
                 "children": [
@@ -40,7 +40,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false
                         },
                         "children": [
@@ -50,7 +50,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -63,7 +63,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false
                         },
                         "children": [
@@ -75,7 +75,7 @@
                                     "attributes": {
                                         "href": "mailto:pretorius.dre+source=resume@gmail.com"
                                     },
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false
                                 },
                                 "children": []
@@ -88,7 +88,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false
                         },
                         "children": [
@@ -101,7 +101,7 @@
                                         "href": "https://www.linkedin.com/in/pretoriusdre/",
                                         "target": "_blank"
                                     },
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -114,7 +114,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false
                         },
                         "children": [
@@ -127,7 +127,7 @@
                                         "href": "https://github.com/pretoriusdre",
                                         "target": "_blank"
                                     },
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -142,7 +142,7 @@
                 "meta": {
                     "element": "h2",
                     "attributes": {},
-                    "collapsed": false,
+                    "start_collapsed": false,
                     "hidden": false
                 },
                 "children": [
@@ -152,7 +152,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false
                         },
                         "children": [
@@ -162,7 +162,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -173,7 +173,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": [
@@ -183,7 +183,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -194,7 +194,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -211,7 +211,7 @@
                 "meta": {
                     "element": "h2",
                     "attributes": {},
-                    "collapsed": false,
+                    "start_collapsed": false,
                     "hidden": false
                 },
                 "children": [
@@ -221,7 +221,7 @@
                         "meta": {
                             "element": "p",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false,
                             "always_show": true
                         },
@@ -233,7 +233,7 @@
                         "meta": {
                             "element": "p",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false,
                             "always_show": true
                         },
@@ -245,7 +245,7 @@
                         "meta": {
                             "element": "p",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false,
                             "always_show": true
                         },
@@ -257,7 +257,7 @@
                         "meta": {
                             "element": "p",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false,
                             "always_show": true
                         },
@@ -271,7 +271,7 @@
                 "meta": {
                     "element": "h2",
                     "attributes": {},
-                    "collapsed": false,
+                    "start_collapsed": false,
                     "hidden": true
                 },
                 "children": [
@@ -281,7 +281,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false
                         },
                         "children": []
@@ -292,7 +292,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false
                         },
                         "children": [
@@ -302,7 +302,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -315,7 +315,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false
                         },
                         "children": [
@@ -325,7 +325,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -336,7 +336,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -349,7 +349,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false
                         },
                         "children": [
@@ -359,7 +359,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -370,7 +370,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -383,7 +383,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false
                         },
                         "children": [
@@ -393,7 +393,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -404,7 +404,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -417,7 +417,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": true
                         },
                         "children": [
@@ -427,7 +427,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": true
                                 },
                                 "children": [
@@ -437,7 +437,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -448,7 +448,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -465,7 +465,7 @@
                 "meta": {
                     "element": "h2",
                     "attributes": {},
-                    "collapsed": false,
+                    "start_collapsed": false,
                     "hidden": false,
                     "always_show": false
                 },
@@ -476,7 +476,7 @@
                         "meta": {
                             "element": "h3",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false
                         },
                         "children": [
@@ -486,7 +486,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": [
@@ -496,7 +496,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -506,7 +506,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -517,7 +517,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -528,7 +528,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -541,7 +541,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -551,7 +551,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -562,7 +562,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -575,7 +575,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -585,7 +585,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -602,7 +602,7 @@
                         "meta": {
                             "element": "h3",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false
                         },
                         "children": [
@@ -612,7 +612,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": [
@@ -622,7 +622,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -633,7 +633,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -643,7 +643,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -654,7 +654,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -667,7 +667,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -677,7 +677,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -690,7 +690,7 @@
                                                     "attributes": {
                                                         "src": "sangomarCmmsData"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -705,7 +705,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false
                                 },
                                 "children": []
@@ -718,7 +718,7 @@
                         "meta": {
                             "element": "h3",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false,
                             "always_show": false
                         },
@@ -729,7 +729,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -740,7 +740,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -752,7 +752,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -764,7 +764,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -778,7 +778,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -791,7 +791,7 @@
                                             "attributes": {
                                                 "src": "bearingSpectrum"
                                             },
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -805,7 +805,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -818,7 +818,7 @@
                                             "attributes": {
                                                 "src": "boilerChemicals"
                                             },
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -832,7 +832,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -843,7 +843,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -855,7 +855,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -867,7 +867,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -880,7 +880,7 @@
                                                     "attributes": {
                                                         "src": "separatorWeir"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false,
                                                     "always_show": false
                                                 },
@@ -896,7 +896,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -908,7 +908,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -920,7 +920,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -932,7 +932,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -944,7 +944,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -956,7 +956,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -969,7 +969,7 @@
                                             "attributes": {
                                                 "src": "maintenanceBacklog"
                                             },
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -983,7 +983,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -995,7 +995,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1007,7 +1007,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1020,7 +1020,7 @@
                                             "attributes": {
                                                 "src": "fgm160"
                                             },
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1036,7 +1036,7 @@
                         "meta": {
                             "element": "h3",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false,
                             "always_show": false
                         },
@@ -1047,7 +1047,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1059,7 +1059,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1073,7 +1073,7 @@
                         "meta": {
                             "element": "h3",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false,
                             "always_show": false
                         },
@@ -1084,7 +1084,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1098,7 +1098,7 @@
                         "meta": {
                             "element": "h3",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false,
                             "always_show": false
                         },
@@ -1109,7 +1109,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1121,7 +1121,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1132,7 +1132,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1145,7 +1145,7 @@
                                                     "attributes": {
                                                         "src": "degasserVessel"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false,
                                                     "always_show": false
                                                 },
@@ -1159,7 +1159,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1171,7 +1171,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1184,7 +1184,7 @@
                                                     "attributes": {
                                                         "src": "reboiler"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false,
                                                     "always_show": false
                                                 },
@@ -1196,7 +1196,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false,
                                                     "always_show": false
                                                 },
@@ -1212,7 +1212,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1224,7 +1224,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1236,7 +1236,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1248,7 +1248,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1261,7 +1261,7 @@
                                             "attributes": {
                                                 "src": "radome"
                                             },
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1277,7 +1277,7 @@
                         "meta": {
                             "element": "h3",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false,
                             "always_show": false
                         },
@@ -1288,7 +1288,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1299,7 +1299,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1311,7 +1311,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1323,7 +1323,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1337,7 +1337,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1348,7 +1348,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1360,7 +1360,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1372,7 +1372,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1384,7 +1384,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1396,7 +1396,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1408,7 +1408,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1420,7 +1420,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1433,7 +1433,7 @@
                                                     "attributes": {
                                                         "src": "caesar"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false,
                                                     "always_show": false
                                                 },
@@ -1449,7 +1449,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1460,7 +1460,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1472,7 +1472,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1486,7 +1486,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1497,7 +1497,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1509,7 +1509,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1523,7 +1523,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1534,7 +1534,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1548,7 +1548,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1559,7 +1559,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1571,7 +1571,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1585,7 +1585,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1596,7 +1596,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1608,7 +1608,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1621,7 +1621,7 @@
                                                     "attributes": {
                                                         "src": "equivalentStress"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false,
                                                     "always_show": false
                                                 },
@@ -1635,7 +1635,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1648,7 +1648,7 @@
                                                     "attributes": {
                                                         "src": "vibrationClamp"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false,
                                                     "always_show": false
                                                 },
@@ -1662,7 +1662,7 @@
                                                     "attributes": {
                                                         "src": "vibrationClampInstalled"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false,
                                                     "always_show": false
                                                 },
@@ -1676,7 +1676,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1692,7 +1692,7 @@
                         "meta": {
                             "element": "h3",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false,
                             "always_show": false
                         },
@@ -1703,7 +1703,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1715,7 +1715,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1729,7 +1729,7 @@
                         "meta": {
                             "element": "h3",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false,
                             "always_show": false
                         },
@@ -1740,7 +1740,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": false,
+                                    "start_collapsed": false,
                                     "hidden": false,
                                     "always_show": false
                                 },
@@ -1751,7 +1751,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false,
                                             "always_show": false
                                         },
@@ -1769,7 +1769,7 @@
                 "meta": {
                     "element": "h2",
                     "attributes": {},
-                    "collapsed": false,
+                    "start_collapsed": false,
                     "hidden": false,
                     "always_show": false
                 },
@@ -1780,7 +1780,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false
                         },
                         "children": []
@@ -1791,7 +1791,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false
                         },
                         "children": []
@@ -1802,7 +1802,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false
                         },
                         "children": []
@@ -1813,7 +1813,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": true,
+                            "start_collapsed": true,
                             "hidden": false
                         },
                         "children": [
@@ -1823,7 +1823,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false
                                 },
                                 "children": [
@@ -1833,7 +1833,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -1844,7 +1844,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -1854,7 +1854,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false
                                                 },
                                                 "children": [
@@ -1866,7 +1866,7 @@
                                                             "attributes": {
                                                                 "src": "cmmsGraph"
                                                             },
-                                                            "collapsed": true,
+                                                            "start_collapsed": true,
                                                             "hidden": false
                                                         },
                                                         "children": []
@@ -1881,7 +1881,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -1892,7 +1892,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -1904,7 +1904,7 @@
                                                     "attributes": {
                                                         "src": "cmmsDashboard"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -1917,7 +1917,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -1928,7 +1928,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -1939,7 +1939,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -1950,7 +1950,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -1961,7 +1961,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -1972,7 +1972,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -1985,7 +1985,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false
                                 },
                                 "children": [
@@ -1995,7 +1995,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2006,7 +2006,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2017,7 +2017,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2028,7 +2028,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2039,7 +2039,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2050,7 +2050,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2063,7 +2063,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false
                                 },
                                 "children": [
@@ -2073,7 +2073,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2084,7 +2084,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2095,7 +2095,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2106,7 +2106,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2117,7 +2117,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -2129,7 +2129,7 @@
                                                     "attributes": {
                                                         "src": "cmmsBuilder"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2142,7 +2142,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2153,7 +2153,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2164,7 +2164,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2177,7 +2177,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false
                                 },
                                 "children": [
@@ -2187,7 +2187,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2198,7 +2198,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2209,7 +2209,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2220,7 +2220,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2231,7 +2231,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2242,7 +2242,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2253,7 +2253,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2266,7 +2266,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false
                                 },
                                 "children": [
@@ -2276,7 +2276,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2287,7 +2287,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2298,7 +2298,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -2310,7 +2310,7 @@
                                                     "attributes": {
                                                         "src": "financeDashboard"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2323,7 +2323,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2334,7 +2334,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2345,7 +2345,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -2357,7 +2357,7 @@
                                                     "attributes": {
                                                         "src": "financialModel"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2370,7 +2370,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2381,7 +2381,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2394,7 +2394,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false
                                 },
                                 "children": [
@@ -2404,7 +2404,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": [
@@ -2414,7 +2414,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2425,7 +2425,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2436,7 +2436,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2447,7 +2447,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2458,7 +2458,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2473,7 +2473,7 @@
                                             "attributes": {
                                                 "href": "https://github.com/pretoriusdre/similarpanda"
                                             },
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2484,7 +2484,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -2496,7 +2496,7 @@
                                                     "attributes": {
                                                         "src": "similarPanda"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2511,7 +2511,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false
                                 },
                                 "children": [
@@ -2521,7 +2521,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2532,7 +2532,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2543,7 +2543,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2554,7 +2554,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2565,7 +2565,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2579,7 +2579,7 @@
                                                 "href": "https://www.loadsheet.io",
                                                 "target": "_blank"
                                             },
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2592,7 +2592,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false
                                 },
                                 "children": [
@@ -2602,7 +2602,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2613,7 +2613,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": true,
+                                            "start_collapsed": true,
                                             "hidden": false
                                         },
                                         "children": [
@@ -2623,7 +2623,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2636,7 +2636,7 @@
                                                     "attributes": {
                                                         "src": "https://www.youtube.com/embed/dQw4w9WgXcQ?loop=1"
                                                     },
-                                                    "collapsed": true,
+                                                    "start_collapsed": true,
                                                     "hidden": false,
                                                     "always_show": false
                                                 },
@@ -2650,7 +2650,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": []
@@ -2663,7 +2663,7 @@
                                 "meta": {
                                     "element": "span",
                                     "attributes": {},
-                                    "collapsed": true,
+                                    "start_collapsed": true,
                                     "hidden": false
                                 },
                                 "children": [
@@ -2673,7 +2673,7 @@
                                         "meta": {
                                             "element": "span",
                                             "attributes": {},
-                                            "collapsed": false,
+                                            "start_collapsed": false,
                                             "hidden": false
                                         },
                                         "children": [
@@ -2683,7 +2683,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2694,7 +2694,7 @@
                                                 "meta": {
                                                     "element": "span",
                                                     "attributes": {},
-                                                    "collapsed": false,
+                                                    "start_collapsed": false,
                                                     "hidden": false
                                                 },
                                                 "children": []
@@ -2713,7 +2713,7 @@
                 "meta": {
                     "element": "h2",
                     "attributes": {},
-                    "collapsed": true,
+                    "start_collapsed": true,
                     "hidden": false,
                     "always_show": false
                 },
@@ -2724,7 +2724,7 @@
                         "meta": {
                             "element": "span",
                             "attributes": {},
-                            "collapsed": false,
+                            "start_collapsed": false,
                             "hidden": false,
                             "always_show": false
                         },
