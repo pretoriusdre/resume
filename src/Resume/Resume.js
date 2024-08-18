@@ -27,9 +27,9 @@ const Resume = () => {
 
     useEffect(() => {
         if (data && data.length > 0) {
-            setActiveNode(data[0]); // Set the first item as activeNode
+            setActiveNode(data[0]);
         }
-    }, [data]); // This useEffect depends on the data state
+    }, [data]);
 
 
     return(
