@@ -97,7 +97,7 @@ function ResumeNode({ data, depth, materialised_path}) {
 
     const indentedChildren = (
         <div className={depth > 0 ? 'hangingIndent' : ''}>
-            {isEditing ? <Separator id={id} position='first_child'/> : ""}
+            {isEditing ? <Separator id={id} materialised_path={materialised_path} relative_position='first_child'/> : ""}
             <ResumeNodeList data={data.children} materialised_path={materialised_path} depth={depth}/>
         </div>
     )
@@ -127,7 +127,7 @@ function ResumeNode({ data, depth, materialised_path}) {
                 <div className={collapsed ? 'collapsed' : 'visible'}>
                     {indentedChildren}
                 </div>
-                {isEditing ? <Separator id={id} position='last_sibling'/> : ""}
+                {isEditing ? <Separator id={id} materialised_path={materialised_path} relative_position='next_sibling'/> : ""}
             </div>
         </div>
             

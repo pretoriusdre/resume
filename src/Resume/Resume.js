@@ -10,17 +10,17 @@ import Navbar from './Navbar';
 import EditingPane from './EditingPane';
 import Page from './Page';
 
-import resume from './data/resume_content.json';
-
+import resume_content from './data/resume_content.json';
+import resume_metadata from './data/resume_metadata.json';
 
 const Resume = () => {
 
     useEffect(() => {
-        document.title = 'Résumé';
-    }, []);
+        document.title = resume_metadata.title || 'Résumé';
+    }, [resume_metadata]);
 
 
-    const [data, setData] = useState(resume);
+    const [data, setData] = useState(resume_content);
     const [isEditing, setIsEditing] = useState(false);
     const [activeNode, setActiveNode] = useState(null);
 
@@ -35,7 +35,8 @@ const Resume = () => {
     return(
         <ResumeContext.Provider value={{
             isEditing, setIsEditing,
-            activeNode, setActiveNode
+            activeNode, setActiveNode,
+            data, setData
         }}>
             <DndProvider backend={HTML5Backend}>
                 <Navbar/>
@@ -45,7 +46,7 @@ const Resume = () => {
                         <EditingPane/>
                     </div>
                     <div className={isEditing ? 'column column-mainwithsidepanel' :'column column-main' }>
-                        <Page data={data}/>
+                        <Page/>
                     </div>
                 </div>
                 
