@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { findAndUpdateNode } from "./nodeProcessing";
+import { findAndUpdateNode, findAndRemoveNode} from "./nodeProcessing";
 import ResumeContext from "./ResumeContext";
 import './EditingPane.css';
 
@@ -76,9 +76,19 @@ const EditingPane = () => {
   const handleDelete = (e) => {
     e.preventDefault();
     console.log('Deleting node:', formData.id);
-    // Implement delete logic here
-    // setActiveNode(null);  // Example to remove the active node
+
+    const updatedData = [...data];
+    const oldNode = findAndRemoveNode(updatedData, formData.id)
+
+    if (oldNode) {
+      // Set the updated data back to the context
+      setData(updatedData);
+      console.log('Node deleted: ', oldNode.id);
+    } else {
+      console.error('Node not found.');
+    }
   };
+
 
   if (!activeNode) {
     return <div>Select a node to edit</div>;
