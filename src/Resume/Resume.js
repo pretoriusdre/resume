@@ -40,7 +40,6 @@ const Resume = () => {
         }}>
             <DndProvider backend={HTML5Backend}>
                 <Navbar/>
-
                 <div className="container">
                     <div className={isEditing ? 'column column-sidepanel' :'column column-collapsed' }>
                         <EditingPane/>

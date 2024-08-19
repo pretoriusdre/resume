@@ -54,7 +54,7 @@ body {
 }
 
 .hangingIndent {
-  text-indent: -4mm;
+  text-indent: -3mm;
   padding-left: 6mm;
   
 }
@@ -151,12 +151,13 @@ code {
 
 
   .pagecontainer {
-    width: 100%;
+    width: 85%;
     background-color: white;
     display: block;
     margin: 0 auto;
     margin-top: 3mm;
-    padding: 0mm;
+
+    padding: 5mm;
     border-radius: 2mm;
   }
   .hangingIndent {
