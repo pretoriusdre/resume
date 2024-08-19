@@ -3,8 +3,10 @@ import { findAndUpdateNode, findAndRemoveNode} from "./nodeProcessing";
 import ResumeContext from "./ResumeContext";
 import './EditingPane.css';
 
+import { v4 as uuidv4 } from 'uuid';
+
 const EditingPane = () => {
-  const { activeNode, setActiveNode, data, setData } = useContext(ResumeContext);
+  const { activeNode, setActiveNode, data, setData} = useContext(ResumeContext);
   const [formData, setFormData] = useState({
     id: '',
     value: '',
@@ -41,8 +43,7 @@ const EditingPane = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Create a shallow copy of data to avoid mutating the state directly
-    const updatedData = [...data];
+    const updatedData = structuredClone(data);
 
     let parsedAttributes;
     try {
@@ -67,6 +68,7 @@ const EditingPane = () => {
     if (updatedNode) {
       // Set the updated data back to the context
       setData(updatedData);
+      setActiveNode(updatedNode);
       console.log('Node updated:', updatedNode);
     } else {
       console.error('Node not found.');
@@ -77,12 +79,13 @@ const EditingPane = () => {
     e.preventDefault();
     console.log('Deleting node:', formData.id);
 
-    const updatedData = [...data];
+    const updatedData = structuredClone(data);
     const oldNode = findAndRemoveNode(updatedData, formData.id)
 
     if (oldNode) {
       // Set the updated data back to the context
       setData(updatedData);
+      setActiveNode(null);
       console.log('Node deleted: ', oldNode.id);
     } else {
       console.error('Node not found.');
@@ -90,9 +93,42 @@ const EditingPane = () => {
   };
 
 
+
+  const handleAddChild = (e) => {
+    e.preventDefault();
+    
+    const updatedData = structuredClone(data);
+
+    const new_id = uuidv4();
+    // Update the node using findAndUpdateNode
+    const newNodeTemplate =  {
+      id : new_id,
+      value: 'Placeholder',
+      meta: {
+        element: 'span',
+        attributes: {},
+        start_collapsed: false,
+        hidden: false,
+        always_show : false
+      }
+    };
+    const targetNode = findAndUpdateNode(updatedData, activeNode.id, {});
+    if (targetNode) {
+      targetNode.children = targetNode.children || [];
+      targetNode.children.push(newNodeTemplate);
+
+      setData(updatedData);
+      setActiveNode(newNodeTemplate);
+      
+      console.error('Added child node');
+    } else {
+      console.error('Node not found.');
+    }
+  };
+
   if (!activeNode) {
     return <div>Select a node to edit</div>;
-  }
+  };
 
   return (
     <div>
@@ -187,6 +223,7 @@ const EditingPane = () => {
 
         <button type="submit">Update</button>
         <button type="button" onClick={handleDelete}>Delete</button>
+        <button type="button" onClick={handleAddChild}>Add child</button>
       </form>
 
       {JSON.stringify(data.children)}

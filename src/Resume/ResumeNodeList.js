@@ -8,7 +8,6 @@ import Separator from './Separator';
 
 import getImageByKey from './getImageByKey';
 
-//import { v4 as uuidv4 } from 'uuid';
 
 import './ResumeNodeList.css'
 

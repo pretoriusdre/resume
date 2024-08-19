@@ -17,7 +17,7 @@ const Resume = () => {
 
     useEffect(() => {
         document.title = resume_metadata.title || 'Résumé';
-    }, [resume_metadata]);
+    }, []);
 
 
     const [data, setData] = useState(resume_content);
@@ -26,10 +26,10 @@ const Resume = () => {
 
 
     useEffect(() => {
-        if (data && data.length > 0) {
+        if (data && data.length > 0 && !activeNode) {
             setActiveNode(data[0]);
         }
-    }, [data]);
+    }, [data, activeNode]);
 
 
     return(
