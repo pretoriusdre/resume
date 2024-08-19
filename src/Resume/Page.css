@@ -135,7 +135,7 @@ code {
 }
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 850px) {
 
   body {
     font-size: 12pt;
@@ -151,7 +151,7 @@ code {
 
 
   .pagecontainer {
-    width: 85%;
+    width: 90vw;
     background-color: white;
     display: block;
     margin: 0 auto;

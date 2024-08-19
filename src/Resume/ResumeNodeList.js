@@ -89,7 +89,7 @@ function ResumeNode({ data, depth, materialised_path}) {
 
     const element_iframe = (
         <div>
-            <iframe src={data?.meta?.attributes?.src} width="640px" height="385px" allowFullScreen allow="autoplay"/>
+            <iframe src={data?.meta?.attributes?.src} title={data?.id} width="640px" height="385px" allowFullScreen allow="autoplay"/>
         </div>
     );
 
