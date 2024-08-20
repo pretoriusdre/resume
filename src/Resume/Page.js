@@ -9,7 +9,7 @@ import PrintableOverlay from './PrintableOverlay';
 
 const Page = () => {
     
-    const { data, setData } = useContext(ResumeContext);
+    const { data } = useContext(ResumeContext);
 
     return(
         <div className='pagecontainer'>

@@ -11,7 +11,7 @@ const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
   
-  const { data, setData } = useContext(ResumeContext);
+  const { data } = useContext(ResumeContext);
 
   const toggleEditing = (e) => {
     e.preventDefault();

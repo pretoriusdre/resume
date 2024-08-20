@@ -40,9 +40,7 @@ function ResumeNode({ data, depth, materialised_path}) {
     const id = data.id;
     const title = data.value
 
-    const isActive = () => {
-        return id === activeNode?.id;
-      };
+    const isActive = (id === activeNode?.id);
 
     const [{ isDragging }, drag] = useDrag(() => ({
         type: DragAndDropItems.RESUME_NODE,
@@ -114,7 +112,7 @@ function ResumeNode({ data, depth, materialised_path}) {
         <div>
             <div 
                 ref={isEditing ? handleDrag : null}
-                className={`${isEditing ? 'draggable' : ''} ${isDragging ? 'dragging' : ''}`}  
+                className={`${isEditing ? 'draggable' : ''} ${isDragging ? 'dragging' : ''} ${isActive ? 'active' : ''}`}  
             >
                 <div 
                     onClick={handleSetActiveNode}

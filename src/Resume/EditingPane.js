@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { findAndUpdateNode, findAndRemoveNode} from "./nodeProcessing";
+import { findAndUpdateNode, findAndRemoveNode, findParentNode} from "./nodeProcessing";
 import ResumeContext from "./ResumeContext";
 import './EditingPane.css';
 
@@ -16,6 +16,26 @@ const EditingPane = () => {
     hidden: false,
     always_show : false
   });
+
+
+  useEffect(() => {
+    if (data.length === 0) {
+
+      const newNodeTemplate =  {
+        id : uuidv4(),
+        value: 'Your Name Here',
+        meta: {
+          element: 'h1',
+          attributes: {},
+          start_collapsed: false,
+          hidden: false,
+          always_show : true
+        }
+      };
+      setData([newNodeTemplate])
+    }   
+  }, [data]);
+
 
   useEffect(() => {
     if (activeNode) {
@@ -77,6 +97,14 @@ const EditingPane = () => {
 
   const handleDelete = (e) => {
     e.preventDefault();
+
+    // Confirm the deletion with the user
+    const confirmed = window.confirm("Are you sure you want to delete this node and all descendants?");
+    
+    if (!confirmed) {
+        return; // Exit the function if the user cancels
+    }
+
     console.log('Deleting node:', formData.id);
 
     const updatedData = structuredClone(data);
@@ -125,6 +153,44 @@ const EditingPane = () => {
       console.error('Node not found.');
     }
   };
+
+  
+  /*
+  const handleAddSibling = (e) => {
+    e.preventDefault();
+
+    const updatedData = structuredClone(data);
+    const new_id = uuidv4();
+    const newNodeTemplate = {
+      id: new_id,
+      value: 'New Sibling',
+      meta: {
+        element: 'span',
+        attributes: {},
+        start_collapsed: false,
+        hidden: false,
+        always_show: false
+      }
+    };
+
+    // Find the parent node
+    const parentNode = findParentNode(updatedData, [activeNode.id]);
+
+    if (parentNode) {
+      const targetIndex = parentNode.children.findIndex(child => child.id === activeNode.id);
+      parentNode.children.splice(targetIndex + 1, 0, newNodeTemplate);
+
+      setData(updatedData);
+      setActiveNode(newNodeTemplate);
+
+      console.log('Added sibling node:', new_id);
+    } else {
+      console.error('Parent node not found.');
+    }
+  };
+*/
+
+
 
   if (!activeNode) {
     return <div>Select a node to edit</div>;
@@ -224,6 +290,7 @@ const EditingPane = () => {
         <button type="submit">Update</button>
         <button type="button" onClick={handleDelete}>Delete</button>
         <button type="button" onClick={handleAddChild}>Add child</button>
+
       </form>
 
       {JSON.stringify(data.children)}
@@ -232,3 +299,6 @@ const EditingPane = () => {
 };
 
 export default EditingPane;
+
+
+//        <button type="button" onClick={handleAddSibling}>Add sibling</button>
