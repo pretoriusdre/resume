@@ -6,7 +6,7 @@ import ResumeContext from "./ResumeContext";
 import DragAndDropItems from './DragAndDropItems'
 import Separator from './Separator';
 
-import getImageByKey from './getImageByKey';
+
 
 
 import './ResumeNodeList.css'
@@ -29,18 +29,84 @@ const ResumeNodeList = ({ data, depth, materialised_path }) => {
 
 function ResumeNode({ data, depth, materialised_path}) {
 
-    const { isEditing, setIsEditing } = useContext(ResumeContext);
+    // Context
+    const { isEditing } = useContext(ResumeContext);
     const { activeNode, setActiveNode } = useContext(ResumeContext);
 
-    const [collapsed, setCollapsed] = useState(data?.meta?.start_collapsed || false);
+    // State
+    const [collapsed, setCollapsed] = useState(data?.start_collapsed || false);
+
+    // Unpack main parameters from the ndoe
+    const id = data.id;
+    const type = data.type;
+    const value = data.value;
+    const ref = data.ref;
+    const hidden = data.hidden || false;
+    const start_collapsed = data.start_collapsed || false;
+    const prevent_collapse = data.prevent_collapse || false;
+
+    // Derived things for the node
     const hasChildren = ((data?.children?.length > 0));
+    const isActive = (id === activeNode?.id);
+
+    // To move or refactor
     const NodeIcon = (hasChildren ? (collapsed ? '+' : '-') : '>');
     const bulletClass = "bulletspan" + (hasChildren ? "" : " leaf");
 
-    const id = data.id;
-    const title = data.value
+    
 
-    const isActive = (id === activeNode?.id);
+    // todo move into own component
+    const modalClass = "imgmodal" + (collapsed ? "-hidden" : "")
+    const element_img = (
+        <div>
+            <img src={`${process.env.PUBLIC_URL}${ref}`} className="imgtiny" onClick={toggleCollapse} title={value} alt={value}/>
+            <img src={`${process.env.PUBLIC_URL}${ref}`} className={modalClass} onClick={toggleCollapse} title={value} alt={value}/>
+        </div>
+    );
+
+    const collapsableElement = (
+        prevent_collapse ?
+        <span>{value}</span> : 
+        <span><span className={bulletClass} onClick={hasChildren ? toggleCollapse : null}>{NodeIcon}</span>{value}</span>
+    );
+
+
+    const getElement = () => {
+      switch (type) {
+        case 'title':
+            return React.createElement('h1',{},collapsableElement);
+        case 'subtitle':
+            return React.createElement('span',{ className: 'subtitle'},collapsableElement);
+        case 'section':
+            return React.createElement('h2',{},collapsableElement);
+        case 'subsection':
+            return React.createElement('h3',{},collapsableElement);
+        case 'paragraph':
+            return React.createElement('p',{},collapsableElement);
+        case 'line':
+            return React.createElement('span',{},collapsableElement);
+        case 'image':
+            return element_img;
+        case 'link':
+            return React.createElement('a',{'href':ref,'target':'_blank'},value);
+        case 'iframe':
+            return React.createElement('iframe',
+                {
+                    'src' : ref,
+                    'title' : id,
+                    'width' : '640px',
+                    'height' : '385px',
+                    'allowFullScreen' : true,
+                    'allow' : 'autoplay'
+                }, value
+            ); 
+        default:
+            return <span>{id}{type}</span>;
+        };
+    };
+
+
+
 
     const [{ isDragging }, drag] = useDrag(() => ({
         type: DragAndDropItems.RESUME_NODE,
@@ -59,38 +125,6 @@ function ResumeNode({ data, depth, materialised_path}) {
             setCollapsed(true);
         }
     }
-    
-    const titleElement = (
-        data?.meta?.always_show ?
-        <span>{title}</span> : 
-        <span><span className={bulletClass} onClick={hasChildren ? toggleCollapse : null}>{NodeIcon}</span>{title}</span>
-    )
-    
-    const isImageTag = data?.meta?.element === 'img'
-    const isIFrame = data?.meta?.element === 'iframe'
-
-    const element_arbitrary = React.createElement(
-        data?.meta?.element || 'span',
-        data?.meta?.attributes,
-        titleElement
-    );  
-
-    const modalClass = "imgmodal" + (collapsed ? "-hidden" : "")
-
-    const element_img = (
-        <div>
-            <img src={getImageByKey(data?.meta?.attributes?.src)} className="imgtiny" onClick={toggleCollapse} title={title} alt={title}/>
-            <img src={getImageByKey(data?.meta?.attributes?.src)} className={modalClass} onClick={toggleCollapse} title={title} alt={title}/>
-        </div>
-    );
-
-    const element_iframe = (
-        <div>
-            <iframe src={data?.meta?.attributes?.src} title={data?.id} width="640px" height="385px" allowFullScreen allow="autoplay"/>
-        </div>
-    );
-
-    const element = (isImageTag ? element_img : (isIFrame ? element_iframe : element_arbitrary));
 
     const indentedChildren = (
         <div className={depth > 0 ? 'hangingIndent' : ''}>
@@ -98,8 +132,7 @@ function ResumeNode({ data, depth, materialised_path}) {
             <ResumeNodeList data={data.children} materialised_path={materialised_path} depth={depth}/>
         </div>
     )
-    
-    const hidden = data?.meta?.hidden || false;
+
     if (hidden & !isEditing) {
         return <React.Fragment/>
     };
@@ -118,7 +151,7 @@ function ResumeNode({ data, depth, materialised_path}) {
                     onClick={handleSetActiveNode}
                     className={isEditing & (id === activeNode?.id) ? 'element-active' : 'element'}
                 >
-                    {element}
+                    {getElement()}
                 </div>
                 
                 <div className={collapsed ? 'collapsed' : 'visible'}>
@@ -127,7 +160,6 @@ function ResumeNode({ data, depth, materialised_path}) {
                 {isEditing ? <Separator id={id} materialised_path={materialised_path} relative_position='next_sibling'/> : ""}
             </div>
         </div>
-            
     );
 }
 

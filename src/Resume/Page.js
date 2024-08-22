@@ -13,7 +13,6 @@ const Page = () => {
 
     return(
         <div className='pagecontainer'>
-            <img src='https://dsc-spidal.github.io/harp/img/4-5-1.png'/>
             <PrintableOverlay/>
             <ResumeNodeList data={data} materialised_path={[]} depth={0}/>
         </div>

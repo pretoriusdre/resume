@@ -95,7 +95,11 @@ p {
 }
 
 
-.jobTitle {
+
+
+
+
+.subtitle {
   display: inline-block;
   font-size: 9pt;
   white-space: nowrap;
@@ -104,6 +108,12 @@ p {
   text-indent: 0mm;
   padding-left: 0mm;
 }
+
+
+
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

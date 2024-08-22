@@ -10,30 +10,26 @@ const EditingPane = () => {
   const [formData, setFormData] = useState({
     id: '',
     value: '',
-    element: 'span',
-    attributes: '',
+    type: 'line',
     start_collapsed: false,
     hidden: false,
-    always_show : false
+    prevent_collapse : false
   });
 
 
   useEffect(() => {
     if (data.length === 0) {
-
-      const newNodeTemplate =  {
-        id : uuidv4(),
+      const newNodeTemplate = {
+        id: uuidv4(),
         value: 'Your Name Here',
-        meta: {
-          element: 'h1',
-          attributes: {},
-          start_collapsed: false,
-          hidden: false,
-          always_show : true
-        }
+        type: 'title',
+        start_collapsed: false,
+        hidden: false,
+        prevent_collapse: true,
       };
-      setData([newNodeTemplate])
-    }   
+  
+      setData([newNodeTemplate]);
+    }
   }, [data]);
 
 
@@ -42,11 +38,10 @@ const EditingPane = () => {
       setFormData({
         id: activeNode.id || '',
         value: activeNode.value || '',
-        element: activeNode.meta?.element || 'span',
-        attributes: JSON.stringify(activeNode.meta?.attributes || {}, null, 2),
-        start_collapsed: activeNode.meta?.start_collapsed || false,
-        hidden: activeNode.meta?.hidden || false,
-        always_show : activeNode.meta?.always_show || false
+        type: activeNode.type || 'line',
+        start_collapsed: activeNode.start_collapsed || false,
+        hidden: activeNode.hidden || false,
+        prevent_collapse : activeNode.prevent_collapse || false
       });
     }
   }, [activeNode]);
@@ -65,24 +60,13 @@ const EditingPane = () => {
     
     const updatedData = structuredClone(data);
 
-    let parsedAttributes;
-    try {
-      parsedAttributes = JSON.parse(formData.attributes);
-    } catch (error) {
-      alert('Invalid JSON in attributes.');
-      return;
-    }
-    
     // Update the node using findAndUpdateNode
     const updatedNode = findAndUpdateNode(updatedData, formData.id, {
       value: formData.value,
-      meta: {
-        element: formData.element,
-        attributes: parsedAttributes,
-        start_collapsed: formData.start_collapsed,
-        hidden: formData.hidden,
-        always_show : formData.always_show
-      }
+      type: formData.type,
+      hidden: formData.hidden,
+      start_collapsed: formData.start_collapsed,
+      prevent_collapse : formData.prevent_collapse
     });
 
     if (updatedNode) {
@@ -132,14 +116,12 @@ const EditingPane = () => {
     const newNodeTemplate =  {
       id : new_id,
       value: 'Placeholder',
-      meta: {
-        element: 'span',
-        attributes: {},
-        start_collapsed: false,
-        hidden: false,
-        always_show : false
-      }
-    };
+      type: 'line',
+      hidden: false,
+      start_collapsed: false,
+      prevent_collapse : false
+      };
+
     const targetNode = findAndUpdateNode(updatedData, activeNode.id, {});
     if (targetNode) {
       targetNode.children = targetNode.children || [];
@@ -152,43 +134,8 @@ const EditingPane = () => {
     } else {
       console.error('Node not found.');
     }
+    
   };
-
-  
-  /*
-  const handleAddSibling = (e) => {
-    e.preventDefault();
-
-    const updatedData = structuredClone(data);
-    const new_id = uuidv4();
-    const newNodeTemplate = {
-      id: new_id,
-      value: 'New Sibling',
-      meta: {
-        element: 'span',
-        attributes: {},
-        start_collapsed: false,
-        hidden: false,
-        always_show: false
-      }
-    };
-
-    // Find the parent node
-    const parentNode = findParentNode(updatedData, [activeNode.id]);
-
-    if (parentNode) {
-      const targetIndex = parentNode.children.findIndex(child => child.id === activeNode.id);
-      parentNode.children.splice(targetIndex + 1, 0, newNodeTemplate);
-
-      setData(updatedData);
-      setActiveNode(newNodeTemplate);
-
-      console.log('Added sibling node:', new_id);
-    } else {
-      console.error('Parent node not found.');
-    }
-  };
-*/
 
 
 
@@ -225,44 +172,23 @@ const EditingPane = () => {
         <div>
           <label>Element Type:</label>
           <select
-            name="element"
-            value={formData.element}
+            name="type"
+            value={formData.type}
             onChange={handleChange}
             className="select-custom"
           >
-            <option value="h1">h1</option>
-            <option value="h2">h2</option>
-            <option value="h3">h3</option>
-            <option value="p">p</option>
-            <option value="span">span</option>
-            <option value="img">img</option>
-            <option value="a">a</option>
+            <option value="title">title</option>
+            <option value="subtitle">subtitle</option>
+            <option value="section">section</option>
+            <option value="subsection">subsection</option>
+            <option value="line">line</option>
+            <option value="paragraph">paragraph</option>
+            <option value="image">image</option>
+            <option value="link">link</option>
             <option value="iframe">iframe</option>
           </select>
         </div>
-        
-        <div>
-          <label>Attributes (JSON):</label>
-          <textarea
-            name="attributes"
-            value={formData.attributes}
-            onChange={handleChange}
-            className="textarea-custom"
-          />
-        </div>
-        
-        <div>
-          <label>
-            <input
-              type="checkbox"
-              name="start_collapsed"
-              checked={formData.start_collapsed}
-              onChange={handleChange}
-            />
-            Start Collapsed?
-          </label>
-        </div>
-        
+
         <div>
           <label>
             <input
@@ -279,11 +205,23 @@ const EditingPane = () => {
           <label>
             <input
               type="checkbox"
-              name="always_show"
-              checked={formData.always_show}
+              name="start_collapsed"
+              checked={formData.start_collapsed}
               onChange={handleChange}
             />
-            Always show?
+            Start Collapsed?
+          </label>
+        </div>
+        
+        <div>
+          <label>
+            <input
+              type="checkbox"
+              name="prevent_collapse"
+              checked={formData.prevent_collapse}
+              onChange={handleChange}
+            />
+            Prevent collapse?
           </label>
         </div>
 
