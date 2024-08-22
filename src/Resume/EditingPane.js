@@ -21,22 +21,6 @@ const EditingPane = () => {
 
 
   useEffect(() => {
-    if (isDataLoaded & resumeContent.length === 0) {
-      const newNodeTemplate = {
-        id: uuidv4(),
-        value: 'Your Name Here',
-        type: 'title',
-        ref: '',
-        start_collapsed: false,
-        hidden: false,
-        prevent_collapse: true,
-      };
-      setResumeContent([newNodeTemplate]);
-    }
-  }, [resumeContent, setResumeContent, isDataLoaded]);
-
-
-  useEffect(() => {
     if (activeNode) {
       setFormData({
         id: activeNode.id || '',
@@ -152,7 +136,12 @@ const EditingPane = () => {
   return (
     <div>
       <h2>Edit node</h2>
-      You can make changes locally and export to JSON, but persisting those changes requires edit access to the repository.
+      <ul>
+      <li>Feel free to test the editing functionality.</li>
+      <li>You can make changes locally and export to JSON, but persisting those changes requires edit access to the repository.</li>
+      <li>Delete the first (root) node to start from a basic template.</li>
+      <li>Drag nodes to move them.</li>
+      </ul>
       <form onSubmit={handleSubmit}>
         <div>
           <label>ID:</label>
@@ -261,5 +250,3 @@ const EditingPane = () => {
 
 export default EditingPane;
 
-
-//        <button type="button" onClick={handleAddSibling}>Add sibling</button>
