@@ -71,7 +71,7 @@ const Resume = () => {
         if (isDataLoaded && resumeContent.length > 0 && !activeNode) {
             setActiveNode(resumeContent[0]);
         }
-    }, [resumeContent, activeNode]);
+    }, [isDataLoaded, resumeContent, activeNode]);
 
 
     return (

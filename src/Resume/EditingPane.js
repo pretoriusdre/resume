@@ -6,7 +6,7 @@ import './EditingPane.css';
 import { v4 as uuidv4 } from 'uuid';
 
 const EditingPane = () => {
-  const { activeNode, setActiveNode, resumeContent, setResumeContent, isDataLoaded } = useContext(ResumeContext);
+  const { activeNode, setActiveNode, resumeContent, setResumeContent } = useContext(ResumeContext);
 
 
   const [formData, setFormData] = useState({
