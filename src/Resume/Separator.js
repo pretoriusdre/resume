@@ -1,5 +1,5 @@
 
-import { useContext, useEffect, useState} from 'react';
+import { useContext} from 'react';
 
 import {useDrop} from 'react-dnd';
 import DragAndDropItems from './DragAndDropItems'
@@ -18,7 +18,7 @@ import {findAndRemoveNode, findNodeByPath, findParentNode} from './nodeProcessin
 const Separator = ({id, materialised_path, relative_position}) => {
 
   // relative_position must be 'first_child' or 'next_sibling'
-    const { data, setData } = useContext(ResumeContext);
+    const { setResumeContent } = useContext(ResumeContext);
 
     const [{ isOver }, drop] = useDrop(() => ({
         accept: DragAndDropItems.RESUME_NODE,
@@ -35,7 +35,7 @@ const Separator = ({id, materialised_path, relative_position}) => {
             return;
         }
     
-        setData((prevData) => {
+        setResumeContent((prevData) => {
             const newData = structuredClone(prevData); // Create a deep copy of the current state
     
             // Find and remove the node being moved

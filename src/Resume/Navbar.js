@@ -11,7 +11,7 @@ const Navbar = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [isVisible, setIsVisible] = useState(true);
   
-  const { data } = useContext(ResumeContext);
+  const { resumeContent } = useContext(ResumeContext);
 
   const toggleEditing = (e) => {
     e.preventDefault();
@@ -45,7 +45,7 @@ const Navbar = () => {
 
   const handleExport = (e) => {
     e.preventDefault();
-    const jsonString = `data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(data, null, 2))}`;
+    const jsonString = `data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(resumeContent, null, 2))}`;
     const link = document.createElement('a');
     link.href = jsonString;
     link.download = 'resume_content.json';

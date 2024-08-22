@@ -9,12 +9,12 @@ import PrintableOverlay from './PrintableOverlay';
 
 const Page = () => {
     
-    const { data } = useContext(ResumeContext);
+    const { resumeContent } = useContext(ResumeContext);
 
     return(
         <div className='pagecontainer'>
             <PrintableOverlay/>
-            <ResumeNodeList data={data} materialised_path={[]} depth={0}/>
+            <ResumeNodeList nodeList={resumeContent} materialised_path={[]} depth={0}/>
         </div>
     );
 }

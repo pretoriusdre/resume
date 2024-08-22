@@ -10,33 +10,55 @@ import Navbar from './Navbar';
 import EditingPane from './EditingPane';
 import Page from './Page';
 
-import resume_content from './data/resume_content.json';
-import resume_metadata from './data/resume_metadata.json';
+
 
 const Resume = () => {
 
-    useEffect(() => {
-        document.title = resume_metadata.title || 'Résumé';
-    }, []);
-
-
-    const [data, setData] = useState(resume_content);
+    const [resumeContent, setResumeContent] = useState([]);
+    const [resumeMetadata, setResumeMetadata] = useState({});
+    const [isDataLoaded, setIsDataLoaded] = useState(false);
     const [isEditing, setIsEditing] = useState(false);
     const [activeNode, setActiveNode] = useState(null);
 
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const resumeContentResponse = await fetch(`${process.env.PUBLIC_URL}/data/resume_content.json`);
+                const resumeMetadataResponse = await fetch(`${process.env.PUBLIC_URL}/data/resume_metadata.json`);
+
+                const resumeContentReceived = await resumeContentResponse.json();
+                const resumeMetadataReceived = await resumeMetadataResponse.json();
+
+                document.title = resumeMetadataReceived.title || 'Résumé';
+
+                setResumeContent(resumeContentReceived);
+                setResumeMetadata(resumeMetadataReceived);
+                setIsDataLoaded(true);
+
+            } catch (error) {
+                console.error('Error fetching JSON data:', error);
+            }
+        };
+        fetchData();
+    }, []);
+
+
+
 
     useEffect(() => {
-        if (data && data.length > 0 && !activeNode) {
-            setActiveNode(data[0]);
+        if (resumeContent && resumeContent.length > 0 && !activeNode) {
+            setActiveNode(resumeContent[0]);
         }
-    }, [data, activeNode]);
+    }, [resumeContent, activeNode]);
 
 
     return(
         <ResumeContext.Provider value={{
             isEditing, setIsEditing,
             activeNode, setActiveNode,
-            data, setData
+            resumeContent, setResumeContent,
+            resumeMetadata, setResumeMetadata,
+            isDataLoaded, setIsDataLoaded
         }}>
             <DndProvider backend={HTML5Backend}>
                 <Navbar/>

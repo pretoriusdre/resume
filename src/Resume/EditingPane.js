@@ -1,16 +1,19 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { findAndUpdateNode, findAndRemoveNode, findParentNode} from "./nodeProcessing";
+import { findAndUpdateNode, findAndRemoveNode} from "./nodeProcessing";
 import ResumeContext from "./ResumeContext";
 import './EditingPane.css';
 
 import { v4 as uuidv4 } from 'uuid';
 
 const EditingPane = () => {
-  const { activeNode, setActiveNode, data, setData} = useContext(ResumeContext);
+  const { activeNode, setActiveNode, resumeContent, setResumeContent, isDataLoaded} = useContext(ResumeContext);
+
+
   const [formData, setFormData] = useState({
     id: '',
     value: '',
     type: 'line',
+    ref: '',
     start_collapsed: false,
     hidden: false,
     prevent_collapse : false
@@ -18,19 +21,19 @@ const EditingPane = () => {
 
 
   useEffect(() => {
-    if (data.length === 0) {
+    if (isDataLoaded & resumeContent.length === 0) {
       const newNodeTemplate = {
         id: uuidv4(),
         value: 'Your Name Here',
         type: 'title',
+        ref: '',
         start_collapsed: false,
         hidden: false,
         prevent_collapse: true,
       };
-  
-      setData([newNodeTemplate]);
+      setResumeContent([newNodeTemplate]);
     }
-  }, [data]);
+  }, [resumeContent, setResumeContent, isDataLoaded]);
 
 
   useEffect(() => {
@@ -39,6 +42,7 @@ const EditingPane = () => {
         id: activeNode.id || '',
         value: activeNode.value || '',
         type: activeNode.type || 'line',
+        ref: activeNode.ref || '',
         start_collapsed: activeNode.start_collapsed || false,
         hidden: activeNode.hidden || false,
         prevent_collapse : activeNode.prevent_collapse || false
@@ -58,12 +62,13 @@ const EditingPane = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    const updatedData = structuredClone(data);
+    const updatedData = structuredClone(resumeContent);
 
     // Update the node using findAndUpdateNode
     const updatedNode = findAndUpdateNode(updatedData, formData.id, {
       value: formData.value,
       type: formData.type,
+      ref: formData.ref,
       hidden: formData.hidden,
       start_collapsed: formData.start_collapsed,
       prevent_collapse : formData.prevent_collapse
@@ -71,7 +76,7 @@ const EditingPane = () => {
 
     if (updatedNode) {
       // Set the updated data back to the context
-      setData(updatedData);
+      setResumeContent(updatedData);
       setActiveNode(updatedNode);
       console.log('Node updated:', updatedNode);
     } else {
@@ -91,12 +96,12 @@ const EditingPane = () => {
 
     console.log('Deleting node:', formData.id);
 
-    const updatedData = structuredClone(data);
+    const updatedData = structuredClone(resumeContent);
     const oldNode = findAndRemoveNode(updatedData, formData.id)
 
     if (oldNode) {
       // Set the updated data back to the context
-      setData(updatedData);
+      setResumeContent(updatedData);
       setActiveNode(null);
       console.log('Node deleted: ', oldNode.id);
     } else {
@@ -109,7 +114,7 @@ const EditingPane = () => {
   const handleAddChild = (e) => {
     e.preventDefault();
     
-    const updatedData = structuredClone(data);
+    const updatedData = structuredClone(resumeContent);
 
     const new_id = uuidv4();
     // Update the node using findAndUpdateNode
@@ -117,6 +122,7 @@ const EditingPane = () => {
       id : new_id,
       value: 'Placeholder',
       type: 'line',
+      ref: '',
       hidden: false,
       start_collapsed: false,
       prevent_collapse : false
@@ -127,7 +133,7 @@ const EditingPane = () => {
       targetNode.children = targetNode.children || [];
       targetNode.children.push(newNodeTemplate);
 
-      setData(updatedData);
+      setResumeContent(updatedData);
       setActiveNode(newNodeTemplate);
       
       console.error('Added child node');
@@ -189,6 +195,24 @@ const EditingPane = () => {
           </select>
         </div>
 
+        {['image', 'link', 'iframe'].includes(formData.type) ?
+          <div>
+          <label>Reference url:</label>
+          <input
+            type="text"
+            name="ref"
+            value={formData.ref}
+            onChange={handleChange}
+            className="input-custom"
+          />
+        </div>
+        :
+        null  
+      }
+
+              
+
+
         <div>
           <label>
             <input
@@ -231,7 +255,6 @@ const EditingPane = () => {
 
       </form>
 
-      {JSON.stringify(data.children)}
     </div>
   );
 };

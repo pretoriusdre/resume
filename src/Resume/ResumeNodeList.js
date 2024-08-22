@@ -12,13 +12,13 @@ import Separator from './Separator';
 import './ResumeNodeList.css'
 
 
-const ResumeNodeList = ({ data, depth, materialised_path }) => {
+const ResumeNodeList = ({ nodeList, depth, materialised_path }) => {
 
     return (
       <div>
-        {(data || []).map((child) => (
+        {(nodeList || []).map((child) => (
           <ResumeNode 
-            data={child} depth={depth + 1}
+            nodeData={child} depth={depth + 1}
             materialised_path={[...materialised_path, child.id]}
             key={child.id} />
         ))}
@@ -27,26 +27,26 @@ const ResumeNodeList = ({ data, depth, materialised_path }) => {
   };
   
 
-function ResumeNode({ data, depth, materialised_path}) {
+function ResumeNode({ nodeData, depth, materialised_path}) {
 
     // Context
     const { isEditing } = useContext(ResumeContext);
     const { activeNode, setActiveNode } = useContext(ResumeContext);
 
     // State
-    const [collapsed, setCollapsed] = useState(data?.start_collapsed || false);
+    const [collapsed, setCollapsed] = useState(nodeData?.start_collapsed || false);
 
     // Unpack main parameters from the ndoe
-    const id = data.id;
-    const type = data.type;
-    const value = data.value;
-    const ref = data.ref;
-    const hidden = data.hidden || false;
-    const start_collapsed = data.start_collapsed || false;
-    const prevent_collapse = data.prevent_collapse || false;
+    const id = nodeData.id;
+    const type = nodeData.type;
+    const value = nodeData.value;
+    const ref = nodeData.ref;
+    const hidden = nodeData.hidden || false;
+    //const start_collapsed = nodeData.start_collapsed || false;
+    const prevent_collapse = nodeData.prevent_collapse || false;
 
     // Derived things for the node
-    const hasChildren = ((data?.children?.length > 0));
+    const hasChildren = ((nodeData?.children?.length > 0));
     const isActive = (id === activeNode?.id);
 
     // To move or refactor
@@ -129,7 +129,7 @@ function ResumeNode({ data, depth, materialised_path}) {
     const indentedChildren = (
         <div className={depth > 0 ? 'hangingIndent' : ''}>
             {isEditing ? <Separator id={id} materialised_path={materialised_path} relative_position='first_child'/> : ""}
-            <ResumeNodeList data={data.children} materialised_path={materialised_path} depth={depth}/>
+            <ResumeNodeList nodeList={nodeData.children} materialised_path={materialised_path} depth={depth}/>
         </div>
     )
 
@@ -138,7 +138,7 @@ function ResumeNode({ data, depth, materialised_path}) {
     };
 
     const handleSetActiveNode = () => {
-        setActiveNode(data);
+        setActiveNode(nodeData);
     };
 
     return (

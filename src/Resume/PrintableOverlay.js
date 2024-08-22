@@ -1,13 +1,21 @@
-import  './PrintableOverlay.css'
+import { useContext } from 'react';
 
-import resume_metadata from './data/resume_metadata.json';
+import ResumeContext from "./ResumeContext";
+
+
+
+import  './PrintableOverlay.css'
 
 
 const PrintableOverlay = () => {
+
+    const { resumeMetadata } = useContext(ResumeContext);
+
+
     return (
         <div className='printableOverlay'>
             This interactive resume is best viewed online: <br/>
-            <a href={resume_metadata.url}>{resume_metadata.url}</a>
+            <a href={resumeMetadata.url}>{resumeMetadata.url}</a>
         </div>
     );
 };
