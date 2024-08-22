@@ -8,7 +8,7 @@ body {
   size: A4;
   margin: 12mm;
 }
- 
+
 
 @print {
   @page :footer {
@@ -16,7 +16,7 @@ body {
   }
 
   @page :header {
-      display: none
+    display: none
   }
 }
 
@@ -34,8 +34,8 @@ body {
 
 @media print {
   .pagecontainer {
-     padding: 0mm;
-     margin-top: 0;
+    padding: 0mm;
+    margin-top: 0;
   }
 }
 
@@ -56,23 +56,23 @@ body {
 .hangingIndent {
   text-indent: -3mm;
   padding-left: 6mm;
-  
+
 }
 
 
 h1 {
-  text-align:center;
-  color: rgb(21,52,91);
-  font-weight:normal;
-  font-size:  22pt;
+  text-align: center;
+  color: rgb(21, 52, 91);
+  font-weight: normal;
+  font-size: 22pt;
   margin-top: 0cm;
   margin-bottom: 0cm;
 }
 
 h2 {
-  color: rgb(21,52,91);
-  font-weight:bold;
-  font-size:  13pt;
+  color: rgb(21, 52, 91);
+  font-weight: bold;
+  font-size: 13pt;
   border-bottom: 2px solid rgb(21, 52, 91);
 
   margin-top: 4mm;
@@ -80,9 +80,9 @@ h2 {
 }
 
 h3 {
-  color: rgb(21,52,91);
-  font-weight:bold;
-  font-size:  11pt;
+  color: rgb(21, 52, 91);
+  font-weight: bold;
+  font-size: 11pt;
   border-bottom: 1px solid rgb(21, 52, 91);
 
   margin-top: 4mm;
@@ -150,11 +150,11 @@ code {
   body {
     font-size: 12pt;
   }
-  
+
   h2 {
     font-size: 16pt;
   }
-  
+
   h3 {
     font-size: 12pt;
   }
@@ -170,10 +170,12 @@ code {
     padding: 5mm;
     border-radius: 2mm;
   }
+
   .hangingIndent {
     text-indent: -3mm;
     padding-left: 3mm;
   }
+
   .bulletspan {
     width: 3mm;
 

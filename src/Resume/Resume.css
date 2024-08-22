@@ -1,40 +1,36 @@
 .container {
-    width: 100%;
-    display: flex;
-    transition: margin-left 0.3s ease; /* Animate the margin change of the main content */
-  }
-  
-  .column {
-    padding: 10px;
-  }
-  
-  .column-sidepanel {
-    position: fixed; /* Fixes the side panel in place */
+  width: 100%;
+  display: flex;
+  transition: margin-left 0.3s ease;
+}
 
-    flex: 0 0 auto; /* This disables the flex-grow and flex-shrink behavior */
-    width: 40%; /* Set a fixed width, or use a fixed pixel width if needed */
-    max-width: 40%; /* Ensure that the width does not exceed 40% */
-    /*overflow-wrap: break-word;*/
-    height: 100vh; /* Make sure the side panel takes up the full height */
+.column {
+  padding: 10px;
+}
 
-    transition: width 1s ease; /* Animate the width change of the side panel */
-  }
-  
-  .column-collapsed{
-    display: none;
-  }
+.column-sidepanel {
+  position: fixed;
+  flex: 0 0 auto;
+  width: 40%;
+  max-width: 40%;
+  height: 100vh;
+  transition: width 1s ease;
+
+}
+
+.column-collapsed {
+  display: none;
+}
 
 
-  .column-main {
-    flex: 1;
-    max-width: 100%;
-  }
+.column-main {
+  flex: 1;
+  max-width: 100%;
+}
 
 
-  .column-mainwithsidepanel {
-    flex: 1;
-    margin-left: 40%;
-    max-width: 100%;
-  }
-
-
+.column-mainwithsidepanel {
+  flex: 1;
+  margin-left: 40%;
+  max-width: 100%;
+}

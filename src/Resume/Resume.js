@@ -11,7 +11,6 @@ import EditingPane from './EditingPane';
 import Page from './Page';
 
 
-
 const Resume = () => {
 
     const [resumeContent, setResumeContent] = useState([]);
@@ -65,7 +64,7 @@ const Resume = () => {
             };
             fetchResumeContent();
         }
-      }, [resumeContent, setResumeContent, isDataLoaded]);
+    }, [resumeContent, setResumeContent, isDataLoaded]);
 
     // Set the active node to the first node if nothing is selected
     useEffect(() => {

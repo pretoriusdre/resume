@@ -1,18 +1,18 @@
 @media only screen {
-    .printableOverlay {
-      display: none;
-    }
+  .printableOverlay {
+    display: none;
   }
-  
-  @media print {
-    .printableOverlay {
-      position: absolute;
-      display: inline-block;
-      font-size: 10pt;
-      font-style: italic;
-      white-space: nowrap;
-      top: 0em;
-      background-color: azure;
-    }
-  
+}
+
+@media print {
+  .printableOverlay {
+    position: absolute;
+    display: inline-block;
+    font-size: 10pt;
+    font-style: italic;
+    white-space: nowrap;
+    top: 0em;
+    background-color: azure;
   }
+
+}

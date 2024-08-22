@@ -1,38 +1,33 @@
-.element {
-
-}
+.element {}
 
 .element-active {
-    background-color: rgba(255, 0, 0, 0.11);
+  background-color: rgba(255, 0, 0, 0.11);
 }
 
-
 .draggable {
-    cursor: move;
-    opacity: 1;
-    border: none;
-    transition: opacity 0.2s ease, border 0.2s ease;
-  }
+  cursor: move;
+  opacity: 1;
+  border: none;
+  transition: opacity 0.2s ease, border 0.2s ease;
+}
 
-  .draggable.active {
-    border: 1px solid rgb(41, 41, 41);
-  }
+.draggable.active {
+  border: 1px solid rgb(41, 41, 41);
+}
 
+.draggable.dragging {
+  opacity: 0.5;
+  border: 1px solid rgb(41, 41, 41);
+  background-color: rgba(255, 0, 0, 0.2);
+}
 
-  .draggable.dragging {
-    opacity: 0.5;
-    border: 1px solid rgb(41, 41, 41);
-    background-color: rgba(255, 0, 0, 0.2);
-  }
+.collapsed {
+  height: 0;
+  display: block;
+  overflow: hidden;
+}
 
-  .collapsed {
-    height: 0;
-    display: block;
-    overflow: hidden;
-  }
-  
-  .visible {
-    height: auto;
-    display: block;
-  }
-  
+.visible {
+  height: auto;
+  display: block;
+}

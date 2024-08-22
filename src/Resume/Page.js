@@ -8,13 +8,13 @@ import ResumeContext from "./ResumeContext";
 import PrintableOverlay from './PrintableOverlay';
 
 const Page = () => {
-    
+
     const { resumeContent } = useContext(ResumeContext);
 
-    return(
+    return (
         <div className='pagecontainer'>
-            <PrintableOverlay/>
-            <ResumeNodeList nodeList={resumeContent} materialised_path={[]} depth={0}/>
+            <PrintableOverlay />
+            <ResumeNodeList nodeList={resumeContent} materialised_path={[]} depth={0} />
         </div>
     );
 }

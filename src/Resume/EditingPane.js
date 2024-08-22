@@ -1,12 +1,12 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { findAndUpdateNode, findAndRemoveNode} from "./nodeProcessing";
+import { findAndUpdateNode, findAndRemoveNode } from "./nodeProcessing";
 import ResumeContext from "./ResumeContext";
 import './EditingPane.css';
 
 import { v4 as uuidv4 } from 'uuid';
 
 const EditingPane = () => {
-  const { activeNode, setActiveNode, resumeContent, setResumeContent, isDataLoaded} = useContext(ResumeContext);
+  const { activeNode, setActiveNode, resumeContent, setResumeContent, isDataLoaded } = useContext(ResumeContext);
 
 
   const [formData, setFormData] = useState({
@@ -16,7 +16,7 @@ const EditingPane = () => {
     ref: '',
     start_collapsed: false,
     hidden: false,
-    prevent_collapse : false
+    prevent_collapse: false
   });
 
 
@@ -29,7 +29,7 @@ const EditingPane = () => {
         ref: activeNode.ref || '',
         start_collapsed: activeNode.start_collapsed || false,
         hidden: activeNode.hidden || false,
-        prevent_collapse : activeNode.prevent_collapse || false
+        prevent_collapse: activeNode.prevent_collapse || false
       });
     }
   }, [activeNode]);
@@ -45,7 +45,7 @@ const EditingPane = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     const updatedData = structuredClone(resumeContent);
 
     // Update the node using findAndUpdateNode
@@ -55,7 +55,7 @@ const EditingPane = () => {
       ref: formData.ref,
       hidden: formData.hidden,
       start_collapsed: formData.start_collapsed,
-      prevent_collapse : formData.prevent_collapse
+      prevent_collapse: formData.prevent_collapse
     });
 
     if (updatedNode) {
@@ -73,9 +73,9 @@ const EditingPane = () => {
 
     // Confirm the deletion with the user
     const confirmed = window.confirm("Are you sure you want to delete this node and all descendants?");
-    
+
     if (!confirmed) {
-        return; // Exit the function if the user cancels
+      return; // Exit the function if the user cancels
     }
 
     console.log('Deleting node:', formData.id);
@@ -97,20 +97,20 @@ const EditingPane = () => {
 
   const handleAddChild = (e) => {
     e.preventDefault();
-    
+
     const updatedData = structuredClone(resumeContent);
 
     const new_id = uuidv4();
     // Update the node using findAndUpdateNode
-    const newNodeTemplate =  {
-      id : new_id,
+    const newNodeTemplate = {
+      id: new_id,
       value: 'Placeholder',
       type: 'line',
       ref: '',
       hidden: false,
       start_collapsed: false,
-      prevent_collapse : false
-      };
+      prevent_collapse: false
+    };
 
     const targetNode = findAndUpdateNode(updatedData, activeNode.id, {});
     if (targetNode) {
@@ -119,12 +119,12 @@ const EditingPane = () => {
 
       setResumeContent(updatedData);
       setActiveNode(newNodeTemplate);
-      
+
       console.error('Added child node');
     } else {
       console.error('Node not found.');
     }
-    
+
   };
 
 
@@ -137,10 +137,10 @@ const EditingPane = () => {
     <div>
       <h2>Edit node</h2>
       <ul>
-      <li>Feel free to test the editing functionality.</li>
-      <li>You can make changes locally and export to JSON, but persisting those changes requires edit access to the repository.</li>
-      <li>Delete the first (root) node to start from a basic template.</li>
-      <li>Drag nodes to move them.</li>
+        <li>Feel free to test the editing functionality.</li>
+        <li>You can make changes locally and export to JSON, but persisting those changes requires edit access to the repository.</li>
+        <li>Delete the first (root) node to start from a basic template.</li>
+        <li>Drag nodes to move them.</li>
       </ul>
       <form onSubmit={handleSubmit}>
         <div>
@@ -153,7 +153,7 @@ const EditingPane = () => {
             className="readonly-field"
           />
         </div>
-        
+
         <div>
           <label>Value:</label>
           <textarea
@@ -163,7 +163,7 @@ const EditingPane = () => {
             className="textarea-custom"
           />
         </div>
-        
+
         <div>
           <label>Element Type:</label>
           <select
@@ -186,20 +186,20 @@ const EditingPane = () => {
 
         {['image', 'link', 'iframe'].includes(formData.type) ?
           <div>
-          <label>Reference url:</label>
-          <input
-            type="text"
-            name="ref"
-            value={formData.ref}
-            onChange={handleChange}
-            className="input-custom"
-          />
-        </div>
-        :
-        null  
-      }
+            <label>Reference url:</label>
+            <input
+              type="text"
+              name="ref"
+              value={formData.ref}
+              onChange={handleChange}
+              className="input-custom"
+            />
+          </div>
+          :
+          null
+        }
 
-              
+
 
 
         <div>
@@ -225,7 +225,7 @@ const EditingPane = () => {
             Start Collapsed?
           </label>
         </div>
-        
+
         <div>
           <label>
             <input

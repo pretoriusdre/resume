@@ -1,9 +1,9 @@
 @media print {
-    .editing-pane {
-       display: none;
-       margin-top: 0;
-    }
+  .editing-pane {
+    display: none;
+    margin-top: 0;
   }
+}
 
 
 .textarea-custom {

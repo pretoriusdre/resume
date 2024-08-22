@@ -1,11 +1,13 @@
 @media only screen {
-    body, html {
+
+    body,
+    html {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         font-family: Arial, sans-serif;
     }
-    
+
     .navbar {
         /*background-color: #121642;*/
         position: fixed;
@@ -16,7 +18,7 @@
         opacity: 0.8;
 
     }
-    
+
     .navbar nav ul {
         list-style-type: none;
         margin: 0;
@@ -24,11 +26,11 @@
         display: flex;
         justify-content: right;
     }
-    
+
     .navbar nav ul li {
         display: inline;
     }
-    
+
     .navbar nav ul li a {
         color: rgb(0, 0, 0);
         text-decoration: none;
@@ -36,7 +38,7 @@
         padding-right: 2em;
         display: inline-block;
     }
-    
+
     .hidden {
         transform: translateY(-100%);
     }

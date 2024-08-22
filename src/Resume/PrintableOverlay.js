@@ -2,10 +2,7 @@ import { useContext } from 'react';
 
 import ResumeContext from "./ResumeContext";
 
-
-
-import  './PrintableOverlay.css'
-
+import './PrintableOverlay.css'
 
 const PrintableOverlay = () => {
 
@@ -14,7 +11,7 @@ const PrintableOverlay = () => {
 
     return (
         <div className='printableOverlay'>
-            This interactive resume is best viewed online: <br/>
+            This interactive resume is best viewed online: <br />
             <a href={resumeMetadata.url}>{resumeMetadata.url}</a>
         </div>
     );
