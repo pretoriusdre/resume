@@ -1,0 +1,24 @@
+
+.imgtiny {
+    width: 4cm;
+    cursor: pointer;
+  
+  }
+  
+.imgmodal {
+    display: visible;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 95%;
+    max-height: 95%;
+    width: auto;
+    height: auto;
+    z-index: 9999;
+    cursor: pointer;
+    }
+
+.imgmodal.hidden {
+    display: none;
+}

@@ -6,7 +6,7 @@ import ResumeContext from "../ResumeContext/ResumeContext";
 import DragAndDropItems from '../DragAndDropItems/DragAndDropItems'
 import Separator from '../Separator/Separator';
 
-
+import Image from '../Image/Image';
 
 
 import './ResumeNodeList.css'
@@ -53,13 +53,6 @@ function ResumeNode({ nodeData, depth, materialised_path }) {
     const NodeIcon = (hasChildren ? (collapsed ? '+' : '-') : '>');
     const bulletClass = "bulletspan" + (hasChildren ? "" : " leaf");
 
-    const modalClass = "imgmodal" + (collapsed ? "-hidden" : "")
-    const element_img = (
-        <div>
-            <img src={`${process.env.PUBLIC_URL}${ref}`} className="imgtiny" onClick={toggleCollapse} title={value} alt={value} />
-            <img src={`${process.env.PUBLIC_URL}${ref}`} className={modalClass} onClick={toggleCollapse} title={value} alt={value} />
-        </div>
-    );
 
     const collapsableElement = (
         prevent_collapse ?
@@ -83,7 +76,7 @@ function ResumeNode({ nodeData, depth, materialised_path }) {
             case 'line':
                 return React.createElement('span', {}, collapsableElement);
             case 'image':
-                return element_img;
+                return <Image title={value} src={ref} collapsed={collapsed} toggleCollapse={toggleCollapse}/>;
             case 'link':
                 return React.createElement('a', { 'href': ref, 'target': '_blank' }, value);
             case 'iframe':
@@ -140,16 +133,16 @@ function ResumeNode({ nodeData, depth, materialised_path }) {
         <div>
             <div
                 ref={isEditing ? handleDrag : null}
-                className={`${isEditing ? 'draggable' : ''} ${isDragging ? 'dragging' : ''} ${isActive ? 'active' : ''}`}
+                className={`${isEditing ? 'draggable' : ''}${isDragging ? ' dragging' : ''}${isActive ? ' active' : ''}`}
             >
                 <div
                     onClick={handleSetActiveNode}
-                    className={isEditing & (id === activeNode?.id) ? 'element-active' : 'element'}
+                    className={`element ${isEditing & (id === activeNode?.id) ? ' active' : ''}`}
                 >
                     {getElement()}
                 </div>
 
-                <div className={collapsed ? 'collapsed' : 'visible'}>
+                <div className={`childrencontainer${collapsed ? ' collapsed' : ''}`}>
                     {indentedChildren}
                 </div>
                 {isEditing ? <Separator id={id} materialised_path={materialised_path} relative_position='next_sibling' /> : ""}

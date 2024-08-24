@@ -85,10 +85,10 @@ const Resume = () => {
             <DndProvider backend={HTML5Backend}>
                 <Navbar />
                 <div className="container">
-                    <div className={isEditing ? 'column column-sidepanel' : 'column column-collapsed'}>
+                    <div className={`column${isEditing ? ' column-sidepanel' : ' collapsed'}`}>
                         <EditingPane />
                     </div>
-                    <div className={isEditing ? 'column column-mainwithsidepanel' : 'column column-main'}>
+                    <div className={`column${isEditing ? ' column-mainwithsidepanel' : ' column-main'}`}>
                         <Page />
                     </div>
                 </div>
