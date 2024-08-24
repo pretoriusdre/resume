@@ -7,7 +7,9 @@ import { v4 as uuidv4 } from 'uuid';
 
 const EditingPane = () => {
   const { activeNode, setActiveNode, resumeContent, setResumeContent } = useContext(ResumeContext);
+  const { wasChanged, setWasChanged } = useContext(ResumeContext);
 
+  const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
 
   const [formData, setFormData] = useState({
     id: '',
@@ -34,13 +36,16 @@ const EditingPane = () => {
     }
   }, [activeNode]);
 
+
   const handleChange = (e) => {
-    e.preventDefault();
+    //Don't use preventdefault here.
     const { name, value, type, checked } = e.target;
-    setFormData({
-      ...formData,
-      [name]: type === 'checkbox' ? checked : value,
-    });
+    setFormData(prevFormData => ({
+      ...prevFormData,
+      [name]: (type === 'checkbox' ? checked : value),
+
+    }));
+    setHasUnsavedChanges(true);
   };
 
   const handleSubmit = (e) => {
@@ -62,6 +67,8 @@ const EditingPane = () => {
       // Set the updated data back to the context
       setResumeContent(updatedData);
       setActiveNode(updatedNode);
+      setWasChanged(true);
+      setHasUnsavedChanges(false);
       console.log('Node updated:', updatedNode);
     } else {
       console.error('Node not found.');
@@ -87,6 +94,7 @@ const EditingPane = () => {
       // Set the updated data back to the context
       setResumeContent(updatedData);
       setActiveNode(null);
+      setWasChanged(true);
       console.log('Node deleted: ', oldNode.id);
     } else {
       console.error('Node not found.');
@@ -119,7 +127,7 @@ const EditingPane = () => {
 
       setResumeContent(updatedData);
       setActiveNode(newNodeTemplate);
-
+      setWasChanged(true);
       console.error('Added child node');
     } else {
       console.error('Node not found.');
@@ -150,7 +158,7 @@ const EditingPane = () => {
             name="id"
             value={formData.id}
             readOnly
-            className="readonly-field"
+            className="custominput readonly"
           />
         </div>
 
@@ -160,7 +168,7 @@ const EditingPane = () => {
             name="value"
             value={formData.value}
             onChange={handleChange}
-            className="textarea-custom"
+            className="custominput textarea"
           />
         </div>
 
@@ -170,7 +178,7 @@ const EditingPane = () => {
             name="type"
             value={formData.type}
             onChange={handleChange}
-            className="select-custom"
+            className="custominput"
           >
             <option value="title">title</option>
             <option value="subtitle">subtitle</option>
@@ -192,7 +200,7 @@ const EditingPane = () => {
               name="ref"
               value={formData.ref}
               onChange={handleChange}
-              className="input-custom"
+              className="custominput"
             />
           </div>
           :
@@ -231,18 +239,21 @@ const EditingPane = () => {
             <input
               type="checkbox"
               name="prevent_collapse"
-              checked={formData.prevent_collapse}
+              value = {formData.prevent_collapse }
               onChange={handleChange}
+
             />
             Prevent collapse?
           </label>
         </div>
 
-        <button type="submit">Update</button>
+        <button type="submit" disabled={!hasUnsavedChanges}>Update</button>
         <button type="button" onClick={handleDelete}>Delete</button>
         <button type="button" onClick={handleAddChild}>Add child</button>
 
       </form>
+      
+      {hasUnsavedChanges ? <div className='unsaved'>Unsaved changes!</div> : null}
 
     </div>
   );
