@@ -541,6 +541,26 @@
         ]
       },
       {
+        "id": "0f4d5999-bf2f-42d9-9f7b-d7c39161b3e2",
+        "value": "Example hidden section",
+        "type": "section",
+        "ref": "",
+        "hidden": true,
+        "start_collapsed": false,
+        "prevent_collapse": false,
+        "children": [
+          {
+            "id": "ce46119d-8791-4b4f-a29b-f77041c173af",
+            "value": "Example hidden content",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": false,
+            "prevent_collapse": false
+          }
+        ]
+      },
+      {
         "id": "503fc213-1c55-4684-a30c-7e4917a63384",
         "value": "References",
         "type": "section",
