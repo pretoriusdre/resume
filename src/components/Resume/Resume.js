@@ -17,6 +17,7 @@ const Resume = () => {
     const [resumeMetadata, setResumeMetadata] = useState({});
     const [isDataLoaded, setIsDataLoaded] = useState(false);
     const [isEditing, setIsEditing] = useState(false);
+    const [wasChanged, setWasChanged] = useState(false);
     const [activeNode, setActiveNode] = useState(null);
 
     // Get the metadata
@@ -77,10 +78,12 @@ const Resume = () => {
     return (
         <ResumeContext.Provider value={{
             isEditing, setIsEditing,
+            wasChanged, setWasChanged,
             activeNode, setActiveNode,
             resumeContent, setResumeContent,
             resumeMetadata, setResumeMetadata,
-            isDataLoaded, setIsDataLoaded
+            isDataLoaded, setIsDataLoaded,
+
         }}>
             <DndProvider backend={HTML5Backend}>
                 <Navbar />

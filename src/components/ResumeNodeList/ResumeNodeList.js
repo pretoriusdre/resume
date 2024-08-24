@@ -133,7 +133,7 @@ function ResumeNode({ nodeData, depth, materialised_path }) {
         <div>
             <div
                 ref={isEditing ? handleDrag : null}
-                className={`${isEditing ? 'draggable' : ''}${isDragging ? ' dragging' : ''}${isActive ? ' active' : ''}`}
+                className={`${isEditing ? 'draggable' : ''}${isDragging ? ' dragging' : ''}${isActive ? ' active' : ''}${hidden ? ' hidden' : ''}`}
             >
                 <div
                     onClick={handleSetActiveNode}

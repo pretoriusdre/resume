@@ -6,13 +6,42 @@
 }
 
 
-.textarea-custom {
+.custominput {
   width: 100%;
-  height: 250px;
-  padding: 10px;
+  padding: 5px;
   font-size: 16px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
   background-color: rgba(255, 255, 255, 0.4);
+}
+
+.custominput.readonly {
+  color: rgb(77, 77, 77);
+  font-style: italic;
+}
+
+.custominput.textarea {
+  height: 250px;
+}
+
+.customcheckbox {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+
+
+.checkbox-label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 20px;
+  color: #333; /* Text color */
+}
+.unsaved {
+  color: red;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-left: 10px;
 }

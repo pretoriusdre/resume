@@ -17,6 +17,7 @@ const Separator = ({ id, materialised_path, relative_position }) => {
 
     // relative_position must be 'first_child' or 'next_sibling'
     const { setResumeContent } = useContext(ResumeContext);
+    const { setWasChanged } = useContext(ResumeContext);
 
     const [{ isOver }, drop] = useDrop(() => ({
         accept: DragAndDropItems.RESUME_NODE,
@@ -78,6 +79,7 @@ const Separator = ({ id, materialised_path, relative_position }) => {
                 return prevData; // Return the original state if node not found
             }
         });
+        setWasChanged(true);
     };
 
 
