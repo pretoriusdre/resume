@@ -2157,7 +2157,7 @@
                             },
                             {
                                 "id": "f29b1e4c-63ec-4f9b-931c-fa0593695428",
-                                "value": "Loadsheet",
+                                "value": "Online Excel file data vaidation tool",
                                 "type": "line",
                                 "ref": null,
                                 "hidden": false,
@@ -2166,7 +2166,7 @@
                                 "children": [
                                     {
                                         "id": "6656a6f3-6729-4ba7-b88b-70d8f8c5e6cb",
-                                        "value": "Designed, developed and deployed a cloud-based web app to validate Excel Spreasheets from engineering suppliers, and extract the data.",
+                                        "value": "Designed, developed and deployed a cloud-based web app to validate Excel Spreasheets from engineering suppliers, and extract the data. This was deployed for use on Uaru project.",
                                         "type": "line",
                                         "ref": null,
                                         "hidden": false,
@@ -2209,16 +2209,6 @@
                                         "value": "Languages and frameworks used: Python, Django, Javascript, HTML, CSS",
                                         "type": "line",
                                         "ref": null,
-                                        "hidden": false,
-                                        "start_collapsed": false,
-                                        "prevent_collapse": false,
-                                        "children": []
-                                    },
-                                    {
-                                        "id": "8b3d84d1-e0e1-4c6b-add4-7956b81d8d01",
-                                        "value": "https://www.loadsheet.io",
-                                        "type": "link",
-                                        "ref": "https://www.loadsheet.io",
                                         "hidden": false,
                                         "start_collapsed": false,
                                         "prevent_collapse": false,
