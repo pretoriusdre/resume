@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 
-import ResumeContext from "./ResumeContext";
+import ResumeContext from "../ResumeContext/ResumeContext";
 
 import './PrintableOverlay.css'
 

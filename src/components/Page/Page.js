@@ -2,10 +2,10 @@ import { useContext } from 'react';
 
 
 import './Page.css';
-import ResumeNodeList from './ResumeNodeList';
-import ResumeContext from "./ResumeContext";
 
-import PrintableOverlay from './PrintableOverlay';
+import ResumeNodeList from '../ResumeNodeList/ResumeNodeList';
+import ResumeContext from "../ResumeContext/ResumeContext";
+import PrintableOverlay from '../PrintableOverlay/PrintableOverlay';
 
 const Page = () => {
 

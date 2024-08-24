@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import Resume from './Resume/Resume';
+import Resume from './components/Resume/Resume';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -5,10 +5,10 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 
 import './Resume.css';
 
-import ResumeContext from "./ResumeContext";
-import Navbar from './Navbar';
-import EditingPane from './EditingPane';
-import Page from './Page';
+import ResumeContext from "../ResumeContext/ResumeContext";
+import Navbar from '../Navbar/Navbar';
+import EditingPane from '../EditingPane/EditingPane';
+import Page from '../Page/Page';
 
 
 const Resume = () => {

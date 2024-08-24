@@ -2,9 +2,9 @@
 import React, { useState, useContext } from 'react';
 import { useDrag } from 'react-dnd';
 
-import ResumeContext from "./ResumeContext";
-import DragAndDropItems from './DragAndDropItems'
-import Separator from './Separator';
+import ResumeContext from "../ResumeContext/ResumeContext";
+import DragAndDropItems from '../DragAndDropItems/DragAndDropItems'
+import Separator from '../Separator/Separator';
 
 
 

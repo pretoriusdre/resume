@@ -2,13 +2,14 @@
 import { useContext } from 'react';
 
 import { useDrop } from 'react-dnd';
-import DragAndDropItems from './DragAndDropItems'
 
-import ResumeContext from "./ResumeContext";
+import DragAndDropItems from '../DragAndDropItems/DragAndDropItems';
+
+import ResumeContext from "../ResumeContext/ResumeContext";
 
 import './Separator.css';
 
-import { findAndRemoveNode, findNodeByPath, findParentNode } from './nodeProcessing'
+import { findAndRemoveNode, findNodeByPath, findParentNode } from '../../utils/nodeProcessing'
 
 
 

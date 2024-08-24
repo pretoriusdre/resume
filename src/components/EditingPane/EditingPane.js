@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { findAndUpdateNode, findAndRemoveNode } from "./nodeProcessing";
-import ResumeContext from "./ResumeContext";
+import { findAndUpdateNode, findAndRemoveNode } from "../../utils/nodeProcessing";
+import ResumeContext from "../ResumeContext/ResumeContext";
 import './EditingPane.css';
 
 import { v4 as uuidv4 } from 'uuid';
