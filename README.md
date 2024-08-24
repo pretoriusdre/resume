@@ -1,9 +1,20 @@
 # Resume: An interactive, hierarchical resume
 
-This repository is for an interactive, web-based resume. The content is stored in a hierarchical tree, which can be interactively explored. Rich content such as images, videos, or other interactive elements are supported. Despite this, the resume is designed to be exportable to a conventional A4 page size pdf, with a link back to the interactive version. The resume also has an inbuilt editing tool which allows you to build the tree structure.
+This repository is for an interactive resume built around a tree data structure.
 
 Example:
 https://pretoriusdre.github.io/resume
+
+The resume looks just like a regular resume, and can be printed to pdf which you can submit normally. However, the pdf version includes a hyperlink back to the interactive version, and in that your ideas can *expand beyond the printed page*.
+
+Each granular piece of information in the resume is represented by a node. Nodes can contain child notes, which could be expanded to reveal additional supporting information for the enquiring reader. You could include as much detailed information as you like. You can also reveal rich content such as images or embedded videos.
+
+The resume has a built-in editor which allows you to update and rearrange nodes. Feel free to try this out. Export the JSON after you make your changes, this would need to be manually updated in your respository.
+
+
+If you want to customise your resume to a particular job application, you can make your updates with the editor, saving the content to a new subfolder in the directory. Then you can reference this custom version using a url parameter such as `<BASE_URL>/?version=custom-for-xxxxx-role`
+
+
 
 
 Deployment:
@@ -13,9 +24,10 @@ Deployment:
     1. Click the "Fork" button at the top-right corner of this page.
     2. Choose a repository name. It is recommended to use 'resume'.
 
-If you have a free GitHub account, your url will be:
-https://<username>.github.io/<repository-name>
-eg pretoriusdre.github.io/resume
+    If you have a free GitHub account, your url will be:
+
+    `https://<username>.github.io/<repository-name>`
+
 
 
 2. **Clone the Forked Repository:**
@@ -25,7 +37,8 @@ eg pretoriusdre.github.io/resume
         ```sh
         git clone <URL>
         ```
-       Replace `<URL>` with the copied URL.
+    
+       Replace `<URL>` with the copied repository URL, (normally reusme).
 
 3. **Navigate to the Repository:**
     ```sh
@@ -43,11 +56,11 @@ eg pretoriusdre.github.io/resume
     npm start
     ```
 
-
 6. **Make Changes to the content:**
     - Use the editor to delete the first node. This will reset to a starter template.
-    - Update the content. Export the file as JSON, save into `/public/data/<yourname>/resume_content.json`
+    - Update the content as needed. Export the file as JSON, save into `/public/data/<yourname>/resume_content.json`
     - Update `/data/resume_metadata.json` to point to this new file.
+
 
 7. **Commit and Push Changes:**
     ```sh
@@ -77,4 +90,21 @@ eg pretoriusdre.github.io/resume
     - Ensure that GitHub Pages is enabled in the `Settings` > `Pages` section. Once the branch and folder are set correctly, GitHub will publish the pages automatically.
 
 
-If you follow these steps, you will have successfully forked the repository and set up your own GitHub Pages site from the forked repo.
+11. **Deploy your website**
+    ```sh
+    npm run deploy
+    ```
+After a short while your new resume should be online at
+`https://<username>.github.io/<repository-name>`
+
+12. **Resume versioning**
+
+    The best resumes are customised to the role you are applying for. A great strategy is to have all your experiences listed inside in the 'master' resume (with unnecessary nodes set as hidden), and you use this as a template for the custom version. To customise, you would selectivly hide or collapse the items which are less relevant to the role you are applying for, before saving into a new JSON file.
+    
+    If you want to save your new file as a custom resume version, save it into the repository as follows:
+
+    `/public/data/<yourname>/<version-name>/resume_content.json`
+
+    The custom version is accessed by passing url parameters as follows:
+
+    `https://<username>.github.io/<repository-name>/?version=<version-name>`

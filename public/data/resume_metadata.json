@@ -1,6 +1,6 @@
 {
     "url" : "https://pretoriusdre.github.io/resume",
     "title" : "Résumé - André Pretorius",
-    "contentpath" : "/data/andre/resume_content.json"
-
+    "basepath" : "/data/andre/",
+    "filename" : "resume_content.json"
 }

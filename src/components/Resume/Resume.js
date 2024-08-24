@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 
+//import { useLocation } from 'react-router-dom';
 
 import './Resume.css';
 
@@ -13,12 +14,18 @@ import Page from '../Page/Page';
 
 const Resume = () => {
 
+    //const location = useLocation();
+
+
     const [resumeContent, setResumeContent] = useState([]);
     const [resumeMetadata, setResumeMetadata] = useState({});
+    const [versionURL, setVersionURL] = useState('');
     const [isDataLoaded, setIsDataLoaded] = useState(false);
     const [isEditing, setIsEditing] = useState(false);
     const [wasChanged, setWasChanged] = useState(false);
     const [activeNode, setActiveNode] = useState(null);
+
+
 
     // Get the metadata
     useEffect(() => {
@@ -39,17 +46,47 @@ const Resume = () => {
     useEffect(() => {
         const fetchResumeContent = async () => {
             try {
-                const resumeContentResponse = await fetch(`${process.env.PUBLIC_URL}${resumeMetadata.contentpath}`);
+                // Extract version from URL parameters
+                const params = new URLSearchParams(window.location.search);
+                const version = params.get('version');
+    
+                let contentPath;
+    
+                // If a version is specified, try to fetch from the versioned path
+                if (version) {
+                    contentPath = `${process.env.PUBLIC_URL}${resumeMetadata.basepath}${version}/${resumeMetadata.filename}`;
+                    try {
+                        const resumeContentResponse = await fetch(contentPath);
+                        if (!resumeContentResponse.ok) {
+                            throw new Error(`Failed to fetch versioned path: ${contentPath}`);
+                        }
+                        const resumeContentReceived = await resumeContentResponse.json();
+                        setResumeContent(resumeContentReceived);
+                        setIsDataLoaded(true);
+                        setVersionURL(`${resumeMetadata.url}/?version=${version}`);
+                        return;
+                    } catch (error) {
+                        console.warn('Versioned path not found, falling back to base path:', error);
+                    }
+                }
+    
+                // If no version is specified or versioned path fails, try to fetch from the base path
+                contentPath = `${process.env.PUBLIC_URL}${resumeMetadata.basepath}${resumeMetadata.filename}`;
+                const resumeContentResponse = await fetch(contentPath);
+                if (!resumeContentResponse.ok) {
+                    throw new Error(`Failed to fetch base path: ${contentPath}`);
+                }
                 const resumeContentReceived = await resumeContentResponse.json();
                 setResumeContent(resumeContentReceived);
                 setIsDataLoaded(true);
+                setVersionURL(`${resumeMetadata.url}`);
             } catch (error) {
                 console.error('Error fetching JSON data:', error);
             }
         };
+    
         fetchResumeContent();
     }, [resumeMetadata, setResumeContent, setIsDataLoaded]);
-
 
     // Reset content to sample data if all nodes are deleted
     useEffect(() => {
@@ -81,7 +118,7 @@ const Resume = () => {
             wasChanged, setWasChanged,
             activeNode, setActiveNode,
             resumeContent, setResumeContent,
-            resumeMetadata, setResumeMetadata,
+            versionURL, setVersionURL,
             isDataLoaded, setIsDataLoaded,
 
         }}>
