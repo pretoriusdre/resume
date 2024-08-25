@@ -26,8 +26,8 @@ If you want to customise your resume to a particular job application, you can ma
 
 1. **Fork the repository:**
     1. Click the "Fork" button at the top-right corner of this page.
-    2. Choose a repository name. It is recommended to use 'resume', as this choice affects your site url.
-        - If you don't have a custom domain, your site url will be: `<site-url> = https://<username>.github.io/<repository-name>`
+    2. Choose a repository name. It is recommended to use 'resume', as this choice affects the site url on GitHub Pages.
+        - If you don't have a custom domain, your GitHub Pages site url will be: `<site-url> = https://<username>.github.io/<repository-name>`
 
 2. **Clone the forked repository:**
     1. Navigate to your forked repository.
@@ -56,8 +56,7 @@ If you want to customise your resume to a particular job application, you can ma
     2. Navigate to `Settings` > `Pages`.
     3. Enable GitHub Pages.
     4. Under "Source," ensure it is set to GitHub Actions. The associated settings for this are in `./.github/workflows/gh-pages.yml`
-    5. If you have a custom domain, you can enter this information here.
-    6. Note down the public url you are using, you will need to update this in the repository.
+    5. If you would like to set up a custom domain, you should enter this information here.
 
 
 6. **Test out the resume on the local webserver**
@@ -65,12 +64,13 @@ If you want to customise your resume to a particular job application, you can ma
     npm start
     ```
     -The webserver should normally be accessible from http://localhost:3000/resume
+
     -After you have confirmed it is working locally, close the webserver with Ctrl+C
 
 
 7. **Make local changes to the resume:**
     - Make a local development branch:
-    ```sh
+    ```shf
     git checkout -b mydev
     ```
     
@@ -91,7 +91,7 @@ If you want to customise your resume to a particular job application, you can ma
 
 9. **Merge the changes into main:**
 
-    - Since `main` branch automatically deploys the site, a branch protection rule has been setup. You will need to merge your branch with a pull request.
+    - Since `main` branch automatically deploys the site, a branch protection rule has been setup. You may need to merge your branch with a pull request.
 
     - You can raise and approve your own pull request into your own repositoy at:
      `https://github.com/<username>/<repository-name>/actions`
