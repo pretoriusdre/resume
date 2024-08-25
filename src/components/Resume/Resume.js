@@ -19,7 +19,6 @@ const Resume = () => {
 
     const [resumeContent, setResumeContent] = useState([]);
     const [resumeMetadata, setResumeMetadata] = useState({});
-    const [versionURL, setVersionURL] = useState('');
     const [isDataLoaded, setIsDataLoaded] = useState(false);
     const [isEditing, setIsEditing] = useState(false);
     const [wasChanged, setWasChanged] = useState(false);
@@ -63,7 +62,6 @@ const Resume = () => {
                         const resumeContentReceived = await resumeContentResponse.json();
                         setResumeContent(resumeContentReceived);
                         setIsDataLoaded(true);
-                        setVersionURL(`${resumeMetadata.url}/?version=${version}`);
                         return;
                     } catch (error) {
                         console.warn('Versioned path not found, falling back to base path:', error);
@@ -79,7 +77,6 @@ const Resume = () => {
                 const resumeContentReceived = await resumeContentResponse.json();
                 setResumeContent(resumeContentReceived);
                 setIsDataLoaded(true);
-                setVersionURL(`${resumeMetadata.url}`);
             } catch (error) {
                 console.error('Error fetching JSON data:', error);
             }
@@ -118,7 +115,6 @@ const Resume = () => {
             wasChanged, setWasChanged,
             activeNode, setActiveNode,
             resumeContent, setResumeContent,
-            versionURL, setVersionURL,
             isDataLoaded, setIsDataLoaded,
 
         }}>

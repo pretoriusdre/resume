@@ -23,7 +23,7 @@ If you want to customise your resume to a particular job application, you can ma
 
 1. **Fork the repository:**
     1. Click the "Fork" button at the top-right corner of this page.
-    2. Choose a repository name. It is recommended to use 'resume', as this affects your site url.
+    2. Choose a repository name. It is recommended to use 'resume', as this choice affects your site url.
         - If you don't have a custom domain, your site url will be: `<site-url> = https://<username>.github.io/<repository-name>`
 
 2. **Clone the forked repository:**
@@ -70,8 +70,7 @@ If you want to customise your resume to a particular job application, you can ma
     ```sh
     git checkout -b mydev
     ```
-    - Update `.package.json`, changing the `homepage` parameter to your github public url.
-
+    
     - Run the webserver again.
     - Use the editor to reset the page to a starter template.
     `(Navbar) > Edit > Start New`
