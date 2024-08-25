@@ -7,94 +7,100 @@ https://pretoriusdre.github.io/resume
 
 The resume looks just like a regular resume, and can be printed to pdf which you can submit normally. However, the pdf version includes a hyperlink back to the interactive version, where ideas can *expand beyond the printed page*.
 
-Each granular piece of information in the resume is represented by a node. Nodes can contain child notes, which the an enquiring reader could expand to reveal additional supporting information. You could include as much detailed information as you like. You can also reveal rich content such as images or embedded videos.
+Each granular piece of information in the resume is represented by a node. Nodes can contain child notes, which an enquiring reader could expand to reveal additional supporting information. You could include as much detailed information as you like, at any depth level. You can also reveal rich content such as images or embedded videos, which themselves can be represented by nodes.
 
 The resume has a built-in editor which allows you to update and rearrange nodes. Feel free to try this feature, it does not affect the content on the webserver. Export the JSON after you make your local changes. If you want to persist these changes, save that file in your repository over the existing file.
 
 
-If you want to customise your resume to a particular job application, you can make your updates with the editor, saving the content to a new subfolder in the directory. Then you can reference this custom version using a url parameter such as `<BASE_URL>/?version=custom-for-xxxxx-role`
-
-
+If you want to customise your resume to a particular job application, you can make your updates with the editor, saving the content to a new subfolder in the directory. Then you can reference this custom version using a url parameter such as `<site-url>/?version=custom-for-xxxxx-role`
 
 
 Deployment:
 
 
-1. **Fork the Repository:**
+1. **Fork the repository:**
     1. Click the "Fork" button at the top-right corner of this page.
-    2. Choose a repository name. It is recommended to use 'resume', as this effects your site url.
-        * If you don't have a custom domain, your site url will be: `https://<username>.github.io/<repository-name>`
+    2. Choose a repository name. It is recommended to use 'resume', as this affects your site url.
+        - If you don't have a custom domain, your site url will be: `<site-url> = https://<username>.github.io/<repository-name>`
 
-
-
-2. **Clone the Forked Repository:**
+2. **Clone the forked repository:**
     1. Navigate to your forked repository.
     2. Click the green "Code" button and copy the URL (either HTTPS or SSH).
     3. Open a terminal on your computer and run the following command to clone the repository:
         ```sh
-        git clone <URL>
+        git clone <repository-url>
         ```
     
-       Replace `<URL>` with the copied repository URL.
+       Replace `<repository-url>` with the copied repository URL.
 
-3. **Navigate to the Repository:**
+3. **Navigate to the repository:**
     
     ```sh
     cd <repository-name>
     ```
-   Replace `<repository-name>` with the name of your repository.
+   Replace `<repository-name>` with the name of your repository, eg `resume`
 
 4. **Install the required dependencies:**
     ```sh
     npm install
     ```
 
-5. **Test out the resume on the local webserver**
+5. **Update GitHub Pages settings:**
+    1. Go to your forked repository on GitHub.
+    2. Navigate to `Settings` > `Pages`.
+    3. Enable GitHub Pages.
+    4. Under "Source," ensure it is set to GitHub Actions. The associated settings for this are in `./.github/workflows/gh-pages.yml`
+    5. If you have a custom domain, you can enter this information here.
+    6. Note down the public url you are using, you will need to update this in the repository.
+
+
+6. **Test out the resume on the local webserver**
     ```sh
     npm start
     ```
+    The webserver should normally be accessible from http://localhost:3000/resume
 
-6. **Make Changes to the content:**
-    - Use the editor to delete the first node. This will reset to a starter template.
-    - Update the content as needed. Export the file as JSON, save into `/public/data/<yourname>/resume_content.json`
-    - Update `/data/resume_metadata.json` to point to this new file.
+    After you have confirmed it is working locally, close the webserver with Ctrl+C
 
 
-7. **Commit and Push Changes:**
+7. **Make local changes to the resume:**
+    - Make a local development branch:
+    ```sh
+    git checkout -b mydev
+    ```
+    - Update `.package.json`, changing the `homepage` parameter to your github public url.
+
+    - Run the webserver again.
+    - Use the editor to reset the page to a starter template.
+    `(Navbar) > Edit > Start New`
+    - Update the content as needed. Export the file as JSON, save into `./public/data/<yourname>/resume_content.json`
+    - Update `./public/data/resume_metadata.json` to point to this new file that you exported and saved into the correct location.
+    - Re-run the webserver and check that the resume is showing the new content.
+
+
+8. **Commit and push changes to dev:**
     ```sh
     git add .
     git commit -m "Describe your changes"
-    git push origin main
+    git push origin mydev
     ```
 
+9. **Merge the changes into main:**
+    Since `main` branch automatically deploys the site, a branch protection rule has been setup. You will need to merge your branch with a pull request.
 
-8. **Update GitHub Pages Settings:**
-    1. Go to your forked repository on GitHub.
-    2. Navigate to `Settings` > `Pages`.
-    3. Under "Source," ensure it is set to the correct branch (`gh-pages`) and folder (`/root``).
-    4. If you have a custom domain, you can enter this information here.
+    You can raise and approve your own pull request into your own repositoy at:
+     `https://github.com/<username>/<repository-name>/actions`
 
-
-9. **Commit and Push Changes:**
-    ```sh
-    git add .
-    git commit -m "Describe your changes"
-    git push origin main
-    ```
+     If you prefer, you can turn off branch protection rules on your own repo.
 
 
-10. **Enable GitHub Pages:**
-    - Ensure that GitHub Pages is enabled in the `Settings` > `Pages` section. Once the branch and folder are set correctly, GitHub will publish the pages automatically.
+10. **Check the deployment of your website**
+    After a short while your new resume should be online at
+    `https://<username>.github.io/<repository-name>`
 
+    If you encounter any issue, check the deployment logs at `https://github.com/<username>/<repository-name>/actions`
 
-11. **Deploy your website**
-    ```sh
-    npm run deploy
-    ```
-After a short while your new resume should be online at
-`https://<username>.github.io/<repository-name>`
-
-12. **Resume versioning**
+11. **Resume versioning**
 
     The best resumes are customised to the role you are applying for. A great strategy is to have all your experiences listed inside in the base resume (with nodes set as hidden as requried), and you use this as a template to create the custom version. To customise, you would selectivly hide or collapse the items which are less relevant to the role you are applying for, or unhiding nodes which provide useful detail. You would then save that version into a new JSON file, saving it into the repository as follows:
 
