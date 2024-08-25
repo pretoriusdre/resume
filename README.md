@@ -3,7 +3,7 @@
 This repository is for an interactive resume built around a tree data structure.
 
 Example:
-https://pretoriusdre.github.io/resume
+https://pretoriusdre.github.io/resume/?version=sample
 
 https://github.com/user-attachments/assets/4318e7e0-05d8-48f6-9d29-3fbdf1e0e4bf
 
@@ -18,7 +18,7 @@ The resume has a built-in editor which allows you to update and rearrange nodes.
 If you want to customise your resume to a particular job application, you can make your updates with the editor, saving the content to a new subfolder in the directory. Then you can reference this custom version using a url parameter such as `<site-url>/?version=custom-for-xxxxx-role`
 
 
-Deployment:
+### Setup:
 
 
 1. **Fork the repository:**
@@ -61,9 +61,8 @@ Deployment:
     ```sh
     npm start
     ```
-    The webserver should normally be accessible from http://localhost:3000/resume
-
-    After you have confirmed it is working locally, close the webserver with Ctrl+C
+    -The webserver should normally be accessible from http://localhost:3000/resume
+    -After you have confirmed it is working locally, close the webserver with Ctrl+C
 
 
 7. **Make local changes to the resume:**
@@ -89,26 +88,32 @@ Deployment:
     ```
 
 9. **Merge the changes into main:**
-    Since `main` branch automatically deploys the site, a branch protection rule has been setup. You will need to merge your branch with a pull request.
 
-    You can raise and approve your own pull request into your own repositoy at:
+    - Since `main` branch automatically deploys the site, a branch protection rule has been setup. You will need to merge your branch with a pull request.
+
+    - You can raise and approve your own pull request into your own repositoy at:
      `https://github.com/<username>/<repository-name>/actions`
 
-     If you prefer, you can turn off branch protection rules on your own repo.
-
+    - If you prefer, you can turn off branch protection rules on your own repo.
 
 10. **Check the deployment of your website**
-    After a short while your new resume should be online at
-    `https://<username>.github.io/<repository-name>`
+    - After a short while your new resume should be online at:
 
-    If you encounter any issue, check the deployment logs at `https://github.com/<username>/<repository-name>/actions`
+        `https://<username>.github.io/<repository-name>`
+
+    - If you encounter any issue, check the deployment logs at 
+        `https://github.com/<username>/<repository-name>/actions`
 
 11. **Resume versioning**
 
-    The best resumes are customised to the role you are applying for. A great strategy is to have all your experiences listed inside in the base resume (with nodes set as hidden as requried), and you use this as a template to create the custom version. To customise, you would selectivly hide or collapse the items which are less relevant to the role you are applying for, or unhiding nodes which provide useful detail. You would then save that version into a new JSON file, saving it into the repository as follows:
+    - The best resumes are customised to the role you are applying for.
+    - A great strategy is to have all your experiences listed inside in the base resume (with nodes set as hidden as requried), and you use this as a template to create the custom version.
+    - To customise, you would selectivly hide or collapse the items which are less relevant to the role you are applying for, or unhiding nodes which provide useful detail.
+    - After customisation for the role, you would then save that version into a new JSON file, saving it into the repository as follows:
 
-    `/public/data/<yourname>/<version-name>/resume_content.json`
+        `/public/data/<yourname>/<version-name>/resume_content.json`
 
-    The custom version is accessed by passing a `version` parameter in the url:
+    - The custom version is accessed by passing a `version` parameter in the url:
 
-    `https://<username>.github.io/<repository-name>/?version=<version-name>`
+        `https://<username>.github.io/<repository-name>/?version=<version-name>`
+
