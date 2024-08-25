@@ -51,4 +51,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         env:
-          PRODUCTION_URL: ${{ vars.PRODUCTION_URL }}
+          PUBLIC_URL : ${{ vars.PUBLIC_URL  }}
