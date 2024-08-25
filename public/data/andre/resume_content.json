@@ -452,7 +452,7 @@
                       },
                       {
                         "id": "d1d19f36-36ef-4bd1-896c-8738a5048f51",
-                        "value": "Web scraping to retrieve metadata from technical reference materal",
+                        "value": "Web scraping to retrieve metadata from technical reference material",
                         "type": "line",
                         "ref": null,
                         "hidden": false,
@@ -493,7 +493,7 @@
                       },
                       {
                         "id": "d477b17f-832b-4d6b-b318-b18cd9502cba",
-                        "value": "Design and implementation of a user access framework; inclunging frontend workflow system, permissions data model, and persmissions orchestrator",
+                        "value": "Design and implementation of a user access framework; including frontend workflow system, permissions data model, and permissions orchestrator",
                         "type": "line",
                         "ref": null,
                         "hidden": false,
@@ -514,7 +514,7 @@
                     "children": [
                       {
                         "id": "5ed48de5-e3d9-4ed4-84a5-df1f57f58d69",
-                        "value": "Development of maintenanace backlog reports and maintenance structure visualisation",
+                        "value": "Development of maintenance backlog reports and maintenance structure visualisation",
                         "type": "line",
                         "ref": null,
                         "hidden": false,
@@ -1158,7 +1158,7 @@
                   },
                   {
                     "id": "6c856f38-8b53-4101-99ba-dba4db18e950",
-                    "value": "Coordinated design deliverables for subsea components eg strakes, centralisers, valves.",
+                    "value": "Coordinated design deliverables for subsea components e.g. strakes, centralisers, valves.",
                     "type": "line",
                     "ref": null,
                     "hidden": false,
@@ -2166,7 +2166,7 @@
                 "children": [
                   {
                     "id": "6656a6f3-6729-4ba7-b88b-70d8f8c5e6cb",
-                    "value": "Designed, developed and deployed a cloud-based web app to validate Excel Spreasheets from engineering suppliers, and extract the data. This was deployed for use on Uaru project.",
+                    "value": "Designed, developed and deployed a cloud-based web app to validate Excel Spreadsheets from engineering suppliers, and extract the data. This was deployed for use on Uaru project.",
                     "type": "line",
                     "ref": null,
                     "hidden": false,
@@ -2176,7 +2176,7 @@
                   },
                   {
                     "id": "e93b4ea9-98ab-4c3e-b3a6-2fed852fa87f",
-                    "value": "Generation of validation reports based on pre-defined schemas, eg checking string lengths, character encoding, column names, min/max values, catalogue of allowable values.",
+                    "value": "Generation of validation reports based on pre-defined schemas, e.g. checking string lengths, character encoding, column names, min/max values, catalogue of allowable values.",
                     "type": "line",
                     "ref": null,
                     "hidden": false,
