@@ -54,12 +54,11 @@ const Navbar = () => {
 
   const handleStartNew = (e) => {
     e.preventDefault();
-
-    // Confirm the deletion with the user
+    
     const confirmed = window.confirm("Click ok to reset this to a blank template. Please try this if you like. The data stored on the webserver will not be affected.");
 
     if (!confirmed) {
-      return; // Exit the function if the user cancels
+      return;
     }
     setResumeContent([]);
     setWasChanged(true);
@@ -68,11 +67,10 @@ const Navbar = () => {
   const handleReset = (e) => {
     e.preventDefault();
 
-    // Confirm the deletion with the user
     const confirmed = window.confirm("Click ok to return back to the stored resume. Local changes will be lost unless exported first.");
 
     if (!confirmed) {
-      return; // Exit the function if the user cancels
+      return;
     }
     window.location.reload();
   };
