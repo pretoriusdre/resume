@@ -5,6 +5,9 @@ This repository is for an interactive resume built around a tree data structure.
 Example:
 https://pretoriusdre.github.io/resume/?version=sample
 
+https://github.com/user-attachments/assets/4318e7e0-05d8-48f6-9d29-3fbdf1e0e4bf
+
+
 The resume looks just like a regular resume, and can be printed to pdf which you can submit normally. However, the pdf version includes a hyperlink back to the interactive version, where ideas can *expand beyond the printed page*.
 
 Each granular piece of information in the resume is represented by a node. Nodes can contain child notes, which an enquiring reader could expand to reveal additional supporting information. You could include as much detailed information as you like, at any depth level. You can also reveal rich content such as images or embedded videos, which themselves can be represented by nodes.
@@ -113,3 +116,4 @@ If you want to customise your resume to a particular job application, you can ma
     - The custom version is accessed by passing a `version` parameter in the url:
 
         `https://<username>.github.io/<repository-name>/?version=<version-name>`
+
