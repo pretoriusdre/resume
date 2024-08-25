@@ -66,9 +66,8 @@ Deployment:
     ```sh
     git add .
     git commit -m "Describe your changes"
-    git push origin master
+    git push origin main
     ```
-    Make sure `master` is the correct branch name.
 
 
 8. **Update GitHub Pages Settings:**
@@ -81,9 +80,8 @@ Deployment:
     ```sh
     git add .
     git commit -m "Describe your changes"
-    git push origin master
+    git push origin main
     ```
-    Make sure `master` is the correct branch name.
 
 
 10. **Enable GitHub Pages:**
@@ -99,12 +97,10 @@ After a short while your new resume should be online at
 
 12. **Resume versioning**
 
-    The best resumes are customised to the role you are applying for. A great strategy is to have all your experiences listed inside in the 'master' resume (with unnecessary nodes set as hidden), and you use this as a template for the custom version. To customise, you would selectivly hide or collapse the items which are less relevant to the role you are applying for, before saving into a new JSON file.
-    
-    If you want to save your new file as a custom resume version, save it into the repository as follows:
+    The best resumes are customised to the role you are applying for. A great strategy is to have all your experiences listed inside in the base resume (with nodes set as hidden as requried), and you use this as a template to create the custom version. To customise, you would selectivly hide or collapse the items which are less relevant to the role you are applying for, or unhiding nodes which provide useful detail. You would then save that version into a new JSON file, saving it into the repository as follows:
 
     `/public/data/<yourname>/<version-name>/resume_content.json`
 
-    The custom version is accessed by passing url parameters as follows:
+    The custom version is accessed by passing a `version` parameter in the url:
 
     `https://<username>.github.io/<repository-name>/?version=<version-name>`
