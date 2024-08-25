@@ -10,7 +10,7 @@
     "children": [
       {
         "id": "8100a3b9-6f07-463b-b1ed-d2921c453a29",
-        "value": "Senior Mechanical Engineer | DataOps Specialist",
+        "value": "Senior Mechanical Engineer | Senior DataOps Engineer",
         "type": "subtitle",
         "ref": null,
         "hidden": false,
@@ -217,7 +217,7 @@
           },
           {
             "id": "b0b5a74a-c452-4569-b3e0-7cc65c86bba1",
-            "value": "I currently work as a DataOps Engineer (DataOps Specialist) within MODEC's Digital and Analytics department.",
+            "value": "I currently work as a Senior DataOps Engineer within MODEC's Digital and Analytics department.",
             "type": "paragraph",
             "ref": null,
             "hidden": false,
