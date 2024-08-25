@@ -46,10 +46,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
-    environment: prd
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-        env:
-          PUBLIC_URL: https://pretoriusdre.github.io/resume
