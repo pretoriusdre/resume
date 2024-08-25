@@ -5,7 +5,10 @@ This repository is for an interactive resume built around a tree data structure.
 Example:
 https://pretoriusdre.github.io/resume/?version=sample
 
-https://github.com/user-attachments/assets/4318e7e0-05d8-48f6-9d29-3fbdf1e0e4bf
+
+
+https://github.com/user-attachments/assets/4fd4fa6b-9354-42a7-8034-2810f138f4ea
+
 
 
 The resume looks just like a regular resume, and can be printed to pdf which you can submit normally. However, the pdf version includes a hyperlink back to the interactive version, where ideas can *expand beyond the printed page*.
