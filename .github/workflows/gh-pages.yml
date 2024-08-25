@@ -46,6 +46,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
+    environment: prd
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
