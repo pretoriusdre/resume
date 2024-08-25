@@ -52,4 +52,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         env:
-          PUBLIC_URL: https://pretoriusdre.github.io.resume
+          PUBLIC_URL: https://pretoriusdre.github.io/resume
