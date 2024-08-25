@@ -7,7 +7,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 const EditingPane = () => {
   const { activeNode, setActiveNode, resumeContent, setResumeContent } = useContext(ResumeContext);
-  const { wasChanged, setWasChanged } = useContext(ResumeContext);
+  const { setWasChanged } = useContext(ResumeContext);
 
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
 

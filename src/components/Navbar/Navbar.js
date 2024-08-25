@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useEffect, useState, useContext, useCallback } from 'react';
 
 import './Navbar.css';
 
@@ -19,7 +19,8 @@ const Navbar = () => {
     setIsEditing(!isEditing);
   }
 
-  const handleScroll = () => {
+
+  const handleScroll = useCallback(() => {
     const currentScrollPos = window.scrollY;
 
     if (currentScrollPos > scrollPosition) {
@@ -31,7 +32,7 @@ const Navbar = () => {
     }
 
     setScrollPosition(currentScrollPos);
-  };
+  }, [scrollPosition]);
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
@@ -39,7 +40,7 @@ const Navbar = () => {
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [scrollPosition]);
+  }, [handleScroll]);
 
 
   const handleExport = (e) => {
@@ -80,15 +81,37 @@ const Navbar = () => {
     <header className={`navbar ${!isVisible ? 'hidden' : ''}`} onMouseEnter={() => setIsVisible(true)}>
       <nav>
         <ul>
-          {wasChanged ? <li><a href="" onClick={handleReset}>Reset</a></li> : null}
-          {isEditing ? <li><a href="" onClick={handleStartNew}>Start New</a></li> : null}
-          {isEditing ? <li><a href="" onClick={handleExport}>Export JSON</a></li> : null}
-          <li><a href="" onClick={toggleEditing}>{isEditing ? "Stop Editing" : "Edit"}</a></li>
-          <li><a href="https://github.com/pretoriusdre/resume" target="_blank">Source</a></li>
+          {wasChanged ? (
+            <li>
+              <button onClick={handleReset}>Reset</button>
+            </li>
+          ) : null}
+          {isEditing ? (
+            <li>
+              <button onClick={handleStartNew}>Start New</button>
+            </li>
+          ) : null}
+          {isEditing ? (
+            <li>
+              <button onClick={handleExport}>Export JSON</button>
+            </li>
+          ) : null}
+          <li>
+            <button onClick={toggleEditing}>
+              {isEditing ? "Stop Editing" : "Edit"}
+            </button>
+          </li>
+          <li>
+          <button onClick={() => window.open('https://github.com/pretoriusdre/resume', '_blank')}>
+          View Source
+        </button>
+            
+          </li>
         </ul>
       </nav>
     </header>
   );
+  
 };
 
 export default Navbar;
