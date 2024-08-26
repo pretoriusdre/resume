@@ -656,7 +656,7 @@
           },
           {
             "id": "6070446a-afbb-41df-a40a-0ec50033eb84",
-            "value": "Skill 2",
+            "value": "Skill 2 (expand for iframe)",
             "type": "line",
             "ref": "",
             "hidden": false,
@@ -664,28 +664,10 @@
             "prevent_toggle": false,
             "children": [
               {
-                "id": "72620d9e-b431-4030-a7cd-9d05574f0fe8",
-                "value": "Supporting evidence of skill 2",
-                "type": "line",
-                "ref": "",
-                "hidden": false,
-                "start_collapsed": false,
-                "prevent_toggle": false
-              },
-              {
-                "id": "faf7ef4c-9b06-4d5a-a06d-3a33dde0c8cc",
-                "value": "Supporting evidence of skill 2",
-                "type": "line",
-                "ref": "",
-                "hidden": false,
-                "start_collapsed": false,
-                "prevent_toggle": false
-              },
-              {
-                "id": "32f51482-0e35-4ece-9ee4-7405ff847897",
-                "value": "Supporting evidence of skill 2",
-                "type": "line",
-                "ref": "",
+                "id": "2d97db5c-1048-4fc9-8b4f-4b36a36a2d12",
+                "value": "Force directed graph",
+                "type": "iframe",
+                "ref": "./media/sample/force_directed_graph.html",
                 "hidden": false,
                 "start_collapsed": false,
                 "prevent_toggle": false
