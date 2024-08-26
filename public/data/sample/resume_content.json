@@ -119,7 +119,7 @@
         "children": [
           {
             "id": "e319ec70-aab3-4e98-98dc-f29eaf3a6c2e",
-            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie convallis elit vel scelerisque. Fusce venenatis erat a aliquet suscipit. In hac habitasse platea dictumst. Nullam hendrerit lacinia enim, ac rhoncus nulla scelerisque ut. Maecenas vel gravida nulla. Duis sit amet elit id elit commodo iaculis vel sit amet justo. Cras bibendum odio in mi elementum consectetur. Aliquam blandit rhoncus laoreet. Cras sed diam eget elit rutrum interdum. ",
+            "value": "I am a ______ with ___ years of experience across a range of areas including ____. My key strengths are ___...",
             "type": "paragraph",
             "ref": "",
             "hidden": false,
@@ -128,12 +128,63 @@
           },
           {
             "id": "a6d490f5-4e3e-4129-bfb5-0ffab75bde9d",
-            "value": "Morbi vitae enim nec elit laoreet volutpat eu at nulla. Nulla rutrum dolor quis luctus suscipit.",
-            "type": "paragraph",
+            "value": "(Regarding this template)",
+            "type": "line",
             "ref": "",
             "hidden": false,
             "start_collapsed": false,
-            "prevent_collapse": true
+            "prevent_collapse": true,
+            "children": [
+              {
+                "id": "9919379c-9592-46bc-8f12-6115bb17f3da",
+                "value": "This is an open source project. You are welcome to use this interactive resume template to make your own resume. You can deploy your own version for free on Github pages. See the repository site for more information:",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false,
+                "children": [
+                  {
+                    "id": "121edbd1-721f-4a5a-8d6f-05bd6cb0b979",
+                    "value": "https://github.com/pretoriusdre/resume-tree",
+                    "type": "link",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  }
+                ]
+              },
+              {
+                "id": "035b8412-13a8-4d00-9c0e-51faf1091ae1",
+                "value": "Try out the editing feature on the top right side navbar.",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": true,
+                "prevent_collapse": false,
+                "children": [
+                  {
+                    "id": "e26b6a8e-1c2c-45e3-9e18-0daaca1ad895",
+                    "value": "Drag nodes to move them and add / adjust the values and element types as needed.",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  },
+                  {
+                    "id": "5ba46def-dbd9-4ab8-9db3-f95d6a64ddc4",
+                    "value": "You can make changes locally, exporting these to JSON. Update your repository with that file to update your site.",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
