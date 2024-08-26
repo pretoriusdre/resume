@@ -666,7 +666,7 @@
                 "id": "2d97db5c-1048-4fc9-8b4f-4b36a36a2d12",
                 "value": "Force directed graph",
                 "type": "iframe",
-                "ref": "/media/sample/force_directed_graph.html",
+                "ref": "./media/sample/force_directed_graph.html",
                 "hidden": false,
                 "start_collapsed": false,
                 "prevent_toggle": false
