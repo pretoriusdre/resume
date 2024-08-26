@@ -1,6 +1,7 @@
 # Resume: An interactive, hierarchical resume
+## Overview:
 
-This repository is for an interactive resume built around a tree data structure.
+This repository is for an interactive resume built around a tree data structure. This is an open-source project which you can fork, fill with your own details, and host on github pages for free.
 
 Example:
 https://pretoriusdre.github.io/resume/?version=sample
@@ -13,6 +14,7 @@ https://github.com/user-attachments/assets/4fd4fa6b-9354-42a7-8034-2810f138f4ea
 
 The resume looks just like a regular resume, and can be printed to pdf which you can submit normally. However, the pdf version includes a hyperlink back to the interactive version, where ideas can *expand beyond the printed page*.
 
+
 Each granular piece of information in the resume is represented by a node. Nodes can contain child notes, which an enquiring reader could expand to reveal additional supporting information. You could include as much detailed information as you like, at any depth level. You can also reveal rich content such as images or embedded videos, which themselves can be represented by nodes.
 
 The resume has a built-in editor which allows you to update and rearrange nodes. Feel free to try this feature, it does not affect the content on the webserver. Export the JSON after you make your local changes. If you want to persist these changes, save that file in your repository over the existing file.
@@ -21,7 +23,7 @@ The resume has a built-in editor which allows you to update and rearrange nodes.
 If you want to customise your resume to a particular job application, you can make your updates with the editor, saving the content to a new subfolder in the directory. Then you can reference this custom version using a url parameter such as `<site-url>/?version=custom-for-xxxxx-role`
 
 
-### Setup:
+## Setup:
 
 
 1. **Fork the repository:**
@@ -119,3 +121,7 @@ If you want to customise your resume to a particular job application, you can ma
 
         `https://<username>.github.io/<repository-name>/?version=<version-name>`
 
+
+## Contributing:
+
+- If you would like to contribute, first raise a bug report or feature request under the Github issues.
