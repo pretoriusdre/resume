@@ -43,7 +43,7 @@ function ResumeNode({ nodeData, depth, materialised_path }) {
     const ref = nodeData.ref;
     const hidden = nodeData.hidden || false;
     //const start_collapsed = nodeData.start_collapsed || false;
-    const prevent_collapse = nodeData.prevent_collapse || false;
+    const prevent_toggle = nodeData.prevent_toggle || false;
 
     // Derived things for the node
     const hasChildren = ((nodeData?.children?.length > 0));
@@ -55,7 +55,7 @@ function ResumeNode({ nodeData, depth, materialised_path }) {
 
 
     const collapsableElement = (
-        prevent_collapse ?
+        prevent_toggle ?
             <span>{value}</span> :
             <span><span className={bulletClass} onClick={hasChildren ? toggleCollapse : null}>{NodeIcon}</span>{value}</span>
     );
