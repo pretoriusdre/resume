@@ -162,7 +162,7 @@
                 "ref": "",
                 "hidden": false,
                 "start_collapsed": true,
-                "prevent_collapse": false,
+                "prevent_toggle": false,
                 "prevent_toggle": false,
                 "children": [
                   {
