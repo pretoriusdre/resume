@@ -1,585 +1,703 @@
 [
-    {
-        "id": "f4b48f93-40e2-43a7-85ec-c131c7c8a2b4",
-        "value": "Your Name Here",
-        "type": "title",
+  {
+    "id": "f4b48f93-40e2-43a7-85ec-c131c7c8a2b4",
+    "value": "Your Name Here",
+    "type": "title",
+    "ref": "",
+    "start_collapsed": false,
+    "hidden": false,
+    "prevent_collapse": true,
+    "children": [
+      {
+        "id": "98d89e75-c9bc-40f8-a0c1-e3e76bf0af72",
+        "value": "Your job title here",
+        "type": "subtitle",
         "ref": "",
-        "start_collapsed": false,
         "hidden": false,
-        "prevent_collapse": true,
+        "start_collapsed": false,
+        "prevent_collapse": true
+      },
+      {
+        "id": "a5f505a4-0644-4fab-bbd4-064c49dfcdc9",
+        "value": "Contact details",
+        "type": "section",
+        "ref": "",
+        "hidden": false,
+        "start_collapsed": true,
+        "prevent_collapse": false,
         "children": [
-            {
-                "id": "98d89e75-c9bc-40f8-a0c1-e3e76bf0af72",
-                "value": "Your job title here",
-                "type": "subtitle",
+          {
+            "id": "c99e565c-bbf7-469f-bbba-dd4c6fa541d4",
+            "value": "Email",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": true,
+            "prevent_collapse": false,
+            "children": [
+              {
+                "id": "1b2da0db-8355-4786-85cc-a4ddfbe8cc82",
+                "value": "mail@example.com",
+                "type": "link",
+                "ref": "mailto:mail@example.com",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false
+              }
+            ]
+          },
+          {
+            "id": "85d852ec-2fac-4b4f-9475-3cbfbf38788a",
+            "value": "Address",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": true,
+            "prevent_collapse": false,
+            "children": [
+              {
+                "id": "27edb4ca-a98a-4803-bae2-fb4748eb4b6f",
+                "value": "You might not want to put your exact address on an online resume...",
+                "type": "line",
                 "ref": "",
                 "hidden": false,
                 "start_collapsed": false,
                 "prevent_collapse": true
-            },
-            {
-                "id": "a5f505a4-0644-4fab-bbd4-064c49dfcdc9",
-                "value": "Contact details",
-                "type": "section",
+              }
+            ]
+          },
+          {
+            "id": "fcb274c7-c130-4824-9260-b6628570f3e2",
+            "value": "Phone",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": true,
+            "prevent_collapse": false,
+            "children": [
+              {
+                "id": "673ac20f-b400-4cbe-8b5d-57133fc329c3",
+                "value": "555-xxx-xxx",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": true
+              }
+            ]
+          },
+          {
+            "id": "6040f61a-3196-407a-b28f-de845fbfe163",
+            "value": "LinkedIn",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": true,
+            "prevent_collapse": false,
+            "children": [
+              {
+                "id": "3ebd4f0b-dfc5-4326-b0d0-294500bf0294",
+                "value": "https://www.linkedin.com/",
+                "type": "link",
+                "ref": "https://www.linkedin.com/",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5f546809-534a-4109-a2bd-3aec117206de",
+        "value": "Career statement",
+        "type": "section",
+        "ref": "",
+        "hidden": false,
+        "start_collapsed": false,
+        "prevent_collapse": false,
+        "children": [
+          {
+            "id": "e319ec70-aab3-4e98-98dc-f29eaf3a6c2e",
+            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie convallis elit vel scelerisque. Fusce venenatis erat a aliquet suscipit. In hac habitasse platea dictumst. Nullam hendrerit lacinia enim, ac rhoncus nulla scelerisque ut. Maecenas vel gravida nulla. Duis sit amet elit id elit commodo iaculis vel sit amet justo. Cras bibendum odio in mi elementum consectetur. Aliquam blandit rhoncus laoreet. Cras sed diam eget elit rutrum interdum. ",
+            "type": "paragraph",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": false,
+            "prevent_collapse": true
+          },
+          {
+            "id": "a6d490f5-4e3e-4129-bfb5-0ffab75bde9d",
+            "value": "Morbi vitae enim nec elit laoreet volutpat eu at nulla. Nulla rutrum dolor quis luctus suscipit.",
+            "type": "paragraph",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": false,
+            "prevent_collapse": true
+          }
+        ]
+      },
+      {
+        "id": "c4abe856-2ac5-4004-9705-59ada43e8d36",
+        "value": "Work experience",
+        "type": "section",
+        "ref": "",
+        "hidden": false,
+        "start_collapsed": false,
+        "prevent_collapse": false,
+        "children": [
+          {
+            "id": "b1c94e58-8903-4616-8845-ab1316cb343c",
+            "value": "Role 3, Employer 3, 2020-01-01 to present",
+            "type": "subsection",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": false,
+            "prevent_collapse": false,
+            "children": [
+              {
+                "id": "b9372c38-8f25-4a83-a9c0-e6c45fe07e86",
+                "value": "Main activity 1",
+                "type": "line",
                 "ref": "",
                 "hidden": false,
                 "start_collapsed": true,
                 "prevent_collapse": false,
                 "children": [
-                    {
-                        "id": "c99e565c-bbf7-469f-bbba-dd4c6fa541d4",
-                        "value": "Email",
-                        "type": "line",
-                        "ref": "",
-                        "hidden": false,
-                        "start_collapsed": true,
-                        "prevent_collapse": false,
-                        "children": [
-                            {
-                                "id": "1b2da0db-8355-4786-85cc-a4ddfbe8cc82",
-                                "value": "mail@example.com",
-                                "type": "link",
-                                "ref": "mailto:mail@example.com",
-                                "hidden": false,
-                                "start_collapsed": false,
-                                "prevent_collapse": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": "85d852ec-2fac-4b4f-9475-3cbfbf38788a",
-                        "value": "Address",
-                        "type": "line",
-                        "ref": "",
-                        "hidden": false,
-                        "start_collapsed": true,
-                        "prevent_collapse": false,
-                        "children": [
-                            {
-                                "id": "27edb4ca-a98a-4803-bae2-fb4748eb4b6f",
-                                "value": "You might not want to put your exact address on an online resume...",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": false,
-                                "prevent_collapse": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": "fcb274c7-c130-4824-9260-b6628570f3e2",
-                        "value": "Phone",
-                        "type": "line",
-                        "ref": "",
-                        "hidden": false,
-                        "start_collapsed": true,
-                        "prevent_collapse": false,
-                        "children": [
-                            {
-                                "id": "673ac20f-b400-4cbe-8b5d-57133fc329c3",
-                                "value": "555-xxx-xxx",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": false,
-                                "prevent_collapse": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": "6040f61a-3196-407a-b28f-de845fbfe163",
-                        "value": "LinkedIn",
-                        "type": "line",
-                        "ref": "",
-                        "hidden": false,
-                        "start_collapsed": true,
-                        "prevent_collapse": false,
-                        "children": [
-                            {
-                                "id": "3ebd4f0b-dfc5-4326-b0d0-294500bf0294",
-                                "value": "https://www.linkedin.com/",
-                                "type": "link",
-                                "ref": "https://www.linkedin.com/",
-                                "hidden": false,
-                                "start_collapsed": false,
-                                "prevent_collapse": false
-                            }
-                        ]
-                    }
+                  {
+                    "id": "314695a1-cfa8-4c65-a86c-7f22b0f015c1",
+                    "value": "Additional detail 1",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  },
+                  {
+                    "id": "1c7a7704-c5d7-4359-9787-e5c3c6675561",
+                    "value": "Additional detail 2",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  },
+                  {
+                    "id": "a5079979-aa04-484f-91ee-41e436482ffb",
+                    "value": "Additional detail 3",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  }
                 ]
-            },
-            {
-                "id": "5f546809-534a-4109-a2bd-3aec117206de",
-                "value": "Career statement",
-                "type": "section",
+              },
+              {
+                "id": "0ca6c94c-454f-43d4-83c2-3e3b18fcd320",
+                "value": "Main activity 2",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": true,
+                "prevent_collapse": false,
+                "children": [
+                  {
+                    "id": "c972f127-2356-4871-8452-73e3aebdcf4f",
+                    "value": "Going deeper",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": true,
+                    "prevent_collapse": false,
+                    "children": [
+                      {
+                        "id": "b0edd120-3a5a-4041-b0a6-b87ef537028f",
+                        "value": "Going deeper",
+                        "type": "line",
+                        "ref": "",
+                        "hidden": false,
+                        "start_collapsed": true,
+                        "prevent_collapse": false,
+                        "children": [
+                          {
+                            "id": "0fbc0a32-1803-4527-97d1-ee942028fd2e",
+                            "value": "Going deeper",
+                            "type": "line",
+                            "ref": "",
+                            "hidden": false,
+                            "start_collapsed": true,
+                            "prevent_collapse": false,
+                            "children": [
+                              {
+                                "id": "dd937ee0-cae4-440e-86ee-7ceb55ccbf37",
+                                "value": "This might be too much...",
+                                "type": "line",
+                                "ref": "",
+                                "hidden": false,
+                                "start_collapsed": true,
+                                "prevent_collapse": false,
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": "25148ed3-843c-4838-ac30-825902bee4ee",
+                "value": "Main activity 3 (expand for image)",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": true,
+                "prevent_collapse": false,
+                "children": [
+                  {
+                    "id": "fb3dcc58-eebe-4648-92cf-a6cf48206d67",
+                    "value": "Placeholder",
+                    "type": "image",
+                    "ref": "/media/sample/sample_image_1.jpg",
+                    "hidden": false,
+                    "start_collapsed": true,
+                    "prevent_collapse": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "0be64068-a2e3-4ac9-936f-0ff33542ada3",
+            "value": "Role 2, Employer 2, 2015-06-01 to 2019-12-31",
+            "type": "subsection",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": false,
+            "prevent_collapse": false,
+            "children": [
+              {
+                "id": "1671b5bc-1813-4d59-a0bc-174e7502e4f3",
+                "value": "Main activity 1",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": true,
+                "prevent_collapse": false,
+                "children": [
+                  {
+                    "id": "776ba297-3262-412c-b334-6f59f582e732",
+                    "value": "Additional detail 1",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  },
+                  {
+                    "id": "10c03b4a-0334-48f8-9295-cc0b2307dff7",
+                    "value": "Additional detail 2",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  },
+                  {
+                    "id": "6bdd7085-4720-4a1f-b678-25c5fb6fa80f",
+                    "value": "Additional detail 3",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  }
+                ]
+              },
+              {
+                "id": "e83f13b7-e8c3-4098-88cf-040f2eaba201",
+                "value": "Main activity 2",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": true,
+                "prevent_collapse": false,
+                "children": [
+                  {
+                    "id": "7bb731b8-7256-44ce-9cb3-7e2534a730b3",
+                    "value": "Additional detail 1",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  },
+                  {
+                    "id": "eb9e46de-aff5-4f4a-8b08-4222171a4373",
+                    "value": "Additional detail 2",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  },
+                  {
+                    "id": "6f9d3632-d489-4813-81eb-29b4288dd143",
+                    "value": "Additional detail 3",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  }
+                ]
+              },
+              {
+                "id": "6dccb96c-45e7-460d-9fc3-4343dd1ad4d3",
+                "value": "Main activity 3",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": true,
+                "prevent_collapse": false
+              }
+            ]
+          },
+          {
+            "id": "50f84457-9377-41d2-b7e0-441c98f657ae",
+            "value": "Role 1, Employer 1, 2010-01-01 to 2015-05-31",
+            "type": "subsection",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": false,
+            "prevent_collapse": false,
+            "children": [
+              {
+                "id": "b32100c1-da7f-46d9-b7d3-a8ca42eee667",
+                "value": "Placeholder",
+                "type": "line",
                 "ref": "",
                 "hidden": false,
                 "start_collapsed": false,
-                "prevent_collapse": false,
-                "children": [
-                    {
-                        "id": "e319ec70-aab3-4e98-98dc-f29eaf3a6c2e",
-                        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie convallis elit vel scelerisque. Fusce venenatis erat a aliquet suscipit. In hac habitasse platea dictumst. Nullam hendrerit lacinia enim, ac rhoncus nulla scelerisque ut. Maecenas vel gravida nulla. Duis sit amet elit id elit commodo iaculis vel sit amet justo. Cras bibendum odio in mi elementum consectetur. Aliquam blandit rhoncus laoreet. Cras sed diam eget elit rutrum interdum. ",
-                        "type": "paragraph",
-                        "ref": "",
-                        "hidden": false,
-                        "start_collapsed": false,
-                        "prevent_collapse": true
-                    },
-                    {
-                        "id": "a6d490f5-4e3e-4129-bfb5-0ffab75bde9d",
-                        "value": "Morbi vitae enim nec elit laoreet volutpat eu at nulla. Nulla rutrum dolor quis luctus suscipit.",
-                        "type": "paragraph",
-                        "ref": "",
-                        "hidden": false,
-                        "start_collapsed": false,
-                        "prevent_collapse": true
-                    }
-                ]
-            },
-            {
-                "id": "c4abe856-2ac5-4004-9705-59ada43e8d36",
-                "value": "Work experience",
-                "type": "section",
+                "prevent_collapse": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fa8a7dc5-5ada-4f6d-9e39-74c0c9eea9d2",
+        "value": "Skills",
+        "type": "section",
+        "ref": "",
+        "hidden": false,
+        "start_collapsed": false,
+        "prevent_collapse": false,
+        "children": [
+          {
+            "id": "ff0ecbeb-dfe9-40be-96af-4cc8180b91a6",
+            "value": "Skill 1 (expand for image)",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": true,
+            "prevent_collapse": false,
+            "children": [
+              {
+                "id": "225097f0-df6b-4c9f-80fb-b2253cdfb74d",
+                "value": "Supporting evidence of skill 1",
+                "type": "line",
                 "ref": "",
                 "hidden": false,
-                "start_collapsed": false,
+                "start_collapsed": true,
                 "prevent_collapse": false,
                 "children": [
-                    {
-                        "id": "b1c94e58-8903-4616-8845-ab1316cb343c",
-                        "value": "Role 3, Employer 3, 2020-01-01 to present",
-                        "type": "subsection",
+                  {
+                    "id": "a74488f7-408a-468f-83da-40c20726c8fd",
+                    "value": "Placeholder",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false,
+                    "children": [
+                      {
+                        "id": "e7f7c019-acf2-4218-b436-a8b8f09d5494",
+                        "value": "Placeholder",
+                        "type": "line",
                         "ref": "",
                         "hidden": false,
-                        "start_collapsed": false,
+                        "start_collapsed": true,
                         "prevent_collapse": false,
                         "children": [
-                            {
-                                "id": "b9372c38-8f25-4a83-a9c0-e6c45fe07e86",
-                                "value": "Main activity 1",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": true,
-                                "prevent_collapse": false,
-                                "children": [
-                                    {
-                                        "id": "314695a1-cfa8-4c65-a86c-7f22b0f015c1",
-                                        "value": "Additional detail 1",
-                                        "type": "line",
-                                        "ref": "",
-                                        "hidden": false,
-                                        "start_collapsed": false,
-                                        "prevent_collapse": false
-                                    },
-                                    {
-                                        "id": "1c7a7704-c5d7-4359-9787-e5c3c6675561",
-                                        "value": "Additional detail 2",
-                                        "type": "line",
-                                        "ref": "",
-                                        "hidden": false,
-                                        "start_collapsed": false,
-                                        "prevent_collapse": false
-                                    },
-                                    {
-                                        "id": "a5079979-aa04-484f-91ee-41e436482ffb",
-                                        "value": "Additional detail 3",
-                                        "type": "line",
-                                        "ref": "",
-                                        "hidden": false,
-                                        "start_collapsed": false,
-                                        "prevent_collapse": false
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "0ca6c94c-454f-43d4-83c2-3e3b18fcd320",
-                                "value": "Main activity 2",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": true,
-                                "prevent_collapse": false,
-                                "children": [
-                                    {
-                                        "id": "c972f127-2356-4871-8452-73e3aebdcf4f",
-                                        "value": "Going deeper",
-                                        "type": "line",
-                                        "ref": "",
-                                        "hidden": false,
-                                        "start_collapsed": true,
-                                        "prevent_collapse": false,
-                                        "children": [
-                                            {
-                                                "id": "b0edd120-3a5a-4041-b0a6-b87ef537028f",
-                                                "value": "Going deeper",
-                                                "type": "line",
-                                                "ref": "",
-                                                "hidden": false,
-                                                "start_collapsed": true,
-                                                "prevent_collapse": false,
-                                                "children": [
-                                                    {
-                                                        "id": "0fbc0a32-1803-4527-97d1-ee942028fd2e",
-                                                        "value": "Going deeper",
-                                                        "type": "line",
-                                                        "ref": "",
-                                                        "hidden": false,
-                                                        "start_collapsed": true,
-                                                        "prevent_collapse": false,
-                                                        "children": [
-                                                            {
-                                                                "id": "dd937ee0-cae4-440e-86ee-7ceb55ccbf37",
-                                                                "value": "This might be too much...",
-                                                                "type": "line",
-                                                                "ref": "",
-                                                                "hidden": false,
-                                                                "start_collapsed": true,
-                                                                "prevent_collapse": false,
-                                                                "children": []
-                                                            }
-                                                        ]
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "25148ed3-843c-4838-ac30-825902bee4ee",
-                                "value": "Main activity 3 (expand for image)",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": true,
-                                "prevent_collapse": false,
-                                "children": [
-                                    {
-                                        "id": "fb3dcc58-eebe-4648-92cf-a6cf48206d67",
-                                        "value": "Placeholder",
-                                        "type": "image",
-                                        "ref": "/media/sample/sample_image_1.jpg",
-                                        "hidden": false,
-                                        "start_collapsed": true,
-                                        "prevent_collapse": false
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "id": "0be64068-a2e3-4ac9-936f-0ff33542ada3",
-                        "value": "Role 2, Employer 2, 2015-06-01 to 2019-12-31",
-                        "type": "subsection",
-                        "ref": "",
-                        "hidden": false,
-                        "start_collapsed": false,
-                        "prevent_collapse": false,
-                        "children": [
-                            {
-                                "id": "1671b5bc-1813-4d59-a0bc-174e7502e4f3",
-                                "value": "Main activity 1",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": true,
-                                "prevent_collapse": false,
-                                "children": [
-                                    {
-                                        "id": "776ba297-3262-412c-b334-6f59f582e732",
-                                        "value": "Additional detail 1",
-                                        "type": "line",
-                                        "ref": "",
-                                        "hidden": false,
-                                        "start_collapsed": false,
-                                        "prevent_collapse": false
-                                    },
-                                    {
-                                        "id": "10c03b4a-0334-48f8-9295-cc0b2307dff7",
-                                        "value": "Additional detail 2",
-                                        "type": "line",
-                                        "ref": "",
-                                        "hidden": false,
-                                        "start_collapsed": false,
-                                        "prevent_collapse": false
-                                    },
-                                    {
-                                        "id": "6bdd7085-4720-4a1f-b678-25c5fb6fa80f",
-                                        "value": "Additional detail 3",
-                                        "type": "line",
-                                        "ref": "",
-                                        "hidden": false,
-                                        "start_collapsed": false,
-                                        "prevent_collapse": false
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "e83f13b7-e8c3-4098-88cf-040f2eaba201",
-                                "value": "Main activity 2",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": true,
-                                "prevent_collapse": false,
-                                "children": [
-                                    {
-                                        "id": "7bb731b8-7256-44ce-9cb3-7e2534a730b3",
-                                        "value": "Additional detail 1",
-                                        "type": "line",
-                                        "ref": "",
-                                        "hidden": false,
-                                        "start_collapsed": false,
-                                        "prevent_collapse": false
-                                    },
-                                    {
-                                        "id": "eb9e46de-aff5-4f4a-8b08-4222171a4373",
-                                        "value": "Additional detail 2",
-                                        "type": "line",
-                                        "ref": "",
-                                        "hidden": false,
-                                        "start_collapsed": false,
-                                        "prevent_collapse": false
-                                    },
-                                    {
-                                        "id": "6f9d3632-d489-4813-81eb-29b4288dd143",
-                                        "value": "Additional detail 3",
-                                        "type": "line",
-                                        "ref": "",
-                                        "hidden": false,
-                                        "start_collapsed": false,
-                                        "prevent_collapse": false
-                                    }
-                                ]
-                            },
-                            {
-                                "id": "6dccb96c-45e7-460d-9fc3-4343dd1ad4d3",
-                                "value": "Main activity 3",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": true,
-                                "prevent_collapse": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": "50f84457-9377-41d2-b7e0-441c98f657ae",
-                        "value": "Role 1, Employer 1, 2010-01-01 to 2015-05-31",
-                        "type": "subsection",
-                        "ref": "",
-                        "hidden": false,
-                        "start_collapsed": false,
-                        "prevent_collapse": false,
-                        "children": [
-                            {
-                                "id": "b32100c1-da7f-46d9-b7d3-a8ca42eee667",
+                          {
+                            "id": "d631217c-6fbf-4d80-86b2-f5a1b88427d6",
+                            "value": "Placeholder",
+                            "type": "line",
+                            "ref": "",
+                            "hidden": false,
+                            "start_collapsed": true,
+                            "prevent_collapse": false,
+                            "children": [
+                              {
+                                "id": "f6a715c7-c05a-4dbe-850c-389107da21ed",
                                 "value": "Placeholder",
                                 "type": "line",
                                 "ref": "",
                                 "hidden": false,
                                 "start_collapsed": false,
                                 "prevent_collapse": false
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "fa8a7dc5-5ada-4f6d-9e39-74c0c9eea9d2",
-                "value": "Skills",
-                "type": "section",
-                "ref": "",
-                "hidden": false,
-                "start_collapsed": false,
-                "prevent_collapse": false,
-                "children": [
-                    {
-                        "id": "ff0ecbeb-dfe9-40be-96af-4cc8180b91a6",
-                        "value": "Skill 1 (expand for image)",
-                        "type": "line",
-                        "ref": "",
-                        "hidden": false,
-                        "start_collapsed": true,
-                        "prevent_collapse": false,
-                        "children": [
-                            {
-                                "id": "225097f0-df6b-4c9f-80fb-b2253cdfb74d",
-                                "value": "Supporting evidence of skill 1",
+                              },
+                              {
+                                "id": "f345aacc-3946-40fe-ac2d-197d3887db39",
+                                "value": "Placeholder",
                                 "type": "line",
                                 "ref": "",
                                 "hidden": false,
                                 "start_collapsed": false,
                                 "prevent_collapse": false
-                            },
-                            {
-                                "id": "6a900c5f-a112-4d57-9f5e-0aa937ff048d",
-                                "value": "Supporting evidence of skill 1",
+                              }
+                            ]
+                          },
+                          {
+                            "id": "c226714f-6356-4b7c-a560-d68aec055fc1",
+                            "value": "Placeholder",
+                            "type": "line",
+                            "ref": "",
+                            "hidden": false,
+                            "start_collapsed": true,
+                            "prevent_collapse": false,
+                            "children": [
+                              {
+                                "id": "e2f83f23-4ea3-45ab-8e6b-d5c43a193061",
+                                "value": "Placeholder",
                                 "type": "line",
                                 "ref": "",
                                 "hidden": false,
                                 "start_collapsed": false,
-                                "prevent_collapse": false,
-                                "children": []
-                            },
-                            {
-                                "id": "118eb676-a039-4462-8341-3d17614acd0a",
-                                "value": "Supporting evidence of skill 1",
+                                "prevent_collapse": false
+                              },
+                              {
+                                "id": "1a6afed4-4ff2-4951-8309-a66b1ae0734a",
+                                "value": "Placeholder",
                                 "type": "line",
                                 "ref": "",
                                 "hidden": false,
                                 "start_collapsed": true,
                                 "prevent_collapse": false
-                            },
-                            {
-                                "id": "a8b47fab-f93c-4eff-8054-c0b2297ddbe2",
-                                "value": "sample_image_3",
-                                "type": "image",
-                                "ref": "/media/sample/sample_image_3.png",
-                                "hidden": false,
-                                "start_collapsed": true,
-                                "prevent_collapse": false
-                            }
+                              }
+                            ]
+                          },
+                          {
+                            "id": "52854fb2-742f-497f-b7c5-ffa4425f626f",
+                            "value": "Placeholder",
+                            "type": "line",
+                            "ref": "",
+                            "hidden": false,
+                            "start_collapsed": false,
+                            "prevent_collapse": false
+                          }
                         ]
-                    },
-                    {
-                        "id": "6070446a-afbb-41df-a40a-0ec50033eb84",
-                        "value": "Skill 2",
-                        "type": "line",
-                        "ref": "",
-                        "hidden": false,
-                        "start_collapsed": true,
-                        "prevent_collapse": false,
-                        "children": [
-                            {
-                                "id": "72620d9e-b431-4030-a7cd-9d05574f0fe8",
-                                "value": "Supporting evidence of skill 2",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": false,
-                                "prevent_collapse": false
-                            },
-                            {
-                                "id": "faf7ef4c-9b06-4d5a-a06d-3a33dde0c8cc",
-                                "value": "Supporting evidence of skill 2",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": false,
-                                "prevent_collapse": false
-                            },
-                            {
-                                "id": "32f51482-0e35-4ece-9ee4-7405ff847897",
-                                "value": "Supporting evidence of skill 2",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": false,
-                                "prevent_collapse": false
-                            }
-                        ]
-                    },
-                    {
-                        "id": "51e7599f-d32b-40ae-b2f6-a36b1be3a713",
-                        "value": "Skill 3",
-                        "type": "line",
-                        "ref": "",
-                        "hidden": false,
-                        "start_collapsed": true,
-                        "prevent_collapse": false,
-                        "children": [
-                            {
-                                "id": "9a448aed-90c0-4626-999f-b258864ed940",
-                                "value": "Supporting evidence of skill 3",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": false,
-                                "prevent_collapse": false
-                            },
-                            {
-                                "id": "d28fdfff-25ea-4c00-9238-c7dfecffbe8a",
-                                "value": "Supporting evidence of skill 3",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": false,
-                                "prevent_collapse": false
-                            },
-                            {
-                                "id": "68b3d8ec-120b-4334-a866-813144eeb9fa",
-                                "value": "Supporting evidence of skill 3",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": false,
-                                "prevent_collapse": false
-                            },
-                            {
-                                "id": "e33447df-442f-4cfe-ab6b-dce4ada36177",
-                                "value": "Supporting evidence of skill 3",
-                                "type": "line",
-                                "ref": "",
-                                "hidden": false,
-                                "start_collapsed": false,
-                                "prevent_collapse": false
-                            },
-                            {
-                                "id": "41b5600b-81fe-4d0f-b084-7ce33230d365",
-                                "value": "sample_image_2.png",
-                                "type": "image",
-                                "ref": "/media/sample/sample_image_2.png",
-                                "hidden": false,
-                                "start_collapsed": true,
-                                "prevent_collapse": false
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": "b8da724b-0232-4d20-b07b-c446e44243a9",
-                "value": "Example hidden section",
-                "type": "section",
-                "ref": "",
-                "hidden": true,
-                "start_collapsed": false,
-                "prevent_collapse": false,
-                "children": [
-                    {
-                        "id": "a5d44db5-344b-4530-9560-afdaf952607c",
-                        "value": "Example hidden content",
+                      },
+                      {
+                        "id": "b1e036ac-339d-4c2f-badb-8c186e80141c",
+                        "value": "Placeholder",
                         "type": "line",
                         "ref": "",
                         "hidden": false,
                         "start_collapsed": false,
                         "prevent_collapse": false
-                    }
-                ]
-            },
-            {
-                "id": "45c95861-bf00-4c73-a519-174ff6d368c0",
-                "value": "References",
-                "type": "section",
-                "ref": "",
-                "hidden": false,
-                "start_collapsed": false,
-                "prevent_collapse": false,
-                "children": [
-                    {
-                        "id": "13c7d372-4358-449d-ba05-6d99058cf0c7",
-                        "value": "Available upon request.",
+                      },
+                      {
+                        "id": "722d63e1-9f32-43b7-863e-d418f91e9d86",
+                        "value": "Placeholder",
                         "type": "line",
                         "ref": "",
                         "hidden": false,
                         "start_collapsed": false,
                         "prevent_collapse": false
-                    }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "38f3eadd-bbf0-4e44-a545-8239b7791c31",
+                    "value": "Placeholder",
+                    "type": "line",
+                    "ref": "",
+                    "hidden": false,
+                    "start_collapsed": false,
+                    "prevent_collapse": false
+                  }
                 ]
-            }
+              },
+              {
+                "id": "6a900c5f-a112-4d57-9f5e-0aa937ff048d",
+                "value": "Supporting evidence of skill 1",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false,
+                "children": []
+              },
+              {
+                "id": "118eb676-a039-4462-8341-3d17614acd0a",
+                "value": "Supporting evidence of skill 1",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": true,
+                "prevent_collapse": false
+              },
+              {
+                "id": "a8b47fab-f93c-4eff-8054-c0b2297ddbe2",
+                "value": "sample_image_3",
+                "type": "image",
+                "ref": "/media/sample/sample_image_3.png",
+                "hidden": false,
+                "start_collapsed": true,
+                "prevent_collapse": false
+              }
+            ]
+          },
+          {
+            "id": "6070446a-afbb-41df-a40a-0ec50033eb84",
+            "value": "Skill 2",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": true,
+            "prevent_collapse": false,
+            "children": [
+              {
+                "id": "72620d9e-b431-4030-a7cd-9d05574f0fe8",
+                "value": "Supporting evidence of skill 2",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false
+              },
+              {
+                "id": "faf7ef4c-9b06-4d5a-a06d-3a33dde0c8cc",
+                "value": "Supporting evidence of skill 2",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false
+              },
+              {
+                "id": "32f51482-0e35-4ece-9ee4-7405ff847897",
+                "value": "Supporting evidence of skill 2",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false
+              }
+            ]
+          },
+          {
+            "id": "51e7599f-d32b-40ae-b2f6-a36b1be3a713",
+            "value": "Skill 3",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": true,
+            "prevent_collapse": false,
+            "children": [
+              {
+                "id": "9a448aed-90c0-4626-999f-b258864ed940",
+                "value": "Supporting evidence of skill 3",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false
+              },
+              {
+                "id": "d28fdfff-25ea-4c00-9238-c7dfecffbe8a",
+                "value": "Supporting evidence of skill 3",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false
+              },
+              {
+                "id": "68b3d8ec-120b-4334-a866-813144eeb9fa",
+                "value": "Supporting evidence of skill 3",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false
+              },
+              {
+                "id": "e33447df-442f-4cfe-ab6b-dce4ada36177",
+                "value": "Supporting evidence of skill 3",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false
+              },
+              {
+                "id": "41b5600b-81fe-4d0f-b084-7ce33230d365",
+                "value": "sample_image_2.png",
+                "type": "image",
+                "ref": "/media/sample/sample_image_2.png",
+                "hidden": false,
+                "start_collapsed": true,
+                "prevent_collapse": false
+              }
+            ]
+          }
         ]
-    }
+      },
+      {
+        "id": "b8da724b-0232-4d20-b07b-c446e44243a9",
+        "value": "Example hidden section",
+        "type": "section",
+        "ref": "",
+        "hidden": true,
+        "start_collapsed": false,
+        "prevent_collapse": false,
+        "children": [
+          {
+            "id": "a5d44db5-344b-4530-9560-afdaf952607c",
+            "value": "Example hidden content",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": false,
+            "prevent_collapse": false
+          }
+        ]
+      },
+      {
+        "id": "45c95861-bf00-4c73-a519-174ff6d368c0",
+        "value": "References",
+        "type": "section",
+        "ref": "",
+        "hidden": false,
+        "start_collapsed": false,
+        "prevent_collapse": false,
+        "children": [
+          {
+            "id": "13c7d372-4358-449d-ba05-6d99058cf0c7",
+            "value": "Available upon request.",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": false,
+            "prevent_collapse": false
+          }
+        ]
+      }
+    ]
+  }
 ]
