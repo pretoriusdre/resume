@@ -126,3 +126,8 @@ If you want to customise your resume to a particular job application, you can ma
 
 - If you would like to contribute, first raise a bug report or feature request under the Github issues.
 - You can then submit your proposed changes via pull request.
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
