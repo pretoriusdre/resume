@@ -18,7 +18,7 @@ const EditingPane = () => {
     ref: '',
     start_collapsed: false,
     hidden: false,
-    prevent_collapse: false
+    prevent_toggle: false
   });
 
 
@@ -31,7 +31,7 @@ const EditingPane = () => {
         ref: activeNode.ref || '',
         start_collapsed: activeNode.start_collapsed || false,
         hidden: activeNode.hidden || false,
-        prevent_collapse: activeNode.prevent_collapse || false
+        prevent_toggle: activeNode.prevent_toggle || false
       });
     }
   }, [activeNode]);
@@ -60,7 +60,7 @@ const EditingPane = () => {
       ref: formData.ref,
       hidden: formData.hidden,
       start_collapsed: formData.start_collapsed,
-      prevent_collapse: formData.prevent_collapse
+      prevent_toggle: formData.prevent_toggle
     });
 
     if (updatedNode) {
@@ -117,7 +117,7 @@ const EditingPane = () => {
       ref: '',
       hidden: false,
       start_collapsed: false,
-      prevent_collapse: false
+      prevent_toggle: false
     };
 
     const targetNode = findAndUpdateNode(updatedData, activeNode.id, {});
@@ -230,7 +230,7 @@ const EditingPane = () => {
               checked={formData.start_collapsed}
               onChange={handleChange}
             />
-            Start Collapsed?
+            Start collapsed?
           </label>
         </div>
 
@@ -238,12 +238,12 @@ const EditingPane = () => {
           <label>
             <input
               type="checkbox"
-              name="prevent_collapse"
-              value = {formData.prevent_collapse }
+              name="prevent_toggle"
+              value = {formData.prevent_toggle }
               onChange={handleChange}
 
             />
-            Prevent collapse?
+            Prevent toggle?
           </label>
         </div>
 
