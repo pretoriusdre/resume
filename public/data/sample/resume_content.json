@@ -129,10 +129,10 @@
           {
             "id": "a6d490f5-4e3e-4129-bfb5-0ffab75bde9d",
             "value": "(Regarding this template)",
-            "type": "line",
+            "type": "subsection",
             "ref": "",
             "hidden": false,
-            "start_collapsed": false,
+            "start_collapsed": true,
             "prevent_collapse": true,
             "children": [
               {
@@ -183,6 +183,46 @@
                     "prevent_collapse": false
                   }
                 ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "b8da724b-0232-4d20-b07b-c446e44243a9",
+        "value": "Example hidden section",
+        "type": "section",
+        "ref": "",
+        "hidden": true,
+        "start_collapsed": false,
+        "prevent_collapse": false,
+        "children": [
+          {
+            "id": "52f2fd33-c51e-48c4-8ab0-bdae7db1a314",
+            "value": "You can hide content from your resume if the content is no longer relevant. The data is still usable later.",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": false,
+            "prevent_collapse": false,
+            "children": [
+              {
+                "id": "0c771b12-d97b-4050-a70c-b6711f469fc3",
+                "value": "If you want to make custom resume versions for certain roles, you can hide or unhide sections selectively.",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false
+              },
+              {
+                "id": "68f48d6a-50ab-4f9f-b1eb-72bd396fac44",
+                "value": "Custom versions can be accessed by passing ?version=xxx parameter in the url.",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_collapse": false
               }
             ]
           }
@@ -706,26 +746,6 @@
                 "prevent_collapse": false
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": "b8da724b-0232-4d20-b07b-c446e44243a9",
-        "value": "Example hidden section",
-        "type": "section",
-        "ref": "",
-        "hidden": true,
-        "start_collapsed": false,
-        "prevent_collapse": false,
-        "children": [
-          {
-            "id": "a5d44db5-344b-4530-9560-afdaf952607c",
-            "value": "Example hidden content",
-            "type": "line",
-            "ref": "",
-            "hidden": false,
-            "start_collapsed": false,
-            "prevent_collapse": false
           }
         ]
       },
