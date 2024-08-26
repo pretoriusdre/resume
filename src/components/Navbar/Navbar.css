@@ -1,0 +1,42 @@
+@media only screen {
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1000;
+        transition: transform 0.3s ease-in-out;
+        opacity: 0.8;
+    }
+
+    .navbar.hidden {
+        transform: translateY(-100%);
+    }
+
+    .navbar nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: right;
+    }
+
+    .navbar nav ul li {
+        display: inline;
+    }
+
+    .navbar nav ul li button {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding-left: 1em;
+        padding-right: 1em;
+        display: inline-block;
+        opacity: 0.8;
+    }
+}
+
+@media print {
+    .navbar {
+        display: none;
+    }
+}

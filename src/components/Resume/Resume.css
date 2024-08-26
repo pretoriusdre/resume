@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  display: flex;
+  transition: margin-left 0.3s ease;
+}
+
+.column {
+  padding: 10px;
+}
+
+.column.collapsed {
+  display: none;
+}
+
+
+.column-sidepanel {
+  position: fixed;
+  flex: 0 0 auto;
+  width: 40%;
+  max-width: 40%;
+  height: 100vh;
+  transition: width 1s ease;
+}
+
+.column-main {
+  flex: 1;
+  max-width: 100%;
+}
+
+.column-mainwithsidepanel {
+  flex: 1;
+  margin-left: 40%;
+  max-width: 100%;
+}

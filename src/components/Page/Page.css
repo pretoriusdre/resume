@@ -1,0 +1,147 @@
+@page {
+  size: A4;
+  margin: 12mm;
+}
+
+@print {
+  @page :footer {
+    display: none
+  }
+  @page : header {
+      display: none
+    }
+}
+
+
+body {
+  font-family: Calibri, sans-serif;
+  background-color: rgb(197, 201, 216);
+  font-size: 11pt;
+}
+
+
+.pagecontainer {
+  width: 21cm;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 12mm;
+  padding: 12mm;
+  border-radius: 2mm;
+}
+
+@media print {
+  .pagecontainer {
+    padding: 0mm;
+    margin-top: 0;
+  }
+}
+
+
+.bulletspan {
+  display: inline-block;
+  width: 4mm;
+  cursor: pointer;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.leaf {
+  cursor: auto;
+  font-weight: 500;
+}
+
+.hangingIndent {
+  text-indent: -3mm;
+  padding-left: 6mm;
+
+}
+
+
+h1 {
+  text-align: center;
+  color: rgb(21, 52, 91);
+  font-weight: normal;
+  font-size: 22pt;
+  margin-top: 0cm;
+  margin-bottom: 0cm;
+}
+
+h2 {
+  color: rgb(21, 52, 91);
+  font-weight: bold;
+  font-size: 13pt;
+  border-bottom: 2px solid rgb(21, 52, 91);
+
+  margin-top: 4mm;
+  margin-bottom: 1mm;
+}
+
+h3 {
+  color: rgb(21, 52, 91);
+  font-weight: bold;
+  font-size: 11pt;
+  border-bottom: 1px solid rgb(21, 52, 91);
+
+  margin-top: 4mm;
+  margin-bottom: 1mm;
+}
+
+p {
+  text-indent: 0mm;
+  padding-left: 0mm;
+}
+
+.subtitle {
+  display: inline-block;
+  font-size: 9pt;
+  white-space: nowrap;
+  text-align: center;
+  width: 100%;
+  text-indent: 0mm;
+  padding-left: 0mm;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@media only screen and (max-width: 850px) {
+
+  body {
+    font-size: 12pt;
+  }
+
+  h2 {
+    font-size: 16pt;
+  }
+
+  h3 {
+    font-size: 12pt;
+  }
+
+  .pagecontainer {
+    width: 90vw;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3mm;
+
+    padding: 5mm;
+    border-radius: 2mm;
+  }
+
+  .hangingIndent {
+    text-indent: -3mm;
+    padding-left: 3mm;
+  }
+
+  .bulletspan {
+    width: 3mm;
+
+  }
+}
