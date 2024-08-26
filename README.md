@@ -1,4 +1,4 @@
-# Resume: An interactive, hierarchical resume
+# `resume-tree`: An interactive, hierarchical resume
 ## Overview:
 
 This repository is for an interactive resume built around a tree data structure. This is an open-source project which you can fork, fill with your own details, and host on github pages for free.
