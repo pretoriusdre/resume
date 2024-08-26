@@ -1,7 +1,7 @@
 # `resume-tree`: An interactive, hierarchical resume
 ## Overview:
 
-This repository is a template for an interactive resume built around a tree data structure. This is an open-source project which you can fork, fill with your own details, and host on github pages for free.
+This repository is a template for an interactive resume built around a tree data structure. This is an open-source project that you can fork, fill with your own details, and host on github pages for free.
 
 Example:
 https://pretoriusdre.github.io/resume-tree/
@@ -12,19 +12,19 @@ https://github.com/user-attachments/assets/4fd4fa6b-9354-42a7-8034-2810f138f4ea
 
 
 
-The resume looks just like a regular resume, and can be printed to pdf which you can submit normally. However, the pdf version includes a hyperlink back to the interactive version, where ideas can *expand beyond the printed page*.
+The resume looks just like a regular resume, and can be printed to a pdf which you can submit normally. However, the pdf version includes a hyperlink back to the interactive version, where ideas can *expand beyond the printed page*.
 
 
-Each granular piece of information in the resume is represented by a node. Nodes can contain child notes, which an enquiring reader could expand to reveal additional supporting information. You could include as much detailed information as you like, at any depth level. You can also reveal rich content such as images or embedded videos, which themselves can be represented by nodes.
+Each granular piece of information in the resume is represented by a node. Nodes can contain child notes, which a curious reader could expand to reveal additional supporting information. You could include as much detailed information as you like, at any depth level. You can also reveal rich content such as images or embedded videos, which themselves can be represented by nodes.
 
-The resume has a built-in editor which allows you to update and rearrange nodes. Feel free to try this feature, it does not affect the content on the webserver. Export the JSON after you make your local changes. If you want to persist these changes, save that file in your repository over the existing file.
+The resume has a built-in editor which allows you to update and rearrange nodes. Feel free to try this feature; it does not affect the content on the webserver. Export the JSON after you make your local changes. If you want to persist these changes, save that file in your repository, replacing the existing file
 
 
 If you want to customise your resume to a particular job application, you can make your updates with the editor, saving the content to a new subfolder in the directory. Then you can reference this custom version using a url parameter such as `<site-url>/?version=custom-for-xxxxx-role`
 
 
 ## Setup:
-
+Prerequisites: You will need to install [NodeJS](https://nodejs.org/en) and an IDE.
 
 1. **Fork the repository:**
     1. Click the "Fork" button at the top-right corner of this page.
@@ -91,11 +91,11 @@ If you want to customise your resume to a particular job application, you can ma
     git push origin mydev
     ```
 
-9. **Merge the changes into main:**
+9. **Merge the changes into the main branch:**
 
     - Since `main` branch automatically deploys the site, a branch protection rule has been setup. You may need to merge your branch with a pull request.
 
-    - You can raise and approve your own pull request into your own repositoy at:
+    - You can raise and approve your own pull request into your own repository at:
      `https://github.com/<username>/<repository-name>/actions`
 
     - If you prefer, you can turn off branch protection rules on your own repo.
@@ -111,8 +111,8 @@ If you want to customise your resume to a particular job application, you can ma
 11. **Resume versioning**
 
     - The best resumes are customised to the role you are applying for.
-    - A great strategy is to have all your experiences listed inside in the base resume (with nodes set as hidden as requried), and you use this as a template to create the custom version.
-    - To customise, you would selectivly hide or collapse the items which are less relevant to the role you are applying for, or unhiding nodes which provide useful detail.
+    - A great strategy is to have all your experiences listed inside in the base resume (with nodes set as hidden as required), and you use this as a template to create the custom version.
+    - To customise, you would selectively hide or collapse the items which are less relevant to the role you are applying for, or unhiding nodes which provide useful detail.
     - After customisation for the role, you would then save that version into a new JSON file, saving it into the repository as follows:
 
         `/public/data/<yourname>/<version-name>/resume_content.json`
@@ -124,7 +124,7 @@ If you want to customise your resume to a particular job application, you can ma
 
 ## Contributing:
 
-- If you would like to contribute, first raise a bug report or feature request under the Github issues.
+- If you would like to contribute, first raise a bug report or feature request under the GitHub issues.
 - You can then submit your proposed changes via pull request.
 
 
