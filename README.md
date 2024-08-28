@@ -32,8 +32,25 @@ Prerequisites: You will need to install [NodeJS](https://nodejs.org/en) and an I
     1. Click the "Fork" button at the top-right corner of this page.
     2. Choose a repository name. It is recommended to use 'resume', as this choice affects the site url on GitHub Pages.
         - If you don't have a custom domain, your GitHub Pages site url will be: `<site-url> = https://<username>.github.io/<repository-name>`
+        - 
+2. **Update GitHub Pages settings:**
+    1. Go to your forked repository on GitHub.
+    2. Navigate to `Settings` > `Pages`.
+    3. Enable GitHub Pages.
+    4. Under "Source," ensure it is set to GitHub Actions. The associated settings for this are in `./.github/workflows/gh-pages.yml`
+    5. If you would like to set up a custom domain, you should enter this information here.
 
-2. **Clone the forked repository:**
+3. **Check the deployment of your website**
+    - After a short while your new resume should be online at:
+
+        `https://<username>.github.io/<repository-name>`
+
+    - If you encounter any issue, check the deployment logs at 
+        `https://github.com/<username>/<repository-name>/actions`
+
+Now that your resume is online, it is time to fill it with content...
+      
+4. **Clone the forked repository:**
     1. Navigate to your forked repository.
     2. Click the green "Code" button and copy the URL (either HTTPS or SSH).
     3. Open a terminal on your computer and run the following command to clone the repository:
@@ -43,27 +60,20 @@ Prerequisites: You will need to install [NodeJS](https://nodejs.org/en) and an I
     
        Replace `<repository-url>` with the copied repository URL.
 
-3. **Navigate to the repository:**
+5. **Navigate to the repository:**
     
     ```sh
     cd <repository-name>
     ```
    Replace `<repository-name>` with the name of your repository, eg `resume`
 
-4. **Install the required dependencies:**
+6. **Install the required dependencies:**
     ```sh
     npm install
     ```
 
-5. **Update GitHub Pages settings:**
-    1. Go to your forked repository on GitHub.
-    2. Navigate to `Settings` > `Pages`.
-    3. Enable GitHub Pages.
-    4. Under "Source," ensure it is set to GitHub Actions. The associated settings for this are in `./.github/workflows/gh-pages.yml`
-    5. If you would like to set up a custom domain, you should enter this information here.
 
-
-6. **Test out the resume on the local webserver**
+7. **Test out the resume on the local webserver**
     ```sh
     npm start
     ```
@@ -72,7 +82,7 @@ Prerequisites: You will need to install [NodeJS](https://nodejs.org/en) and an I
     -After you have confirmed it is working locally, close the webserver with Ctrl+C
 
 
-7. **Make local changes to the resume:**
+8. **Make local changes to the resume:**
     - Make a local development branch:
     ```shf
     git checkout -b mydev
@@ -86,14 +96,14 @@ Prerequisites: You will need to install [NodeJS](https://nodejs.org/en) and an I
     - Re-run the webserver and check that the resume is showing the new content.
 
 
-8. **Commit and push changes to dev:**
+9. **Commit and push changes to dev:**
     ```sh
     git add .
     git commit -m "Describe your changes"
     git push origin mydev
     ```
 
-9. **Merge the changes into the main branch:**
+10. **Merge the changes into the main branch:**
 
     - Since `main` branch automatically deploys the site, a branch protection rule has been setup. You may need to merge your branch with a pull request.
 
@@ -102,13 +112,6 @@ Prerequisites: You will need to install [NodeJS](https://nodejs.org/en) and an I
 
     - If you prefer, you can turn off branch protection rules on your own repo.
 
-10. **Check the deployment of your website**
-    - After a short while your new resume should be online at:
-
-        `https://<username>.github.io/<repository-name>`
-
-    - If you encounter any issue, check the deployment logs at 
-        `https://github.com/<username>/<repository-name>/actions`
 
 11. **Resume versioning**
 
