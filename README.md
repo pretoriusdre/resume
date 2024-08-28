@@ -26,13 +26,13 @@ If you want to customise your resume to a particular job application, you can ma
 
 
 ## Setup:
-Prerequisites: You will need to install [NodeJS](https://nodejs.org/en) and an IDE.
+Prerequisites: To edit the code, You will need to install [NodeJS](https://nodejs.org/en) and an IDE. However, if you just wanted to deploy the website, you can do this just by following steps 1 - 3, which should take around two minutes.
 
 1. **Fork the repository:**
     1. Click the "Fork" button at the top-right corner of this page.
     2. Choose a repository name. It is recommended to use 'resume', as this choice affects the site url on GitHub Pages.
         - If you don't have a custom domain, your GitHub Pages site url will be: `<site-url> = https://<username>.github.io/<repository-name>`
-        - 
+          
 2. **Update GitHub Pages settings:**
     1. Go to your forked repository on GitHub.
     2. Navigate to `Settings` > `Pages`.
