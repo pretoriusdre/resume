@@ -8,7 +8,9 @@ https://pretoriusdre.github.io/resume-tree/
 
 
 
-https://github.com/user-attachments/assets/4fd4fa6b-9354-42a7-8034-2810f138f4ea
+
+https://github.com/user-attachments/assets/71a4762d-c72c-4097-8ef8-b378e35be974
+
 
 
 
