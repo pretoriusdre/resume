@@ -119,7 +119,7 @@
         "type": "section",
         "ref": null,
         "hidden": false,
-        "start_collapsed": false,
+        "start_collapsed": true,
         "prevent_toggle": false,
         "children": [
           {
@@ -182,12 +182,12 @@
         "type": "section",
         "ref": null,
         "hidden": false,
-        "start_collapsed": false,
+        "start_collapsed": true,
         "prevent_toggle": false,
         "children": [
           {
             "id": "908298a9-6ae8-4d62-b370-f80ec37106bf",
-            "value": "I am a Chartered professional engineer with fifteen years of experience in the oil and gas industry. Five of these years were in a brownfields consultancy, conducting engineering design for Woodside assets such as the Karratha Gas Plant, Goodwyn A and North Rankin offshore platforms.  In this role I developed a deep technical understanding of mechanical engineering fundamentals; with a particular focus on static-equipment and integrity.",
+            "value": "I am a Chartered professional engineer with sixteen years of experience in the oil and gas industry. Five of these years were in a brownfields consultancy, conducting engineering design for Woodside assets such as the Karratha Gas Plant, Goodwyn A and North Rankin offshore platforms.  In this role I developed a deep technical understanding of mechanical engineering fundamentals; with a particular focus on static-equipment and integrity.",
             "type": "paragraph",
             "ref": null,
             "hidden": false,
@@ -233,7 +233,7 @@
         "type": "section",
         "ref": null,
         "hidden": true,
-        "start_collapsed": false,
+        "start_collapsed": true,
         "prevent_toggle": false,
         "children": [
           {
@@ -410,7 +410,7 @@
         "type": "section",
         "ref": null,
         "hidden": false,
-        "start_collapsed": false,
+        "start_collapsed": true,
         "prevent_toggle": false,
         "children": [
           {
@@ -1499,7 +1499,7 @@
         "type": "section",
         "ref": null,
         "hidden": false,
-        "start_collapsed": false,
+        "start_collapsed": true,
         "prevent_toggle": false,
         "children": [
           {
