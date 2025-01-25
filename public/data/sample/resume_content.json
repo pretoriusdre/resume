@@ -109,6 +109,66 @@
         ]
       },
       {
+        "id": "7d71d593-3ef6-4c78-8174-b1cfac61c059",
+        "value": "Education",
+        "type": "section",
+        "ref": "",
+        "hidden": false,
+        "start_collapsed": false,
+        "prevent_toggle": false,
+        "children": [
+          {
+            "id": "d7f6d2ad-a9af-4e7b-a6c4-b5ab0838a032",
+            "value": "Hogwarts School of Witchcraft and Wizardry, Class of 2010",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": true,
+            "prevent_toggle": false,
+            "children": [
+              {
+                "id": "7724b265-7e82-4266-b16f-8763cdc8de78",
+                "value": "Prefect of the Library (patron saint of procrastination)",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_toggle": false
+              },
+              {
+                "id": "425e396d-f4db-4aa1-8572-e2c5b6c51d0a",
+                "value": "Thesis: \"The Ethics of Hexing: A Study in Practical Spellcasting\"",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_toggle": false
+              }
+            ]
+          },
+          {
+            "id": "1ed08c63-994e-4003-a03e-6b62fd64df09",
+            "value": "University of Online Endeavors",
+            "type": "line",
+            "ref": "",
+            "hidden": false,
+            "start_collapsed": true,
+            "prevent_toggle": false,
+            "children": [
+              {
+                "id": "4ea818a7-4c26-48b9-a418-e70492530577",
+                "value": "I've spent enough time on Reddit that I should probably be eligible for a degree by now.",
+                "type": "line",
+                "ref": "",
+                "hidden": false,
+                "start_collapsed": false,
+                "prevent_toggle": false
+              }
+            ]
+          }
+        ]
+      },
+      {
         "id": "5f546809-534a-4109-a2bd-3aec117206de",
         "value": "Career statement",
         "type": "section",
