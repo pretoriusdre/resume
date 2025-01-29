@@ -142,23 +142,6 @@ Now that your résumé is online, it is time to fill it with content...
 
 ## A note on international conventions.
 
-### Spelling
-There are several different spellings of the word 'résumé'. This project is using 'résumé' in the printed form, and 'resume' wherever it appears in URLs or code.
-
-- **Résumé** (most formal and correct)
-   - This is the proper French spelling.
-   - It's widely understood internationally and considered formal.
-   - Ideal for professional documents or contexts where attention to detail matters.
-
-- **Resumé** (partially anglicized)
-   - Commonly used in English-speaking countries, especially in the U.S.
-   - Keeps one accent for clarity of pronunciation but is less formal than the full French spelling.
-
-- **Resume** (fully anglicized)
-   - Often used in casual contexts or when accents are omitted for simplicity.
-   - Can be confusing because it’s identical to the verb "resume" (to begin again).
-
-### Page Size
-
-- For page size, this currently is configured for ISO standard A4 paper size, which prints to US letter size.
+- There are several different spellings of the word 'résumé'. This project is using 'résumé' in the printed form, and 'resume' wherever it appears in URLs or code.
+- The page size is configured for international standard A4 paper size. This prints to US letter size with slight bordering.
 - Please feel free to submit a PR if you would like to localize this project.
