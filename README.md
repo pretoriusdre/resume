@@ -140,9 +140,10 @@ Now that your résumé is online, it is time to fill it with content...
 - The license is governing, but the TLDR is that you can use this however you like!
 
 
-## A note on the spelling of résumé
+## A note on international conventions.
 
-There are several different spellings of the word 'résumé' this project is using 'résumé' in the printed form, and 'resume' wherever it appears in urls or code.
+### Spelling
+There are several different spellings of the word 'résumé'. This project is using 'résumé' in the printed form, and 'resume' wherever it appears in URLs or code.
 
 - **Résumé** (most formal and correct)
    - This is the proper French spelling.
@@ -156,3 +157,8 @@ There are several different spellings of the word 'résumé' this project is usi
 - **Resume** (fully anglicized)
    - Often used in casual contexts or when accents are omitted for simplicity.
    - Can be confusing because it’s identical to the verb "resume" (to begin again).
+
+### Page Size
+
+- For page size, this currently is configured for ISO standard A4 paper size, which prints to US letter size.
+- Please feel free to submit a PR if you would like to localize this project.
