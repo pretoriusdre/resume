@@ -1,7 +1,7 @@
 # `resume-tree`: An interactive, hierarchical résumé
 ## Overview:
 
-This repository is a template for an interactive rsume built around a JSON tree data structure. This is an open-source project that you can fork, fill with your own details, and host on github pages for free.
+This repository is a template for an interactive résumé built around a JSON tree data structure. This is an open-source project that you can fork, fill with your own details, and host on github pages for free.
 
 Example:
 https://pretoriusdre.github.io/resume-tree/
