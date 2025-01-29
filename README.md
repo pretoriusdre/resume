@@ -136,6 +136,5 @@ Now that your resume is online, it is time to fill it with content...
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
-You can use this however you like!
+- This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+- You can use this however you like!
