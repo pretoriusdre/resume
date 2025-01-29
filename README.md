@@ -129,6 +129,7 @@ Now that your resume is online, it is time to fill it with content...
 
 ## Contributing:
 
+- It would be great if anyone wants to work on this project!
 - If you would like to contribute, first raise a bug report or feature request under the GitHub issues.
 - You can then submit your proposed changes via pull request.
 
@@ -136,3 +137,5 @@ Now that your resume is online, it is time to fill it with content...
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+You can use this however you like!
