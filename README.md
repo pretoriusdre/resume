@@ -1,7 +1,7 @@
-# `resume-tree`: An interactive, hierarchical resume
+# `resume-tree`: An interactive, hierarchical résumé
 ## Overview:
 
-This repository is a template for an interactive resume built around a JSON tree data structure. This is an open-source project that you can fork, fill with your own details, and host on github pages for free.
+This repository is a template for an interactive rsume built around a JSON tree data structure. This is an open-source project that you can fork, fill with your own details, and host on github pages for free.
 
 Example:
 https://pretoriusdre.github.io/resume-tree/
@@ -14,15 +14,15 @@ https://github.com/user-attachments/assets/71a4762d-c72c-4097-8ef8-b378e35be974
 
 
 
-The resume looks just like a regular resume, and can be printed to a pdf which you can submit normally. However, the pdf version includes a hyperlink back to the interactive version, where ideas can *expand beyond the printed page*.
+The résumé looks just like a regular résumé, and can be printed to a pdf which you can submit normally. However, the pdf version includes a hyperlink back to the interactive version, where ideas can *expand beyond the printed page*.
 
 
-Each granular piece of information in the resume is represented by a node. Nodes can contain child notes, which a curious reader could expand to reveal additional supporting information. You could include as much detailed information as you like, at any depth level. You can also reveal rich content such as images or embedded videos, which themselves can be represented by nodes.
+Each granular piece of information in the résumé is represented by a node. Nodes can contain child notes, which a curious reader could expand to reveal additional supporting information. You could include as much detailed information as you like, at any depth level. You can also reveal rich content such as images or embedded videos, which themselves can be represented by nodes.
 
-The resume has a built-in editor which allows you to update and rearrange nodes. Feel free to try this feature; it does not affect the content on the webserver. Export the JSON after you make your local changes. If you want to persist these changes, save that file in your repository, replacing the existing file
+The résumé has a built-in editor which allows you to update and rearrange nodes. Feel free to try this feature; it does not affect the content on the webserver. Export the JSON after you make your local changes. If you want to persist these changes, save that file in your repository, replacing the existing file
 
 
-If you want to customise your resume to a particular job application, you can make your updates with the editor, saving the content to a new subfolder in the directory. Then you can reference this custom version using a url parameter such as `<site-url>/?version=custom-for-xxxxx-role`
+If you want to customise your résumé to a particular job application, you can make your updates with the editor, saving the content to a new subfolder in the directory. Then you can reference this custom version using a url parameter such as `<site-url>/?version=custom-for-xxxxx-role`
 
 
 ## Setup:
@@ -41,14 +41,14 @@ Prerequisites: To edit the code, You will need to install [NodeJS](https://nodej
     5. If you would like to set up a custom domain, you should enter this information here.
 
 3. **Check the deployment of your website**
-    - After a short while your new resume should be online at:
+    - After a short while your new résumé should be online at:
 
         `https://<username>.github.io/<repository-name>`
 
     - If you encounter any issue, check the deployment logs at 
         `https://github.com/<username>/<repository-name>/actions`
 
-Now that your resume is online, it is time to fill it with content...
+Now that your résumé is online, it is time to fill it with content...
       
 4. **Clone the forked repository:**
     1. Navigate to your forked repository.
@@ -73,7 +73,7 @@ Now that your resume is online, it is time to fill it with content...
     ```
 
 
-7. **Test out the resume on the local webserver**
+7. **Test out the résumé on the local webserver**
     ```sh
     npm start
     ```
@@ -82,7 +82,7 @@ Now that your resume is online, it is time to fill it with content...
     -After you have confirmed it is working locally, close the webserver with Ctrl+C
 
 
-8. **Make local changes to the resume:**
+8. **Make local changes to the résumé:**
     - Make a local development branch:
     ```shf
     git checkout -b mydev
@@ -113,10 +113,10 @@ Now that your resume is online, it is time to fill it with content...
     - If you prefer, you can turn off branch protection rules on your own repo.
 
 
-11. **Resume versioning**
+11. **Résumé versioning**
 
-    - The best resumes are customised to the role you are applying for.
-    - A great strategy is to have all your experiences listed inside in the base resume (with nodes set as hidden as required), and you use this as a template to create the custom version.
+    - The best résumés are customised to the role you are applying for.
+    - A great strategy is to have all your experiences listed inside in the base résumé (with nodes set as hidden as required), and you use this as a template to create the custom version.
     - To customise, you would selectively hide or collapse the items which are less relevant to the role you are applying for, or unhiding nodes which provide useful detail.
     - After customisation for the role, you would then save that version into a new JSON file, saving it into the repository as follows:
 
@@ -138,3 +138,21 @@ Now that your resume is online, it is time to fill it with content...
 
 - This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 - The license is governing, but the TLDR is that you can use this however you like!
+
+
+## A note on the spelling of résumé
+
+There are several different spellings of the word 'résumé' this project is using 'résumé' in the printed form, and 'resume' wherever it appears in urls or code.
+
+- **Résumé** (most formal and correct)
+   - This is the proper French spelling.
+   - It's widely understood internationally and considered formal.
+   - Ideal for professional documents or contexts where attention to detail matters.
+
+- **Resumé** (partially anglicized)
+   - Commonly used in English-speaking countries, especially in the U.S.
+   - Keeps one accent for clarity of pronunciation but is less formal than the full French spelling.
+
+- **Resume** (fully anglicized)
+   - Often used in casual contexts or when accents are omitted for simplicity.
+   - Can be confusing because it’s identical to the verb "resume" (to begin again).
