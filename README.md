@@ -134,13 +134,13 @@ Now that your résumé is online, it is time to fill it with content...
 - You can then submit your proposed changes via pull request.
 
 
-## License
+## License:
 
 - This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 - The license is governing, but the TLDR is that you can use this however you like!
 
 
-## A note on international conventions.
+## A note on international conventions:
 
 - There are several different spellings of the word 'résumé'. This project is using 'résumé' in the printed form, and 'resume' wherever it appears in URLs or code.
 - The page size is configured for international standard A4 paper size. This prints to US letter size with slight bordering.
