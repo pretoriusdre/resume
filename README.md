@@ -144,4 +144,4 @@ Now that your résumé is online, it is time to fill it with content...
 
 - There are several different spellings of the word 'résumé'. This project is using 'résumé' in the printed form, and 'resume' wherever it appears in URLs or code.
 - The page size is configured for international standard A4 paper size. This prints to US letter size with slight bordering.
-- Please feel free to submit a PR if you would like to localize this project.
+- Please feel free to submit a PR if you would like to localise (localize) this project.
