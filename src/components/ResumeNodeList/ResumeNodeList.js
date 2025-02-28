@@ -90,6 +90,9 @@ function ResumeNode({ nodeData, depth, materialised_path }) {
                         'allow': 'autoplay'
                     }, value
                 );
+            case 'promptinjection':
+                return <div className="injection-text">{value}</div>;
+
             default:
                 return <span>{id}{type}</span>;
         };
