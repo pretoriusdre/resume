@@ -126,7 +126,7 @@ Now that your résumé is online, it is time to fill it with content...
 
         `https://<username>.github.io/<repository-name>/?version=<version-name>`
 
-12. **GPT Prompt Injection**
+12. **GPT prompt injection**
 
     - If don't want your résumé being silently dismissed by AI tools, you can fight back.
     - Inject any text you like into your résumé with the 'promptinjection' node type.
