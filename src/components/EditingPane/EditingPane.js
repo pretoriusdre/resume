@@ -189,6 +189,7 @@ const EditingPane = () => {
             <option value="image">image</option>
             <option value="link">link</option>
             <option value="iframe">iframe</option>
+            <option value="promptinjection">promptinjection</option>
           </select>
         </div>
 
