@@ -37,3 +37,12 @@
   display: block;
   overflow: hidden;
 }
+
+
+.injection-text {
+  display: inline;
+  color: rgb(219, 219, 219);
+  opacity: 0.14;
+  position: absolute;
+  font-size: 7pt;
+}
