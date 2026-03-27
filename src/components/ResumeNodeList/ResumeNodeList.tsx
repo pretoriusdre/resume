@@ -1,20 +1,28 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import { useDrag } from 'react-dnd';
 
-import ResumeContext from "../ResumeContext/ResumeContext";
+import { useResumeUI } from '../ResumeUIContext/ResumeUIContext';
 import DragAndDropItems from '../DragAndDropItems/DragAndDropItems';
 import Separator from '../Separator/Separator';
 import Image from '../Image/Image';
+import { NodeData, ResumeTree } from '../../types/resume';
 
 import './ResumeNodeList.css';
 
 
 // http/https/mailto and relative paths (./  or  /) are permitted as link/iframe targets.
 // Blocks javascript: and other dangerous schemes.
-const isSafeUrl = (url) => typeof url === 'string' && /^(https?:|mailto:|\.\/|\/[^/])/i.test(url);
+const isSafeUrl = (url: string | undefined): boolean =>
+    typeof url === 'string' && /^(https?:|mailto:|\.\/|\/[^/])/i.test(url);
 
 
-const ResumeNodeList = ({ nodeList, depth, materialised_path }) => {
+interface ResumeNodeListProps {
+    nodeList: ResumeTree | undefined;
+    depth: number;
+    materialised_path: string[];
+}
+
+const ResumeNodeList: React.FC<ResumeNodeListProps> = ({ nodeList, depth, materialised_path }) => {
     return (
         <div>
             {(nodeList || []).map((child) => (
@@ -30,9 +38,15 @@ const ResumeNodeList = ({ nodeList, depth, materialised_path }) => {
 };
 
 
-function ResumeNode({ nodeData, depth, materialised_path }) {
+interface ResumeNodeProps {
+    nodeData: NodeData;
+    depth: number;
+    materialised_path: string[];
+}
 
-    const { isEditing, activeNode, setActiveNode } = useContext(ResumeContext);
+function ResumeNode({ nodeData, depth, materialised_path }: ResumeNodeProps) {
+
+    const { isEditing, activeNode, setActiveNode } = useResumeUI();
 
     const [collapsed, setCollapsed] = useState(nodeData?.start_collapsed || false);
 
@@ -43,7 +57,7 @@ function ResumeNode({ nodeData, depth, materialised_path }) {
     const hidden = nodeData.hidden || false;
     const prevent_toggle = nodeData.prevent_toggle || false;
 
-    const hasChildren = nodeData?.children?.length > 0;
+    const hasChildren = (nodeData?.children?.length ?? 0) > 0;
     const isActive = id === activeNode?.id;
 
     const NodeIcon = hasChildren ? (collapsed ? '+' : '-') : '>';
@@ -84,7 +98,7 @@ function ResumeNode({ nodeData, depth, materialised_path }) {
             case 'line':
                 return <span>{collapsableElement}</span>;
             case 'image':
-                return <Image title={value} src={ref} collapsed={collapsed} toggleCollapse={toggleCollapse} />;
+                return <Image title={value} src={ref ?? ''} collapsed={collapsed} toggleCollapse={toggleCollapse} />;
             case 'link':
                 return (
                     <a href={isSafeUrl(ref) ? ref : '#'} target="_blank" rel="noopener noreferrer">
@@ -124,7 +138,7 @@ function ResumeNode({ nodeData, depth, materialised_path }) {
     return (
         <div>
             <div
-                ref={isEditing ? drag : null}
+                ref={isEditing ? (el: HTMLDivElement | null) => { drag(el); } : null}
                 className={`${isEditing ? 'draggable' : ''}${isDragging ? ' dragging' : ''}${isActive ? ' active' : ''}${hidden ? ' hidden' : ''}`}
             >
                 <div

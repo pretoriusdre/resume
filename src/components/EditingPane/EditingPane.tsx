@@ -1,24 +1,36 @@
-import React, { useEffect, useState, useContext } from 'react';
-import { findAndUpdateNode, findAndRemoveNode } from "../../utils/nodeProcessing";
-import ResumeContext from "../ResumeContext/ResumeContext";
+import React, { useEffect, useState } from 'react';
+import { useResumeContent } from '../ResumeContentContext/ResumeContentContext';
+import { useResumeUI } from '../ResumeUIContext/ResumeUIContext';
+import { NodeData, NodeType } from '../../types/resume';
 import './EditingPane.css';
 
 import { v4 as uuidv4 } from 'uuid';
 
-const EditingPane = () => {
-  const { activeNode, setActiveNode, resumeContent, setResumeContent, setWasChanged } = useContext(ResumeContext);
+interface FormData {
+  id: string;
+  value: string;
+  type: NodeType;
+  ref: string;
+  start_collapsed: boolean;
+  hidden: boolean;
+  prevent_toggle: boolean;
+}
+
+const EditingPane: React.FC = () => {
+  const { dispatch, setWasChanged } = useResumeContent();
+  const { activeNode, setActiveNode } = useResumeUI();
 
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
 
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     id: '',
     value: '',
     type: 'line',
     ref: '',
     start_collapsed: false,
     hidden: false,
-    prevent_toggle: false
+    prevent_toggle: false,
   });
 
 
@@ -32,82 +44,63 @@ const EditingPane = () => {
         ref: activeNode.ref || '',
         start_collapsed: activeNode.start_collapsed || false,
         hidden: activeNode.hidden || false,
-        prevent_toggle: activeNode.prevent_toggle || false
+        prevent_toggle: activeNode.prevent_toggle || false,
       });
     }
   }, [activeNode]);
 
 
-  const handleChange = (e) => {
-    const { name, value, type, checked } = e.target;
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    const isCheckbox = (e.target as HTMLInputElement).type === 'checkbox';
+    const checked = (e.target as HTMLInputElement).checked;
     setFormData(prev => ({
       ...prev,
-      [name]: type === 'checkbox' ? checked : value,
+      [name]: isCheckbox ? checked : value,
     }));
     setHasUnsavedChanges(true);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-
-    const updatedData = structuredClone(resumeContent);
-    const updatedNode = findAndUpdateNode(updatedData, formData.id, {
-      value: formData.value,
-      type: formData.type,
-      ref: formData.ref,
-      hidden: formData.hidden,
-      start_collapsed: formData.start_collapsed,
-      prevent_toggle: formData.prevent_toggle
+    dispatch({
+      type: 'UPDATE_NODE',
+      id: formData.id,
+      updates: {
+        value: formData.value,
+        type: formData.type,
+        ref: formData.ref,
+        hidden: formData.hidden,
+        start_collapsed: formData.start_collapsed,
+        prevent_toggle: formData.prevent_toggle,
+      },
     });
-
-    if (updatedNode) {
-      setResumeContent(updatedData);
-      setActiveNode(updatedNode);
-      setWasChanged(true);
-      setHasUnsavedChanges(false);
-    } else {
-      console.error('Node not found.');
-    }
+    setActiveNode({ ...(activeNode as NodeData), ...formData });
+    setWasChanged(true);
+    setHasUnsavedChanges(false);
   };
 
   const confirmDelete = () => {
-    const updatedData = structuredClone(resumeContent);
-    const oldNode = findAndRemoveNode(updatedData, formData.id);
-
-    if (oldNode) {
-      setResumeContent(updatedData);
-      setActiveNode(null);
-      setWasChanged(true);
-    } else {
-      console.error('Node not found.');
-    }
+    dispatch({ type: 'DELETE_NODE', id: formData.id });
+    setActiveNode(null);
+    setWasChanged(true);
     setShowDeleteConfirm(false);
   };
 
   const handleAddChild = () => {
-    const updatedData = structuredClone(resumeContent);
-
-    const newNode = {
+    if (!activeNode) return;
+    const newNode: NodeData = {
       id: uuidv4(),
       value: 'Placeholder',
       type: 'line',
       ref: '',
       hidden: false,
       start_collapsed: false,
-      prevent_toggle: false
+      prevent_toggle: false,
     };
-
-    const targetNode = findAndUpdateNode(updatedData, activeNode.id, {});
-    if (targetNode) {
-      targetNode.children = targetNode.children || [];
-      targetNode.children.push(newNode);
-
-      setResumeContent(updatedData);
-      setActiveNode(newNode);
-      setWasChanged(true);
-    } else {
-      console.error('Node not found.');
-    }
+    dispatch({ type: 'ADD_CHILD', parentId: activeNode.id, newNode });
+    setActiveNode(newNode);
+    setWasChanged(true);
   };
 
 
@@ -170,7 +163,7 @@ const EditingPane = () => {
           </select>
         </div>
 
-        {['image', 'link', 'iframe'].includes(formData.type) && (
+        {(['image', 'link', 'iframe'] as NodeType[]).includes(formData.type) && (
           <div>
             <label htmlFor="node-ref">Reference url:</label>
             <input

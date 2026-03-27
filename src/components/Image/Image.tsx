@@ -1,8 +1,14 @@
+import React from 'react';
+import './Image.css';
 
+interface ImageProps {
+    title: string;
+    src: string;
+    collapsed: boolean;
+    toggleCollapse: () => void;
+}
 
-import './Image.css'
-
-const Image = ({ title, src, collapsed, toggleCollapse }) => {
+const Image: React.FC<ImageProps> = ({ title, src, collapsed, toggleCollapse }) => {
     const modalClass = `imgmodal${collapsed ? ' hidden' : ''}`;
     const overlayClass = `overlay${collapsed ? ' hidden' : ''}`;
 
