@@ -10,9 +10,7 @@ export interface ResumeContentContextType {
   setWasChanged: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const ResumeContentContext = React.createContext<ResumeContentContextType>(
-  undefined as unknown as ResumeContentContextType
-);
+const ResumeContentContext = React.createContext<ResumeContentContextType | undefined>(undefined);
 
 export const useResumeContent = (): ResumeContentContextType => {
   const ctx = React.useContext(ResumeContentContext);
