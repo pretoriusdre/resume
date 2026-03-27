@@ -134,9 +134,11 @@ function ResumeNode({ nodeData, depth, materialised_path }) {
                 </div>
 
                 <div className={`childrencontainer${collapsed ? ' collapsed' : ''}`}>
-                    <div className={depth > 0 ? 'hangingIndent' : ''}>
-                        {isEditing && <Separator id={id} materialised_path={materialised_path} relative_position='first_child' />}
-                        <ResumeNodeList nodeList={nodeData.children} materialised_path={materialised_path} depth={depth} />
+                    <div className="childreninner">
+                        <div className={depth > 0 ? 'hangingIndent' : ''}>
+                            {isEditing && <Separator id={id} materialised_path={materialised_path} relative_position='first_child' />}
+                            <ResumeNodeList nodeList={nodeData.children} materialised_path={materialised_path} depth={depth} />
+                        </div>
                     </div>
                 </div>
 
