@@ -98,7 +98,7 @@ function ResumeNode({ nodeData, depth, materialised_path }: ResumeNodeProps) {
             case 'line':
                 return <span>{collapsableElement}</span>;
             case 'image':
-                return <Image title={value} src={ref ?? ''} collapsed={collapsed} toggleCollapse={toggleCollapse} />;
+                return <Image title={value} src={isSafeUrl(ref) ? (ref ?? '') : ''} collapsed={collapsed} toggleCollapse={toggleCollapse} />;
             case 'link':
                 return (
                     <a href={isSafeUrl(ref) ? ref : '#'} target="_blank" rel="noopener noreferrer">
@@ -118,8 +118,10 @@ function ResumeNode({ nodeData, depth, materialised_path }: ResumeNodeProps) {
                 );
             case 'promptinjection':
                 return <div className="injection-text">{value}</div>;
-            default:
-                return <span>{id}{type}</span>;
+            default: {
+                const _exhaustive: never = type;
+                return _exhaustive;
+            }
         }
     };
 
