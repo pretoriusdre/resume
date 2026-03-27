@@ -1,4 +1,4 @@
-import React, { useEffect, useReducer, useState } from 'react';
+import React, { useEffect, useMemo, useReducer, useState } from 'react';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 
@@ -58,7 +58,8 @@ const Resume: React.FC = () => {
             }
         };
         init();
-    }, []); // eslint-disable-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- intentional: load data once on mount only
+    }, []);
 
     // Reset to sample data if all nodes are deleted
     useEffect(() => {
@@ -83,9 +84,19 @@ const Resume: React.FC = () => {
     }, [isDataLoaded, resumeContent, activeNode]);
 
 
+    const contentValue = useMemo(
+        () => ({ resumeContent, dispatch, isDataLoaded, wasChanged, setWasChanged }),
+        [resumeContent, isDataLoaded, wasChanged] // eslint-disable-line react-hooks/exhaustive-deps -- dispatch and setWasChanged are stable
+    );
+
+    const uiValue = useMemo(
+        () => ({ isEditing, setIsEditing, activeNode, setActiveNode }),
+        [isEditing, activeNode] // eslint-disable-line react-hooks/exhaustive-deps -- setters are stable
+    );
+
     return (
-        <ResumeContentContext.Provider value={{ resumeContent, dispatch, isDataLoaded, wasChanged, setWasChanged }}>
-            <ResumeUIContext.Provider value={{ isEditing, setIsEditing, activeNode, setActiveNode }}>
+        <ResumeContentContext.Provider value={contentValue}>
+            <ResumeUIContext.Provider value={uiValue}>
                 <DndProvider backend={HTML5Backend}>
                     <Navbar />
                     <div className="container">
