@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { DndProvider } from 'react-dnd';
 import { HTML5Backend } from 'react-dnd-html5-backend';
 
-//import { useLocation } from 'react-router-dom';
-
 import './Resume.css';
 
 import ResumeContext from "../ResumeContext/ResumeContext";
@@ -14,94 +12,67 @@ import Page from '../Page/Page';
 
 const Resume = () => {
 
-    //const location = useLocation();
-
-
     const [resumeContent, setResumeContent] = useState([]);
-    const [resumeMetadata, setResumeMetadata] = useState({});
     const [isDataLoaded, setIsDataLoaded] = useState(false);
     const [isEditing, setIsEditing] = useState(false);
     const [wasChanged, setWasChanged] = useState(false);
     const [activeNode, setActiveNode] = useState(null);
 
 
-
-    // Get the metadata
+    // Load metadata then content in one sequential init — avoids a double fetch
+    // that occurred when the content effect fired with empty metadata on first render.
     useEffect(() => {
-        const fetchMetadata = async () => {
+        const init = async () => {
             try {
-                const resumeMetadataResponse = await fetch(`${process.env.PUBLIC_URL}/data/resume_metadata.json`);
-                const resumeMetadataReceived = await resumeMetadataResponse.json();
-                document.title = resumeMetadataReceived.title || 'Résumé';
-                setResumeMetadata(resumeMetadataReceived);
-            } catch (error) {
-                console.error('Error fetching JSON data:', error);
-            }
-        };
-        fetchMetadata();
-    }, []);
+                const metaResponse = await fetch(`${process.env.PUBLIC_URL}/data/resume_metadata.json`);
+                const metadata = await metaResponse.json();
+                document.title = metadata.title || 'Résumé';
 
-    // Get the actual resume data
-    useEffect(() => {
-        const fetchResumeContent = async () => {
-            try {
-                // Extract version from URL parameters
                 const params = new URLSearchParams(window.location.search);
                 const version = params.get('version');
-    
-                let contentPath;
-    
-                // If a version is specified, try to fetch from the versioned path
+
                 if (version) {
-                    contentPath = `${process.env.PUBLIC_URL}${resumeMetadata.basepath}${version}/${resumeMetadata.filename}`;
+                    const versionedPath = `${process.env.PUBLIC_URL}${metadata.basepath}${version}/${metadata.filename}`;
                     try {
-                        const resumeContentResponse = await fetch(contentPath);
-                        if (!resumeContentResponse.ok) {
-                            throw new Error(`Failed to fetch versioned path: ${contentPath}`);
+                        const versionedResponse = await fetch(versionedPath);
+                        if (versionedResponse.ok) {
+                            setResumeContent(await versionedResponse.json());
+                            setIsDataLoaded(true);
+                            return;
                         }
-                        const resumeContentReceived = await resumeContentResponse.json();
-                        setResumeContent(resumeContentReceived);
-                        setIsDataLoaded(true);
-                        return;
-                    } catch (error) {
-                        console.warn('Versioned path not found, falling back to base path:', error);
+                    } catch {
+                        console.warn(`Versioned resume not found at ${versionedPath}, falling back to base path.`);
                     }
                 }
-    
-                // If no version is specified or versioned path fails, try to fetch from the base path
-                contentPath = `${process.env.PUBLIC_URL}${resumeMetadata.basepath}${resumeMetadata.filename}`;
-                const resumeContentResponse = await fetch(contentPath);
-                if (!resumeContentResponse.ok) {
-                    throw new Error(`Failed to fetch base path: ${contentPath}`);
-                }
-                const resumeContentReceived = await resumeContentResponse.json();
-                setResumeContent(resumeContentReceived);
+
+                const basePath = `${process.env.PUBLIC_URL}${metadata.basepath}${metadata.filename}`;
+                const baseResponse = await fetch(basePath);
+                if (!baseResponse.ok) throw new Error(`Failed to fetch resume: ${basePath}`);
+                setResumeContent(await baseResponse.json());
                 setIsDataLoaded(true);
             } catch (error) {
-                console.error('Error fetching JSON data:', error);
+                console.error('Error loading resume:', error);
             }
         };
-    
-        fetchResumeContent();
-    }, [resumeMetadata, setResumeContent, setIsDataLoaded]);
+        init();
+    }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
-    // Reset content to sample data if all nodes are deleted
+    // Reset to sample data if all nodes are deleted
     useEffect(() => {
-        if (isDataLoaded & resumeContent.length === 0) {
-            const fetchResumeContent = async () => {
+        if (isDataLoaded && resumeContent.length === 0) {
+            const fetchSample = async () => {
                 try {
-                    const resumeSampleContentResponse = await fetch(`${process.env.PUBLIC_URL}/data/sample/resume_content.json`);
-                    const resumeSampleContentReceived = await resumeSampleContentResponse.json();
-                    setResumeContent(resumeSampleContentReceived);
+                    const response = await fetch(`${process.env.PUBLIC_URL}/data/sample/resume_content.json`);
+                    setResumeContent(await response.json());
                 } catch (error) {
-                    console.error('Error fetching JSON data:', error);
+                    console.error('Error fetching sample data:', error);
                 }
             };
-            fetchResumeContent();
+            fetchSample();
         }
-    }, [resumeContent, setResumeContent, isDataLoaded]);
+    }, [resumeContent, isDataLoaded]);
 
-    // Set the active node to the first node if nothing is selected
+    // Default to first node when data loads
     useEffect(() => {
         if (isDataLoaded && resumeContent.length > 0 && !activeNode) {
             setActiveNode(resumeContent[0]);
@@ -116,7 +87,6 @@ const Resume = () => {
             activeNode, setActiveNode,
             resumeContent, setResumeContent,
             isDataLoaded, setIsDataLoaded,
-
         }}>
             <DndProvider backend={HTML5Backend}>
                 <Navbar />
@@ -128,10 +98,9 @@ const Resume = () => {
                         <Page />
                     </div>
                 </div>
-
             </DndProvider>
         </ResumeContext.Provider>
     );
-}
+};
 
-export default Resume
+export default Resume;

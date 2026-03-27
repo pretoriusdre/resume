@@ -6,10 +6,10 @@ import './EditingPane.css';
 import { v4 as uuidv4 } from 'uuid';
 
 const EditingPane = () => {
-  const { activeNode, setActiveNode, resumeContent, setResumeContent } = useContext(ResumeContext);
-  const { setWasChanged } = useContext(ResumeContext);
+  const { activeNode, setActiveNode, resumeContent, setResumeContent, setWasChanged } = useContext(ResumeContext);
 
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
+  const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
 
   const [formData, setFormData] = useState({
     id: '',
@@ -24,6 +24,7 @@ const EditingPane = () => {
 
   useEffect(() => {
     if (activeNode) {
+      setShowDeleteConfirm(false);
       setFormData({
         id: activeNode.id || '',
         value: activeNode.value || '',
@@ -38,12 +39,10 @@ const EditingPane = () => {
 
 
   const handleChange = (e) => {
-    //Don't use preventdefault here.
     const { name, value, type, checked } = e.target;
-    setFormData(prevFormData => ({
-      ...prevFormData,
-      [name]: (type === 'checkbox' ? checked : value),
-
+    setFormData(prev => ({
+      ...prev,
+      [name]: type === 'checkbox' ? checked : value,
     }));
     setHasUnsavedChanges(true);
   };
@@ -52,8 +51,6 @@ const EditingPane = () => {
     e.preventDefault();
 
     const updatedData = structuredClone(resumeContent);
-
-    // Update the node using findAndUpdateNode
     const updatedNode = findAndUpdateNode(updatedData, formData.id, {
       value: formData.value,
       type: formData.type,
@@ -64,54 +61,34 @@ const EditingPane = () => {
     });
 
     if (updatedNode) {
-      // Set the updated data back to the context
       setResumeContent(updatedData);
       setActiveNode(updatedNode);
       setWasChanged(true);
       setHasUnsavedChanges(false);
-      console.log('Node updated:', updatedNode);
     } else {
       console.error('Node not found.');
     }
   };
 
-  const handleDelete = (e) => {
-    e.preventDefault();
-
-    // Confirm the deletion with the user
-    const confirmed = window.confirm("Are you sure you want to delete this node and all descendants?");
-
-    if (!confirmed) {
-      return; // Exit the function if the user cancels
-    }
-
-    console.log('Deleting node:', formData.id);
-
+  const confirmDelete = () => {
     const updatedData = structuredClone(resumeContent);
-    const oldNode = findAndRemoveNode(updatedData, formData.id)
+    const oldNode = findAndRemoveNode(updatedData, formData.id);
 
     if (oldNode) {
-      // Set the updated data back to the context
       setResumeContent(updatedData);
       setActiveNode(null);
       setWasChanged(true);
-      console.log('Node deleted: ', oldNode.id);
     } else {
       console.error('Node not found.');
     }
+    setShowDeleteConfirm(false);
   };
 
-
-
-  const handleAddChild = (e) => {
-    e.preventDefault();
-
+  const handleAddChild = () => {
     const updatedData = structuredClone(resumeContent);
 
-    const new_id = uuidv4();
-    // Update the node using findAndUpdateNode
-    const newNodeTemplate = {
-      id: new_id,
+    const newNode = {
+      id: uuidv4(),
       value: 'Placeholder',
       type: 'line',
       ref: '',
@@ -123,23 +100,20 @@ const EditingPane = () => {
     const targetNode = findAndUpdateNode(updatedData, activeNode.id, {});
     if (targetNode) {
       targetNode.children = targetNode.children || [];
-      targetNode.children.push(newNodeTemplate);
+      targetNode.children.push(newNode);
 
       setResumeContent(updatedData);
-      setActiveNode(newNodeTemplate);
+      setActiveNode(newNode);
       setWasChanged(true);
-      console.error('Added child node');
     } else {
       console.error('Node not found.');
     }
-
   };
-
 
 
   if (!activeNode) {
     return <div>Select a node to edit</div>;
-  };
+  }
 
   return (
     <div>
@@ -152,8 +126,9 @@ const EditingPane = () => {
       </ul>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>ID:</label>
+          <label htmlFor="node-id">ID:</label>
           <input
+            id="node-id"
             type="text"
             name="id"
             value={formData.id}
@@ -163,8 +138,9 @@ const EditingPane = () => {
         </div>
 
         <div>
-          <label>Value:</label>
+          <label htmlFor="node-value">Value:</label>
           <textarea
+            id="node-value"
             name="value"
             value={formData.value}
             onChange={handleChange}
@@ -173,8 +149,9 @@ const EditingPane = () => {
         </div>
 
         <div>
-          <label>Element Type:</label>
+          <label htmlFor="node-type">Element Type:</label>
           <select
+            id="node-type"
             name="type"
             value={formData.type}
             onChange={handleChange}
@@ -193,10 +170,11 @@ const EditingPane = () => {
           </select>
         </div>
 
-        {['image', 'link', 'iframe'].includes(formData.type) ?
+        {['image', 'link', 'iframe'].includes(formData.type) && (
           <div>
-            <label>Reference url:</label>
+            <label htmlFor="node-ref">Reference url:</label>
             <input
+              id="node-ref"
               type="text"
               name="ref"
               value={formData.ref}
@@ -204,12 +182,7 @@ const EditingPane = () => {
               className="custominput"
             />
           </div>
-          :
-          null
-        }
-
-
-
+        )}
 
         <div>
           <label>
@@ -219,7 +192,7 @@ const EditingPane = () => {
               checked={formData.hidden}
               onChange={handleChange}
             />
-            Hidden?
+            {' '}Hidden?
           </label>
         </div>
 
@@ -231,7 +204,7 @@ const EditingPane = () => {
               checked={formData.start_collapsed}
               onChange={handleChange}
             />
-            Start collapsed?
+            {' '}Start collapsed?
           </label>
         </div>
 
@@ -240,25 +213,33 @@ const EditingPane = () => {
             <input
               type="checkbox"
               name="prevent_toggle"
-              value = {formData.prevent_toggle }
+              checked={formData.prevent_toggle}
               onChange={handleChange}
-
             />
-            Prevent toggle?
+            {' '}Prevent toggle?
           </label>
         </div>
 
         <button type="submit" disabled={!hasUnsavedChanges}>Update</button>
-        <button type="button" onClick={handleDelete}>Delete</button>
+
+        {showDeleteConfirm ? (
+          <span className="delete-confirm">
+            Delete node and all descendants?{' '}
+            <button type="button" onClick={confirmDelete}>Yes, delete</button>
+            <button type="button" onClick={() => setShowDeleteConfirm(false)}>Cancel</button>
+          </span>
+        ) : (
+          <button type="button" onClick={() => setShowDeleteConfirm(true)}>Delete</button>
+        )}
+
         <button type="button" onClick={handleAddChild}>Add child</button>
 
       </form>
-      
-      {hasUnsavedChanges ? <div className='unsaved'>Unsaved changes!</div> : null}
+
+      {hasUnsavedChanges && <div className='unsaved'>Unsaved changes!</div>}
 
     </div>
   );
 };
 
 export default EditingPane;
-
