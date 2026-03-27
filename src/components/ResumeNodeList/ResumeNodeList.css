@@ -41,6 +41,10 @@
   overflow: hidden;
 }
 
+.childreninner iframe {
+  max-width: 100%;
+}
+
 
 .injection-text {
   display: inline;

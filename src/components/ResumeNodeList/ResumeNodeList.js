@@ -9,8 +9,9 @@ import Image from '../Image/Image';
 import './ResumeNodeList.css';
 
 
-// Only http, https, and mailto are permitted as link/iframe targets.
-const isSafeUrl = (url) => typeof url === 'string' && /^(https?:|mailto:)/i.test(url);
+// http/https/mailto and relative paths (./  or  /) are permitted as link/iframe targets.
+// Blocks javascript: and other dangerous schemes.
+const isSafeUrl = (url) => typeof url === 'string' && /^(https?:|mailto:|\.\/|\/[^/])/i.test(url);
 
 
 const ResumeNodeList = ({ nodeList, depth, materialised_path }) => {
