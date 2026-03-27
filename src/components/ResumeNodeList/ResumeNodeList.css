@@ -28,13 +28,16 @@
 }
 
 .childrencontainer {
-  height: auto;
-  display: block;
+  display: grid;
+  grid-template-rows: 1fr;
+  transition: grid-template-rows 0.25s ease;
 }
 
 .childrencontainer.collapsed {
-  height: 0;
-  display: block;
+  grid-template-rows: 0fr;
+}
+
+.childreninner {
   overflow: hidden;
 }
 
