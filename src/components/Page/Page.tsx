@@ -1,15 +1,14 @@
-import { useContext } from 'react';
-
+import React from 'react';
 
 import './Page.css';
 
 import ResumeNodeList from '../ResumeNodeList/ResumeNodeList';
-import ResumeContext from "../ResumeContext/ResumeContext";
+import { useResumeContent } from '../ResumeContentContext/ResumeContentContext';
 import PrintableOverlay from '../PrintableOverlay/PrintableOverlay';
 
-const Page = () => {
+const Page: React.FC = () => {
 
-    const { resumeContent } = useContext(ResumeContext);
+    const { resumeContent } = useResumeContent();
 
     return (
         <div className='pagecontainer'>
@@ -17,6 +16,6 @@ const Page = () => {
             <ResumeNodeList nodeList={resumeContent} materialised_path={[]} depth={0} />
         </div>
     );
-}
+};
 
-export default Page
+export default Page;

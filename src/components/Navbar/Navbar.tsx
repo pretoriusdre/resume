@@ -1,16 +1,18 @@
-import React, { useEffect, useRef, useState, useContext } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 import './Navbar.css';
 
-import ResumeContext from "../ResumeContext/ResumeContext";
+import { useResumeContent } from '../ResumeContentContext/ResumeContentContext';
+import { useResumeUI } from '../ResumeUIContext/ResumeUIContext';
 
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
 
-    const { isEditing, setIsEditing, wasChanged, setWasChanged, resumeContent, setResumeContent } = useContext(ResumeContext);
+    const { resumeContent, dispatch, wasChanged, setWasChanged } = useResumeContent();
+    const { isEditing, setIsEditing } = useResumeUI();
 
     const [isVisible, setIsVisible] = useState(true);
-    const [pendingAction, setPendingAction] = useState(null); // 'reset' | 'startNew' | null
+    const [pendingAction, setPendingAction] = useState<'reset' | 'startNew' | null>(null);
 
     const prevScrollPos = useRef(window.scrollY);
 
@@ -43,7 +45,7 @@ const Navbar = () => {
         if (pendingAction === 'reset') {
             window.location.reload();
         } else if (pendingAction === 'startNew') {
-            setResumeContent([]);
+            dispatch({ type: 'START_NEW' });
             setWasChanged(true);
         }
         setPendingAction(null);

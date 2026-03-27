@@ -1,13 +1,14 @@
+import { NodeData, ResumeTree } from '../types/resume';
 
 
-const findAndRemoveNode = (nodeList, nodeId) => {
+const findAndRemoveNode = (nodeList: NodeData[], nodeId: string): NodeData | null => {
   for (let i = 0; i < nodeList.length; i++) {
     const child = nodeList[i];
     if (child.id === nodeId) {
       nodeList.splice(i, 1);
       return child;
     }
-    if (child?.children?.length > 0) {
+    if (child.children && child.children.length > 0) {
       const removedNode = findAndRemoveNode(child.children, nodeId);
       if (removedNode) {
         return removedNode;
@@ -18,14 +19,14 @@ const findAndRemoveNode = (nodeList, nodeId) => {
 };
 
 
-const findAndUpdateNode = (nodeList, nodeId, updatedProperties) => {
+const findAndUpdateNode = (nodeList: NodeData[], nodeId: string, updatedProperties: Partial<NodeData>): NodeData | null => {
   for (let i = 0; i < nodeList.length; i++) {
     const child = nodeList[i];
     if (child.id === nodeId) {
       Object.assign(child, updatedProperties);
       return child;
     }
-    if (child?.children?.length > 0) {
+    if (child.children && child.children.length > 0) {
       const updatedNode = findAndUpdateNode(child.children, nodeId, updatedProperties);
       if (updatedNode) {
         return updatedNode;
@@ -36,9 +37,9 @@ const findAndUpdateNode = (nodeList, nodeId, updatedProperties) => {
 };
 
 
-const findNodeByPath = (nodeList, path) => {
+const findNodeByPath = (nodeList: NodeData[], path: string[]): NodeData | null => {
   const [currentId, ...restPath] = path;
-  for (let node of nodeList) {
+  for (const node of nodeList) {
     if (node.id === currentId) {
       if (restPath.length === 0) {
         return node;
@@ -51,14 +52,13 @@ const findNodeByPath = (nodeList, path) => {
   return null;
 };
 
-const findParentNode = (nodeList, path) => {
+const findParentNode = (nodeList: ResumeTree, path: string[]): NodeData | null => {
   if (path.length <= 1) {
-    return null; // No parent exists if the path has only one or no elements
+    return null;
   }
-  const parentPath = path.slice(0, -1); // Remove the last element to get the parent path
+  const parentPath = path.slice(0, -1);
   return findNodeByPath(nodeList, parentPath);
 };
-
 
 
 export { findAndRemoveNode, findAndUpdateNode, findNodeByPath, findParentNode };
