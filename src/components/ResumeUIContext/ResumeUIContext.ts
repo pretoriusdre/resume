@@ -8,9 +8,7 @@ export interface ResumeUIContextType {
   setActiveNode: React.Dispatch<React.SetStateAction<NodeData | null>>;
 }
 
-const ResumeUIContext = React.createContext<ResumeUIContextType>(
-  undefined as unknown as ResumeUIContextType
-);
+const ResumeUIContext = React.createContext<ResumeUIContextType | undefined>(undefined);
 
 export const useResumeUI = (): ResumeUIContextType => {
   const ctx = React.useContext(ResumeUIContext);
