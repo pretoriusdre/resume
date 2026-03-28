@@ -189,7 +189,7 @@
           "children": [
             {
               "id": "908298a9-6ae8-4d62-b370-f80ec37106bf",
-              "value": "I am a Chartered professional engineer with sixteen years of experience in the oil and gas industry. Five of these years were in a brownfields consultancy, conducting engineering design for Woodside assets such as the Karratha Gas Plant, Goodwyn A and North Rankin offshore platforms.  In this role I developed a deep technical understanding of mechanical engineering fundamentals; with a particular focus on static-equipment and integrity.",
+              "value": "I am a Chartered professional engineer with eighteen years of experience in the oil and gas industry. Five of these years were in a brownfields consultancy, conducting engineering design for Woodside assets such as the Karratha Gas Plant, Goodwyn A and North Rankin offshore platforms.  In this role I developed a deep technical understanding of mechanical engineering fundamentals; with a particular focus on static-equipment and integrity.",
               "type": "paragraph",
               "hidden": false,
               "start_collapsed": false,
@@ -219,7 +219,17 @@
             },
             {
               "id": "b0b5a74a-c452-4569-b3e0-7cc65c86bba1",
-              "value": "I currently work as a Senior DataOps Engineer within MODEC's Digital and Analytics department.",
+              "value": "Following Sangomar project, I transitioned to work as Senior DataOps Engineer within MODEC's Digital and Analytics department. Here I designed elements of the company data warehouse, which unlocks SAP and other data for analytical purposes.",
+              "type": "paragraph",
+              "hidden": false,
+              "start_collapsed": false,
+              "prevent_toggle": true,
+              "children": [],
+              "secondary_value": null
+            },
+            {
+              "id": "b0b5a74a-c452-4569-b3e0-7cc65c86bba1",
+              "value": "I currently work as a Maintenance Strategy Engineer within MODEC's Pre-Operations, Maintenance & Reliability Team. I am the focal point for SAP-PM data build, and the software that I wrote is used to manage the data build.",
               "type": "paragraph",
               "hidden": false,
               "start_collapsed": false,
