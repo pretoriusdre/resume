@@ -1,17 +1,4 @@
-@page {
-  size: A4;
-  margin: 12mm;
-}
-
-@print {
-  @page :footer {
-    display: none
-  }
-  @page : header {
-      display: none
-    }
-}
-
+/* @page size is injected dynamically by Resume.tsx based on resumeDocument.page_size */
 
 body {
   font-family: Calibri, sans-serif;
@@ -20,6 +7,7 @@ body {
 }
 
 
+/* Default (A4): 21cm wide. Letter overrides below. */
 .pagecontainer {
   width: 21cm;
   background-color: white;
@@ -30,10 +18,22 @@ body {
   border-radius: 2mm;
 }
 
+:root[data-page-size="letter"] .pagecontainer {
+  width: 8.5in;
+}
+
 @media print {
   .pagecontainer {
-    padding: 0mm;
-    margin-top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .pagecontainer h1,
+  .pagecontainer h2,
+  .pagecontainer h3 {
+    break-after: avoid;
+    page-break-after: avoid;
   }
 }
 
@@ -44,52 +44,60 @@ body {
   cursor: pointer;
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  /* Button element reset */
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  vertical-align: baseline;
 }
 
 .leaf {
-  cursor: auto;
+  cursor: default;
   font-weight: 500;
 }
 
 .hangingIndent {
   text-indent: -3mm;
   padding-left: 6mm;
-
 }
 
 
-h1 {
+/* Resume typography — scoped to .pagecontainer to avoid bleeding into editor UI */
+
+.pagecontainer h1 {
   text-align: center;
   color: rgb(21, 52, 91);
   font-weight: normal;
   font-size: 22pt;
-  margin-top: 0cm;
-  margin-bottom: 0cm;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-h2 {
+.pagecontainer h2 {
   color: rgb(21, 52, 91);
   font-weight: bold;
   font-size: 13pt;
   border-bottom: 2px solid rgb(21, 52, 91);
-
   margin-top: 4mm;
   margin-bottom: 1mm;
 }
 
-h3 {
+.pagecontainer h3 {
   color: rgb(21, 52, 91);
   font-weight: bold;
   font-size: 11pt;
   border-bottom: 1px solid rgb(21, 52, 91);
-
   margin-top: 4mm;
   margin-bottom: 1mm;
 }
 
-p {
-  text-indent: 0mm;
-  padding-left: 0mm;
+.pagecontainer p {
+  text-indent: 0;
+  padding-left: 0;
 }
 
 .subtitle {
@@ -98,15 +106,13 @@ p {
   white-space: nowrap;
   text-align: center;
   width: 100%;
-  text-indent: 0mm;
-  padding-left: 0mm;
+  text-indent: 0;
+  padding-left: 0;
 }
 
 
-
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 
@@ -116,23 +122,18 @@ code {
     font-size: 12pt;
   }
 
-  h2 {
+  .pagecontainer h2 {
     font-size: 16pt;
   }
 
-  h3 {
+  .pagecontainer h3 {
     font-size: 12pt;
   }
 
   .pagecontainer {
     width: 90vw;
-    background-color: white;
-    display: block;
-    margin: 0 auto;
     margin-top: 3mm;
-
     padding: 5mm;
-    border-radius: 2mm;
   }
 
   .hangingIndent {
@@ -142,6 +143,5 @@ code {
 
   .bulletspan {
     width: 3mm;
-
   }
 }

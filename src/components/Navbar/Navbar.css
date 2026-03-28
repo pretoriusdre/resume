@@ -33,6 +33,12 @@
         display: inline-block;
         opacity: 0.8;
     }
+
+    .confirm-text {
+        padding: 0 0.5em;
+        font-style: italic;
+        font-size: 0.9em;
+    }
 }
 
 @media print {
