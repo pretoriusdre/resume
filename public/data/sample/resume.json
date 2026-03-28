@@ -28,6 +28,7 @@
           "hidden": false,
           "start_collapsed": true,
           "prevent_toggle": false,
+          "always_print": true,
           "children": [
             {
               "id": "c99e565c-bbf7-469f-bbba-dd4c6fa541d4",

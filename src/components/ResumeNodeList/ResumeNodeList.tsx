@@ -56,6 +56,7 @@ function ResumeNode({ nodeData, depth, materialised_path }: ResumeNodeProps) {
     const ref = nodeData.ref;
     const hidden = nodeData.hidden || false;
     const prevent_toggle = nodeData.prevent_toggle || false;
+    const always_print = nodeData.always_print || false;
 
     const hasChildren = (nodeData?.children?.length ?? 0) > 0;
     const isActive = id === activeNode?.id;
@@ -150,7 +151,7 @@ function ResumeNode({ nodeData, depth, materialised_path }: ResumeNodeProps) {
                     {getElement()}
                 </div>
 
-                <div className={`childrencontainer${collapsed ? ' collapsed' : ''}`}>
+                <div className={`childrencontainer${collapsed ? ' collapsed' : ''}${always_print ? ' always-print' : ''}`}>
                     <div className="childreninner">
                         <div className={depth > 0 ? 'hangingIndent' : ''}>
                             {isEditing && <Separator id={id} materialised_path={materialised_path} relative_position='first_child' />}

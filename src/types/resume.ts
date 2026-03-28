@@ -18,6 +18,7 @@ export interface NodeData {
   hidden?: boolean;
   start_collapsed?: boolean;
   prevent_toggle?: boolean;
+  always_print?: boolean;
   children?: NodeData[];
 }
 

@@ -41,6 +41,29 @@
   .childrencontainer.collapsed {
     display: none;
   }
+
+  .childrencontainer.collapsed.always-print {
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+
+  .bulletspan {
+    font-size: 0;
+  }
+
+  .bulletspan::before {
+    content: '\2022';
+    font-size: 11pt;
+  }
+
+  .bulletspan.leaf::before {
+    content: '\2022';
+  }
+
+  h2 .bulletspan::before,
+  h3 .bulletspan::before {
+    content: '';
+  }
 }
 
 .childreninner iframe {

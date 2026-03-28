@@ -14,6 +14,7 @@ interface FormData {
   start_collapsed: boolean;
   hidden: boolean;
   prevent_toggle: boolean;
+  always_print: boolean;
 }
 
 const EditingPane: React.FC = () => {
@@ -31,6 +32,7 @@ const EditingPane: React.FC = () => {
     start_collapsed: false,
     hidden: false,
     prevent_toggle: false,
+    always_print: false,
   });
 
 
@@ -45,6 +47,7 @@ const EditingPane: React.FC = () => {
         start_collapsed: activeNode.start_collapsed || false,
         hidden: activeNode.hidden || false,
         prevent_toggle: activeNode.prevent_toggle || false,
+        always_print: activeNode.always_print || false,
       });
     }
   }, [activeNode]);
@@ -73,6 +76,7 @@ const EditingPane: React.FC = () => {
         hidden: formData.hidden,
         start_collapsed: formData.start_collapsed,
         prevent_toggle: formData.prevent_toggle,
+        always_print: formData.always_print,
       },
     });
     setActiveNode({ ...(activeNode as NodeData), ...formData });
@@ -97,6 +101,7 @@ const EditingPane: React.FC = () => {
       hidden: false,
       start_collapsed: false,
       prevent_toggle: false,
+      always_print: false,
     };
     dispatch({ type: 'ADD_CHILD', parentId: activeNode.id, newNode });
     setActiveNode(newNode);
@@ -234,6 +239,18 @@ const EditingPane: React.FC = () => {
               onChange={handleChange}
             />
             {' '}Prevent toggle?
+          </label>
+        </div>
+
+        <div>
+          <label>
+            <input
+              type="checkbox"
+              name="always_print"
+              checked={formData.always_print}
+              onChange={handleChange}
+            />
+            {' '}Always print?
           </label>
         </div>
 
