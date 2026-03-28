@@ -18,7 +18,7 @@ interface FormData {
 
 const EditingPane: React.FC = () => {
   const { dispatch, setWasChanged } = useResumeContent();
-  const { activeNode, setActiveNode } = useResumeUI();
+  const { activeNode, setActiveNode, pageSize, setPageSize } = useResumeUI();
 
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
@@ -110,6 +110,20 @@ const EditingPane: React.FC = () => {
 
   return (
     <div>
+      <h2>Page settings</h2>
+      <div>
+        <label htmlFor="page-size">Page size:</label>
+        <select
+          id="page-size"
+          value={pageSize}
+          onChange={e => setPageSize(e.target.value)}
+          className="custominput"
+        >
+          <option value="A4">A4</option>
+          <option value="letter">Letter</option>
+        </select>
+      </div>
+
       <h2>Edit node</h2>
       <ul>
         <li>Feel free to test the editing functionality.</li>

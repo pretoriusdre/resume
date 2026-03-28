@@ -1,5 +1,6 @@
 {
     "title" : "Résumé - Your Name Here",
     "basepath" : "/data/sample/",
-    "filename" : "resume_content.json"
+    "filename" : "resume_content.json",
+    "page_size" : "A4"
 }

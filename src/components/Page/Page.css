@@ -1,8 +1,4 @@
-@page {
-  size: A4;
-  margin: 12mm;
-}
-
+/* @page size is injected dynamically by Resume.tsx based on resume_metadata.json */
 
 body {
   font-family: Calibri, sans-serif;
@@ -11,6 +7,7 @@ body {
 }
 
 
+/* Default (A4): 21cm wide. Letter overrides below. */
 .pagecontainer {
   width: 21cm;
   background-color: white;
@@ -19,6 +16,10 @@ body {
   margin-top: 12mm;
   padding: 12mm;
   border-radius: 2mm;
+}
+
+:root[data-page-size="letter"] .pagecontainer {
+  width: 8.5in;
 }
 
 @media print {

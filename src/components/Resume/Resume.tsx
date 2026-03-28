@@ -22,6 +22,7 @@ const Resume: React.FC = () => {
     const [isEditing, setIsEditing] = useState(false);
     const [wasChanged, setWasChanged] = useState(false);
     const [activeNode, setActiveNode] = useState<NodeData | null>(null);
+    const [pageSize, setPageSize] = useState<string>('A4');
 
 
     // Load metadata then content in one sequential init — avoids a double fetch
@@ -32,6 +33,8 @@ const Resume: React.FC = () => {
                 const metaResponse = await fetch(`${publicUrl}/data/resume_metadata.json`);
                 const metadata = await metaResponse.json();
                 document.title = metadata.title || 'Résumé';
+
+                setPageSize(metadata.page_size || 'A4');
 
                 const params = new URLSearchParams(window.location.search);
                 const version = params.get('version');
@@ -63,6 +66,17 @@ const Resume: React.FC = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps -- intentional: load data once on mount only
     }, []);
 
+    // Apply page size to DOM whenever it changes
+    useEffect(() => {
+        document.documentElement.dataset.pageSize = pageSize.toLowerCase();
+        const existing = document.getElementById('page-size-style');
+        if (existing) existing.remove();
+        const style = document.createElement('style');
+        style.id = 'page-size-style';
+        style.textContent = `@page { size: ${pageSize}; margin: 12mm; }`;
+        document.head.appendChild(style);
+    }, [pageSize]);
+
     // Reset to sample data if all nodes are deleted
     useEffect(() => {
         if (isDataLoaded && resumeContent.length === 0) {
@@ -92,8 +106,8 @@ const Resume: React.FC = () => {
     );
 
     const uiValue = useMemo(
-        () => ({ isEditing, setIsEditing, activeNode, setActiveNode }),
-        [isEditing, activeNode] // eslint-disable-line react-hooks/exhaustive-deps -- setters are stable
+        () => ({ isEditing, setIsEditing, activeNode, setActiveNode, pageSize, setPageSize }),
+        [isEditing, activeNode, pageSize] // eslint-disable-line react-hooks/exhaustive-deps -- setters are stable
     );
 
     return (
