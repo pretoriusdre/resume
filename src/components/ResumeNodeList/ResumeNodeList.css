@@ -37,6 +37,12 @@
   overflow: hidden;
 }
 
+@media print {
+  .childrencontainer.collapsed {
+    display: none;
+  }
+}
+
 .childreninner iframe {
   max-width: 100%;
 }
