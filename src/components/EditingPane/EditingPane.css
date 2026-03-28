@@ -25,23 +25,21 @@
   height: 250px;
 }
 
-.customcheckbox {
-  color: rgba(255, 255, 255, 0.4);
-}
-
-
-
-.checkbox-label {
-  position: relative;
-  padding-left: 35px;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 20px;
-  color: #333; /* Text color */
-}
 .unsaved {
   color: red;
   font-size: 1.4rem;
   font-weight: bold;
   margin-left: 10px;
+}
+
+.delete-confirm {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+}
+
+.confirm-text {
+  padding: 0 0.5em;
+  font-style: italic;
 }
