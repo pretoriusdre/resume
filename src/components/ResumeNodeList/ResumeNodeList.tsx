@@ -53,7 +53,7 @@ function ResumeNode({ nodeData, depth, materialised_path }: ResumeNodeProps) {
     const id = nodeData.id;
     const type = nodeData.type;
     const value = nodeData.value;
-    const ref = nodeData.ref;
+    const secondary_value = nodeData.secondary_value;
     const hidden = nodeData.hidden || false;
     const prevent_toggle = nodeData.prevent_toggle || false;
     const always_print = nodeData.always_print || false;
@@ -99,17 +99,24 @@ function ResumeNode({ nodeData, depth, materialised_path }: ResumeNodeProps) {
             case 'line':
                 return <span>{collapsableElement}</span>;
             case 'image':
-                return <Image title={value} src={isSafeUrl(ref) ? (ref ?? '') : ''} collapsed={collapsed} toggleCollapse={toggleCollapse} />;
+                return <Image title={value} src={isSafeUrl(secondary_value) ? (secondary_value ?? '') : ''} collapsed={collapsed} toggleCollapse={toggleCollapse} />;
             case 'link':
                 return (
-                    <a href={isSafeUrl(ref) ? ref : '#'} target="_blank" rel="noopener noreferrer">
+                    <a href={isSafeUrl(secondary_value) ? secondary_value : '#'} target="_blank" rel="noopener noreferrer">
                         {value}
                     </a>
+                );
+            case 'role':
+                return (
+                    <h3 className="role-header">
+                        {collapsableElement}
+                        {secondary_value && <span className="role-dates">{secondary_value}</span>}
+                    </h3>
                 );
             case 'iframe':
                 return (
                     <iframe
-                        src={isSafeUrl(ref) ? ref : undefined}
+                        src={isSafeUrl(secondary_value) ? secondary_value : undefined}
                         title={id}
                         width="640"
                         height="385"

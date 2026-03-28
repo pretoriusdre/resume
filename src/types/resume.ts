@@ -8,13 +8,14 @@ export type NodeType =
   | 'image'
   | 'link'
   | 'iframe'
+  | 'role'
   | 'promptinjection';
 
 export interface NodeData {
   id: string;
   value: string;
   type: NodeType;
-  ref?: string;
+  secondary_value?: string;
   hidden?: boolean;
   start_collapsed?: boolean;
   prevent_toggle?: boolean;

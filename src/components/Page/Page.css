@@ -95,6 +95,18 @@ body {
   margin-bottom: 1mm;
 }
 
+.pagecontainer h3.role-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.pagecontainer .role-dates {
+  font-weight: normal;
+  font-size: 10pt;
+  white-space: nowrap;
+}
+
 .pagecontainer p {
   text-indent: 0;
   padding-left: 0;

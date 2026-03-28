@@ -10,7 +10,7 @@ interface FormData {
   id: string;
   value: string;
   type: NodeType;
-  ref: string;
+  secondary_value: string;
   start_collapsed: boolean;
   hidden: boolean;
   prevent_toggle: boolean;
@@ -28,7 +28,7 @@ const EditingPane: React.FC = () => {
     id: '',
     value: '',
     type: 'line',
-    ref: '',
+    secondary_value: '',
     start_collapsed: false,
     hidden: false,
     prevent_toggle: false,
@@ -43,7 +43,7 @@ const EditingPane: React.FC = () => {
         id: activeNode.id || '',
         value: activeNode.value || '',
         type: activeNode.type || 'line',
-        ref: activeNode.ref || '',
+        secondary_value: activeNode.secondary_value || '',
         start_collapsed: activeNode.start_collapsed || false,
         hidden: activeNode.hidden || false,
         prevent_toggle: activeNode.prevent_toggle || false,
@@ -72,7 +72,7 @@ const EditingPane: React.FC = () => {
       updates: {
         value: formData.value,
         type: formData.type,
-        ref: formData.ref,
+        secondary_value: formData.secondary_value,
         hidden: formData.hidden,
         start_collapsed: formData.start_collapsed,
         prevent_toggle: formData.prevent_toggle,
@@ -97,7 +97,7 @@ const EditingPane: React.FC = () => {
       id: uuidv4(),
       value: 'Placeholder',
       type: 'line',
-      ref: '',
+      secondary_value: '',
       hidden: false,
       start_collapsed: false,
       prevent_toggle: false,
@@ -188,18 +188,19 @@ const EditingPane: React.FC = () => {
             <option value="image">image</option>
             <option value="link">link</option>
             <option value="iframe">iframe</option>
+            <option value="role">role</option>
             <option value="promptinjection">promptinjection</option>
           </select>
         </div>
 
-        {(['image', 'link', 'iframe'] as NodeType[]).includes(formData.type) && (
+        {(['image', 'link', 'iframe', 'role'] as NodeType[]).includes(formData.type) && (
           <div>
-            <label htmlFor="node-ref">Reference url:</label>
+            <label htmlFor="node-secondary-value">{formData.type === 'role' ? 'Date range:' : 'Reference url:'}</label>
             <input
-              id="node-ref"
+              id="node-secondary-value"
               type="text"
-              name="ref"
-              value={formData.ref}
+              name="secondary_value"
+              value={formData.secondary_value}
               onChange={handleChange}
               className="custominput"
             />

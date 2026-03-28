@@ -61,7 +61,8 @@
   }
 
   h2 .bulletspan::before,
-  h3 .bulletspan::before {
+  h3 .bulletspan::before,
+  .role-header .bulletspan::before {
     content: '';
   }
 }
