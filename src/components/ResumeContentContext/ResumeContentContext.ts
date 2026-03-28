@@ -1,9 +1,9 @@
 import React from 'react';
-import { ResumeTree } from '../../types/resume';
+import { ResumeDocument } from '../../types/resume';
 import { ContentAction } from '../../utils/contentReducer';
 
 export interface ResumeContentContextType {
-  resumeContent: ResumeTree;
+  resumeDocument: ResumeDocument;
   dispatch: React.Dispatch<ContentAction>;
   isDataLoaded: boolean;
   wasChanged: boolean;

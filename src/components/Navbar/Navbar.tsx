@@ -8,7 +8,7 @@ import { useResumeUI } from '../ResumeUIContext/ResumeUIContext';
 
 const Navbar: React.FC = () => {
 
-    const { resumeContent, dispatch, wasChanged, setWasChanged } = useResumeContent();
+    const { resumeDocument, dispatch, wasChanged, setWasChanged } = useResumeContent();
     const { isEditing, setIsEditing } = useResumeUI();
 
     const [isVisible, setIsVisible] = useState(true);
@@ -30,11 +30,11 @@ const Navbar: React.FC = () => {
     const toggleEditing = () => setIsEditing(!isEditing);
 
     const handleExport = () => {
-        const blob = new Blob([JSON.stringify(resumeContent, null, 2)], { type: 'application/json' });
+        const blob = new Blob([JSON.stringify(resumeDocument, null, 2)], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
         const link = document.createElement('a');
         link.href = url;
-        link.download = 'resume_content.json';
+        link.download = 'resume.json';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

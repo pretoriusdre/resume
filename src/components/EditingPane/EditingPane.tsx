@@ -17,8 +17,8 @@ interface FormData {
 }
 
 const EditingPane: React.FC = () => {
-  const { dispatch, setWasChanged } = useResumeContent();
-  const { activeNode, setActiveNode, pageSize, setPageSize } = useResumeUI();
+  const { resumeDocument, dispatch, setWasChanged } = useResumeContent();
+  const { activeNode, setActiveNode } = useResumeUI();
 
   const [hasUnsavedChanges, setHasUnsavedChanges] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
@@ -112,11 +112,21 @@ const EditingPane: React.FC = () => {
     <div>
       <h2>Page settings</h2>
       <div>
+        <label htmlFor="doc-title">Title:</label>
+        <input
+          id="doc-title"
+          type="text"
+          value={resumeDocument.title}
+          onChange={e => { dispatch({ type: 'SET_TITLE', title: e.target.value }); setWasChanged(true); }}
+          className="custominput"
+        />
+      </div>
+      <div>
         <label htmlFor="page-size">Page size:</label>
         <select
           id="page-size"
-          value={pageSize}
-          onChange={e => setPageSize(e.target.value)}
+          value={resumeDocument.page_size}
+          onChange={e => { dispatch({ type: 'SET_PAGE_SIZE', page_size: e.target.value }); setWasChanged(true); }}
           className="custominput"
         >
           <option value="A4">A4</option>

@@ -8,12 +8,12 @@ import PrintableOverlay from '../PrintableOverlay/PrintableOverlay';
 
 const Page: React.FC = () => {
 
-    const { resumeContent } = useResumeContent();
+    const { resumeDocument } = useResumeContent();
 
     return (
         <div className='pagecontainer'>
             <PrintableOverlay />
-            <ResumeNodeList nodeList={resumeContent} materialised_path={[]} depth={0} />
+            <ResumeNodeList nodeList={resumeDocument.nodes} materialised_path={[]} depth={0} />
         </div>
     );
 };

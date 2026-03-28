@@ -1,4 +1,4 @@
-/* @page size is injected dynamically by Resume.tsx based on resume_metadata.json */
+/* @page size is injected dynamically by Resume.tsx based on resumeDocument.page_size */
 
 body {
   font-family: Calibri, sans-serif;

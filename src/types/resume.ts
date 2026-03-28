@@ -23,4 +23,10 @@ export interface NodeData {
 
 export type ResumeTree = NodeData[];
 
+export interface ResumeDocument {
+  title: string;
+  page_size: string;
+  nodes: NodeData[];
+}
+
 export type RelativePosition = 'first_child' | 'next_sibling';
