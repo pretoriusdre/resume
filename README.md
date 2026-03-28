@@ -17,22 +17,64 @@ https://github.com/user-attachments/assets/71a4762d-c72c-4097-8ef8-b378e35be974
 The résumé looks just like a regular résumé, and can be printed to a pdf which you can submit normally. However, the pdf version includes a hyperlink back to the interactive version, where ideas can *expand beyond the printed page*.
 
 
-Each granular piece of information in the résumé is represented by a node. Nodes can contain child notes, which a curious reader could expand to reveal additional supporting information. You could include as much detailed information as you like, at any depth level. You can also reveal rich content such as images or embedded videos, which themselves can be represented by nodes.
+Each granular piece of information in the résumé is represented by a node. Nodes can contain child nodes, which a curious reader could expand to reveal additional supporting information. You could include as much detailed information as you like, at any depth level. You can also reveal rich content such as images or embedded videos, which themselves can be represented by nodes.
 
-The résumé has a built-in editor which allows you to update and rearrange nodes. Feel free to try this feature; it does not affect the content on the webserver. Export the JSON after you make your local changes. If you want to persist these changes, save that file in your repository, replacing the existing file
+The résumé has a built-in editor which allows you to update and rearrange nodes. Feel free to try this feature; it does not affect the content on the webserver. Export the JSON after you make your local changes. If you want to persist these changes, save that file in your repository, replacing the existing file.
 
 
 If you want to customise your résumé to a particular job application, you can make your updates with the editor, saving the content to a new subfolder in the directory. Then you can reference this custom version using a url parameter such as `<site-url>/?version=custom-for-xxxxx-role`
 
 
+## Document format:
+
+Each résumé is a JSON file with the following structure:
+
+```json
+{
+  "title": "Résumé - Your Name",
+  "page_size": "A4",
+  "nodes": [...]
+}
+```
+
+- `page_size` can be `"A4"` or `"letter"`.
+
+### Node types
+
+Each node has: `id`, `value`, `type`, `secondary_value` (optional), and `children` (optional).
+
+| Type | Renders as | `secondary_value` usage |
+|------|-----------|------------------------|
+| `title` | `<h1>` heading | — |
+| `subtitle` | Centered subheading | — |
+| `section` | `<h2>` heading with border | — |
+| `subsection` | `<h3>` heading with border | — |
+| `role` | `<h3>` with left/right layout | Date range (e.g. "Jun 2022 - Present") |
+| `line` | Inline text | — |
+| `paragraph` | `<p>` block | — |
+| `image` | Clickable image | Image URL |
+| `link` | Hyperlink | Link URL |
+| `iframe` | Embedded frame | Frame URL |
+| `promptinjection` | Invisible watermark text | — |
+
+### Node properties
+
+| Property | Description |
+|----------|-------------|
+| `hidden` | Hides the node from the rendered résumé (data is preserved) |
+| `start_collapsed` | Children are collapsed by default |
+| `prevent_toggle` | Prevents the user from expanding/collapsing |
+| `always_print` | Forces children to be expanded in print, even if collapsed on screen (useful for contact details that should be hidden online but visible in PDF) |
+
+
 ## Setup:
-Prerequisites: To edit the code, You will need to install [NodeJS](https://nodejs.org/en) and an IDE. However, if you just wanted to deploy the website, you can do this just by following steps 1 - 3, which should take around two minutes.
+Prerequisites: You will need to install [NodeJS](https://nodejs.org/en) and [pnpm](https://pnpm.io/installation). An IDE is recommended for editing code, but if you just want to deploy the website, you can do this by following steps 1 - 3, which should take around two minutes.
 
 1. **Fork the repository:**
     1. Click the "Fork" button at the top-right corner of this page.
     2. Choose a repository name. It is recommended to use 'resume', as this choice affects the site url on GitHub Pages.
         - If you don't have a custom domain, your GitHub Pages site url will be: `<site-url> = https://<username>.github.io/<repository-name>`
-          
+
 2. **Update GitHub Pages settings:**
     1. Go to your forked repository on GitHub.
     2. Navigate to `Settings` > `Pages`.
@@ -45,11 +87,11 @@ Prerequisites: To edit the code, You will need to install [NodeJS](https://nodej
 
         `https://<username>.github.io/<repository-name>`
 
-    - If you encounter any issue, check the deployment logs at 
+    - If you encounter any issue, check the deployment logs at
         `https://github.com/<username>/<repository-name>/actions`
 
 Now that your résumé is online, it is time to fill it with content...
-      
+
 4. **Clone the forked repository:**
     1. Navigate to your forked repository.
     2. Click the green "Code" button and copy the URL (either HTTPS or SSH).
@@ -57,11 +99,11 @@ Now that your résumé is online, it is time to fill it with content...
         ```sh
         git clone <repository-url>
         ```
-    
+
        Replace `<repository-url>` with the copied repository URL.
 
 5. **Navigate to the repository:**
-    
+
     ```sh
     cd <repository-name>
     ```
@@ -69,30 +111,30 @@ Now that your résumé is online, it is time to fill it with content...
 
 6. **Install the required dependencies:**
     ```sh
-    npm install
+    pnpm install
     ```
 
 
 7. **Test out the résumé on the local webserver**
     ```sh
-    npm start
+    pnpm start
     ```
-    -The webserver should normally be accessible from http://localhost:3000/resume
+    - The webserver should normally be accessible from http://localhost:5173
 
-    -After you have confirmed it is working locally, close the webserver with Ctrl+C
+    - After you have confirmed it is working locally, close the webserver with Ctrl+C
 
 
 8. **Make local changes to the résumé:**
     - Make a local development branch:
-    ```shf
+    ```sh
     git checkout -b mydev
     ```
-    
+
     - Run the webserver again.
     - Use the editor to reset the page to a starter template.
     `(Navbar) > Edit > Start New`
-    - Update the content as needed. Export the file as JSON, save into `./public/data/<yourname>/resume_content.json`
-    - Update `./public/data/resume_metadata.json` to point to this new file that you exported and saved into the correct location.
+    - Update the content as needed. Export the file as JSON, save into `./public/data/<version-name>/resume.json`
+    - Update `./public/data/resume_config.json` to point to your new version by setting `"default_version": "<version-name>"`.
     - Re-run the webserver and check that the resume is showing the new content.
 
 
@@ -108,7 +150,7 @@ Now that your résumé is online, it is time to fill it with content...
     - Since `main` branch automatically deploys the site, a branch protection rule has been setup. You may need to merge your branch with a pull request.
 
     - You can raise and approve your own pull request into your own repository at:
-     `https://github.com/<username>/<repository-name>/actions`
+     `https://github.com/<username>/<repository-name>/pulls`
 
     - If you prefer, you can turn off branch protection rules on your own repo.
 
@@ -120,7 +162,7 @@ Now that your résumé is online, it is time to fill it with content...
     - To customise, you would selectively hide or collapse the items which are less relevant to the role you are applying for, or unhiding nodes which provide useful detail.
     - After customisation for the role, you would then save that version into a new JSON file, saving it into the repository as follows:
 
-        `/public/data/<yourname>/<version-name>/resume_content.json`
+        `./public/data/<version-name>/resume.json`
 
     - The custom version is accessed by passing a `version` parameter in the url:
 
@@ -150,5 +192,5 @@ Now that your résumé is online, it is time to fill it with content...
 ## A note on international conventions:
 
 - There are several different spellings of the word 'résumé'. This project is using 'résumé' in the printed form, and 'resume' wherever it appears in URLs or code.
-- The page size is configured for international standard A4 paper size. This prints to US letter size with slight bordering.
+- The page size defaults to A4 but can be changed to US Letter via the editor.
 - Please feel free to submit a PR if you would like to localise (localize) this project.
