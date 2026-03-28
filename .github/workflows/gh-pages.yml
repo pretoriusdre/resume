@@ -33,7 +33,7 @@ jobs:
         run: pnpm install
 
       - name: Run tests
-        run: CI=true pnpm test
+        run: pnpm exec vitest run
 
       - name: Build project
         run: pnpm build

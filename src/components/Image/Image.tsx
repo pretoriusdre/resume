@@ -14,9 +14,9 @@ const Image: React.FC<ImageProps> = ({ title, src, collapsed, toggleCollapse }) 
 
     return (
         <div>
-            <img src={`${process.env.PUBLIC_URL}${src}`} className="imgtiny" onClick={toggleCollapse} title={title} alt={title} />
+            <img src={`${import.meta.env.BASE_URL.replace(/\/$/, '')}${src}`} className="imgtiny" onClick={toggleCollapse} title={title} alt={title} />
             <div className={overlayClass} onClick={toggleCollapse}>
-                <img src={`${process.env.PUBLIC_URL}${src}`} className={modalClass} title={title} alt={title} />
+                <img src={`${import.meta.env.BASE_URL.replace(/\/$/, '')}${src}`} className={modalClass} title={title} alt={title} />
             </div>
         </div>
     );

@@ -3,15 +3,6 @@
   margin: 12mm;
 }
 
-@media print {
-  @page :footer {
-    display: none;
-  }
-  @page :header {
-    display: none;
-  }
-}
-
 
 body {
   font-family: Calibri, sans-serif;

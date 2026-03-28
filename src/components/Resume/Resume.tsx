@@ -13,6 +13,8 @@ import EditingPane from '../EditingPane/EditingPane';
 import Page from '../Page/Page';
 
 
+const publicUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
 const Resume: React.FC = () => {
 
     const [resumeContent, dispatch] = useReducer(contentReducer, []);
@@ -27,7 +29,7 @@ const Resume: React.FC = () => {
     useEffect(() => {
         const init = async () => {
             try {
-                const metaResponse = await fetch(`${process.env.PUBLIC_URL}/data/resume_metadata.json`);
+                const metaResponse = await fetch(`${publicUrl}/data/resume_metadata.json`);
                 const metadata = await metaResponse.json();
                 document.title = metadata.title || 'Résumé';
 
@@ -35,7 +37,7 @@ const Resume: React.FC = () => {
                 const version = params.get('version');
 
                 if (version) {
-                    const versionedPath = `${process.env.PUBLIC_URL}${metadata.basepath}${version}/${metadata.filename}`;
+                    const versionedPath = `${publicUrl}${metadata.basepath}${version}/${metadata.filename}`;
                     try {
                         const versionedResponse = await fetch(versionedPath);
                         if (versionedResponse.ok) {
@@ -48,7 +50,7 @@ const Resume: React.FC = () => {
                     }
                 }
 
-                const basePath = `${process.env.PUBLIC_URL}${metadata.basepath}${metadata.filename}`;
+                const basePath = `${publicUrl}${metadata.basepath}${metadata.filename}`;
                 const baseResponse = await fetch(basePath);
                 if (!baseResponse.ok) throw new Error(`Failed to fetch resume: ${basePath}`);
                 dispatch({ type: 'LOAD', payload: await baseResponse.json() as ResumeTree });
@@ -66,7 +68,7 @@ const Resume: React.FC = () => {
         if (isDataLoaded && resumeContent.length === 0) {
             const fetchSample = async () => {
                 try {
-                    const response = await fetch(`${process.env.PUBLIC_URL}/data/sample/resume_content.json`);
+                    const response = await fetch(`${publicUrl}/data/sample/resume_content.json`);
                     dispatch({ type: 'LOAD', payload: await response.json() as ResumeTree });
                 } catch (error) {
                     console.error('Error fetching sample data:', error);
