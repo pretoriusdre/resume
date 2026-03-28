@@ -12,7 +12,7 @@
       "children": [
         {
           "id": "8100a3b9-6f07-463b-b1ed-d2921c453a29",
-          "value": "Senior Mechanical Engineer | Senior DataOps Engineer",
+          "value": "Senior Maintenance & Reliability Engineer | Software Developer",
           "type": "subtitle",
           "hidden": false,
           "start_collapsed": false,
@@ -189,7 +189,7 @@
           "children": [
             {
               "id": "908298a9-6ae8-4d62-b370-f80ec37106bf",
-              "value": "I am a Chartered professional engineer with sixteen years of experience in the oil and gas industry. Five of these years were in a brownfields consultancy, conducting engineering design for Woodside assets such as the Karratha Gas Plant, Goodwyn A and North Rankin offshore platforms.  In this role I developed a deep technical understanding of mechanical engineering fundamentals; with a particular focus on static-equipment and integrity.",
+              "value": "Chartered Professional Engineer with over eighteen years of experience across the full asset lifecycle in the oil and gas industry,  from brownfield design engineering through to operations, maintenance strategy, and data governance. Proven track record developing and implementing maintenance philosophies, CMMS frameworks, and condition monitoring programmes for FPSO facilities, underpinned by deep mechanical engineering expertise in static equipment, rotating machinery, and pressure vessel integrity.",
               "type": "paragraph",
               "hidden": false,
               "start_collapsed": false,
@@ -199,27 +199,7 @@
             },
             {
               "id": "f8437154-ac9e-4c2a-8251-c7e8fec0a7ad",
-              "value": "Following my time in engineering consultancy, I spent six years in an operational role, primarily for the MODEC Venture 11 FPSO. This gave me a broad exposure to most operation and maintenance activities for oil rig systems. Part of this role was the preparation and execution of a major shutdown construction activity at a Singapore shipyard. After decommissioning the facility in 2018, I moved on to preparation of tenders, regional support, and Operations Readiness and Assurance work for the Barossa, Dorado, and Sangomar FPSOs. During this time I also worked in New Zealand and Brazil.",
-              "type": "paragraph",
-              "hidden": false,
-              "start_collapsed": false,
-              "prevent_toggle": true,
-              "children": [],
-              "secondary_value": null
-            },
-            {
-              "id": "28b8bda7-82cc-46c4-886f-b7eba524be70",
-              "value": "I moved to Singapore in 2021 as the maintenance engineer for Sangomar FPSO. In this role, I developed maintenance philosophies, strategies, and Computerised Maintenance Management System (CMMS) data. Here I experienced the pain of bad data stemming from a lack of data governance at the data source. I was already experienced in software development by this point, so I started to think about how software can be used to improve engineering processes. I have since built several software applications related to the management of engineering data",
-              "type": "paragraph",
-              "hidden": false,
-              "start_collapsed": false,
-              "prevent_toggle": true,
-              "children": [],
-              "secondary_value": null
-            },
-            {
-              "id": "b0b5a74a-c452-4569-b3e0-7cc65c86bba1",
-              "value": "I currently work as a Senior DataOps Engineer within MODEC's Digital and Analytics department.",
+              "value": "Combines hands-on operational experience, including major shutdown execution, engineering change management, and equipment reliability campaigns, with strong digital capabilities, building bespoke software tools that materially improve maintenance data quality, traceability, and decision-making. Currently driving SAP-PM maintenance data build and strategy development for new-build FPSO projects at MODEC, one of the world's largest FPSO owner-operators, using purpose-built software tools developed in-house.",
               "type": "paragraph",
               "hidden": false,
               "start_collapsed": false,
@@ -240,7 +220,7 @@
           "children": [
             {
               "id": "751ac2a3-143d-4d98-86bc-ef16b12275a4",
-              "value": "MODEC Management Services, Singapore, July 2021 - September 2023",
+              "value": "Senior DataOps Engineer, MODEC Management Services, Singapore, July 2021 - September 2023",
               "type": "line",
               "hidden": false,
               "start_collapsed": true,
@@ -416,8 +396,40 @@
           "prevent_toggle": false,
           "children": [
             {
+              "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+              "value": "Maintenance Strategy Engineer, MODEC Offshore Production Systems, Singapore",
+              "type": "role",
+              "hidden": false,
+              "start_collapsed": false,
+              "prevent_toggle": false,
+              "children": [
+                {
+                  "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+                  "value": "Focal point for SAP-PM implementation",
+                  "type": "line",
+                  "hidden": false,
+                  "start_collapsed": false,
+                  "prevent_toggle": false,
+                  "children": [
+                    {
+                      "id": "c3d4e5f6-a7b8-9012-cdef-123456789012",
+                      "value": "Managing CMMS data build with custom software that I wrote.",
+                      "type": "line",
+                      "hidden": false,
+                      "start_collapsed": false,
+                      "prevent_toggle": false,
+                      "children": [],
+                      "secondary_value": null
+                    }
+                  ],
+                  "secondary_value": null
+                }
+              ],
+              "secondary_value": "Jan 2025 - Present"
+            },
+            {
               "id": "ed87719d-bf73-4f5a-b539-8bc6ec3574d8",
-              "value": "MODEC Offshore Production Systems, Singapore",
+              "value": "Senior DataOps Engineer, MODEC Offshore Production Systems, Singapore",
               "type": "role",
               "hidden": false,
               "start_collapsed": false,
@@ -528,11 +540,11 @@
                   "secondary_value": null
                 }
               ],
-              "secondary_value": "Oct 2023 - Present"
+              "secondary_value": "Oct 2023 - Dec 2024"
             },
             {
               "id": "c2f34460-72a4-4f6d-bcc0-1b0439178edb",
-              "value": "MODEC Management Services, Singapore",
+              "value": "Maintenance Engineer, MODEC Management Services, Singapore",
               "type": "role",
               "hidden": false,
               "start_collapsed": false,
@@ -636,7 +648,7 @@
             },
             {
               "id": "c73ce9f8-d8c1-44b5-8613-9f56f963f261",
-              "value": "MODEC Management Services, Perth",
+              "value": "Facilities Engineer, MODEC Management Services, Perth",
               "type": "role",
               "hidden": false,
               "start_collapsed": false,
@@ -894,7 +906,7 @@
             },
             {
               "id": "6a34343f-9f18-4002-9136-8697b0ff7560",
-              "value": "MODEC Management Services, New Plymouth",
+              "value": "Senior Mechanical Engineer, MODEC Management Services, New Plymouth",
               "type": "role",
               "hidden": false,
               "start_collapsed": false,
@@ -946,7 +958,7 @@
             },
             {
               "id": "ae483c7e-4a62-45e6-a05d-8222230bb41c",
-              "value": "MMS, Singapore",
+              "value": "Facilities Engieneer, MMS, Singapore",
               "type": "role",
               "hidden": false,
               "start_collapsed": false,
@@ -1091,7 +1103,7 @@
             },
             {
               "id": "04484257-29d8-4d0e-bbdf-73391d2c5a14",
-              "value": "Transfield Worley, Perth",
+              "value": "Senior Mechanical Engineer, Transfield Worley, Perth",
               "type": "role",
               "hidden": false,
               "start_collapsed": false,
@@ -2158,7 +2170,7 @@
                 },
                 {
                   "id": "f29b1e4c-63ec-4f9b-931c-fa0593695428",
-                  "value": "Online Excel file data vaidation tool",
+                  "value": "Online Excel file data validation tool",
                   "type": "line",
                   "hidden": false,
                   "start_collapsed": true,
