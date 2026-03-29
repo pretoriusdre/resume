@@ -6,6 +6,9 @@ export interface ResumeUIContextType {
   setIsEditing: React.Dispatch<React.SetStateAction<boolean>>;
   activeNode: NodeData | null;
   setActiveNode: React.Dispatch<React.SetStateAction<NodeData | null>>;
+  allowEdit: boolean;
+  allowJsonExport: boolean;
+  watermarkEditedCopies: boolean;
 }
 
 const ResumeUIContext = React.createContext<ResumeUIContextType | undefined>(undefined);

@@ -24,6 +24,9 @@ const Resume: React.FC = () => {
     const [isEditing, setIsEditing] = useState(false);
     const [wasChanged, setWasChanged] = useState(false);
     const [activeNode, setActiveNode] = useState<NodeData | null>(null);
+    const [allowEdit, setAllowEdit] = useState(true);
+    const [allowJsonExport, setAllowJsonExport] = useState(true);
+    const [watermarkEditedCopies, setWatermarkEditedCopies] = useState(true);
 
 
     // Load config then resume document on mount
@@ -32,6 +35,10 @@ const Resume: React.FC = () => {
             try {
                 const configResponse = await fetch(`${publicUrl}/data/resume_config.json`);
                 const config = await configResponse.json();
+
+                setAllowEdit(config.allow_edit ?? true);
+                setAllowJsonExport(config.allow_json_export ?? true);
+                setWatermarkEditedCopies(config.watermark_edited_copies ?? true);
 
                 const params = new URLSearchParams(window.location.search);
                 const version = params.get('version') || config.default_version || 'sample';
@@ -106,8 +113,8 @@ const Resume: React.FC = () => {
     );
 
     const uiValue = useMemo(
-        () => ({ isEditing, setIsEditing, activeNode, setActiveNode }),
-        [isEditing, activeNode] // eslint-disable-line react-hooks/exhaustive-deps -- setters are stable
+        () => ({ isEditing, setIsEditing, activeNode, setActiveNode, allowEdit, allowJsonExport, watermarkEditedCopies }),
+        [isEditing, activeNode, allowEdit, allowJsonExport, watermarkEditedCopies] // eslint-disable-line react-hooks/exhaustive-deps -- setters are stable
     );
 
     return (

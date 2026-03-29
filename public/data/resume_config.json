@@ -1,3 +1,7 @@
 {
-    "default_version": "andre"
+    "default_version": "andre",
+    "allow_edit": true,
+    "allow_json_export": false,
+    "watermark_edited_copies": true
+
 }

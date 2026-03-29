@@ -1,0 +1,35 @@
+.watermark-root {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: 100;
+  border-radius: inherit;
+  overflow: hidden;
+}
+
+.watermark-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-repeat: repeat;
+}
+
+/* Layer B is offset so removing one layer still leaves full coverage */
+.watermark-layer-b {
+  background-position: 150px 100px;
+}
+
+@media print {
+  .watermark-root {
+    display: block !important;
+  }
+
+  .watermark-layer {
+    display: block !important;
+  }
+}
