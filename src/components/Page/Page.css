@@ -9,6 +9,7 @@ body {
 
 /* Default (A4): 21cm wide. Letter overrides below. */
 .pagecontainer {
+  position: relative;
   width: 21cm;
   background-color: white;
   display: block;

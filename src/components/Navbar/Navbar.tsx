@@ -9,7 +9,7 @@ import { useResumeUI } from '../ResumeUIContext/ResumeUIContext';
 const Navbar: React.FC = () => {
 
     const { resumeDocument, dispatch, wasChanged, setWasChanged } = useResumeContent();
-    const { isEditing, setIsEditing } = useResumeUI();
+    const { isEditing, setIsEditing, allowEdit, allowJsonExport } = useResumeUI();
 
     const [isVisible, setIsVisible] = useState(true);
     const [pendingAction, setPendingAction] = useState<'reset' | 'startNew' | null>(null);
@@ -30,7 +30,18 @@ const Navbar: React.FC = () => {
     const toggleEditing = () => setIsEditing(!isEditing);
 
     const handleExport = () => {
-        const blob = new Blob([JSON.stringify(resumeDocument, null, 2)], { type: 'application/json' });
+        const exportDoc = allowJsonExport
+            ? resumeDocument
+            : {
+                ...resumeDocument,
+                nodes: [{
+                    id: 'export-disabled',
+                    type: 'paragraph' as const,
+                    value: 'JSON export is disabled for this resume.',
+                    children: []
+                }]
+            };
+        const blob = new Blob([JSON.stringify(exportDoc, null, 2)], { type: 'application/json' });
         const url = URL.createObjectURL(blob);
         const link = document.createElement('a');
         link.href = url;
@@ -79,11 +90,13 @@ const Navbar: React.FC = () => {
                             {isEditing && (
                                 <li><button onClick={handleExport}>Export JSON</button></li>
                             )}
-                            <li>
-                                <button onClick={toggleEditing}>
-                                    {isEditing ? 'Stop Editing' : 'Edit'}
-                                </button>
-                            </li>
+                            {allowEdit && (
+                                <li>
+                                    <button onClick={toggleEditing}>
+                                        {isEditing ? 'Stop Editing' : 'Edit'}
+                                    </button>
+                                </li>
+                            )}
                             <li>
                                 <button onClick={() => window.open('https://github.com/pretoriusdre/resume-tree', '_blank')}>
                                     View Source
