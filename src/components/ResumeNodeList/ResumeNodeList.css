@@ -58,6 +58,7 @@
 
   .bulletspan.leaf::before {
     content: '\2022';
+    font-size: 11pt;
   }
 
   h2 .bulletspan::before,
