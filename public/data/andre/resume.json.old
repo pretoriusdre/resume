@@ -638,7 +638,7 @@
             },
             {
               "id": "c73ce9f8-d8c1-44b5-8613-9f56f963f261",
-              "value": "Facilities Engineer & Senior Mechanical Engineer, MODEC Management Services, Perth",
+              "value": "Facilities Engineer, MODEC Management Services, Perth",
               "type": "role",
               "hidden": false,
               "start_collapsed": false,
@@ -890,210 +890,206 @@
                     }
                   ],
                   "secondary_value": null
+                }
+              ],
+              "secondary_value": "May 2013 - Jun 2021"
+            },
+            {
+              "id": "6a34343f-9f18-4002-9136-8697b0ff7560",
+              "value": "Senior Mechanical Engineer, MODEC Management Services, New Plymouth",
+              "type": "role",
+              "hidden": false,
+              "start_collapsed": false,
+              "prevent_toggle": false,
+              "children": [
+                {
+                  "id": "5175d9f3-7773-4eca-8389-3417edbc714b",
+                  "value": "Secondment to MMS New Zealand. Preparation of shutdown workpacks for major steelwork and piping repair scopes",
+                  "type": "line",
+                  "hidden": false,
+                  "start_collapsed": false,
+                  "prevent_toggle": false,
+                  "children": [],
+                  "secondary_value": null
                 },
                 {
-                  "id": "6a34343f-9f18-4002-9136-8697b0ff7560",
-                  "value": "(Secondment), MODEC Management Services, New Plymouth",
-                  "type": "role",
+                  "id": "a6f8f670-629b-4622-9be8-f49b7f732f2b",
+                  "value": "Training and handover to the new maintenance engineer.",
+                  "type": "line",
+                  "hidden": false,
+                  "start_collapsed": false,
+                  "prevent_toggle": false,
+                  "children": [],
+                  "secondary_value": null
+                }
+              ],
+              "secondary_value": "May 2019 - Jun 2019"
+            },
+            {
+              "id": "9b284098-bec7-4afd-8556-038454cb516f",
+              "value": "MODEC Serviços de Petróleo do Brasil, Rio de Janeiro",
+              "type": "role",
+              "hidden": false,
+              "start_collapsed": false,
+              "prevent_toggle": false,
+              "children": [
+                {
+                  "id": "7c2d7cf1-dbfe-44e7-9757-7680d6295eaf",
+                  "value": "Secondment to the Brazil office. Provided operations input for the successful Woodside Senegal FPSO tender.",
+                  "type": "line",
+                  "hidden": false,
+                  "start_collapsed": false,
+                  "prevent_toggle": false,
+                  "children": [],
+                  "secondary_value": null
+                }
+              ],
+              "secondary_value": "Apr 2018 - Jun 2018"
+            },
+            {
+              "id": "ae483c7e-4a62-45e6-a05d-8222230bb41c",
+              "value": "Facilities Engieneer, MMS, Singapore",
+              "type": "role",
+              "hidden": false,
+              "start_collapsed": false,
+              "prevent_toggle": false,
+              "children": [
+                {
+                  "id": "cc9681bb-bcf7-4f87-8985-a52c6e030535",
+                  "value": "Prepared many workpacks for a dry docking of the MV11 FPSO at Sembcorp shipyard.",
+                  "type": "line",
+                  "hidden": false,
+                  "start_collapsed": false,
+                  "prevent_toggle": false,
+                  "children": [],
+                  "secondary_value": null
+                },
+                {
+                  "id": "2eeb0ae7-c85d-4c7a-99e0-9337ba6c7188",
+                  "value": "Directed and supervised work execution in the shipyard over nine weeks:",
+                  "type": "line",
                   "hidden": false,
                   "start_collapsed": false,
                   "prevent_toggle": false,
                   "children": [
                     {
-                      "id": "5175d9f3-7773-4eca-8389-3417edbc714b",
-                      "value": "Secondment to MMS New Zealand. Preparation of shutdown workpacks for major steelwork and piping repair scopes",
-                      "type": "line",
-                      "hidden": false,
-                      "start_collapsed": false,
-                      "prevent_toggle": false,
-                      "children": [],
-                      "secondary_value": null
-                    },
-                    {
-                      "id": "a6f8f670-629b-4622-9be8-f49b7f732f2b",
-                      "value": "Training and handover to the new maintenance engineer.",
-                      "type": "line",
-                      "hidden": false,
-                      "start_collapsed": false,
-                      "prevent_toggle": false,
-                      "children": [],
-                      "secondary_value": null
-                    }
-                  ],
-                  "secondary_value": "May 2019 - Jun 2019",
-                  "always_print": false
-                },
-                {
-                  "id": "9b284098-bec7-4afd-8556-038454cb516f",
-                  "value": "(Secondment), MODEC Serviços de Petróleo do Brasil, Rio de Janeiro",
-                  "type": "role",
-                  "hidden": false,
-                  "start_collapsed": false,
-                  "prevent_toggle": false,
-                  "children": [
-                    {
-                      "id": "7c2d7cf1-dbfe-44e7-9757-7680d6295eaf",
-                      "value": "Secondment to the Brazil office. Provided operations input for the successful Woodside Senegal FPSO tender.",
-                      "type": "line",
-                      "hidden": false,
-                      "start_collapsed": false,
-                      "prevent_toggle": false,
-                      "children": [],
-                      "secondary_value": null
-                    }
-                  ],
-                  "secondary_value": "Apr 2018 - Jun 2018",
-                  "always_print": false
-                },
-                {
-                  "id": "ae483c7e-4a62-45e6-a05d-8222230bb41c",
-                  "value": "(Drydock Project), Sembcorp Megayard, Singapore",
-                  "type": "role",
-                  "hidden": false,
-                  "start_collapsed": false,
-                  "prevent_toggle": false,
-                  "children": [
-                    {
-                      "id": "cc9681bb-bcf7-4f87-8985-a52c6e030535",
-                      "value": "Prepared many workpacks for a dry docking of the MV11 FPSO at Sembcorp shipyard.",
-                      "type": "line",
-                      "hidden": false,
-                      "start_collapsed": false,
-                      "prevent_toggle": false,
-                      "children": [],
-                      "secondary_value": null
-                    },
-                    {
-                      "id": "2eeb0ae7-c85d-4c7a-99e0-9337ba6c7188",
-                      "value": "Directed and supervised work execution in the shipyard over nine weeks:",
-                      "type": "line",
-                      "hidden": false,
-                      "start_collapsed": false,
-                      "prevent_toggle": false,
-                      "children": [
-                        {
-                          "id": "ace002c5-e279-4e6a-ba34-7e8c05a44c78",
-                          "value": "Replacement and modification of pressure vessel internals in degasser and separator.",
-                          "type": "line",
-                          "hidden": false,
-                          "start_collapsed": true,
-                          "prevent_toggle": false,
-                          "children": [
-                            {
-                              "id": "9372acd7-1fbd-47c6-aef3-58eaa1c6fd75",
-                              "value": "Replacement of degasser internals",
-                              "type": "image",
-                              "hidden": false,
-                              "start_collapsed": true,
-                              "prevent_toggle": false,
-                              "children": [],
-                              "secondary_value": "/media/andre/degasserVessel.jpg"
-                            }
-                          ],
-                          "secondary_value": null
-                        },
-                        {
-                          "id": "5351e21a-43b1-4a9c-b2b4-e32e8bffdb1e",
-                          "value": "Inspection and repair of pressure vessels, valves and structure.",
-                          "type": "line",
-                          "hidden": false,
-                          "start_collapsed": false,
-                          "prevent_toggle": false,
-                          "children": [],
-                          "secondary_value": null
-                        },
-                        {
-                          "id": "181a21de-a90c-49b5-9d13-499dc8ab9d7e",
-                          "value": "Major overhaul and repairs to crude fuel oil treatment packages.",
-                          "type": "line",
-                          "hidden": false,
-                          "start_collapsed": true,
-                          "prevent_toggle": false,
-                          "children": [
-                            {
-                              "id": "eb2c8f3a-e02a-4da7-bd68-913836a9c162",
-                              "value": "Reboiler bakeout",
-                              "type": "image",
-                              "hidden": false,
-                              "start_collapsed": true,
-                              "prevent_toggle": false,
-                              "children": [],
-                              "secondary_value": "/media/andre/reboiler.jpg"
-                            },
-                            {
-                              "id": "5b5b9ad3-98f0-4372-aac5-e0dcb1e64852",
-                              "value": "Workscope encompassed pressure equipment, electrical equipment, and instrumentation",
-                              "type": "line",
-                              "hidden": false,
-                              "start_collapsed": true,
-                              "prevent_toggle": false,
-                              "children": [],
-                              "secondary_value": null
-                            }
-                          ],
-                          "secondary_value": null
-                        }
-                      ],
-                      "secondary_value": null
-                    },
-                    {
-                      "id": "ecd55b13-cde5-4ead-b3a8-8bafe13e53e0",
-                      "value": "Monitored quality on a variety of outsourced workscopes and implemented corrective actions.",
-                      "type": "line",
-                      "hidden": false,
-                      "start_collapsed": false,
-                      "prevent_toggle": false,
-                      "children": [],
-                      "secondary_value": null
-                    },
-                    {
-                      "id": "2ed3de5d-a65a-4781-8c0d-a6cad3af1033",
-                      "value": "Worked within a completions management system. Identified and closed punchlist items.",
-                      "type": "line",
-                      "hidden": false,
-                      "start_collapsed": false,
-                      "prevent_toggle": false,
-                      "children": [],
-                      "secondary_value": null
-                    },
-                    {
-                      "id": "f1461e4b-9cc3-4781-8465-2b48b81be258",
-                      "value": "Acted as signatory for workpack and system acceptance, at FAT and during completion.",
-                      "type": "line",
-                      "hidden": false,
-                      "start_collapsed": false,
-                      "prevent_toggle": false,
-                      "children": [],
-                      "secondary_value": null
-                    },
-                    {
-                      "id": "87c05cc5-734c-4358-b758-5eeec2b77b13",
-                      "value": "Upgraded satellite internet system, delivering a 100% bandwidth increase at 90% lifecycle cost.",
+                      "id": "ace002c5-e279-4e6a-ba34-7e8c05a44c78",
+                      "value": "Replacement and modification of pressure vessel internals in degasser and separator.",
                       "type": "line",
                       "hidden": false,
                       "start_collapsed": true,
                       "prevent_toggle": false,
                       "children": [
                         {
-                          "id": "5034d1bd-8deb-4ce1-a0a2-5aba94ec1fd8",
-                          "value": "VSAT updated to C-band",
+                          "id": "9372acd7-1fbd-47c6-aef3-58eaa1c6fd75",
+                          "value": "Replacement of degasser internals",
                           "type": "image",
                           "hidden": false,
                           "start_collapsed": true,
                           "prevent_toggle": false,
                           "children": [],
-                          "secondary_value": "/media/andre/radome.jpg"
+                          "secondary_value": "/media/andre/degasserVessel.jpg"
+                        }
+                      ],
+                      "secondary_value": null
+                    },
+                    {
+                      "id": "5351e21a-43b1-4a9c-b2b4-e32e8bffdb1e",
+                      "value": "Inspection and repair of pressure vessels, valves and structure.",
+                      "type": "line",
+                      "hidden": false,
+                      "start_collapsed": false,
+                      "prevent_toggle": false,
+                      "children": [],
+                      "secondary_value": null
+                    },
+                    {
+                      "id": "181a21de-a90c-49b5-9d13-499dc8ab9d7e",
+                      "value": "Major overhaul and repairs to crude fuel oil treatment packages.",
+                      "type": "line",
+                      "hidden": false,
+                      "start_collapsed": true,
+                      "prevent_toggle": false,
+                      "children": [
+                        {
+                          "id": "eb2c8f3a-e02a-4da7-bd68-913836a9c162",
+                          "value": "Reboiler bakeout",
+                          "type": "image",
+                          "hidden": false,
+                          "start_collapsed": true,
+                          "prevent_toggle": false,
+                          "children": [],
+                          "secondary_value": "/media/andre/reboiler.jpg"
+                        },
+                        {
+                          "id": "5b5b9ad3-98f0-4372-aac5-e0dcb1e64852",
+                          "value": "Workscope encompassed pressure equipment, electrical equipment, and instrumentation",
+                          "type": "line",
+                          "hidden": false,
+                          "start_collapsed": true,
+                          "prevent_toggle": false,
+                          "children": [],
+                          "secondary_value": null
                         }
                       ],
                       "secondary_value": null
                     }
                   ],
-                  "secondary_value": "Jan 2015 - Apr 2015",
-                  "always_print": false
+                  "secondary_value": null
+                },
+                {
+                  "id": "ecd55b13-cde5-4ead-b3a8-8bafe13e53e0",
+                  "value": "Monitored quality on a variety of outsourced workscopes and implemented corrective actions.",
+                  "type": "line",
+                  "hidden": false,
+                  "start_collapsed": false,
+                  "prevent_toggle": false,
+                  "children": [],
+                  "secondary_value": null
+                },
+                {
+                  "id": "2ed3de5d-a65a-4781-8c0d-a6cad3af1033",
+                  "value": "Worked within a completions management system. Identified and closed punchlist items.",
+                  "type": "line",
+                  "hidden": false,
+                  "start_collapsed": false,
+                  "prevent_toggle": false,
+                  "children": [],
+                  "secondary_value": null
+                },
+                {
+                  "id": "f1461e4b-9cc3-4781-8465-2b48b81be258",
+                  "value": "Acted as signatory for workpack and system acceptance, at FAT and during completion.",
+                  "type": "line",
+                  "hidden": false,
+                  "start_collapsed": false,
+                  "prevent_toggle": false,
+                  "children": [],
+                  "secondary_value": null
+                },
+                {
+                  "id": "87c05cc5-734c-4358-b758-5eeec2b77b13",
+                  "value": "Upgraded satellite internet system, delivering a 100% bandwidth increase at 90% lifecycle cost.",
+                  "type": "line",
+                  "hidden": false,
+                  "start_collapsed": true,
+                  "prevent_toggle": false,
+                  "children": [
+                    {
+                      "id": "5034d1bd-8deb-4ce1-a0a2-5aba94ec1fd8",
+                      "value": "VSAT updated to C-band",
+                      "type": "image",
+                      "hidden": false,
+                      "start_collapsed": true,
+                      "prevent_toggle": false,
+                      "children": [],
+                      "secondary_value": "/media/andre/radome.jpg"
+                    }
+                  ],
+                  "secondary_value": null
                 }
               ],
-              "secondary_value": "May 2013 - Jun 2021",
-              "always_print": false
+              "secondary_value": "Jan 2015 - Apr 2015"
             },
             {
               "id": "04484257-29d8-4d0e-bbdf-73391d2c5a14",
